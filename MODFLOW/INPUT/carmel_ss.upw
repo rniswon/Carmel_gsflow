@@ -1,0 +1,15 @@
+# Carmel starting K values
+0   -9999.    0     0            ILPFCB  HDRY   NPLPF UPWHDRY
+1 1 1 1                          LAYTYP
+2 2 2 2                          LAYAVG
+1.0 1.0 1.0 1.0                  CHANI
+0 0 0 0                          LAYVKA
+0 0 0 0                          LAYWET
+CONSTANT 4.2                     HORIZONTAL HYDRAULIC CONDUCTIVITY FOR LAYER 1  (1.8)
+CONSTANT 4.2                     VERTICAL HYDRAULIC CONDUCTIVITY FOR LAYER 1    (0.8)
+CONSTANT 3.6                     HORIZONTAL HYDRAULIC CONDUCTIVITY FOR LAYER 2  (0.8)
+CONSTANT 3.6                     VERTICAL HYDRAULIC CONDUCTIVITY FOR LAYER 2    (0.4)
+CONSTANT 1.0e-3                  HORIZONTAL HYDRAULIC CONDUCTIVITY FOR LAYER 3  (5.0e-3) 
+CONSTANT 1.0e-3                  VERTICAL HYDRAULIC CONDUCTIVITY FOR LAYER 3    (5.0e-3)
+CONSTANT 1.0e-4                  HORIZONTAL HYDRAULIC CONDUCTIVITY FOR LAYER 4  (1.0e-3)
+CONSTANT 1.0e-4                  VERTICAL HYDRAULIC CONDUCTIVITY FOR LAYER 4    (1.0e-3)     

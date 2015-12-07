@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xml:lang="en"><Esri><CreaDate>20150608</CreaDate><CreaTime>11552600</CreaTime><ArcGISFormat>1.0</ArcGISFormat><SyncOnce>TRUE</SyncOnce><DataProperties><lineage><Process ToolSource="c:\program files (x86)\arcgis\desktop10.1\ArcToolbox\Toolboxes\Conversion Tools.tbx\ASCIIToRaster" Date="20150608" Time="115526">ASCIIToRaster "D:\Huntington Hydrologic\carmel\MODFLOW\OUTPUT\head_4_ascii.asc" "D:\Huntington Hydrologic\carmel\MODFLOW\OUTPUT\head_4.img" FLOAT</Process></lineage></DataProperties></Esri></metadata>
