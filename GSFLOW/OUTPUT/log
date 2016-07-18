@@ -1,0 +1,5 @@
+201506081155   0     0     0justinh D:\Huntington Hydrologic\carmel\MODFLOW\OUTPUT\dem_adj_debug.img = ASCIIGRID( D:\HUNTIN~1\carmel\MODFLOW\OUTPUT\DEM_AD~1.TXT, FL
+201506081155   0     0     0justinh D:\Huntington Hydrologic\carmel\MODFLOW\OUTPUT\head_1.img = ASCIIGRID( D:\HUNTIN~1\carmel\MODFLOW\OUTPUT\HEAD_1~1.ASC, FLOAT)
+201506081155   0     0     0justinh D:\Huntington Hydrologic\carmel\MODFLOW\OUTPUT\head_2.img = ASCIIGRID( D:\HUNTIN~1\carmel\MODFLOW\OUTPUT\HEAD_2~1.ASC, FLOAT)
+201506081155   0     1     0justinh D:\Huntington Hydrologic\carmel\MODFLOW\OUTPUT\head_3.img = ASCIIGRID( D:\HUNTIN~1\carmel\MODFLOW\OUTPUT\HEAD_3~1.ASC, FLOAT)
+201506081155   0     0     0justinh D:\Huntington Hydrologic\carmel\MODFLOW\OUTPUT\head_4.img = ASCIIGRID( D:\HUNTIN~1\carmel\MODFLOW\OUTPUT\HEAD_4~1.ASC, FLOAT)

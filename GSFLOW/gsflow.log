@@ -1,0 +1,43 @@
+
+
+
+                              U.S. Geological Survey
+            Coupled Groundwater and Surface-water FLOW model (GSFLOW)
+                             Version 1.1.6 03/20/2013
+
+        An integration of the Precipitation-Runoff Modeling System (PRMS)
+        and the Modular Groundwater Model (MODFLOW-NWT and MODFLOW-2005)
+
+                                  MODFLOW-NWT
+    U.S. GEOLOGICAL SURVEY MODULAR FINITE-DIFFERENCE GROUNDWATER-FLOW MODEL
+                             WITH NEWTON FORMULATION
+                             Version 1.0.7 01/15/2013 
+                    BASED ON MODFLOW-2005 Version 1.9.01 5/01/2012
+
+                              Processes: GWF and OBS
+       Packages: BAS, BCF, CHD, DE4, FHB, GAG, GHB, GMG, HFB, HUF LAK
+                 LPF, MNW1, MNW2, NWT, PCG, PCGN, SFR, SIP, UPW, UZF, WEL
+
+
+                                       PRMS
+           U.S. GEOLOGICAL SURVEY PRECIPITATION-RUNOFF MODELING SYSTEM
+                        Version 3.0.5 Tag: 5498 2013-03-14
+
+       Modules: basin, basin_sum, cascade, ccsolrad, climate_hru
+                ddsolrad, gwflow, intcp, map_results, obs
+                potet_hamon, potet_jh, potet_pan, precip_1sta
+                precip_dist2, precip_laps, snowcomp, soilzone, soltab
+                srunoff_carea, srunoff_smidx, strmflow, subbasin
+                temp_1sta, temp_dist2, temp_laps, transp_tindex, xyz_dist
+
+
+ Using NAME file: carmel.nam 
+
+$Id: gwf2uzf1_NWT.f 5459 2013-03-08 22:52:10Z rniswon $         
+$Id: gwf2sfr7_NWT.f 5341 2013-02-11 17:52:19Z rniswon $         
+$Id: gwf2lak7_NWT.f 5341 2013-02-11 17:52:19Z rniswon $         
+5498 2013-03-14
+$Id: soilzone.f 5052 2012-11-16 23:31:26Z rsregan $                             
+
+ Run start date and time (yyyy/mm/dd hh:mm:ss): 2016/01/07 12:39:20
+
