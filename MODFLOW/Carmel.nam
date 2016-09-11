@@ -3,7 +3,7 @@ BAS6  8  ./input/Carmel.bas
 oc    9  ./input/Carmel.oc
 dis  11  ./input/Carmel_ss.dis
 nwt  12  ./input/Carmel.nwt
-upw  13  ./input/Carmel_ss.upw
+upw  13  ./input/Carmel_tr.upw
 uzf  14  ./input/Carmel.uzf
 sfr  15  ./input/Carmel_xsections.sfr
 #sfr  15  ./input/Carmel.sfr
