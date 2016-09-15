@@ -1,9 +1,9 @@
 LIST 1   ./output/Carmel.lst
 BAS6  8  ./input/Carmel.bas
 oc    9  ./input/Carmel.oc
-dis  11  ./input/Carmel_ss.dis
+dis  11  ./input/Carmel.dis
 nwt  12  ./input/Carmel.nwt
-upw  13  ./input/Carmel_tr.upw
+upw  13  ./input/Carmel.upw
 uzf  14  ./input/Carmel.uzf
 sfr  15  ./input/Carmel_xsections.sfr
 #sfr  15  ./input/Carmel.sfr

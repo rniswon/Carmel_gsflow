@@ -1,5 +1,10 @@
 GSFLOW Control File for the Carmel Watershed
 ####
+parameter_check_flag
+1
+1
+0
+####
 model_mode
 1
 4
@@ -28,7 +33,7 @@ end_time
 executable_model
 1
 4
-gsflow_64.exe
+gsflow.exe
 ####
 executable_desc
 1
@@ -38,7 +43,7 @@ various versions..
 data_file
 1
 4
-./carmel.data
+carmel_2sta.data
 ####
 param_file
 1
@@ -78,17 +83,17 @@ gsflow.csv
 temp_module
 1
 4
-temp_1sta_prms
+temp_1sta
 ####
 precip_module
 1
 4
-precip_prms
+precip_1sta
 ####
 solrad_module
 1
 4
-ddsolrad_hru_prms
+ddsolrad
 ####
 et_module
 1
