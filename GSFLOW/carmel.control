@@ -46,9 +46,10 @@ data_file
 carmel_2sta.data
 ####
 param_file
-1
+2
 4
-carmel.param
+carmel_main.param
+hrucascades.params
 ####
 modflow_name
 1
