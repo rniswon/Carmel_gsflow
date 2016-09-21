@@ -6,13 +6,15 @@ nwt  12  ./input/Carmel.nwt
 upw  13  ./input/Carmel.upw
 uzf  14  ./input/Carmel.uzf
 sfr  15  ./input/Carmel_xsections.sfr
+#IRED  90  ./input/restartdata1.out
+IWRT  91  ./output/restartdata1.out
 #sfr  15  ./input/Carmel.sfr
 gage 16  ./input/Carmel.gag
 lak  17  ./input/Carmel.lak   
-HOB  18  ./input/Carmel.hob
+#HOB  18  ./input/Carmel.hob
 #data 24  ./input/Los_Padres_outflow.txt
 #data 27    ./input/Los_Padres_bathy.txt
 data 58  ./output/Carmel.hed
 data 80  ./output/s103_r2_Carmel.out
 data 85  ./output/UZF_tot.out        
-data 86  ./output/hobs.out
+#data 86  ./output/hobs.out
