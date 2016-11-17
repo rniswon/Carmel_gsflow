@@ -7,17 +7,9 @@
 0 0 0 0                          LAYWET
 CONSTANT 4.2                     HORIZONTAL HYDRAULIC CONDUCTIVITY FOR LAYER 1  (1.8)
 CONSTANT 4.2                     VERTICAL HYDRAULIC CONDUCTIVITY FOR LAYER 1    (0.8)
-constant 1.0e-6                                   SS
-constant 0.18                                     SY
 CONSTANT 3.6                     HORIZONTAL HYDRAULIC CONDUCTIVITY FOR LAYER 2  (0.8)
 CONSTANT 3.6                     VERTICAL HYDRAULIC CONDUCTIVITY FOR LAYER 2    (0.4)
-constant 1.0e-6                                   SS
-constant 0.18                                     SY
 CONSTANT 1.0e-3                  HORIZONTAL HYDRAULIC CONDUCTIVITY FOR LAYER 3  (5.0e-3) 
 CONSTANT 1.0e-3                  VERTICAL HYDRAULIC CONDUCTIVITY FOR LAYER 3    (5.0e-3)
-constant 1.0e-6                                   SS
-constant 0.005                                     SY 
 CONSTANT 1.0e-4                  HORIZONTAL HYDRAULIC CONDUCTIVITY FOR LAYER 4  (1.0e-3)
 CONSTANT 1.0e-4                  VERTICAL HYDRAULIC CONDUCTIVITY FOR LAYER 4    (1.0e-3)      
-constant 1.0e-6                                   SS
-constant 0.005                                     SY 
