@@ -1,0 +1,12 @@
+#Carmel Simulation -- GSFLOW
+5.0E-1 1500.0 700 1.0e-9  2  1 1 SPECIFIED CONTINUE 0.8 0.00001 0.000  0.10 0  50 3.0 0.9  linmeth=1 (GMRES); =2 (xmd)  
+2 0 10 10 1 0.0 1 5.0E-3 1.0e-3  100   XMD
+
+
+
+
+
+
+
+
+
