@@ -1,0 +1,5 @@
+# SteadyState Diversion File
+# San Clemente Diversion
+# 11.29.2016
+0	7956.92
+1	7956.92
