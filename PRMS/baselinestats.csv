@@ -83,27 +83,27 @@ Basin_Subbasin ID   ,   Type  ,       Gauge             ,  Statistic  ,     Dail
            3 , sub_cfs , Highway1Bridge , Pct L10VarDf ,    NaN ,    NaN ,    NaN
            3 , sub_cfs , Highway1Bridge , Pct LTrMeanD , 57.783558 , 51.083226 , 19.873060
            3 , sub_cfs , Highway1Bridge , Pct LTrVarDf , -69.797110 , -71.392735 , -78.989413
-           4 , sub_cfs , SleepyHollowWeir , MSE          , 15017.307694 , 5107.501863 , 565.164195
-           4 , sub_cfs , SleepyHollowWeir , MSE Log10    , 0.133095 , 0.131599 , 0.055645
-           4 , sub_cfs , SleepyHollowWeir , MSE TrLam    , 6.019066 , 5.756439 , 2.044950
-           4 , sub_cfs , SleepyHollowWeir , PBias        , 34.561304 , 37.397548 , 35.921408
-           4 , sub_cfs , SleepyHollowWeir , PBias Log10  , 30.546449 , 28.464010 , 14.709328
-           4 , sub_cfs , SleepyHollowWeir , PBias TrLam  , 18.205694 , 17.861349 , 11.420053
-           4 , sub_cfs , SleepyHollowWeir , NSE          , 0.346075 , 0.552517 , 0.735345
-           4 , sub_cfs , SleepyHollowWeir , NSE Log10    , 0.626221 , 0.639258 , 0.700894
-           4 , sub_cfs , SleepyHollowWeir , NSE TrLam    , 0.687621 , 0.690888 , 0.748540
-           4 , sub_cfs , SleepyHollowWeir , MSE FDC      , 2225.193521 , 331.643847 , 283.131711
-           4 , sub_cfs , SleepyHollowWeir , MSE FDCLog10 , 0.087731 , 0.082445 , 0.047652
-           4 , sub_cfs , SleepyHollowWeir , MSE FDCTrLam , 0.198566 , 0.172655 , 0.134410
-           4 , sub_cfs , SleepyHollowWeir , QPCorr       , 0.279724 , 0.236387 , 0.133776
-           4 , sub_cfs , SleepyHollowWeir , MaxAbs PBias , 563.712749 , 542.358182 , 431.668645
-           4 , sub_cfs , SleepyHollowWeir , MaxAbsPBiasL , 174.632740 , 176.657994 , 148.557284
-           4 , sub_cfs , SleepyHollowWeir , Pct Mean Dif , 34.561304 , 37.397548 , 35.921408
-           4 , sub_cfs , SleepyHollowWeir , Pct Var Diff , 29.021597 , -11.920031 , -44.683657
-           4 , sub_cfs , SleepyHollowWeir , Pct L10MeanD , 30.546449 , 28.464010 , 14.709328
-           4 , sub_cfs , SleepyHollowWeir , Pct L10VarDf , -69.528116 , -68.939486 , -73.981554
-           4 , sub_cfs , SleepyHollowWeir , Pct LTrMeanD , 18.205694 , 17.861349 , 11.420053
-           4 , sub_cfs , SleepyHollowWeir , Pct LTrVarDf , -45.517010 , -48.189085 , -63.247068
+           4 , sub_cfs , SleepyHollowWeir , MSE          , 32032.956454 , 12732.224270 , 2660.594847
+           4 , sub_cfs , SleepyHollowWeir , MSE Log10    ,    NaN , 0.303837 , 0.044162
+           4 , sub_cfs , SleepyHollowWeir , MSE TrLam    , 9.730344 , 8.298266 , 2.674630
+           4 , sub_cfs , SleepyHollowWeir , PBias        , 2.055238 , 1.633386 , 1.753130
+           4 , sub_cfs , SleepyHollowWeir , PBias Log10  ,    NaN , 32.041619 , 6.641815
+           4 , sub_cfs , SleepyHollowWeir , PBias TrLam  , 16.254013 , 15.068825 , 4.732753
+           4 , sub_cfs , SleepyHollowWeir , NSE          , 0.644779 , 0.729282 , 0.710771
+           4 , sub_cfs , SleepyHollowWeir , NSE Log10    ,    NaN , 0.571274 , 0.764518
+           4 , sub_cfs , SleepyHollowWeir , NSE TrLam    , 0.708389 , 0.745768 , 0.786145
+           4 , sub_cfs , SleepyHollowWeir , MSE FDC      , 3934.622141 , 5276.066777 , 2431.746121
+           4 , sub_cfs , SleepyHollowWeir , MSE FDCLog10 ,    NaN , 0.212011 , 0.035536
+           4 , sub_cfs , SleepyHollowWeir , MSE FDCTrLam , 0.406607 , 0.394728 , 0.199403
+           4 , sub_cfs , SleepyHollowWeir , QPCorr       , 0.194895 , 0.127885 , 0.084202
+           4 , sub_cfs , SleepyHollowWeir , MaxAbs PBias , 87.228676 , 86.410136 , 35.830235
+           4 , sub_cfs , SleepyHollowWeir , MaxAbsPBiasL , 88.928177 , 88.711110 , 10.678218
+           4 , sub_cfs , SleepyHollowWeir , Pct Mean Dif , 2.055238 , 1.633386 , 1.753130
+           4 , sub_cfs , SleepyHollowWeir , Pct Var Diff , -25.430148 , -51.671015 , -68.847443
+           4 , sub_cfs , SleepyHollowWeir , Pct L10MeanD ,    NaN , 32.041619 , 6.641815
+           4 , sub_cfs , SleepyHollowWeir , Pct L10VarDf ,    NaN , -76.194461 , -57.854641
+           4 , sub_cfs , SleepyHollowWeir , Pct LTrMeanD , 16.254013 , 15.068825 , 4.732753
+           4 , sub_cfs , SleepyHollowWeir , Pct LTrVarDf , -54.320248 , -56.636837 , -57.886057
            5 , sub_cfs , RoblesdelRio(USGS) , MSE          , 42427.258514 , 11900.282110 , 1791.509288
            5 , sub_cfs , RoblesdelRio(USGS) , MSE Log10    ,    NaN , 0.240208 , 0.057397
            5 , sub_cfs , RoblesdelRio(USGS) , MSE TrLam    , 8.583942 , 7.405976 , 2.610236

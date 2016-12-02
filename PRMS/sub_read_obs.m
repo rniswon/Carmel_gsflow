@@ -1,8 +1,8 @@
 function [obs_date,obs_data,obs_vars,obs_type,obs_yr,obs_mo,obs_dy] = sub_read_obs
 
 % Based on JH original read_statvar
-disp(' Reading in Carmel_2sta.data ...')
-fid = fopen('Carmel_2sta.data');
+disp(' Reading in Carmel.data ...')
+fid = fopen('Carmel.data');
 
 % Figure out the number of columns of data
 i=1;
