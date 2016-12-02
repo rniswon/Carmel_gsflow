@@ -1,0 +1,4127 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>Rosenberg, Lewis I.</origin>
+				<pubdate>2001</pubdate>
+				<title>Digital geologic map of Monterey County, California</title>
+				<edition>version 1.0</edition>
+				<geoform Sync="TRUE">vector digital data</geoform>
+				<lworkcit>
+					<citeinfo>
+						<origin>County of Monterey</origin>
+						<pubdate>2001</pubdate>
+						<title>21st Century General Plan Update</title>
+						<onlink>http://www.co.monterey.ca.us/gpu</onlink>
+					</citeinfo>
+				</lworkcit>
+				<ftname Sync="TRUE">geology</ftname></citeinfo>
+		</citation>
+		<descript>
+			<abstract>
+For geologic and seismic hazard evaluation, the most important factor is the geologic model. In this study, the geologic model is a digital compilation of stratigraphic formations and faults in Monterey County. T.W. Dibblee, Jr. mapped most of the geology in Monterey County for the U.S. Geological Survey in the 1960s and 1970s. Other major contributors of mapping include  J.C. Tinsley, III, W.R. Dupré, V.M. Seiders, D.C. Ross, J.C. Clark, and C.A. Hall.
+
+To provide a logical framework for the many geologic units in Monterey County, T.W. Dibblee, Jr. prepared a countywide correlation of map units, with emphasis on the Tertiary and Cretaceous age sedimentary rocks. Cretaceous plutonic and metamorphic rocks follow the nomenclature of Ross (1972, 1976). Quaternary deposits are classified based on the work of Tinsley and Dupré.
+
+This data set presents a unified, seamless geologic coverage for the seventy-nine 1:24,000 scale quadrangles that cover Monterey County.
+</abstract>
+			<purpose>The purpose of this map is to provide a seamless, regionally consistent geologic database for regional planning studies in Monterey County.</purpose>
+			<langdata Sync="TRUE">en</langdata></descript>
+		<timeperd>
+			<timeinfo>
+				<rngdates>
+					<begdate>1934</begdate>
+					<enddate>2001</enddate>
+				</rngdates>
+			</timeinfo>
+			<current>publication date</current>
+		</timeperd>
+		<status>
+			<progress>In work</progress>
+			<update>As needed</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc Sync="TRUE">-121.991705</westbc>
+				<eastbc Sync="TRUE">-120.213947</eastbc>
+				<northbc Sync="TRUE">36.943886</northbc>
+				<southbc Sync="TRUE">35.758422</southbc>
+			</bounding>
+			<lboundng><leftbc Sync="TRUE">5687177.500000</leftbc><rightbc Sync="TRUE">6201605.500000</rightbc><bottombc Sync="TRUE">1808592.500000</bottombc><topbc Sync="TRUE">2229048.000000</topbc></lboundng></spdom>
+		<keywords>
+			<theme>
+				<themekt>None</themekt>
+				<themekey>geology</themekey>
+				<themekey>bedrock geology</themekey>
+				<themekey>surficial geology</themekey>
+				<themekey>geologic history</themekey>
+				<themekey>terranes</themekey>
+				<themekey>geologic structures</themekey>
+				<themekey>landslides</themekey>
+			</theme>
+			<place>
+				<placekt>None</placekt>
+				<placekey>Aromas</placekey>
+				<placekey>Arroyo Seco</placekey>
+				<placekey>Big Sur</placekey>
+				<placekey>Bolsa Knolls</placekey>
+				<placekey>Bradley</placekey>
+				<placekey>Cachagua</placekey>
+				<placekey>California</placekey>
+				<placekey>Carmel Highlands</placekey>
+				<placekey>Carmel Valley</placekey>
+				<placekey>Carmel Valley Village</placekey>
+				<placekey>Carmel-By-The-Sea</placekey>
+				<placekey>Castroville</placekey>
+				<placekey>Del Rey Oaks</placekey>
+				<placekey>Gonzales</placekey>
+				<placekey>Greenfield</placekey>
+				<placekey>Jamesburg</placekey>
+				<placekey>Jolon</placekey>
+				<placekey>King City</placekey>
+				<placekey>Lockwood</placekey>
+				<placekey>Lucia</placekey>
+				<placekey>Marina</placekey>
+				<placekey>Monterey</placekey>
+				<placekey>Monterey County</placekey>
+				<placekey>Moss Landing</placekey>
+				<placekey>Pacific Grove</placekey>
+				<placekey>Pajaro</placekey>
+				<placekey>Parkfield</placekey>
+				<placekey>Pebble Beach</placekey>
+				<placekey>Prunedale</placekey>
+				<placekey>Salinas</placekey>
+				<placekey>Salinas Valley</placekey>
+				<placekey>San Ardo</placekey>
+				<placekey>San Lucas</placekey>
+				<placekey>Sand City</placekey>
+				<placekey>Seaside</placekey>
+				<placekey>Soledad</placekey>
+				<placekey>Spreckels</placekey>
+				<placekey>Tassajara Hot Springs</placekey>
+				<placekey>United States</placekey>
+			</place>
+		</keywords>
+		<accconst>Contact the Monterey County Environmental Resource Policy Department.</accconst>
+		<useconst>These data may not be distributed without the written permission of the County of Monterey.</useconst>
+		<ptcontac>
+			<cntinfo>
+				<cntperp>
+					<cntper>Lew Rosenberg</cntper>
+					<cntorg>Consulting Geologist</cntorg>
+				</cntperp>
+				<cntaddr>
+					<addrtype>mailing address</addrtype>
+					<address>P.O. Box 183</address>
+					<city>Templeton</city>
+					<state>CA</state>
+					<postal>93465-0183</postal>
+				</cntaddr>
+				<cntvoice>(805) 434-1750</cntvoice>
+				<cntfax>(805) 434-1750</cntfax>
+				<cntemail>Lrosenberg@thegrid.net</cntemail>
+				<hours>Monday to Friday, 8 AM to 5 PM, Pacific Time</hours>
+			</cntinfo>
+		</ptcontac>
+		<datacred>
+This project was funded by the County of Monterey, Environmental Resource Policy Department.  This project utilizes previous work by Lewis Rosenberg that was supported by research grants from the U.S. Geological Survey and the California Division of Mines and Geology.  As such, please note the following disclaimer:
+
+Research partly supported by the U.S. Geological Survey (USGS), Department of the Interior, under USGS award numbers 1434-94-G-2443 to Lewis I. Rosenberg and Joseph C. Clark and 1434-HQ-98-GR-0007 to J.C. Clark and L.I. Rosenberg. The California Division of Mines and Geology provided support to Rosenberg and Clark for field work in the Spreckels quadrangle during 1998. The views and conclusions contained in this document are those of the authors and should not be interpreted as necessarily representing the official policies, either expressed or implied, of the U.S. Government or the State of California.
+</datacred>
+		<native Sync="TRUE">Microsoft Windows NT Version 4.0 (Build 1381) Service Pack 6; ESRI ArcCatalog 8.1.0.642</native>
+		<natvform Sync="TRUE">Shapefile</natvform></idinfo>
+	<dataqual>
+		<attracc>
+			<attraccr>All attributes created during the creation process were verified by displaying the lines in both the database and the spatial coverage, but no formal tests were performed.</attraccr>
+		</attracc>
+		<logic>These data are believed to be logically consistent, although no tests were performed.</logic>
+		<complete>The geologic database is compilation of more than 82 maps and reports on Monterey County geology from 1934 to 2001. Due to time and funding constraints, detailed structural data such as folds, bedding attitudes, and depositional contacts were not included in this database. The original data used in this map were mapped at scales ranging from 1:2,400 to 1:125,000, with the majority at 1:62,500 scale.</complete>
+		<posacc>
+			<horizpa>
+				<horizpar>The geologic contacts are compiled from maps ranging from 1:2,400 to 1:125,000 scale, with the majority at 1:62,500 scale. Using the "map resolution" concept outined by R.R. Wahl (USGS Open-File Report 99-386, p. 96: where (Map scale denominator)/2/1000 = map scale, in meters), the estimated horizontal error ranges from 1.2 m (1:2,400 scale) to 62.5 m (1:125,000 scale), with a typical error of 31.3 m (1:62,500) scale. This error level reflects the accuracy of the conversion from hard copy to digital maps; however, the overall accuracy may differ if the uncertainty in each individual map used in the compilation is included. Because the source authors do not quantitatively specify the estimate error in their mapping, it is not possible to include this in the overall horizontal positional accuracy report.</horizpar>
+			</horizpa>
+			<vertacc></vertacc>
+		</posacc>
+		<lineage>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>Bechtel Civil, Inc.</origin>
+						<pubdate>1988</pubdate>
+						<title>New San Clemente Dam project, evaluation of slope stability in the reservoir area</title>
+						<geoform>map</geoform>
+						<serinfo>
+							<sername>unpublished report to Monterey Peninsula Water Management District</sername>
+						</serinfo>
+					</citeinfo>
+				</srccite>
+				<srcscale>12000</srcscale>
+				<typesrc>paper</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>1988</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>publication date</srccurr>
+				</srctime>
+				<srccitea>Bechtel (1988)</srccitea>
+				<srccontr>Landslide mapping near San Clemente Dam, Carmel Valley 7.5-minute quadrangle.</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>Bowen, O.E., Jr.</origin>
+						<pubdate>Unpublished Material</pubdate>
+						<title>Geologic map of the Natividad 7.5-minute quadrangle</title>
+						<geoform>map</geoform>
+						<pubinfo></pubinfo>
+					</citeinfo>
+				</srccite>
+				<srcscale>24000</srcscale>
+				<typesrc>Paper</typesrc>
+				<srctime>
+					<timeinfo>
+						<rngdates>
+							<begdate>1968</begdate>
+						</rngdates>
+					</timeinfo>
+					<srccurr>publication date</srccurr>
+				</srctime>
+				<srccitea>Bowen (1968)</srccitea>
+				<srccontr>Landslides and marble outcrops in the Natividad 7.5-minute quadrangle.</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>Bowen, O.E., Jr.</origin>
+						<pubdate>Unpublished Material</pubdate>
+						<title>Geologic map of the Chualar 7.5-minute quadrangle</title>
+						<geoform>map</geoform>
+						<serinfo></serinfo>
+					</citeinfo>
+				</srccite>
+				<srcscale>24000</srcscale>
+				<typesrc>paper</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>1969</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>publication date</srccurr>
+				</srctime>
+				<srccitea>Bowen (1969)</srccitea>
+				<srccontr>Landslides and marble outcrops in the Chualar 7.5-minute quadrangle.</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>Burch, S.H.</origin>
+						<pubdate>1971</pubdate>
+						<title>Complete Bouguer gravity and general geology of the Cape San Martin, Bryson, Piedras Blancas, and San Simeon quadrangles, California</title>
+						<serinfo>
+							<sername>U.S. Geological Survey Professional</sername>
+							<issue>Paper</issue>
+						</serinfo>
+					</citeinfo>
+				</srccite>
+				<srcscale>62500</srcscale>
+				<typesrc>paper</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>1971</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>publication date</srccurr>
+				</srctime>
+				<srccitea>Burch (1971)</srccitea>
+				<srccontr>Bedrock geology for parts of the Cape San Martin and Villa Creek 7.5-minute quadrangles.</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>Clark, J.C.</origin>
+						<pubdate>2000</pubdate>
+						<title>unpublished written communication to L.I. Rosenberg</title>
+						<geoform>document</geoform>
+						<serinfo></serinfo>
+					</citeinfo>
+				</srccite>
+				<srcscale>24000</srcscale>
+				<typesrc>paper</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>2000</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>publication date</srccurr>
+				</srctime>
+				<srccitea>Clark (2000)</srccitea>
+				<srccontr>Revised nomenclature to Tertiary sandstone near Pebble Beach, Monterey 7.5-minute quadrangle.</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>Clark, J.C.</origin>
+						<origin>Dupré, W.R.</origin>
+						<origin>Rosenberg, L.I.</origin>
+						<pubdate>1997</pubdate>
+						<title>Geologic map of the Monterey and Seaside 7.5-minute quadrangles, Monterey County, California: A digital database</title>
+						<edition>version 1.0</edition>
+						<geoform>vector digital data</geoform>
+						<serinfo>
+							<sername>Open-File Report</sername>
+							<issue>97-30</issue>
+						</serinfo>
+						<pubinfo>
+							<publish>U.S. Geological Survey</publish>
+						</pubinfo>
+						<othercit>32 p., 2 sheets.</othercit>
+						<onlink>http://wrgis.wr.usgs.gov/open-file/of97-30</onlink>
+					</citeinfo>
+				</srccite>
+				<srcscale>24000</srcscale>
+				<typesrc>online</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>1997</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>publication date</srccurr>
+				</srctime>
+				<srccitea>Clark and others (1997)</srccitea>
+				<srccontr>Bedrock and surficial geology in the Monterey and Seaside 7.5-minute quadrangles.</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>Clark, J.C.</origin>
+						<origin>Brabb, E.E.</origin>
+						<origin>Rosenberg, L.I.</origin>
+						<pubdate>2000</pubdate>
+						<title>Geologic map and map database of the Spreckels 7.5-minute quadrangle, Monterey County, California</title>
+						<edition>version 1.0</edition>
+						<geoform>vector digital data</geoform>
+						<serinfo>
+							<sername>Miscellaneous Field Studies Map</sername>
+							<issue>2349</issue>
+						</serinfo>
+						<pubinfo>
+							<publish>U.S. Geological Survey</publish>
+						</pubinfo>
+						<othercit>22 p., 1 sheet.</othercit>
+						<onlink>http://geopubs.wr.usgs.gov/map-mf/mf2349</onlink>
+					</citeinfo>
+				</srccite>
+				<srcscale>24000</srcscale>
+				<typesrc>online</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>2000</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>publication date</srccurr>
+				</srctime>
+				<srccitea>Clark and others (2000)</srccitea>
+				<srccontr>Bedrock and surficial geology, landslides, and paleontology in the Spreckels 7.5-minute quadrangle.</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>Cleary Consultants, Inc.</origin>
+						<pubdate>1994</pubdate>
+						<title>Geological and geotechnical investigation, Vesting Tentative Map submittal, Rancho San Carlos project, Monterey County, California</title>
+						<geoform>document</geoform>
+						<serinfo>
+							<sername>unpublished report</sername>
+						</serinfo>
+						<pubinfo>
+							<pubplace>Los Altos, CA</pubplace>
+							<publish>Cleary Consultants, Inc.</publish>
+						</pubinfo>
+						<othercit>55 p., 5 appendices, 15 sheets</othercit>
+					</citeinfo>
+				</srccite>
+				<srcscale>2400</srcscale>
+				<typesrc>paper</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>1994</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>publication date</srccurr>
+				</srctime>
+				<srccitea>Cleary Consultants (1994)</srccitea>
+				<srccontr>Bedrock geology and landslides in parts of the Mount Carmel and Carmel Valley 7.5-minute quadrangles.</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>Cotton, William and Associates</origin>
+						<pubdate>1995</pubdate>
+						<title>Cachagua fault investigation, in The MARK Group, Final report, geotechnical and engineering studies for the New Los Padres water supply project, Monterey Peninsula Water Management District</title>
+						<geoform>map</geoform>
+						<serinfo>
+							<sername>unpublished report</sername>
+						</serinfo>
+						<othercit>appendix E, p. E-1 to E12.</othercit>
+					</citeinfo>
+				</srccite>
+				<srcscale>2400</srcscale>
+				<typesrc>paper</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>1995</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>publication date</srccurr>
+				</srctime>
+				<srccitea>Cotton (1995)</srccitea>
+				<srccontr>Bedrock and surficial geology near Los Padres Dam, Carmel Valley 7.5-minute quadrangle.</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>Crippen, R.A., Jr.</origin>
+						<pubdate>1951</pubdate>
+						<title>Nephrite jade and associated rocks of the Cape San Martin region, Monterey County, California</title>
+						<geoform>map</geoform>
+						<serinfo>
+							<sername>Special Report</sername>
+							<issue>10-A</issue>
+						</serinfo>
+						<pubinfo>
+							<publish>California Division of Mines</publish>
+						</pubinfo>
+						<othercit>14 p.</othercit>
+					</citeinfo>
+				</srccite>
+				<srcscale>18000</srcscale>
+				<typesrc>paper</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>1951</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>publication date</srccurr>
+				</srctime>
+				<srccitea>Crippen (1951)</srccitea>
+				<srccontr>Bedrock geology along the coast between Plaskett Creek and Cape San Martin, Cape San Martin 7.5-minute quadrangle.</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>Dibblee, T.W., Jr.</origin>
+						<pubdate>1971</pubdate>
+						<title>Geologic map of the Bradley quadrangle, California</title>
+						<geoform>map</geoform>
+						<serinfo>
+							<sername>Open-File Map</sername>
+							<issue>71-87</issue>
+						</serinfo>
+						<pubinfo>
+							<publish>U.S. Geological Survey</publish>
+						</pubinfo>
+					</citeinfo>
+				</srccite>
+				<srcscale>62500</srcscale>
+				<typesrc>paper</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>1971</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>publication date</srccurr>
+				</srctime>
+				<srccitea>Dibblee (1971a)</srccitea>
+				<srccontr>Bedrock and surficial geology  in parts of the Hames Valley, Wunpost, Bradley, and Tierra Redonda Mountain 7.5-minute quadrangles.</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>Dibblee, T.W., Jr.</origin>
+						<pubdate>1971</pubdate>
+						<title>Geologic map of the Bryson quadrangle, California</title>
+						<geoform>map</geoform>
+						<serinfo>
+							<sername>Open-File Map</sername>
+							<issue>71-87</issue>
+						</serinfo>
+						<pubinfo>
+							<publish>U.S. Geological Survey</publish>
+						</pubinfo>
+					</citeinfo>
+				</srccite>
+				<srcscale>62500</srcscale>
+				<typesrc>paper</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>1971</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>publication date</srccurr>
+				</srctime>
+				<srccitea>Dibblee (1971b)</srccitea>
+				<srccontr>Bedrock and surficial geology in parts of the Jolon, Williams Hill, and Bryson 7.5-minute quadrangles.</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>Dibblee, T.W., Jr.</origin>
+						<pubdate>1971</pubdate>
+						<title>Geologic map of the Coalinga quadrangle, California</title>
+						<geoform>map</geoform>
+						<serinfo>
+							<sername>Open-File Map</sername>
+							<issue>71-87</issue>
+						</serinfo>
+						<pubinfo>
+							<publish>U.S. Geological Survey</publish>
+						</pubinfo>
+					</citeinfo>
+				</srccite>
+				<srcscale>62500</srcscale>
+				<typesrc>paper</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>1971</caldate>
+						</sngdate>
+					</timeinfo>
+				</srctime>
+				<srccitea>Dibblee (1971c)</srccitea>
+				<srccontr>Bedrock and surficial geology in part of the Curry Mountain 7.5-minute quadrangle.</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>Dibblee, T.W., Jr.</origin>
+						<pubdate>1971</pubdate>
+						<title>Geologic map of the Greenfield quadrangle, California</title>
+						<geoform>map</geoform>
+						<serinfo>
+							<sername>Open-File Map</sername>
+							<issue>71-87</issue>
+						</serinfo>
+						<pubinfo>
+							<publish>U.S. Geological Survey</publish>
+						</pubinfo>
+					</citeinfo>
+				</srccite>
+				<srcscale>62500</srcscale>
+				<typesrc>paper</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>1971</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>publication date</srccurr>
+				</srctime>
+				<srccitea>Dibblee (1971d)</srccitea>
+				<srccontr>Bedrock and surficial geology in parts of the North Chalone Peak, Topo Valley, Greenfield, and Pinalito Canyon 7.5-minute quadrangles.</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>Dibblee, T.W., Jr.</origin>
+						<pubdate>1971</pubdate>
+						<title>Geologic map of the Hernandez Valley quadrangle, California</title>
+						<geoform>map</geoform>
+						<serinfo>
+							<sername>Open-File Map</sername>
+							<issue>71-87</issue>
+						</serinfo>
+						<pubinfo>
+							<publish>U.S. Geological Survey</publish>
+						</pubinfo>
+					</citeinfo>
+				</srccite>
+				<srcscale>62500</srcscale>
+				<typesrc>paper</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>1971</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>publication date</srccurr>
+				</srctime>
+				<srccitea>Dibblee (1971e)</srccitea>
+				<srccontr>Bedrock and surficial geology in parts of the Lonoak and Hepsedam Peak 7.5-minute quadrangles.</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>Dibblee, T.W., Jr.</origin>
+						<pubdate>1971</pubdate>
+						<title>Geologic map of the Junipero Serra quadrangle, California</title>
+						<geoform>map</geoform>
+						<serinfo>
+							<sername>Open-File Map</sername>
+							<issue>71-87</issue>
+						</serinfo>
+						<pubinfo>
+							<publish>U.S. Geological Survey</publish>
+						</pubinfo>
+					</citeinfo>
+				</srccite>
+				<srcscale>62500</srcscale>
+				<typesrc>paper</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>1971</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>publication date</srccurr>
+				</srctime>
+				<srccitea>Dibblee (1971f)</srccitea>
+				<srccontr>Bedrock and surficial geology in parts of the Junipero Serra, Reliz Canyon, Bear Canyon, and Cone Peak 7.5-minute quadrangles.</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>Dibblee, T.W., Jr.</origin>
+						<pubdate>1971</pubdate>
+						<title>Geologic map of the King City quadrangle, California</title>
+						<geoform>map</geoform>
+						<serinfo>
+							<sername>Open-File Map</sername>
+							<issue>71-87</issue>
+						</serinfo>
+						<pubinfo>
+							<publish>U.S. Geological Survey</publish>
+						</pubinfo>
+					</citeinfo>
+				</srccite>
+				<srcscale>62500</srcscale>
+				<typesrc>paper</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>1971</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>publication date</srccurr>
+				</srctime>
+				<srccitea>Dibblee (1971g)</srccitea>
+				<srccontr>Bedrock and surficial geology in parts of the Thompson Canyon, San Lucas, Espinosa Canyon, and Cosio Knob 7.5-minute quadrangles.</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>Dibblee, T.W., Jr.</origin>
+						<pubdate>1971</pubdate>
+						<title>Geologic map of the New Idria quadrangle, California</title>
+						<geoform>map</geoform>
+						<serinfo>
+							<sername>Open-File Map</sername>
+							<issue>71-87</issue>
+						</serinfo>
+						<pubinfo>
+							<publish>U.S. Geological Survey</publish>
+						</pubinfo>
+					</citeinfo>
+				</srccite>
+				<srcscale>62500</srcscale>
+				<typesrc>paper</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>1971</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>publication date</srccurr>
+				</srctime>
+				<srccitea>Dibblee (1971h)</srccitea>
+				<srccontr>Bedrock and surficial geology in part of the San Benito Mountain 7.5-minute quadrangle.</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>Dibblee, T.W., Jr.</origin>
+						<pubdate>1971</pubdate>
+						<title>Geologic map of the Parkfield quadrangle, California</title>
+						<geoform>map</geoform>
+						<serinfo>
+							<sername>Open-File Map</sername>
+							<issue>71-87</issue>
+						</serinfo>
+						<pubinfo>
+							<publish>U.S. Geological Survey</publish>
+						</pubinfo>
+					</citeinfo>
+				</srccite>
+				<srcscale>62500</srcscale>
+				<typesrc>paper</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>1971</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>publication date</srccurr>
+				</srctime>
+				<srccitea>Dibblee (1971i)</srccitea>
+				<srccontr>Bedrock and surficial geology in parts of the Parkfield, The Dark Hole, Cholame Hills, and Cholame Valley 7.5-minute quadrangles.</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>Dibblee, T.W., Jr.</origin>
+						<pubdate>1971</pubdate>
+						<title>Geologic map of the Priest Valley quadrangle, California</title>
+						<geoform>map</geoform>
+						<serinfo>
+							<sername>Open-File Map</sername>
+							<issue>71-87</issue>
+						</serinfo>
+						<pubinfo>
+							<publish>U.S. Geological Survey</publish>
+						</pubinfo>
+					</citeinfo>
+				</srccite>
+				<srcscale>62500</srcscale>
+				<typesrc>paper</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>1971</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>publication date</srccurr>
+				</srctime>
+				<srccitea>Dibblee (1971j)</srccitea>
+				<srccontr>Bedrock and surficial geology in parts of the Priest Valley, Slack Canyon, and Smith Mountain 7.5-minute quadrangles.</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>Dibblee, T.W., Jr.</origin>
+						<pubdate>1971</pubdate>
+						<title>Geologic map of the "Reef Ridge" quadrangle, California</title>
+						<geoform>map</geoform>
+						<serinfo>
+							<sername>Open-File Map</sername>
+							<issue>71-87</issue>
+						</serinfo>
+						<pubinfo>
+							<publish>U.S. Geological Survey</publish>
+						</pubinfo>
+					</citeinfo>
+				</srccite>
+				<srcscale>62500</srcscale>
+				<typesrc>paper</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>1971</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>publication date</srccurr>
+				</srctime>
+				<srccitea>Dibblee (1971k)</srccitea>
+				<srccontr>Bedrock and surficial geology in parts of the Tent Hills and Garza Peak 7.5-minute quadrangles.</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>Dibblee, T.W., Jr.</origin>
+						<pubdate>1971</pubdate>
+						<title>Geologic map of the San Ardo quadrangle, California</title>
+						<geoform>map</geoform>
+						<serinfo>
+							<sername>Open-File Map</sername>
+							<issue>71-87</issue>
+						</serinfo>
+						<pubinfo>
+							<publish>U.S. Geological Survey</publish>
+						</pubinfo>
+					</citeinfo>
+				</srccite>
+				<srcscale>62500</srcscale>
+				<typesrc>paper</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>1971</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>publication date</srccurr>
+				</srctime>
+				<srccitea>Dibblee (1971l)</srccitea>
+				<srccontr>Bedrock and surficial geology in parts of the Nattrass Valley, Monarch Peak, Pancho Rico Valley, and San Ardo 7.5-minute quadrangles.</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>Dibblee, T.W., Jr.</origin>
+						<pubdate>1971</pubdate>
+						<title>Geologic map of the San Miguel quadrangle, California</title>
+						<geoform>map</geoform>
+						<serinfo>
+							<sername>Open-File Map</sername>
+							<issue>71-87</issue>
+						</serinfo>
+						<pubinfo>
+							<publish>U.S. Geological Survey</publish>
+						</pubinfo>
+					</citeinfo>
+				</srccite>
+				<srcscale>62500</srcscale>
+				<typesrc>paper</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>1971</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>publication date</srccurr>
+				</srctime>
+				<srccitea>Dibblee (1971m)</srccitea>
+				<srccontr>Bedrock and surficial geology in parts of the Valleton, Stockdale Mountain, Ranchita Canyon, and San Miguel 7.5-minute quadrangles.</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>Dibblee, T.W., Jr.</origin>
+						<pubdate>1972</pubdate>
+						<title>Geologic map of the Jamesburg quadrangle, California</title>
+						<geoform>map</geoform>
+						<serinfo>
+							<sername>Open-File Map</sername>
+							<issue>71-87</issue>
+						</serinfo>
+						<pubinfo>
+							<publish>U.S. Geological Survey</publish>
+						</pubinfo>
+					</citeinfo>
+				</srccite>
+				<srcscale>62500</srcscale>
+				<typesrc>paper</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>1972</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>publication date</srccurr>
+				</srctime>
+				<srccitea>Dibblee (1972a)</srccitea>
+				<srccontr>Bedrock and surficial geology in parts of the Carmel Valley, Rana Creek, Chews Ridge, and Ventana Cones 7.5-minute quadrangles.</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>Dibblee, T.W., Jr.</origin>
+						<pubdate>1972</pubdate>
+						<title>Geologic map of the Soledad quadrangle, California</title>
+						<geoform>map</geoform>
+						<serinfo>
+							<sername>Open-File Map</sername>
+							<issue>71-87</issue>
+						</serinfo>
+						<pubinfo>
+							<publish>U.S. Geological Survey</publish>
+						</pubinfo>
+					</citeinfo>
+				</srccite>
+				<srcscale>62500</srcscale>
+				<typesrc>paper</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>1972</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>publication date</srccurr>
+				</srctime>
+				<srccitea>Dibblee (1972b)</srccitea>
+				<srccontr>Bedrock and surficial geology in parts of the Palo Escrito Peak, Soledad, Paraiso Springs, and Sycamore Flat 7.5-minute quadrangles.</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>Dibblee, T.W., Jr.</origin>
+						<pubdate>1973</pubdate>
+						<title>Geologic map of the Gonzales quadrangle, California</title>
+						<geoform>map</geoform>
+						<serinfo>
+							<sername>Open-File Map</sername>
+							<issue>71-87</issue>
+						</serinfo>
+						<pubinfo>
+							<publish>U.S. Geological Survey</publish>
+						</pubinfo>
+					</citeinfo>
+				</srccite>
+				<srcscale>62500</srcscale>
+				<typesrc>paper</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>1973</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>publication date</srccurr>
+				</srctime>
+				<srccitea>Dibblee (1973a)</srccitea>
+				<srccontr>Bedrock and surficial geology in parts of the Mount Harlan, Paicines, Mount Johnson, and Gonzales 7.5-minute quadrangles.</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>Dibblee, T.W., Jr.</origin>
+						<pubdate>1973</pubdate>
+						<title>Geologic map of the Point Sur 15-minute quadrangle, Monterey County, California</title>
+						<geoform>map</geoform>
+						<serinfo>
+							<sername>Open-File Map</sername>
+							<issue>71-87</issue>
+						</serinfo>
+						<pubinfo>
+							<publish>U.S. Geological Survey</publish>
+						</pubinfo>
+					</citeinfo>
+				</srccite>
+				<srcscale>62500</srcscale>
+				<typesrc>paper</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>1973</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>publication date</srccurr>
+				</srctime>
+				<srccitea>Dibblee (1973b)</srccitea>
+				<srccontr>Bedrock and surficial geology in parts of the Soberanes Point, Mount Carmel, Big Sur, and Point Sur 7.5-minute quadrangles.</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>Dibblee, T.W., Jr.</origin>
+						<pubdate>1973</pubdate>
+						<title>Geologic map of the Salinas 15-minute quadrangle, Monterey County, California</title>
+						<geoform>map</geoform>
+						<serinfo>
+							<sername>Open-File Map</sername>
+							<issue>71-87</issue>
+						</serinfo>
+						<pubinfo>
+							<publish>U.S. Geological Survey</publish>
+						</pubinfo>
+					</citeinfo>
+				</srccite>
+				<srcscale>62500</srcscale>
+				<typesrc>paper</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>1973</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>publication date</srccurr>
+				</srctime>
+				<srccitea>Dibblee (1973c)</srccitea>
+				<srccontr>Bedrock and surficial geology in parts of the Natividad, Chualar, and Spreckels 7.5-minute quadrangles.</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>Dibblee, T.W., Jr.</origin>
+						<pubdate>1979</pubdate>
+						<title>Preliminary geologic map of the Bickmore Canyon quadrangle, San Benito and Monterey Counties, California</title>
+						<geoform>map</geoform>
+						<serinfo>
+							<sername>Open-File Report</sername>
+							<issue>79-701</issue>
+						</serinfo>
+						<pubinfo>
+							<publish>U.S. Geological Survey</publish>
+						</pubinfo>
+					</citeinfo>
+				</srccite>
+				<srcscale>24000</srcscale>
+				<typesrc>paper</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>1979</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>publication date</srccurr>
+				</srctime>
+				<srccitea>Dibblee (1979a)</srccitea>
+				<srccontr>Bedrock and surficial geology in part of the Bickmore Canyon 7.5-minute quadrangle.</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>Dibblee, T.W., Jr.</origin>
+						<pubdate>1979</pubdate>
+						<title>Preliminary geologic map of the Paicines quadrangle, San Benito and Monterey Counties, California</title>
+						<geoform>map</geoform>
+						<serinfo>
+							<sername>Open-File Report</sername>
+							<issue>79-290</issue>
+						</serinfo>
+						<pubinfo>
+							<publish>U.S. Geological Survey</publish>
+						</pubinfo>
+					</citeinfo>
+				</srccite>
+				<srcscale>24000</srcscale>
+				<typesrc>paper</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>1979</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>publication date</srccurr>
+				</srctime>
+				<srccitea>Dibblee (1979b)</srccitea>
+				<srccontr>Bedrock and surficial geology in part of the Paicines 7.5-minute quadrangle.</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>Dibblee, T.W., Jr.</origin>
+						<pubdate>1980</pubdate>
+						<title>Geology along the San Andreas fault from Gilroy to Parkfield, in Streitz, Robert, and Sherburne, Roger, eds., Studies of the San Andreas fault in northern California</title>
+						<geoform>map</geoform>
+						<serinfo>
+							<sername>Special Report</sername>
+						</serinfo>
+						<pubinfo>
+							<publish>California Division of Mines and Geology</publish>
+						</pubinfo>
+					</citeinfo>
+				</srccite>
+				<srcscale>200000</srcscale>
+				<typesrc>paper</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>1980</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>publication date</srccurr>
+				</srctime>
+				<srccitea>Dibblee (1980)</srccitea>
+				<srccontr>Sandstone unit near San Andreas fault, Smith Mountain 7.5-minute quadrangle.</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>Dibblee, T.W., Jr.</origin>
+						<title>Geologic map of the Cape San Martin 15-minute quadrangle, California</title>
+						<geoform>map</geoform>
+						<serinfo>
+							<sername>unpublished map</sername>
+						</serinfo>
+						<pubinfo>
+							<publish>U.S. Forest Service, Los Padres National Forest</publish>
+						</pubinfo>
+					</citeinfo>
+				</srccite>
+				<srcscale>62500</srcscale>
+				<typesrc>paper</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>1981</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>publication date</srccurr>
+				</srctime>
+				<srccitea>Dibblee (1981)</srccitea>
+				<srccontr>Bedrock and surficial geology in parts of the Cape San Martin and Villa Creek 7.5-minute quadrangles.</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>Dibblee, T.W., Jr.</origin>
+						<pubdate>1982</pubdate>
+						<title>Geologic map of the Alder Peak 7.5-minute quadrangle, California</title>
+						<geoform>map</geoform>
+						<serinfo>
+							<sername>unpublished map</sername>
+						</serinfo>
+						<pubinfo>
+							<publish>U.S. Forest Service, Los Padres National Forest</publish>
+						</pubinfo>
+					</citeinfo>
+				</srccite>
+				<srcscale>24000</srcscale>
+				<typesrc>paper</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>1982</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>publication date</srccurr>
+				</srctime>
+				<srccitea>Dibblee (1982a)</srccitea>
+				<srccontr>Bedrock and surficial geology in the Alder Peak 7.5-minute quadrangle.</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>Dibblee, T.W., Jr.</origin>
+						<pubdate>1982</pubdate>
+						<title>Geologic map of the Partington Ridge 7.5-minute quadrangle, California</title>
+						<geoform>map</geoform>
+						<serinfo>
+							<sername>unpublished map</sername>
+						</serinfo>
+						<pubinfo>
+							<publish>U.S. Forest Service, Los Padres National Forest</publish>
+						</pubinfo>
+					</citeinfo>
+				</srccite>
+				<srcscale>24000</srcscale>
+				<typesrc>paper</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>1982</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>publication date</srccurr>
+				</srctime>
+				<srccitea>Dibblee (1982b)</srccitea>
+				<srccontr>Bedrock and surficial geology in the Partington Ridge 7.5-minute quadrangle.</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>Dibblee, T.W., Jr.</origin>
+						<pubdate>1982</pubdate>
+						<title>Geologic map of the Tassajara Hot Springs 7.5-minute quadrangle, California</title>
+						<geoform>map</geoform>
+						<serinfo>
+							<sername>unpublished map</sername>
+						</serinfo>
+						<pubinfo>
+							<publish>U.S. Forest Service, Los Padres National Forest</publish>
+						</pubinfo>
+					</citeinfo>
+				</srccite>
+				<srcscale>24000</srcscale>
+				<typesrc>paper</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>1982</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>publication date</srccurr>
+				</srctime>
+				<srccitea>Dibblee (1982c)</srccitea>
+				<srccontr>Bedrock and surficial geology in the Tassajara Hot Springs 7.5-minute quadrangle.</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>Dibblee, T.W., Jr.</origin>
+						<origin>Nilsen, T.H.</origin>
+						<origin>Brabb, E.E.</origin>
+						<pubdate>1979</pubdate>
+						<title>Preliminary geologic map of the San Juan Bautista quadrangle, San Benito and Monterey Counties, California</title>
+						<geoform>map</geoform>
+						<serinfo>
+							<sername>Open-File Map</sername>
+							<issue>79-375</issue>
+						</serinfo>
+						<pubinfo>
+							<publish>U.S. Geological Survey</publish>
+						</pubinfo>
+					</citeinfo>
+				</srccite>
+				<srcscale>24000</srcscale>
+				<typesrc>paper</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>1979</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>publication date</srccurr>
+				</srctime>
+				<srccitea>Dibblee and others (1979)</srccitea>
+				<srccontr>Bedrock and surficial geology in the San Juan Bautista 7.5-minute quadrangle.</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>Dupré, W.R.</origin>
+						<pubdate>1988</pubdate>
+						<title>Geologic maps of the Bishop, Holt, and Rana Creek Ranches</title>
+						<geoform>map</geoform>
+						<serinfo>
+							<sername>unpublished mapping</sername>
+						</serinfo>
+						<othercit>work in cooperation with Kingsley Associates</othercit>
+					</citeinfo>
+				</srccite>
+				<srcscale>12000</srcscale>
+				<typesrc>paper</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>1988</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>publication date</srccurr>
+				</srctime>
+				<srccitea>Dupré (1988)</srccitea>
+				<srccontr>Quaternary geology in parts of the Carmel Valley and Rana Creek 7.5-minute quadrangles.</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>Dupré, W.R.</origin>
+						<pubdate>1990</pubdate>
+						<title>Maps showing geology and liquefaction susceptibility of Quaternary deposits in the Monterey, Seaside, Spreckels, and Carmel Valley quadrangles, Monterey County, California</title>
+						<geoform>map</geoform>
+						<serinfo>
+							<sername>Miscellaneous Field Studies Map</sername>
+							<issue>2096</issue>
+						</serinfo>
+						<pubinfo>
+							<publish>U.S. Geological Survey</publish>
+						</pubinfo>
+						<othercit>2 sheets</othercit>
+					</citeinfo>
+				</srccite>
+				<srcscale>24000</srcscale>
+				<typesrc>paper</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>1990</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>publication date</srccurr>
+				</srctime>
+				<srccitea>Dupré (1990)</srccitea>
+				<srccontr>Quaternary geology in part of the Carmel Valley 7.5-minute quadrangle.</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>Dupré, W.R.</origin>
+						<origin>Tinsley, J.C., III</origin>
+						<pubdate>1980</pubdate>
+						<title>Maps showing geology and liquefaction potential of northern Monterey and southern Santa Cruz Counties, California</title>
+						<geoform>map</geoform>
+						<serinfo>
+							<sername>Miscellaneous Field Studies Map</sername>
+							<issue>1199</issue>
+						</serinfo>
+						<pubinfo>
+							<publish>U.S. Geological Survey</publish>
+						</pubinfo>
+						<othercit>2 sheets.</othercit>
+					</citeinfo>
+				</srccite>
+				<srcscale>62500</srcscale>
+				<typesrc>paper</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>1980</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>publication date</srccurr>
+				</srctime>
+				<srccitea>Dupré and Tinsley (1980)</srccitea>
+				<srccontr>Quaternary geology in parts of the Natividad and San Juan Bautista 7.5-minute quadrangles.</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>Geomatrix Consultants, Inc.</origin>
+						<pubdate>1997</pubdate>
+						<title>Final report, geologic evaluation of MTA Camp Roberts</title>
+						<geoform>map</geoform>
+						<serinfo>
+							<sername>unpublished report</sername>
+						</serinfo>
+						<pubinfo>
+							<pubplace>San Francisco, CA</pubplace>
+							<publish>Geomatrix Consultants, Inc.</publish>
+						</pubinfo>
+					</citeinfo>
+				</srccite>
+				<srcscale>35200</srcscale>
+				<typesrc>paper</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>1997</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>publication date</srccurr>
+				</srctime>
+				<srccitea>Geomatrix (1997)</srccitea>
+				<srccontr>Quaternary geology of the Camp Roberts area, Bradley and San Miguel 7.5-minute quadrangles.</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>Greene, H.G.</origin>
+						<pubdate>1972</pubdate>
+						<title>Preliminary coastal geologic and fault map, Yankee Point to Point Sur, California</title>
+						<serinfo>
+							<sername>unpublished mapping</sername>
+						</serinfo>
+					</citeinfo>
+				</srccite>
+				<srcscale>24000</srcscale>
+				<typesrc>paper</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>1972</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>publication date</srccurr>
+				</srctime>
+				<srccitea>Greene (1972)</srccitea>
+				<srccontr>Quaternary geology  in parts of the Soberanes Point and Point Sur 7.5-minute quadrangles.</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>Hall, C.A., Jr.</origin>
+						<pubdate>1991</pubdate>
+						<title>Geology of the Point Sur-Lopez Point region, Coast Ranges, California: A part of the Southern California allochthon</title>
+						<geoform>map</geoform>
+						<serinfo>
+							<sername>Special Paper</sername>
+							<issue>266</issue>
+						</serinfo>
+						<pubinfo>
+							<pubplace>Boulder, CO</pubplace>
+							<publish>Geological Society of America</publish>
+						</pubinfo>
+						<othercit>40 p., 2 sheets.</othercit>
+					</citeinfo>
+				</srccite>
+				<srcscale>24000</srcscale>
+				<typesrc>paper</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>1991</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>publication date</srccurr>
+				</srctime>
+				<srccitea>Hall (1991)</srccitea>
+				<srccontr>Bedrock and surficial geology in parts of the Point Sur, Big Sur, Pfeiffer Point, Partington Ridge, and Lopez Point 7.5-minute quadrangles.</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>Hall, C.A., Jr.</origin>
+						<origin>Loomis, K.B.</origin>
+						<pubdate>1992</pubdate>
+						<title>Geological map of the Kreyenhagen Hills-Sunflower (McLure) Valley area, Fresno, Kern, Kings, and Monterey Counties, California</title>
+						<geoform>map</geoform>
+						<serinfo>
+							<sername>Map and Chart Series</sername>
+							<issue>MCH074</issue>
+						</serinfo>
+						<pubinfo>
+							<pubplace>Boulder, CO</pubplace>
+							<publish>Geological Society of America</publish>
+						</pubinfo>
+						<othercit>17 p., 4 sheets.</othercit>
+					</citeinfo>
+				</srccite>
+				<srcscale>24000</srcscale>
+				<typesrc>paper</typesrc>
+				<srctime>
+					<srccurr>publication date</srccurr>
+				</srctime>
+				<srccitea>Hall and Loomis (1992)</srccitea>
+				<srccontr>Bedrock and surficial geology in parts of the Tent Hills and Garza Peak 7.5-minute quadrangles.</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>Hart, E.W.</origin>
+						<pubdate>1985</pubdate>
+						<title>Rinconada fault (Espinosa and San Marcos segments), Monterey and San Luis Obispo Counties</title>
+						<geoform>map</geoform>
+						<serinfo>
+							<sername>Fault Evaluation Report</sername>
+							<issue>FER-175</issue>
+						</serinfo>
+						<pubinfo>
+							<publish>California Division of Mines and Geology</publish>
+						</pubinfo>
+						<othercit>8 p., 2 sheets.</othercit>
+					</citeinfo>
+				</srccite>
+				<srcscale>24000</srcscale>
+				<typesrc>paper</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>1985</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>publication date</srccurr>
+				</srctime>
+				<srccitea>Hart (1985)</srccitea>
+				<srccontr>Landslide mapping in parts of the Tierra Redonda Mountain, Hames Valley, Williams Hill, Espinosa Canyon, and Cosio Knob 7.5-minute quadrangles.</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>Johnson, Rogers E. &amp; Associates</origin>
+						<pubdate>1985</pubdate>
+						<title>Preliminary report of landsliding in the vicinity of the proposed new San Clemente Reservoir, Monterey County, California</title>
+						<geoform>map</geoform>
+						<serinfo>
+							<sername>unpublished report</sername>
+						</serinfo>
+						<othercit>19 p.</othercit>
+					</citeinfo>
+				</srccite>
+				<srcscale>24000</srcscale>
+				<typesrc>paper</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>1985</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>publication date</srccurr>
+				</srctime>
+				<srccitea>R.E. Johnson &amp; Associates (1985)</srccitea>
+				<srccontr>Landslide mapping near San Clemente Dam, Carmel Valley 7.5-minute quadrangle.</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>Klaus, A.C.</origin>
+						<pubdate>1999</pubdate>
+						<title>Quaternary alluvial surfaces and deformation, Monterey County, California</title>
+						<geoform>map</geoform>
+						<serinfo>
+							<sername>M.S. thesis</sername>
+						</serinfo>
+						<pubinfo>
+							<pubplace>San Jose, CA</pubplace>
+							<publish>San Jose State University</publish>
+						</pubinfo>
+						<othercit>106 p., 5 sheets.</othercit>
+					</citeinfo>
+				</srccite>
+				<srcscale>24000</srcscale>
+				<typesrc>paper</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>1999</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>publication date</srccurr>
+				</srctime>
+				<srccitea>Klaus (1999)</srccitea>
+				<srccontr>Alluvial fan deposits and surfaces in the Lockwood Valley:  Cosio Knob, Jolon, and Williams Hill 7.5-minute quadrangles.</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>Maddock, M.E.</origin>
+						<pubdate>1960</pubdate>
+						<title>Geologic map and sections of Pico Blanco limestone deposit</title>
+						<geoform>map</geoform>
+						<serinfo>
+							<sername>unpublished report</sername>
+						</serinfo>
+						<othercit>cited in Hart (1966, p. 64).</othercit>
+					</citeinfo>
+				</srccite>
+				<srcscale>21800</srcscale>
+				<typesrc>paper</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>1960</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>publication date</srccurr>
+				</srctime>
+				<srccitea>Maddock (1960)</srccitea>
+				<srccontr>Geologic mapping of Pico Blanco limestone deposit, including landslides: Big Sur 7.5-minute quadrangle.</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>McKittrick, M.A.</origin>
+						<pubdate>1987</pubdate>
+						<title>Geologic map of the Tularcitos fault zone, Monterey County, California</title>
+						<geoform>map</geoform>
+						<serinfo>
+							<sername>unpublished report</sername>
+						</serinfo>
+						<othercit>22 p., 5 sheets.</othercit>
+					</citeinfo>
+				</srccite>
+				<srcscale>12000</srcscale>
+				<typesrc>paper</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>1987</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>publication date</srccurr>
+				</srctime>
+				<srccitea>McKittrick (1987)</srccitea>
+				<srccontr>Bedrock and surficial geology in parts of the Carmel Valley and Rana Creek 7.5-minute quadrangles.</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>Neel, T.H.</origin>
+						<pubdate>1963</pubdate>
+						<title>Geology of the lower Tularcitos Creek-Cachagua Grade area, Jamesburg quadrangle, California</title>
+						<geoform>map</geoform>
+						<serinfo>
+							<sername>M.S. thesis</sername>
+						</serinfo>
+						<pubinfo>
+							<pubplace>Stanford, CA</pubplace>
+							<publish>Stanford University</publish>
+						</pubinfo>
+					</citeinfo>
+				</srccite>
+				<srcscale>24000</srcscale>
+				<typesrc>paper</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>1963</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>publication date</srccurr>
+				</srctime>
+				<srccitea>Neel (1963)</srccitea>
+				<srccontr>Bedrock and surficial geology in part of the Carmel Valley 7.5-minute quadrangle.</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>Norris, Richard</origin>
+						<pubdate>1985</pubdate>
+						<title>Geology of the Landels-Hill Big Creek Reserve, Monterey County, California</title>
+						<geoform>map</geoform>
+						<serinfo>
+							<sername>Environmental Field Program Publication</sername>
+							<issue>16</issue>
+						</serinfo>
+						<pubinfo>
+							<pubplace>Santa Cruz</pubplace>
+							<publish>University of California</publish>
+						</pubinfo>
+						<othercit>71 p.</othercit>
+					</citeinfo>
+				</srccite>
+				<srcscale>24000</srcscale>
+				<typesrc>paper</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>1985</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>publication date</srccurr>
+				</srctime>
+				<srccitea>Norris (1985)</srccitea>
+				<srccontr>Landslide mapping in part of the Lopez Point 7.5-minute quadrangle.</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>Oshiro, L.K.</origin>
+						<pubdate>1981</pubdate>
+						<title>Geologic investigation of marine terraces and Quaternary tectonics at Pt. Sur and Pacific Valley, Monterey County, California</title>
+						<geoform>map</geoform>
+						<serinfo>
+							<sername>Senior thesis</sername>
+						</serinfo>
+						<pubinfo>
+							<pubplace>Santa Cruz, CA</pubplace>
+							<publish>University of California</publish>
+						</pubinfo>
+						<othercit>14 p., 3 sheets.</othercit>
+					</citeinfo>
+				</srccite>
+				<srcscale>24000</srcscale>
+				<typesrc>paper</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>1981</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>publication date</srccurr>
+				</srctime>
+				<srccitea>Oshiro (1981)</srccitea>
+				<srccontr>Quaternary geology along the coast in parts of the Point Sur, Big Sur, Pfeiffer Point, and Cape San Martin 7.5-minute quadrangles.</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>Phifer, D.W.</origin>
+						<pubdate>1972</pubdate>
+						<title>Preliminary notes on the marine terraces of the Santa Lucia Range in Soberanes Point quadrangle, California</title>
+						<geoform>map</geoform>
+						<serinfo>
+							<sername>unpublished reconnaissance report</sername>
+						</serinfo>
+						<pubinfo>
+							<pubplace>Monterey, CA</pubplace>
+							<publish>U.S. Naval Postgraduate School</publish>
+						</pubinfo>
+						<othercit>17 p.</othercit>
+					</citeinfo>
+				</srccite>
+				<srcscale>24000</srcscale>
+				<typesrc>paper</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>1972</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>publication date</srccurr>
+				</srctime>
+				<srccitea>Phifer (1972)</srccitea>
+				<srccontr>Marine terraces in the Soberanes Point 7.5-minute quadrangle.</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>Reiche, Parry</origin>
+						<pubdate>1934</pubdate>
+						<title>The geology of the Lucia quadrangle, California</title>
+						<geoform>map</geoform>
+						<serinfo>
+							<sername>Ph.D. dissertation</sername>
+						</serinfo>
+						<pubinfo>
+							<pubplace>Berkeley, CA</pubplace>
+							<publish>University of California</publish>
+						</pubinfo>
+						<othercit>186 p., 1 sheet</othercit>
+					</citeinfo>
+				</srccite>
+				<srcscale>62500</srcscale>
+				<typesrc>paper</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>1934</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>publication date</srccurr>
+				</srctime>
+				<srccitea>Reiche (1934)</srccitea>
+				<srccontr>Bedrock geology in parts of the Partington Ridge, Tassajara Hot Springs, and Lopez Point 7.5-minute quadrangles.</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>Reneau, S.L.</origin>
+						<pubdate>1979</pubdate>
+						<title>A survey of landslides of the coastal Santa Lucia Range, Lopez Point quadrangle, Monterey County, California</title>
+						<geoform>map</geoform>
+						<serinfo>
+							<sername>Senior thesis</sername>
+						</serinfo>
+						<pubinfo>
+							<pubplace>Santa Cruz, CA</pubplace>
+							<publish>University of California</publish>
+						</pubinfo>
+						<othercit>36 p.</othercit>
+					</citeinfo>
+				</srccite>
+				<srcscale>24000</srcscale>
+				<typesrc>paper</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>1979</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>publication date</srccurr>
+				</srctime>
+				<srccitea>Reneau (1979)</srccitea>
+				<srccontr>Landslides in the Lopez Point 7.5-minute quadrangle.</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>Rosenberg, L.I.</origin>
+						<pubdate>1993</pubdate>
+						<title>Earthquake and landslide hazards in the Carmel Valley area, Monterey County, California</title>
+						<geoform>map</geoform>
+						<serinfo>
+							<sername>M.S. thesis</sername>
+						</serinfo>
+						<pubinfo>
+							<pubplace>San Jose, CA</pubplace>
+							<publish>San Jose State University</publish>
+						</pubinfo>
+						<othercit>123 p., 2 appendices, 3 sheets.</othercit>
+					</citeinfo>
+				</srccite>
+				<srcscale>24000</srcscale>
+				<typesrc>paper</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>1993</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>publication date</srccurr>
+				</srctime>
+				<srccitea>Rosenberg (1993)</srccitea>
+				<srccontr>Bedrock and surficial geology in parts of the Carmel Valley and Mount Carmel 7.5-minute quadrangles.</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>Rosenberg, L.I.</origin>
+						<pubdate>1998</pubdate>
+						<title>Slope failure, Sleepy Hollow Steelhead Rearing Facility, Carmel Valley, California</title>
+						<geoform>raster digital data</geoform>
+						<serinfo>
+							<sername>unpublished report</sername>
+						</serinfo>
+						<othercit>30 p., 2 sheets.</othercit>
+					</citeinfo>
+				</srccite>
+				<srcscale>480</srcscale>
+				<typesrc>paper</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>1998</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>publication date</srccurr>
+				</srctime>
+				<srccitea>Rosenberg (1998)</srccitea>
+				<srccontr>Landslides near Sleepy Hollow Fish Rearing Facility, Carmel Valley 7.5-minute quadrangle.</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>Rosenberg, L.I.</origin>
+						<pubdate>2001</pubdate>
+						<title>unpublished mapping</title>
+						<geoform>vector digital data</geoform>
+						<serinfo></serinfo>
+					</citeinfo>
+				</srccite>
+				<srcscale>24000</srcscale>
+				<typesrc>CD-ROM</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>2001</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>publication date</srccurr>
+				</srctime>
+				<srccitea>Rosenberg (2001)</srccitea>
+				<srccontr>Unpublished mapping of Quaternary alluvial deposits from aerial photographs and soil survey maps in parts of the Greenfield, Pinalito Canyon, San Lucas, Thompson Canyon, Williams Hill, and Stockdale Mountain 7.5-minute quadrangles.</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>Ross, D.C.</origin>
+						<pubdate>1972</pubdate>
+						<title>Geologic map of the pre-Cenozoic basement rocks, Gabilan Range, Monterey and San Benito Counties, California</title>
+						<geoform>map</geoform>
+						<serinfo>
+							<sername>Miscellaneous Field Studies Map</sername>
+							<issue>357</issue>
+						</serinfo>
+						<pubinfo>
+							<publish>U.S. Geological Survey</publish>
+						</pubinfo>
+						<othercit>2 sheets.</othercit>
+					</citeinfo>
+				</srccite>
+				<srcscale>125000</srcscale>
+				<typesrc>paper</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>1972</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>publication date</srccurr>
+				</srctime>
+				<srccitea>Ross (1972)</srccitea>
+				<srccontr>Pre-Cenozoic basement rocks in parts of the Prunedale, San Juan Bautista, Mount Harlan, Mount Johnson, Bickmore Canyon, Soledad, North Chalone Peak, Topo Valley, Lonoak, Pinalito Canyon, Greenfield, San Lucas, and Nattrass Valley 7.5-minute quadrangles.</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>Ross, D.C.</origin>
+						<pubdate>1974</pubdate>
+						<title>Map showing basement geology and locations of wells drilled to basement, Salinian block, central and southern Coast Ranges, California</title>
+						<geoform>map</geoform>
+						<serinfo>
+							<sername>Miscellaneous Field Studies Map</sername>
+							<issue>588</issue>
+						</serinfo>
+						<pubinfo>
+							<publish>U.S. Geological Survey</publish>
+						</pubinfo>
+						<othercit>2 sheets</othercit>
+					</citeinfo>
+				</srccite>
+				<srcscale>500000</srcscale>
+				<typesrc>paper</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>1974</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>publication date</srccurr>
+				</srctime>
+				<srccitea>Ross (1974)</srccitea>
+				<srccontr>Pre-Cenozoic basement rocks in parts of the Lonoak and Hepsedam Peak 7.5-minute quadrangles.</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>Ross, D.C.</origin>
+						<pubdate>1976</pubdate>
+						<title>Reconnaissance geologic map of pre-Cenozoic basement rocks, northern Santa Lucia Range, Monterey County, California</title>
+						<geoform>map</geoform>
+						<serinfo>
+							<sername>Miscellaneous Field Studies Map</sername>
+							<issue>750</issue>
+						</serinfo>
+						<pubinfo>
+							<publish>U.S. Geological Survey</publish>
+						</pubinfo>
+						<othercit>7 p., 2 sheets.</othercit>
+					</citeinfo>
+				</srccite>
+				<srcscale>125000</srcscale>
+				<typesrc>paper</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>1976</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>publication date</srccurr>
+				</srctime>
+				<srccitea>Ross (1976)</srccitea>
+				<srccontr>Pre-Cenozoic basement rocks in parts of the Chualar, Palo Escrito Peak, Rana Creek, Carmel Valley, Mount Carmel, Soberanes Point, Point Sur, Big Sur, Ventana Cones, Chews Ridge, Sycamore Flat, Paraiso Springs, Reliz Canyon, Junipero Serra Peak, Tassajara Hot Springs, Cone Peak, Bear Canyon, Alder Peak, and Cape San Martin 7.5-minute quadrangles.</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>Seiders, V.M.</origin>
+						<pubdate>1989</pubdate>
+						<title>Geologic map of the Burnett Peak quadrangle, Monterey and San Luis Obispo Counties, California</title>
+						<geoform>map</geoform>
+						<serinfo>
+							<sername>Geologic Quadrangle Map</sername>
+							<issue>1658</issue>
+						</serinfo>
+						<pubinfo>
+							<publish>U.S. Geological Survey</publish>
+						</pubinfo>
+					</citeinfo>
+				</srccite>
+				<srcscale>24000</srcscale>
+				<typesrc>paper</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>1989</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>publication date</srccurr>
+				</srctime>
+				<srccitea>Seiders (1989a)</srccitea>
+				<srccontr>Bedrock and surficial geology in the Burnett Peak 7.5-minute quadrangle.</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>Seiders, V.M.</origin>
+						<pubdate>1989</pubdate>
+						<title>Geologic map of the Burro Mountain quadrangle, Monterey and San Luis Obispo Counties, California</title>
+						<geoform>map</geoform>
+						<serinfo>
+							<sername>Miscellaneous Field Studies Map</sername>
+							<issue>2090</issue>
+						</serinfo>
+						<pubinfo>
+							<publish>U.S. Geological Survey</publish>
+						</pubinfo>
+					</citeinfo>
+				</srccite>
+				<srcscale>24000</srcscale>
+				<typesrc>paper</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>1989</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>publication date</srccurr>
+				</srctime>
+				<srccitea>Seiders (1989b)</srccitea>
+				<srccontr>Bedrock and surficial geology in the Burro Mountain 7.5-minute quadrangle.</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>Seiders, V.M.</origin>
+						<origin>Joyce, J.M.</origin>
+						<origin>Leverett, K.A.</origin>
+						<origin>McClean, Hugh</origin>
+						<pubdate>1983</pubdate>
+						<title>Geologic map of part of the Ventana Wilderness and the Black Butte, Bear Mountain, and Bear Canyon Roadless areas, Monterey County, California, U.S. Geological Survey Miscellaneous Field Studies Map MF-1559-B, scale 1</title>
+						<geoform>map</geoform>
+						<serinfo>
+							<sername>Miscellaneous Field Studies Map</sername>
+							<issue>1559-B</issue>
+						</serinfo>
+						<pubinfo>
+							<publish>U.S. Geological Survey</publish>
+						</pubinfo>
+					</citeinfo>
+				</srccite>
+				<srcscale>50000</srcscale>
+				<typesrc>paper</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>1983</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>publication date</srccurr>
+				</srctime>
+				<srccitea>Seiders and others (1983)</srccitea>
+				<srccontr>Bedrock and surficial geology in parts of the Ventana Cones, Chews Ridge, Sycamore Flat, Reliz Canyon, Junipero Serra Peak, Tassajara Hot Springs, Partington Ridge, Lopez Point, Cone Peak, Bear Canyon, and Cape San Martin 7.5-minute quadrangles.</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>Sims, J.D.</origin>
+						<pubdate>1988</pubdate>
+						<title>Geologic map of the San Andreas fault zone in the Cholame Valley and Cholame Hills quadrangles, San Luis Obispo and Monterey Counties, California</title>
+						<geoform>map</geoform>
+						<serinfo>
+							<sername>Miscellaneous Field Studies Map</sername>
+							<issue>1995</issue>
+						</serinfo>
+						<pubinfo>
+							<publish>U.S. Geological Survey</publish>
+						</pubinfo>
+					</citeinfo>
+				</srccite>
+				<srcscale>24000</srcscale>
+				<typesrc>paper</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>1988</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>publication date</srccurr>
+				</srctime>
+				<srccitea>Sims (1988)</srccitea>
+				<srccontr>Bedrock and surficial geology in most of the Cholame Valley and Cholame Hills 7.5-minute quadrangles.</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>Sims, J.D.</origin>
+						<pubdate>1990</pubdate>
+						<title>Geologic map of the San Andreas fault in the Parkfield 7.5-minute quadrangle, Monterey and Fresno Counties, California</title>
+						<geoform>map</geoform>
+						<serinfo>
+							<sername>Miscellaneous Field Studies Map</sername>
+							<issue>2115</issue>
+						</serinfo>
+						<pubinfo>
+							<publish>U.S. Geological Survey</publish>
+						</pubinfo>
+					</citeinfo>
+				</srccite>
+				<srcscale>24000</srcscale>
+				<typesrc>paper</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>1990</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>publication date</srccurr>
+				</srctime>
+				<srccitea>Sims (1990)</srccitea>
+				<srccontr>Bedrock and surficial geology in most of the Parkfield 7.5-minute quadrangle.</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>Snetsinger, K.G.</origin>
+						<pubdate>1962</pubdate>
+						<title>Late Tertiary and Quaternary history of the lower Arroyo Seco area, Monterey County, California</title>
+						<geoform>map</geoform>
+						<serinfo>
+							<sername>M.S. thesis</sername>
+						</serinfo>
+						<pubinfo>
+							<pubplace>Stanford, CA</pubplace>
+							<publish>Stanford University</publish>
+						</pubinfo>
+						<othercit>36 p., 4 sheets.</othercit>
+					</citeinfo>
+				</srccite>
+				<srcscale>24000</srcscale>
+				<typesrc>paper</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>1962</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>publication date</srccurr>
+				</srctime>
+				<srccitea>Snetsinger (1962)</srccitea>
+				<srccontr>Bedrock and surficial geology in parts of the Sycamore Flat, Paraiso Springs,  Reliz Canyon, and Junipero Serra Peak 7.5-minute quadrangles.</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>Tinsley, J.C., III.</origin>
+						<pubdate>1975</pubdate>
+						<title>Quaternary geology of the northern Salinas Valley, Monterey County, California</title>
+						<geoform>map</geoform>
+						<serinfo>
+							<sername>Ph.D. dissertation</sername>
+						</serinfo>
+						<pubinfo>
+							<pubplace>Stanford, CA</pubplace>
+							<publish>Stanford University</publish>
+						</pubinfo>
+						<othercit>195 p., 2 sheets.</othercit>
+					</citeinfo>
+				</srccite>
+				<srcscale>62500</srcscale>
+				<typesrc>stable-base material</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>1975</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>publication date</srccurr>
+				</srctime>
+				<srccitea>Tinsley (1975)</srccitea>
+				<srccontr>Quaternary geology in parts of the Spreckels, Chualar, Gonzales, Mount Johnson, Soledad, Palo Escrito Peak, Rana Creek, Sycamore Flat, Paraiso Springs, and Greenfield 7.5-minute quadrangles.</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>Tinsley, J.C., III.</origin>
+						<origin>Dupré, W.R.</origin>
+						<origin>unknown others</origin>
+						<pubdate>Unpublished Material</pubdate>
+						<title>Digital maps showing geology of northern Monterey and southern Santa Cruz Counties, California</title>
+						<geoform>vector digital data</geoform>
+						<serinfo></serinfo>
+					</citeinfo>
+				</srccite>
+				<srcscale>62500</srcscale>
+				<typesrc>paper</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>2000</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>publication date</srccurr>
+				</srctime>
+				<srccitea>Tinsley and others (2000)</srccitea>
+				<srccontr>Quaternary geology in parts of the Watsonville West, Watsonville East,  Moss Landing, Prunedale, Salinas, and Marina 7.5-minute quadrangles.</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>Tuttle, M.P.</origin>
+						<pubdate>1985</pubdate>
+						<title>Earthquake potential of the San Gregorio-Hosgri fault zone, California</title>
+						<geoform>map</geoform>
+						<serinfo>
+							<sername>M.S. thesis</sername>
+						</serinfo>
+						<pubinfo>
+							<pubplace>Santa Cruz, CA</pubplace>
+							<publish>University of California</publish>
+						</pubinfo>
+						<othercit>69 p., 2 appendices, 4 sheets.</othercit>
+					</citeinfo>
+				</srccite>
+				<srcscale>24000</srcscale>
+				<typesrc>paper</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>1985</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>publication date</srccurr>
+				</srctime>
+				<srccitea>Tuttle (1985)</srccitea>
+				<srccontr>Quaternary geology in part of the Soberanes Point 7.5-minute quadrangle.</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>Wagner, D.L.</origin>
+						<origin>Greene, H.G.</origin>
+						<origin>Little, J.D.</origin>
+						<origin>Watkins, S.E.</origin>
+						<pubdate>Unpublished Material</pubdate>
+						<title>Geologic map of the Monterey 1:100,000 scale quadrangle and Monterey Bay: a digital database</title>
+						<geoform>vector digital data</geoform>
+						<serinfo></serinfo>
+					</citeinfo>
+				</srccite>
+				<srcscale>100000</srcscale>
+				<typesrc>paper</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>1999</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>publication date</srccurr>
+				</srctime>
+				<srccitea>Wagner and others (1999)</srccitea>
+				<srccontr>Red beds in part of the San Juan Bautista 7.5-minute quadrangle.</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>Weidman, R.M.</origin>
+						<pubdate>1959</pubdate>
+						<title>Geology of the King City quadrangle, California</title>
+						<geoform>map</geoform>
+						<serinfo>
+							<sername>Ph.D. dissertation</sername>
+						</serinfo>
+						<pubinfo>
+							<pubplace>Berkeley, CA</pubplace>
+							<publish>University of California</publish>
+						</pubinfo>
+						<othercit>229 p.</othercit>
+					</citeinfo>
+				</srccite>
+				<srcscale>24000</srcscale>
+				<typesrc>paper</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>1959</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>publication date</srccurr>
+				</srctime>
+				<srccitea>Weidman (1959)</srccitea>
+				<srccontr>Bedrock and surficial geology in part of the Cosio Knob 7.5-minute quadrangle.</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>Wiedmann, J.P.</origin>
+						<pubdate>1964</pubdate>
+						<title>Geology of the upper Tularcitos Creek-Cachagua Creek area, Jamesburg quadrangle, California</title>
+						<geoform>map</geoform>
+						<serinfo>
+							<sername>M.S. thesis</sername>
+						</serinfo>
+						<pubinfo>
+							<pubplace>Stanford, CA</pubplace>
+							<publish>Stanford University</publish>
+						</pubinfo>
+						<othercit>80 p., 4 sheets.</othercit>
+					</citeinfo>
+				</srccite>
+				<srcscale>24000</srcscale>
+				<typesrc>paper</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>1964</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>publication date</srccurr>
+				</srctime>
+				<srccitea>Wiedmann (1964)</srccitea>
+				<srccontr>Bedrock and surficial geology in part of the Rana Creek 7.5-minute quadrangle.</srccontr>
+			</srcinfo>
+			<procstep>
+				<procdesc>The various maps used in the compilation were converted to digital format using a Vidar large-format monochrome scanner at a resolution of 300 dots per inch. The scanned images were saved as uncompressed TIFF files and georeferenced using ArcView Image Analysis software to 1:24,000 scale USGS Digital Raster Graphic (DRG) maps. The scanned images were then vectorized using ARC/INFO software.  The vectorized maps were compiled mainly at 1:24,000 scale in the area north of Salinas and 1:62:500 elsewhere in the county.  The compilation at 1:62,500 scale requires simplification in some areas and combining of some geologic units.  Also, minor adjustment of contacts across the quadrangle boundaries was locally necessary.  The digital editing was done using ArcView software.</procdesc>
+			</procstep>
+		</lineage>
+	</dataqual>
+	<spdoinfo>
+		<direct Sync="TRUE">Vector</direct>
+		<ptvctinf>
+			<sdtsterm Name="geology">
+				<sdtstype Sync="TRUE">G-polygon</sdtstype>
+				<ptvctcnt Sync="TRUE">7261</ptvctcnt>
+			</sdtsterm>
+			<esriterm Name="geology"><efeatyp Sync="TRUE">Simple</efeatyp><efeageom Sync="TRUE">Polygon</efeageom><esritopo Sync="TRUE">FALSE</esritopo><efeacnt Sync="TRUE">7261</efeacnt><spindex Sync="TRUE">TRUE</spindex><linrefer Sync="TRUE">FALSE</linrefer></esriterm></ptvctinf>
+	</spdoinfo>
+	<spref>
+		<horizsys>
+			<planar>
+				<planci>
+					<plance Sync="TRUE">coordinate pair</plance>
+					<coordrep>
+						<absres Sync="TRUE">0.001024</absres>
+						<ordres Sync="TRUE">0.001024</ordres>
+					</coordrep>
+					<plandu Sync="TRUE">survey feet</plandu>
+				</planci>
+				<gridsys><gridsysn>State Plane Coordinate System</gridsysn><spcs><spcszone Sync="TRUE">404</spcszone><lambertc><stdparll Sync="TRUE">36.000000</stdparll><stdparll Sync="TRUE">37.250000</stdparll><longcm Sync="TRUE">-119.000000</longcm><latprjo Sync="TRUE">35.333333</latprjo><feast Sync="TRUE">6561666.666667</feast><fnorth Sync="TRUE">1640416.666667</fnorth></lambertc></spcs></gridsys></planar>
+			<geodetic>
+				<horizdn Sync="TRUE">North American Datum of 1983</horizdn>
+				<ellips Sync="TRUE">Geodetic Reference System 80</ellips>
+				<semiaxis Sync="TRUE">6378137.000000</semiaxis>
+				<denflat Sync="TRUE">298.257222</denflat>
+			</geodetic>
+			<cordsysn><geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn><projcsn Sync="TRUE">NAD_1983_StatePlane_California_IV_FIPS_0404_Feet</projcsn></cordsysn></horizsys>
+	</spref>
+	<eainfo>
+		<detailed Name="geology">
+			<enttyp>
+				<enttypl Sync="TRUE">geology</enttypl>
+				<enttypds>Data set describing bedrock and surficial geologic units</enttypds>
+				<enttypt Sync="TRUE">Feature Class</enttypt><enttypc Sync="TRUE">7261</enttypc></enttyp>
+			<attr>
+				<attrlabl Sync="TRUE">FID</attrlabl>
+				<attrdef Sync="TRUE">Internal feature number.</attrdef>
+				<attrdefs Sync="TRUE">ESRI</attrdefs>
+				<attrdomv>
+					<udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+				<attalias Sync="TRUE">FID</attalias><attrtype Sync="TRUE">OID</attrtype><attwidth Sync="TRUE">4</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl Sync="TRUE">Shape</attrlabl>
+				<attrdef Sync="TRUE">Feature geometry.</attrdef>
+				<attrdefs Sync="TRUE">ESRI</attrdefs>
+				<attrdomv>
+					<udom Sync="TRUE">Coordinates defining the features.</udom>
+				</attrdomv>
+				<attalias Sync="TRUE">Shape</attalias><attrtype Sync="TRUE">Geometry</attrtype><attwidth Sync="TRUE">0</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl Sync="TRUE">SOURCE</attrlabl>
+				<attrdef>Source of geologic mapping</attrdef>
+				<attrdefs>author</attrdefs>
+				<attrdomv>
+					<udom>List of names</udom>
+				</attrdomv>
+				<attalias Sync="TRUE">SOURCE</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">40</attwidth></attr>
+			<attr>
+				<attrlabl Sync="TRUE">DET_LAB</attrlabl>
+				<attrdef>Detailed label designed for 1:24,000 scale mapping</attrdef>
+				<attrdefs>author</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>Jc</edomv>
+						<edomvd>Radiolarian chert</edomvd>
+					</edom>
+					<edom>
+						<edomv>Jd</edomv>
+						<edomvd>Diabase and diorite</edomvd>
+					</edom>
+					<edom>
+						<edomv>Jhg</edomv>
+						<edomvd>Hornblende quartz gabbro of Gold Hill</edomvd>
+					</edom>
+					<edom>
+						<edomv>Jsp?</edomv>
+						<edomvd>Serpentinite?</edomvd>
+					</edom>
+					<edom>
+						<edomv>Jsp</edomv>
+						<edomvd>Serpentinite</edomvd>
+					</edom>
+					<edom>
+						<edomv>Jv</edomv>
+						<edomvd>Mafic volcanic rocks</edomvd>
+					</edom>
+					<edom>
+						<edomv>Ka</edomv>
+						<edomvd>Aplite, alaskite, and pegmatite</edomvd>
+					</edom>
+					<edom>
+						<edomv>Kag</edomv>
+						<edomvd>Aplitic granite</edomvd>
+					</edom>
+					<edom>
+						<edomv>Kbt</edomv>
+						<edomvd>Biotite tonalite</edomvd>
+					</edom>
+					<edom>
+						<edomv>Kct</edomv>
+						<edomvd>Charnockitic tonalite of Compton (1960)</edomvd>
+					</edom>
+					<edom>
+						<edomv>Kd</edomv>
+						<edomvd>Diorite (Gabilan Range)</edomvd>
+					</edom>
+					<edom>
+						<edomv>Kep</edomv>
+						<edomvd>El Piojo Formation</edomvd>
+					</edom>
+					<edom>
+						<edomv>Kgdb</edomv>
+						<edomvd>Granodiorite-quartz diorite of Bear Mountain</edomvd>
+					</edom>
+					<edom>
+						<edomv>Kgdc</edomv>
+						<edomvd>Granodiorite of Cachagua</edomvd>
+					</edom>
+					<edom>
+						<edomv>Kgdg</edomv>
+						<edomvd>Granodiorite of Gloria Road</edomvd>
+					</edom>
+					<edom>
+						<edomv>Kgdj</edomv>
+						<edomvd>Porphyritic granodiorite of Junipero Serra Peak</edomvd>
+					</edom>
+					<edom>
+						<edomv>Kgdm</edomv>
+						<edomvd>Porphyritic granodiorite of Monterey</edomvd>
+					</edom>
+					<edom>
+						<edomv>Kgdn</edomv>
+						<edomvd>Granodiorite of Natividad</edomvd>
+					</edom>
+					<edom>
+						<edomv>Kgds</edomv>
+						<edomvd>Porphyritic granodiorite of Sand Creek</edomvd>
+					</edom>
+					<edom>
+						<edomv>Kgf?</edomv>
+						<edomvd>Gravelly Flat Formation?</edomvd>
+					</edom>
+					<edom>
+						<edomv>Kgf</edomv>
+						<edomvd>Gravelly Flat Formation</edomvd>
+					</edom>
+					<edom>
+						<edomv>Kgh</edomv>
+						<edomvd>Heteregeneous granitic complex</edomvd>
+					</edom>
+					<edom>
+						<edomv>Kgj</edomv>
+						<edomvd>Granite of Jacks Hill</edomvd>
+					</edom>
+					<edom>
+						<edomv>Kgr</edomv>
+						<edomvd>Granitic rocks, undifferentiated</edomvd>
+					</edom>
+					<edom>
+						<edomv>Kif</edomv>
+						<edomvd>Italian Flat Formation</edomvd>
+					</edom>
+					<edom>
+						<edomv>KJf?</edomv>
+						<edomvd>Franciscan complex, undifferentiated?</edomvd>
+					</edom>
+					<edom>
+						<edomv>KJf</edomv>
+						<edomvd>Franciscan complex, undifferentiated</edomvd>
+					</edom>
+					<edom>
+						<edomv>KJfl</edomv>
+						<edomvd>Franciscan complex, limestone</edomvd>
+					</edom>
+					<edom>
+						<edomv>KJfm</edomv>
+						<edomvd>Franciscan complex, mélange</edomvd>
+					</edom>
+					<edom>
+						<edomv>KJfs</edomv>
+						<edomvd>Franciscan complex, graywacke</edomvd>
+					</edom>
+					<edom>
+						<edomv>KJfv</edomv>
+						<edomvd>Franciscan complex, greenstone</edomvd>
+					</edom>
+					<edom>
+						<edomv>KJt</edomv>
+						<edomvd>Toro Formation</edomvd>
+					</edom>
+					<edom>
+						<edomv>Kmi</edomv>
+						<edomvd>Gabbro and diorite (Santa Lucia Range)</edomvd>
+					</edom>
+					<edom>
+						<edomv>Kms</edomv>
+						<edomvd>Schist of Sierra de Salinas</edomvd>
+					</edom>
+					<edom>
+						<edomv>Kp</edomv>
+						<edomvd>Panoche Formation</edomvd>
+					</edom>
+					<edom>
+						<edomv>Kqdc</edomv>
+						<edomvd>Hornblende-biotite quartz diorite-diorite of Corral de Tierra</edomvd>
+					</edom>
+					<edom>
+						<edomv>Kqdg</edomv>
+						<edomvd>Gneissic quartz diorite of Stonewall Canyon</edomvd>
+					</edom>
+					<edom>
+						<edomv>Kqdj?</edomv>
+						<edomvd>Quartz diorite-granodiorite of Johnson Canyon?</edomvd>
+					</edom>
+					<edom>
+						<edomv>Kqdj</edomv>
+						<edomvd>Quartz diorite-granodiorite of Johnson Canyon</edomvd>
+					</edom>
+					<edom>
+						<edomv>Kqdp</edomv>
+						<edomvd>Hornblende-biotite quartz diorite of the Paraiso-Paloma area</edomvd>
+					</edom>
+					<edom>
+						<edomv>Kqds</edomv>
+						<edomvd>Hornblende-biotite quartz diorite of Soberanes Point</edomvd>
+					</edom>
+					<edom>
+						<edomv>Kqdv</edomv>
+						<edomvd>Quartz diorite of Vergeles</edomvd>
+					</edom>
+					<edom>
+						<edomv>Kqmb</edomv>
+						<edomvd>Quartz monzonite of Bickmore Canyon</edomvd>
+					</edom>
+					<edom>
+						<edomv>Kqmf</edomv>
+						<edomvd>Quartz monzonite of Fremont Peak</edomvd>
+					</edom>
+					<edom>
+						<edomv>Kqmg</edomv>
+						<edomvd>Garnetiferous quartz monzonite of Pine Canyon</edomvd>
+					</edom>
+					<edom>
+						<edomv>Kqml</edomv>
+						<edomvd>Garnetiferous quartz monzonite of Little Sur and South Ventana Cone</edomvd>
+					</edom>
+					<edom>
+						<edomv>Kqmp</edomv>
+						<edomvd>Quartz monzonite of Pinyon Peak</edomvd>
+					</edom>
+					<edom>
+						<edomv>Kqmv</edomv>
+						<edomvd>Variable quartz monzonite-granodiorite of Big Pines and Island Mountain</edomvd>
+					</edom>
+					<edom>
+						<edomv>Ksc</edomv>
+						<edomvd>Steve Creek Formation</edomvd>
+					</edom>
+					<edom>
+						<edomv>Ksi</edomv>
+						<edomvd>Shut-in Formation</edomvd>
+					</edom>
+					<edom>
+						<edomv>Ks</edomv>
+						<edomvd>Unnamed sedimentary rocks, western facies</edomvd>
+					</edom>
+					<edom>
+						<edomv>KTg</edomv>
+						<edomvd>Marine clastic sedimentary rocks</edomvd>
+					</edom>
+					<edom>
+						<edomv>KTs</edomv>
+						<edomvd>Marine clastic sedimentary rocks</edomvd>
+					</edom>
+					<edom>
+						<edomv>Ku?</edomv>
+						<edomvd>Unnamed sedimentary rocks, eastern facies</edomvd>
+					</edom>
+					<edom>
+						<edomv>Ku</edomv>
+						<edomvd>Unnamed sedimentary rocks, eastern facies</edomvd>
+					</edom>
+					<edom>
+						<edomv>pKc</edomv>
+						<edomvd>Coast Ridge belt</edomvd>
+					</edom>
+					<edom>
+						<edomv>pKgg</edomv>
+						<edomvd>Graphitic gneiss</edomvd>
+					</edom>
+					<edom>
+						<edomv>pKg</edomv>
+						<edomvd>Graphitic and pyritic belt</edomvd>
+					</edom>
+					<edom>
+						<edomv>pKm</edomv>
+						<edomvd>Marble</edomvd>
+					</edom>
+					<edom>
+						<edomv>pKms</edomv>
+						<edomvd>Mica schist (Gabilan Range)</edomvd>
+					</edom>
+					<edom>
+						<edomv>pKp</edomv>
+						<edomvd>Peltic schist belt</edomvd>
+					</edom>
+					<edom>
+						<edomv>pKqf</edomv>
+						<edomvd>Quartzofeldspathic rocks</edomvd>
+					</edom>
+					<edom>
+						<edomv>pKq</edomv>
+						<edomvd>Quartzite</edomvd>
+					</edom>
+					<edom>
+						<edomv>Qa?</edomv>
+						<edomvd>Aromas Sand, undifferentiated?</edomvd>
+					</edom>
+					<edom>
+						<edomv>Qa</edomv>
+						<edomvd>Aromas Sand, undifferentiated</edomvd>
+					</edom>
+					<edom>
+						<edomv>Qae</edomv>
+						<edomvd>Aromas Sand, eolian facies</edomvd>
+					</edom>
+					<edom>
+						<edomv>Qaf?</edomv>
+						<edomvd>Aromas Sand, fluvial facies?</edomvd>
+					</edom>
+					<edom>
+						<edomv>Qaf</edomv>
+						<edomvd>Aromas Sand, fluvial facies</edomvd>
+					</edom>
+					<edom>
+						<edomv>Qal?</edomv>
+						<edomvd>Alluvial deposits, undifferentiated?</edomvd>
+					</edom>
+					<edom>
+						<edomv>Qal</edomv>
+						<edomvd>Alluvial deposits, undifferentiated</edomvd>
+					</edom>
+					<edom>
+						<edomv>Qan1?</edomv>
+						<edomvd>Terrace deposits of Antioch, youngest terrace surface?</edomvd>
+					</edom>
+					<edom>
+						<edomv>Qan1</edomv>
+						<edomvd>Terrace deposits of Antioch, youngest terrace surface</edomvd>
+					</edom>
+					<edom>
+						<edomv>Qan2?</edomv>
+						<edomvd>Terrace deposits of Antioch, middle terrace surface?</edomvd>
+					</edom>
+					<edom>
+						<edomv>Qan2</edomv>
+						<edomvd>Terrace deposits of Antioch, middle terrace surface</edomvd>
+					</edom>
+					<edom>
+						<edomv>Qan3?</edomv>
+						<edomvd>Terrace deposits of Antioch, oldest terrace surface?</edomvd>
+					</edom>
+					<edom>
+						<edomv>Qan3</edomv>
+						<edomvd>Terrace deposits of Antioch, oldest terrace surface</edomvd>
+					</edom>
+					<edom>
+						<edomv>Qan?</edomv>
+						<edomvd>Terrace deposits of Antioch?</edomvd>
+					</edom>
+					<edom>
+						<edomv>Qan</edomv>
+						<edomvd>Terrace deposits of Antioch</edomvd>
+					</edom>
+					<edom>
+						<edomv>Qb?</edomv>
+						<edomvd>Basin deposits</edomvd>
+					</edom>
+					<edom>
+						<edomv>Qb</edomv>
+						<edomvd>Basin deposits</edomvd>
+					</edom>
+					<edom>
+						<edomv>Qbs</edomv>
+						<edomvd>Beach sand</edomvd>
+					</edom>
+					<edom>
+						<edomv>Qc?</edomv>
+						<edomvd>Colluvium?</edomvd>
+					</edom>
+					<edom>
+						<edomv>Qc</edomv>
+						<edomvd>Colluvium</edomvd>
+					</edom>
+					<edom>
+						<edomv>Qcf?</edomv>
+						<edomvd>Channel-fill deposits?</edomvd>
+					</edom>
+					<edom>
+						<edomv>Qcf</edomv>
+						<edomvd>Channel-fill deposits</edomvd>
+					</edom>
+					<edom>
+						<edomv>Qch?</edomv>
+						<edomvd>Alluvial fan deposits of Chualar?</edomvd>
+					</edom>
+					<edom>
+						<edomv>Qch</edomv>
+						<edomvd>Alluvial fan deposits of Chualar</edomvd>
+					</edom>
+					<edom>
+						<edomv>Qct?</edomv>
+						<edomvd>Coastal terraces, undifferentiated?</edomvd>
+					</edom>
+					<edom>
+						<edomv>Qcta?</edomv>
+						<edomvd>Terrace A surface?</edomvd>
+					</edom>
+					<edom>
+						<edomv>Qcta</edomv>
+						<edomvd>Terrace A surface</edomvd>
+					</edom>
+					<edom>
+						<edomv>Qctb?</edomv>
+						<edomvd>Terrace B surface?</edomvd>
+					</edom>
+					<edom>
+						<edomv>Qctb</edomv>
+						<edomvd>Terrace B surface</edomvd>
+					</edom>
+					<edom>
+						<edomv>Qctc?</edomv>
+						<edomvd>Terrace C surface?</edomvd>
+					</edom>
+					<edom>
+						<edomv>Qct</edomv>
+						<edomvd>Coastal terraces, undifferentiated</edomvd>
+					</edom>
+					<edom>
+						<edomv>Qctc</edomv>
+						<edomvd>Terrace C surface</edomvd>
+					</edom>
+					<edom>
+						<edomv>Qcth</edomv>
+						<edomvd>Huckleberry coastal terrace</edomvd>
+					</edom>
+					<edom>
+						<edomv>Qctl?</edomv>
+						<edomvd>Lighthouse coastal terrace?</edomvd>
+					</edom>
+					<edom>
+						<edomv>Qctl</edomv>
+						<edomvd>Lighthouse coastal terrace</edomvd>
+					</edom>
+					<edom>
+						<edomv>Qctm?</edomv>
+						<edomvd>Monte Vista coastal terrace?</edomvd>
+					</edom>
+					<edom>
+						<edomv>Qctm</edomv>
+						<edomvd>Monte Vista coastal terrace</edomvd>
+					</edom>
+					<edom>
+						<edomv>Qcto?</edomv>
+						<edomvd>Ocean View coastal terrace?</edomvd>
+					</edom>
+					<edom>
+						<edomv>Qcto</edomv>
+						<edomvd>Ocean View coastal terrace</edomvd>
+					</edom>
+					<edom>
+						<edomv>Qctp?</edomv>
+						<edomvd>Peninsula College coastal terrace?</edomvd>
+					</edom>
+					<edom>
+						<edomv>Qctp</edomv>
+						<edomvd>Peninsula College coastal terrace</edomvd>
+					</edom>
+					<edom>
+						<edomv>Qcts?</edomv>
+						<edomvd>Sylvan coastal terrace?</edomvd>
+					</edom>
+					<edom>
+						<edomv>Qcts</edomv>
+						<edomvd>Sylvan coastal terrace</edomvd>
+					</edom>
+					<edom>
+						<edomv>Qds?</edomv>
+						<edomvd>Dune sand?</edomvd>
+					</edom>
+					<edom>
+						<edomv>Qds</edomv>
+						<edomvd>Dune sand</edomvd>
+					</edom>
+					<edom>
+						<edomv>Qe</edomv>
+						<edomvd>Eolian deposits</edomvd>
+					</edom>
+					<edom>
+						<edomv>Qem?</edomv>
+						<edomvd>Eolian deposits of Manressa Beach?</edomvd>
+					</edom>
+					<edom>
+						<edomv>Qem</edomv>
+						<edomvd>Eolian deposits of Manressa Beach</edomvd>
+					</edom>
+					<edom>
+						<edomv>Qfd</edomv>
+						<edomvd>Flandrian dune deposits</edomvd>
+					</edom>
+					<edom>
+						<edomv>Qfl</edomv>
+						<edomvd>Artificial fill</edomvd>
+					</edom>
+					<edom>
+						<edomv>Qfp?</edomv>
+						<edomvd>Flood-plain deposits, undifferentiated?</edomvd>
+					</edom>
+					<edom>
+						<edomv>Qfp</edomv>
+						<edomvd>Flood-plain deposits, undifferentiated</edomvd>
+					</edom>
+					<edom>
+						<edomv>Qfpl</edomv>
+						<edomvd>Alluvial fans, late Pleistocene</edomvd>
+					</edom>
+					<edom>
+						<edomv>Qfpm?</edomv>
+						<edomvd>Alluvial fans, middle Pleistocene?</edomvd>
+					</edom>
+					<edom>
+						<edomv>Qfpm</edomv>
+						<edomvd>Alluvial fans, middle Pleistocene</edomvd>
+					</edom>
+					<edom>
+						<edomv>Qfu?</edomv>
+						<edomvd>Pleistocene alluvial fans, undifferentiated?</edomvd>
+					</edom>
+					<edom>
+						<edomv>Qfu</edomv>
+						<edomvd>Pleistocene alluvial fans, undifferentiated</edomvd>
+					</edom>
+					<edom>
+						<edomv>Qgl?</edomv>
+						<edomvd>Alluvial fan deposits of Gloria?</edomvd>
+					</edom>
+					<edom>
+						<edomv>Qgl</edomv>
+						<edomvd>Alluvial fan deposits of Gloria</edomvd>
+					</edom>
+					<edom>
+						<edomv>Qhf?</edomv>
+						<edomvd>Holocene alluvial fan deposits?</edomvd>
+					</edom>
+					<edom>
+						<edomv>Qhf</edomv>
+						<edomvd>Holocene alluvial fan deposits</edomvd>
+					</edom>
+					<edom>
+						<edomv>Qls?</edomv>
+						<edomvd>Landslide deposits</edomvd>
+					</edom>
+					<edom>
+						<edomv>Qls</edomv>
+						<edomvd>Landslide deposits</edomvd>
+					</edom>
+					<edom>
+						<edomv>Qod1?</edomv>
+						<edomvd>Older coastal dunes, younger?</edomvd>
+					</edom>
+					<edom>
+						<edomv>Qod1</edomv>
+						<edomvd>Older coastal dunes, younger</edomvd>
+					</edom>
+					<edom>
+						<edomv>Qod2?</edomv>
+						<edomvd>Older coastal dunes, older?</edomvd>
+					</edom>
+					<edom>
+						<edomv>Qod2</edomv>
+						<edomvd>Older coastal dunes, older</edomvd>
+					</edom>
+					<edom>
+						<edomv>Qod?</edomv>
+						<edomvd>Older coastal dunes?</edomvd>
+					</edom>
+					<edom>
+						<edomv>Qod</edomv>
+						<edomvd>Older coastal dunes</edomvd>
+					</edom>
+					<edom>
+						<edomv>Qoe?</edomv>
+						<edomvd>Older eolian deposits?</edomvd>
+					</edom>
+					<edom>
+						<edomv>Qoe</edomv>
+						<edomvd>Older eolian deposits</edomvd>
+					</edom>
+					<edom>
+						<edomv>Qof?</edomv>
+						<edomvd>Older flood-plain deposits?</edomvd>
+					</edom>
+					<edom>
+						<edomv>Qof</edomv>
+						<edomvd>Older flood-plain deposits</edomvd>
+					</edom>
+					<edom>
+						<edomv>Qp?</edomv>
+						<edomvd>Alluvial fan deposits of Placentia?</edomvd>
+					</edom>
+					<edom>
+						<edomv>Qp</edomv>
+						<edomvd>Alluvial fan deposits of Placentia</edomvd>
+					</edom>
+					<edom>
+						<edomv>Qsc?</edomv>
+						<edomvd>Stream channel deposits?</edomvd>
+					</edom>
+					<edom>
+						<edomv>Qscp?</edomv>
+						<edomvd>Sandstone and conglomerate?</edomvd>
+					</edom>
+					<edom>
+						<edomv>Qscp</edomv>
+						<edomvd>Sandstone and conglomerate</edomvd>
+					</edom>
+					<edom>
+						<edomv>Qsc</edomv>
+						<edomvd>Stream channel deposits</edomvd>
+					</edom>
+					<edom>
+						<edomv>Qt?</edomv>
+						<edomvd>Terrace deposits, undifferentiated?</edomvd>
+					</edom>
+					<edom>
+						<edomv>QTc?</edomv>
+						<edomvd>Continental deposits?</edomvd>
+					</edom>
+					<edom>
+						<edomv>QTcb</edomv>
+						<edomvd>Basalt of Crystal Knob</edomvd>
+					</edom>
+					<edom>
+						<edomv>QTc</edomv>
+						<edomvd>Continental deposits</edomvd>
+					</edom>
+					<edom>
+						<edomv>QTcl</edomv>
+						<edomvd>Paso Robles Formation, clay</edomvd>
+					</edom>
+					<edom>
+						<edomv>QTcs</edomv>
+						<edomvd>Sedimentary rocks of Crystal Knob</edomvd>
+					</edom>
+					<edom>
+						<edomv>QTg</edomv>
+						<edomvd>Paso Robles Formation, gravel</edomvd>
+					</edom>
+					<edom>
+						<edomv>QTh</edomv>
+						<edomvd>Hans Grieve Formation</edomvd>
+					</edom>
+					<edom>
+						<edomv>Qtlp</edomv>
+						<edomvd>Fluvial terrace deposits, late Pleistocene</edomvd>
+					</edom>
+					<edom>
+						<edomv>QTm</edomv>
+						<edomvd>Paso Robles Formation, marl</edomvd>
+					</edom>
+					<edom>
+						<edomv>QTp?</edomv>
+						<edomvd>Paso Robles Formation, undifferentiated?</edomvd>
+					</edom>
+					<edom>
+						<edomv>QTpc</edomv>
+						<edomvd>Paso Robles Formation, clay and gravel</edomvd>
+					</edom>
+					<edom>
+						<edomv>QTp</edomv>
+						<edomvd>Paso Robles Formation, undifferentiated</edomvd>
+					</edom>
+					<edom>
+						<edomv>Qt</edomv>
+						<edomvd>Terrace deposits, undifferentiated</edomvd>
+					</edom>
+					<edom>
+						<edomv>QTv?</edomv>
+						<edomvd>Varian Ranch beds</edomvd>
+					</edom>
+					<edom>
+						<edomv>QTv</edomv>
+						<edomvd>Varian Ranch beds</edomvd>
+					</edom>
+					<edom>
+						<edomv>Qwf?</edomv>
+						<edomvd>Terrace deposits of Watsonville?</edomvd>
+					</edom>
+					<edom>
+						<edomv>Qwf</edomv>
+						<edomvd>Terrace deposits of Watsonville</edomvd>
+					</edom>
+					<edom>
+						<edomv>Qyf?</edomv>
+						<edomvd>Younger flood-plain deposits?</edomvd>
+					</edom>
+					<edom>
+						<edomv>Qyfa</edomv>
+						<edomvd>Younger flood-plain deposits, thin veneer</edomvd>
+					</edom>
+					<edom>
+						<edomv>Qyf</edomv>
+						<edomvd>Younger flood-plain deposits</edomvd>
+					</edom>
+					<edom>
+						<edomv>Ta</edomv>
+						<edomvd>Avenal Sandstone</edomvd>
+					</edom>
+					<edom>
+						<edomv>Tbe</edomv>
+						<edomvd>Berry Formation</edomvd>
+					</edom>
+					<edom>
+						<edomv>Tc?</edomv>
+						<edomvd>Carmelo Formation?</edomvd>
+					</edom>
+					<edom>
+						<edomv>Tc</edomv>
+						<edomvd>Carmelo Formation</edomvd>
+					</edom>
+					<edom>
+						<edomv>Tcc</edomv>
+						<edomvd>Church Creek Formation</edomvd>
+					</edom>
+					<edom>
+						<edomv>Tcg</edomv>
+						<edomvd>Unnamed clastic sediments, sandstone and conglomerate</edomvd>
+					</edom>
+					<edom>
+						<edomv>Tcs</edomv>
+						<edomvd>Church Creek Formation</edomvd>
+					</edom>
+					<edom>
+						<edomv>Te?</edomv>
+						<edomvd>Etchegoin Formation</edomvd>
+					</edom>
+					<edom>
+						<edomv>Te</edomv>
+						<edomvd>Etchegoin Formation</edomvd>
+					</edom>
+					<edom>
+						<edomv>Tj?</edomv>
+						<edomvd>Junipero Sandstone?</edomvd>
+					</edom>
+					<edom>
+						<edomv>Tj</edomv>
+						<edomvd>Junipero Sandstone</edomvd>
+					</edom>
+					<edom>
+						<edomv>Tl</edomv>
+						<edomvd>Lucia Shale</edomvd>
+					</edom>
+					<edom>
+						<edomv>Tm?</edomv>
+						<edomvd>Monterey Formation, siliceous?</edomvd>
+					</edom>
+					<edom>
+						<edomv>Tmc?</edomv>
+						<edomvd>Monterey Formation, clay shale?</edomvd>
+					</edom>
+					<edom>
+						<edomv>Tmc</edomv>
+						<edomvd>Monterey Formation, clay shale</edomvd>
+					</edom>
+					<edom>
+						<edomv>Tmdi</edomv>
+						<edomvd>Monterey Formation, diatomite</edomvd>
+					</edom>
+					<edom>
+						<edomv>Tmd</edomv>
+						<edomvd>Monterey Formation, Devilwater member</edomvd>
+					</edom>
+					<edom>
+						<edomv>Tmi</edomv>
+						<edomvd>Monterey Formation, siltstone</edomvd>
+					</edom>
+					<edom>
+						<edomv>Tml</edomv>
+						<edomvd>Monterey Formation, semi-siliceous</edomvd>
+					</edom>
+					<edom>
+						<edomv>Tm</edomv>
+						<edomvd>Monterey Formation, siliceous</edomvd>
+					</edom>
+					<edom>
+						<edomv>Tms</edomv>
+						<edomvd>Unnamed clastic sediments, marine sandstone</edomvd>
+					</edom>
+					<edom>
+						<edomv>Tnt</edomv>
+						<edomvd>Unnamed red beds of upper Tularcitos Canyon</edomvd>
+					</edom>
+					<edom>
+						<edomv>Tn</edomv>
+						<edomvd>Unnamed clastic sediments, red beds</edomvd>
+					</edom>
+					<edom>
+						<edomv>Tpa</edomv>
+						<edomvd>Piedras Altas Formation</edomvd>
+					</edom>
+					<edom>
+						<edomv>Tpd</edomv>
+						<edomvd>Pancho Rico Formation</edomvd>
+					</edom>
+					<edom>
+						<edomv>Tpi</edomv>
+						<edomvd>Pancho Rico Formation</edomvd>
+					</edom>
+					<edom>
+						<edomv>Tpo?</edomv>
+						<edomvd>Pancho Rico Formation, mudstone?</edomvd>
+					</edom>
+					<edom>
+						<edomv>Tpo</edomv>
+						<edomvd>Pancho Rico Formation, mudstone</edomvd>
+					</edom>
+					<edom>
+						<edomv>Tpr</edomv>
+						<edomvd>Point of Rocks Sandstone</edomvd>
+					</edom>
+					<edom>
+						<edomv>Tps</edomv>
+						<edomvd>Pancho Rico Formation</edomvd>
+					</edom>
+					<edom>
+						<edomv>Trb</edomv>
+						<edomvd>Red beds</edomvd>
+					</edom>
+					<edom>
+						<edomv>Trc</edomv>
+						<edomvd>Reliz Canyon Formation, unnamed conglomerate</edomvd>
+					</edom>
+					<edom>
+						<edomv>Tr</edomv>
+						<edomvd>Reliz Canyon Formation</edomvd>
+					</edom>
+					<edom>
+						<edomv>Trr</edomv>
+						<edomvd>Reef Ridge Shale</edomvd>
+					</edom>
+					<edom>
+						<edomv>Tsg</edomv>
+						<edomvd>Unnamed conglomerate and sandstone</edomvd>
+					</edom>
+					<edom>
+						<edomv>Tsh</edomv>
+						<edomvd>Unnamed marine sandstone, clay shale</edomvd>
+					</edom>
+					<edom>
+						<edomv>Tsm?</edomv>
+						<edomvd>Santa Margarita Sandstone?</edomvd>
+					</edom>
+					<edom>
+						<edomv>Tsm</edomv>
+						<edomvd>Santa Margarita Sandstone</edomvd>
+					</edom>
+					<edom>
+						<edomv>Tss</edomv>
+						<edomvd>Unnamed marine sandstone</edomvd>
+					</edom>
+					<edom>
+						<edomv>Ttj</edomv>
+						<edomvd>Tejon Formation</edomvd>
+					</edom>
+					<edom>
+						<edomv>Ttr</edomv>
+						<edomvd>The Rocks Sandstone</edomvd>
+					</edom>
+					<edom>
+						<edomv>Tts?</edomv>
+						<edomvd>Marine sandstone?</edomvd>
+					</edom>
+					<edom>
+						<edomv>Tts</edomv>
+						<edomvd>Marine sandstone</edomvd>
+					</edom>
+					<edom>
+						<edomv>Tt</edomv>
+						<edomvd>Temblor Sandstone</edomvd>
+					</edom>
+					<edom>
+						<edomv>Tucc</edomv>
+						<edomvd>Unnamed clastic sedimentary unit</edomvd>
+					</edom>
+					<edom>
+						<edomv>Tucg</edomv>
+						<edomvd>Unnamed clastic sedimentary unit</edomvd>
+					</edom>
+					<edom>
+						<edomv>Tucs?</edomv>
+						<edomvd>Unnamed clastic sedimentary unit?</edomvd>
+					</edom>
+					<edom>
+						<edomv>Tucs</edomv>
+						<edomvd>Unnamed clastic sedimentary unit</edomvd>
+					</edom>
+					<edom>
+						<edomv>Tuc</edomv>
+						<edomvd>Unnamed conglomerate</edomvd>
+					</edom>
+					<edom>
+						<edomv>Tuss</edomv>
+						<edomvd>Unnamed sandstone, undifferentiated</edomvd>
+					</edom>
+					<edom>
+						<edomv>Tus</edomv>
+						<edomvd>Unnamed sandstone</edomvd>
+					</edom>
+					<edom>
+						<edomv>Tva</edomv>
+						<edomvd>Basaltic andesite</edomvd>
+					</edom>
+					<edom>
+						<edomv>Tvb</edomv>
+						<edomvd>Olivine basalt</edomvd>
+					</edom>
+					<edom>
+						<edomv>Tvd?</edomv>
+						<edomvd>Dacitic felsite?</edomvd>
+					</edom>
+					<edom>
+						<edomv>Tvd</edomv>
+						<edomvd>Dacitic felsite</edomvd>
+					</edom>
+					<edom>
+						<edomv>Tvg</edomv>
+						<edomvd>Vaqueros Formation</edomvd>
+					</edom>
+					<edom>
+						<edomv>Tvp</edomv>
+						<edomvd>Pinnacles Formation</edomvd>
+					</edom>
+					<edom>
+						<edomv>Tvq?</edomv>
+						<edomvd>Vaqueros Formation?</edomvd>
+					</edom>
+					<edom>
+						<edomv>Tvq</edomv>
+						<edomvd>Vaqueros Formation</edomvd>
+					</edom>
+					<edom>
+						<edomv>Tvr</edomv>
+						<edomvd>Rhyolite breccia and obsidian</edomvd>
+					</edom>
+					<edom>
+						<edomv>Tvt?</edomv>
+						<edomvd>Vaqueros Formation?</edomvd>
+					</edom>
+					<edom>
+						<edomv>Tvt</edomv>
+						<edomvd>Vaqueros Formation</edomvd>
+					</edom>
+				</attrdomv>
+				<attalias Sync="TRUE">DET_LAB</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">16</attwidth></attr>
+			<attr>
+				<attrlabl Sync="TRUE">CLASS</attrlabl>
+				<attrdef>Rock type</attrdef>
+				<attrdefs>author</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>sedimentary</edomv>
+						<edomvd>sedimentary rock</edomvd>
+						<edomvds>author</edomvds>
+					</edom>
+					<edom>
+						<edomv>metamorphic</edomv>
+						<edomvd>metamorphic rock</edomvd>
+						<edomvds>author</edomvds>
+					</edom>
+					<edom>
+						<edomv>igneous</edomv>
+						<edomvd>igneous rock</edomvd>
+						<edomvds>author</edomvds>
+					</edom>
+				</attrdomv>
+				<attalias Sync="TRUE">CLASS</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">11</attwidth></attr>
+			<attr>
+				<attrlabl Sync="TRUE">LITHOLOGY</attrlabl>
+				<attrdef>Main lithologic characteristic</attrdef>
+				<attrdefs>author</attrdefs>
+				<attalias Sync="TRUE">LITHOLOGY</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">21</attwidth></attr>
+			<attr>
+				<attrlabl Sync="TRUE">DET_NAME</attrlabl>
+				<attrdef>Detailed name designed for 1:24,000 scale mapping</attrdef>
+				<attrdefs>author</attrdefs>
+				<attrdomv>
+					<udom>see enumerated domain for "det_lab" for definition</udom>
+				</attrdomv>
+				<attalias Sync="TRUE">DET_NAME</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">71</attwidth></attr>
+			<attr>
+				<attrlabl Sync="TRUE">GEN_NAME</attrlabl>
+				<attrdef>Generalized name designed for scales less detailed than 1:24,000 scale mapping</attrdef>
+				<attrdomv>
+					<udom>see enumerated domain for "gen_lab" for definition</udom>
+				</attrdomv>
+				<attalias Sync="TRUE">GEN_NAME</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">71</attwidth></attr>
+			<attr>
+				<attrlabl Sync="TRUE">GEN_LAB</attrlabl>
+				<attrdef>Generalized label designed for scales less detailed than 1:24,000 scale mapping</attrdef>
+				<attrdefs>author</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>Alluvial deposits, undifferentiated</edomv>
+						<edomvd>Qal</edomvd>
+					</edom>
+					<edom>
+						<edomv>Alluvial fan deposits, Holocene</edomv>
+						<edomvd>Qhf</edomvd>
+					</edom>
+					<edom>
+						<edomv>Alluvial fans, late Pleistocene</edomv>
+						<edomvd>Qfpl</edomvd>
+					</edom>
+					<edom>
+						<edomv>Alluvial fans, middle Pleistocene</edomv>
+						<edomvd>Qfpm</edomvd>
+					</edom>
+					<edom>
+						<edomv>Aplite, alaskite, and pegmatite</edomv>
+						<edomvd>Ka</edomvd>
+					</edom>
+					<edom>
+						<edomv>Aplitic granite</edomv>
+						<edomvd>Kag</edomvd>
+					</edom>
+					<edom>
+						<edomv>Aromas Sand, undifferentiated?</edomv>
+						<edomvd>Qa</edomvd>
+					</edom>
+					<edom>
+						<edomv>Aromas Sand, undifferentiated</edomv>
+						<edomvd>Qa</edomvd>
+					</edom>
+					<edom>
+						<edomv>Artificial fill</edomv>
+						<edomvd>Qfl</edomvd>
+					</edom>
+					<edom>
+						<edomv>Avenal Sandstone</edomv>
+						<edomvd>Ta</edomvd>
+					</edom>
+					<edom>
+						<edomv>Basalt of Crystal Knob</edomv>
+						<edomvd>QTcb</edomvd>
+					</edom>
+					<edom>
+						<edomv>Basaltic andesite</edomv>
+						<edomvd>Tva</edomvd>
+					</edom>
+					<edom>
+						<edomv>Basin deposits</edomv>
+						<edomvd>Qb</edomvd>
+					</edom>
+					<edom>
+						<edomv>Beach sand</edomv>
+						<edomvd>Qbs</edomvd>
+					</edom>
+					<edom>
+						<edomv>Berry Formation</edomv>
+						<edomvd>Tbe</edomvd>
+					</edom>
+					<edom>
+						<edomv>Biotite tonalite</edomv>
+						<edomvd>Kbt</edomvd>
+					</edom>
+					<edom>
+						<edomv>Carmelo Formation</edomv>
+						<edomvd>Tc</edomvd>
+					</edom>
+					<edom>
+						<edomv>Charnockitic tonalite of Compton (1960)</edomv>
+						<edomvd>Kct</edomvd>
+					</edom>
+					<edom>
+						<edomv>Church Creek Formation</edomv>
+						<edomvd>Tcc</edomvd>
+					</edom>
+					<edom>
+						<edomv>Church Creek Formation</edomv>
+						<edomvd>Tcs</edomvd>
+					</edom>
+					<edom>
+						<edomv>Coast Ridge belt</edomv>
+						<edomvd>pKc</edomvd>
+					</edom>
+					<edom>
+						<edomv>Coastal terraces</edomv>
+						<edomvd>Qct</edomvd>
+					</edom>
+					<edom>
+						<edomv>Colluvium</edomv>
+						<edomvd>Qc</edomvd>
+					</edom>
+					<edom>
+						<edomv>Continental deposits, undifferentiated</edomv>
+						<edomvd>QTc</edomvd>
+					</edom>
+					<edom>
+						<edomv>Dacitic felsite</edomv>
+						<edomvd>Tvd</edomvd>
+					</edom>
+					<edom>
+						<edomv>Diabase and diorite</edomv>
+						<edomvd>Jd</edomvd>
+					</edom>
+					<edom>
+						<edomv>Diorite (Gabilan Range)</edomv>
+						<edomvd>Kd</edomvd>
+					</edom>
+					<edom>
+						<edomv>Dune deposits</edomv>
+						<edomvd>Qd</edomvd>
+					</edom>
+					<edom>
+						<edomv>El Piojo Formation</edomv>
+						<edomvd>Kep</edomvd>
+					</edom>
+					<edom>
+						<edomv>Eolian deposits</edomv>
+						<edomvd>Qe</edomvd>
+					</edom>
+					<edom>
+						<edomv>Etchegoin Formation</edomv>
+						<edomvd>Te</edomvd>
+					</edom>
+					<edom>
+						<edomv>Flood-plain deposits, undifferentiated?</edomv>
+						<edomvd>Qfp</edomvd>
+					</edom>
+					<edom>
+						<edomv>Flood-plain deposits, undifferentiated</edomv>
+						<edomvd>Qfp</edomvd>
+					</edom>
+					<edom>
+						<edomv>Fluvial terrace deposits, late Pleistocene</edomv>
+						<edomvd>Qtlp</edomvd>
+					</edom>
+					<edom>
+						<edomv>Fluvial terrace deposits, middle Pleistocene</edomv>
+						<edomvd>Qtmp</edomvd>
+					</edom>
+					<edom>
+						<edomv>Fluvial terrace deposits, undifferentiated</edomv>
+						<edomvd>Qt</edomvd>
+					</edom>
+					<edom>
+						<edomv>Franciscan complex, graywacke</edomv>
+						<edomvd>KJfs</edomvd>
+					</edom>
+					<edom>
+						<edomv>Franciscan complex, greenstone</edomv>
+						<edomvd>KJfv</edomvd>
+					</edom>
+					<edom>
+						<edomv>Franciscan complex, limestone</edomv>
+						<edomvd>KJfl</edomvd>
+					</edom>
+					<edom>
+						<edomv>Franciscan complex, melange</edomv>
+						<edomvd>KJfm</edomvd>
+					</edom>
+					<edom>
+						<edomv>Franciscan complex, undifferentiated</edomv>
+						<edomvd>KJf</edomvd>
+					</edom>
+					<edom>
+						<edomv>Gabbro and diorite (Santa Lucia Range)</edomv>
+						<edomvd>Kmi</edomvd>
+					</edom>
+					<edom>
+						<edomv>Garnetiferous quartz monzonite of Little Sur and South Ventana Cone</edomv>
+						<edomvd>Kqml</edomvd>
+					</edom>
+					<edom>
+						<edomv>Garnetiferous quartz monzonite of Pine Canyon</edomv>
+						<edomvd>Kqmg</edomvd>
+					</edom>
+					<edom>
+						<edomv>Gneissic quartz diorite of Stonewall Canyon</edomv>
+						<edomvd>Kqdg</edomvd>
+					</edom>
+					<edom>
+						<edomv>Granite of Jacks Hill</edomv>
+						<edomvd>Kgj</edomvd>
+					</edom>
+					<edom>
+						<edomv>Granitic rocks, undifferentiated</edomv>
+						<edomvd>Kgr</edomvd>
+					</edom>
+					<edom>
+						<edomv>Granodiorite of Cachagua</edomv>
+						<edomvd>Kgdc</edomvd>
+					</edom>
+					<edom>
+						<edomv>Granodiorite of Gloria Road</edomv>
+						<edomvd>Kgdg</edomvd>
+					</edom>
+					<edom>
+						<edomv>Granodiorite of Natividad</edomv>
+						<edomvd>Kgdn</edomvd>
+					</edom>
+					<edom>
+						<edomv>Granodiorite-quartz diorite of Bear Mountain</edomv>
+						<edomvd>Kgdb</edomvd>
+					</edom>
+					<edom>
+						<edomv>Graphitic and pyritic belt</edomv>
+						<edomvd>pKg</edomvd>
+					</edom>
+					<edom>
+						<edomv>Graphitic gneiss</edomv>
+						<edomvd>pKgg</edomvd>
+					</edom>
+					<edom>
+						<edomv>Gravelly Flat Formation</edomv>
+						<edomvd>Kgf</edomvd>
+					</edom>
+					<edom>
+						<edomv>Hans Grieve Formation</edomv>
+						<edomvd>QTh</edomvd>
+					</edom>
+					<edom>
+						<edomv>Heteregeneous granitic complex</edomv>
+						<edomvd>Kgh</edomvd>
+					</edom>
+					<edom>
+						<edomv>Hornblende quartz gabbro of Gold Hill</edomv>
+						<edomvd>Jhg</edomvd>
+					</edom>
+					<edom>
+						<edomv>Hornblende-biotite quartz diorite of Soberanes Point</edomv>
+						<edomvd>Kqds</edomvd>
+					</edom>
+					<edom>
+						<edomv>Hornblende-biotite quartz diorite of the Paraiso-Paloma area</edomv>
+						<edomvd>Kqdp</edomvd>
+					</edom>
+					<edom>
+						<edomv>Hornblende-biotite quartz diorite-diorite of Corral de Tierra</edomv>
+						<edomvd>Kqdc</edomvd>
+					</edom>
+					<edom>
+						<edomv>Italian Flat Formation</edomv>
+						<edomvd>Kif</edomvd>
+					</edom>
+					<edom>
+						<edomv>Junipero Sandstone</edomv>
+						<edomvd>Tj</edomvd>
+					</edom>
+					<edom>
+						<edomv>Landslide deposits</edomv>
+						<edomvd>Qls</edomvd>
+					</edom>
+					<edom>
+						<edomv>Lucia Shale</edomv>
+						<edomvd>Tl</edomvd>
+					</edom>
+					<edom>
+						<edomv>Mafic volcanic rocks</edomv>
+						<edomvd>Jv</edomvd>
+					</edom>
+					<edom>
+						<edomv>Marble</edomv>
+						<edomvd>pKm</edomvd>
+					</edom>
+					<edom>
+						<edomv>Marine clastic sedimentary rocks</edomv>
+						<edomvd>KTg</edomvd>
+					</edom>
+					<edom>
+						<edomv>Marine clastic sedimentary rocks</edomv>
+						<edomvd>KTs</edomvd>
+					</edom>
+					<edom>
+						<edomv>Marine sandstone</edomv>
+						<edomvd>Tts</edomvd>
+					</edom>
+					<edom>
+						<edomv>Mica schist (Gabilan Range)</edomv>
+						<edomvd>pKms</edomvd>
+					</edom>
+					<edom>
+						<edomv>Monterey Formation, clay shale</edomv>
+						<edomvd>Tmc</edomvd>
+					</edom>
+					<edom>
+						<edomv>Monterey Formation, Devilwater member</edomv>
+						<edomvd>Tmd</edomvd>
+					</edom>
+					<edom>
+						<edomv>Monterey Formation, semi-siliceous</edomv>
+						<edomvd>Tml</edomvd>
+					</edom>
+					<edom>
+						<edomv>Monterey Formation, siliceous</edomv>
+						<edomvd>Tm</edomvd>
+					</edom>
+					<edom>
+						<edomv>Monterey Formation, siltstone</edomv>
+						<edomvd>Tmi</edomvd>
+					</edom>
+					<edom>
+						<edomv>Monterey Formation</edomv>
+						<edomvd>Tmdi</edomvd>
+					</edom>
+					<edom>
+						<edomv>Olivine basalt</edomv>
+						<edomvd>Tvb</edomvd>
+					</edom>
+					<edom>
+						<edomv>Pancho Rico Formation, mudstone</edomv>
+						<edomvd>Tpo</edomvd>
+					</edom>
+					<edom>
+						<edomv>Pancho Rico Formation</edomv>
+						<edomvd>Tpd</edomvd>
+					</edom>
+					<edom>
+						<edomv>Pancho Rico Formation</edomv>
+						<edomvd>Tpi</edomvd>
+					</edom>
+					<edom>
+						<edomv>Pancho Rico Formation</edomv>
+						<edomvd>Tps</edomvd>
+					</edom>
+					<edom>
+						<edomv>Panoche Formation</edomv>
+						<edomvd>Kp</edomvd>
+					</edom>
+					<edom>
+						<edomv>Paso Robles Formation, clay and gravel</edomv>
+						<edomvd>QTpc</edomvd>
+					</edom>
+					<edom>
+						<edomv>Paso Robles Formation, undifferentiated</edomv>
+						<edomvd>QTp</edomvd>
+					</edom>
+					<edom>
+						<edomv>Paso Robles Formation</edomv>
+						<edomvd>QTcl</edomvd>
+					</edom>
+					<edom>
+						<edomv>Paso Robles Formation</edomv>
+						<edomvd>QTg</edomvd>
+					</edom>
+					<edom>
+						<edomv>Paso Robles Formation</edomv>
+						<edomvd>QTm</edomvd>
+					</edom>
+					<edom>
+						<edomv>Peltic schist belt</edomv>
+						<edomvd>pKp</edomvd>
+					</edom>
+					<edom>
+						<edomv>Piedras Altas Formation</edomv>
+						<edomvd>Tpa</edomvd>
+					</edom>
+					<edom>
+						<edomv>Pinnacles Formation</edomv>
+						<edomvd>Tvp</edomvd>
+					</edom>
+					<edom>
+						<edomv>Pleistocene alluvial fans, undifferentiated</edomv>
+						<edomvd>Qfu</edomvd>
+					</edom>
+					<edom>
+						<edomv>Point of Rocks Sandstone</edomv>
+						<edomvd>Tpr</edomvd>
+					</edom>
+					<edom>
+						<edomv>Porphyritic granodiorite of Junipero Serra Peak</edomv>
+						<edomvd>Kgdj</edomvd>
+					</edom>
+					<edom>
+						<edomv>Porphyritic granodiorite of Monterey</edomv>
+						<edomvd>Kgdm</edomvd>
+					</edom>
+					<edom>
+						<edomv>Porphyritic granodiorite of Sand Creek</edomv>
+						<edomvd>Kgds</edomvd>
+					</edom>
+					<edom>
+						<edomv>Quartz diorite of Vergeles</edomv>
+						<edomvd>Kqdv</edomvd>
+					</edom>
+					<edom>
+						<edomv>Quartz diorite-granodiorite of Johnson Canyon</edomv>
+						<edomvd>Kqdj</edomvd>
+					</edom>
+					<edom>
+						<edomv>Quartz monzonite of Bickmore Canyon</edomv>
+						<edomvd>Kqmb</edomvd>
+					</edom>
+					<edom>
+						<edomv>Quartz monzonite of Fremont Peak</edomv>
+						<edomvd>Kqmf</edomvd>
+					</edom>
+					<edom>
+						<edomv>Quartz monzonite of Pinyon Peak</edomv>
+						<edomvd>Kqmp</edomvd>
+					</edom>
+					<edom>
+						<edomv>Quartzite</edomv>
+						<edomvd>pKq</edomvd>
+					</edom>
+					<edom>
+						<edomv>Quartzofeldspathic rocks</edomv>
+						<edomvd>pKqf</edomvd>
+					</edom>
+					<edom>
+						<edomv>Radiolarian chert</edomv>
+						<edomvd>Jc</edomvd>
+					</edom>
+					<edom>
+						<edomv>Red beds</edomv>
+						<edomvd>Trb</edomvd>
+					</edom>
+					<edom>
+						<edomv>Reef Ridge Shale</edomv>
+						<edomvd>Trr</edomvd>
+					</edom>
+					<edom>
+						<edomv>Reliz Canyon Formation, unnamed conglomerate</edomv>
+						<edomvd>Trc</edomvd>
+					</edom>
+					<edom>
+						<edomv>Reliz Canyon Formation</edomv>
+						<edomvd>Tr</edomvd>
+					</edom>
+					<edom>
+						<edomv>Rhyolite breccia and obsidian</edomv>
+						<edomvd>Tvr</edomvd>
+					</edom>
+					<edom>
+						<edomv>Sandstone and conglomerate</edomv>
+						<edomvd>Qscp</edomvd>
+					</edom>
+					<edom>
+						<edomv>Santa Margarita Sandstone</edomv>
+						<edomvd>Tsm</edomvd>
+					</edom>
+					<edom>
+						<edomv>Schist of Sierra de Salinas</edomv>
+						<edomvd>Kms</edomvd>
+					</edom>
+					<edom>
+						<edomv>Sedimentary rocks of Crystal Knob</edomv>
+						<edomvd>QTcs</edomvd>
+					</edom>
+					<edom>
+						<edomv>Serpentinite</edomv>
+						<edomvd>Jsp</edomvd>
+					</edom>
+					<edom>
+						<edomv>Shut-in Formation</edomv>
+						<edomvd>Ksi</edomvd>
+					</edom>
+					<edom>
+						<edomv>Steve Creek Formation</edomv>
+						<edomvd>Ksc</edomvd>
+					</edom>
+					<edom>
+						<edomv>Stream channel deposits</edomv>
+						<edomvd>Qsc</edomvd>
+					</edom>
+					<edom>
+						<edomv>Tejon Formation</edomv>
+						<edomvd>Ttj</edomvd>
+					</edom>
+					<edom>
+						<edomv>Temblor Sandstone</edomv>
+						<edomvd>Tt</edomvd>
+					</edom>
+					<edom>
+						<edomv>The Rocks Sandstone</edomv>
+						<edomvd>Ttr</edomvd>
+					</edom>
+					<edom>
+						<edomv>Toro Formation</edomv>
+						<edomvd>KJt</edomvd>
+					</edom>
+					<edom>
+						<edomv>Unnamed clastic sedimentary unit</edomv>
+						<edomvd>Tucc</edomvd>
+					</edom>
+					<edom>
+						<edomv>Unnamed clastic sedimentary unit</edomv>
+						<edomvd>Tucg</edomvd>
+					</edom>
+					<edom>
+						<edomv>Unnamed clastic sedimentary unit</edomv>
+						<edomvd>Tucs</edomvd>
+					</edom>
+					<edom>
+						<edomv>Unnamed clastic sediments, marine sandstone</edomv>
+						<edomvd>Tms</edomvd>
+					</edom>
+					<edom>
+						<edomv>Unnamed clastic sediments, red beds</edomv>
+						<edomvd>Tn</edomvd>
+					</edom>
+					<edom>
+						<edomv>Unnamed clastic sediments, red beds</edomv>
+						<edomvd>Tnt</edomvd>
+					</edom>
+					<edom>
+						<edomv>Unnamed clastic sediments, sandstone and conglomerate</edomv>
+						<edomvd>Tcg</edomvd>
+					</edom>
+					<edom>
+						<edomv>Unnamed clastic sediments</edomv>
+						<edomvd>Tms</edomvd>
+					</edom>
+					<edom>
+						<edomv>Unnamed conglomerate and sandstone</edomv>
+						<edomvd>Tcg</edomvd>
+					</edom>
+					<edom>
+						<edomv>Unnamed conglomerate and sandstone</edomv>
+						<edomvd>Tsg</edomvd>
+					</edom>
+					<edom>
+						<edomv>Unnamed marine sandstone, clay shale</edomv>
+						<edomvd>Tsh</edomvd>
+					</edom>
+					<edom>
+						<edomv>Unnamed marine sandstone</edomv>
+						<edomvd>Tss</edomvd>
+					</edom>
+					<edom>
+						<edomv>Unnamed sedimentary rocks, eastern facies</edomv>
+						<edomvd>Ku</edomvd>
+					</edom>
+					<edom>
+						<edomv>Unnamed sedimentary rocks, western facies</edomv>
+						<edomvd>Ks</edomvd>
+					</edom>
+					<edom>
+						<edomv>Vaqueros Formation</edomv>
+						<edomvd>Tvg</edomvd>
+					</edom>
+					<edom>
+						<edomv>Vaqueros Formation</edomv>
+						<edomvd>Tvq</edomvd>
+					</edom>
+					<edom>
+						<edomv>Vaqueros Formation</edomv>
+						<edomvd>Tvt</edomvd>
+					</edom>
+					<edom>
+						<edomv>Variable quartz monzonite-granodiorite of Big Pines and Island Mountain</edomv>
+						<edomvd>Kqmv</edomvd>
+					</edom>
+					<edom>
+						<edomv>Varian Ranch beds</edomv>
+						<edomvd>QTv</edomvd>
+					</edom>
+				</attrdomv>
+				<attalias Sync="TRUE">GEN_LAB</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">8</attwidth></attr>
+			<attr>
+				<attrlabl Sync="TRUE">ERA</attrlabl>
+				<attrdef>Geologic era</attrdef>
+				<attrdefs>author</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>Cenozoic</edomv>
+						<edomvd>Cenozoic era</edomvd>
+						<edomvds>author</edomvds>
+					</edom>
+					<edom>
+						<edomv>Mesozoic</edomv>
+						<edomvd>Mesozoic era</edomvd>
+						<edomvds>author</edomvds>
+					</edom>
+					<edom>
+						<edomv>Mesozoic or older</edomv>
+						<edomvd>Mesozoic era or older</edomvd>
+						<edomvds>author</edomvds>
+					</edom>
+					<edom>
+						<edomv>Cenozoic-Mesozoic</edomv>
+						<edomvd>Cenozoic-Mesozoic era</edomvd>
+						<edomvds>author</edomvds>
+					</edom>
+				</attrdomv>
+				<attalias Sync="TRUE">ERA</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">17</attwidth></attr>
+			<attr>
+				<attrlabl Sync="TRUE">PERIOD</attrlabl>
+				<attrdef>Geologic period</attrdef>
+				<attrdefs>author</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>Cretaceous</edomv>
+						<edomvd>Cretaceous period</edomvd>
+						<edomvds>author</edomvds>
+					</edom>
+					<edom>
+						<edomv>Cretaceous?</edomv>
+						<edomvd>Cretaceous period?</edomvd>
+						<edomvds>author</edomvds>
+					</edom>
+					<edom>
+						<edomv>Jurassic</edomv>
+						<edomvd>Jurassic period</edomvd>
+						<edomvds>author</edomvds>
+					</edom>
+					<edom>
+						<edomv>Jurassic-Cretaceous</edomv>
+						<edomvd>Jurassic-Cretaceous period</edomvd>
+						<edomvds>author</edomvds>
+					</edom>
+					<edom>
+						<edomv>Late Cretaceous</edomv>
+						<edomvd>Late Cretaceous period</edomvd>
+						<edomvds>author</edomvds>
+					</edom>
+					<edom>
+						<edomv>Late Jurassic</edomv>
+						<edomvd>Late Jurassic period</edomvd>
+						<edomvds>author</edomvds>
+					</edom>
+					<edom>
+						<edomv>Pre-Cretaceous</edomv>
+						<edomvd>older than Cretaceous period</edomvd>
+						<edomvds>author</edomvds>
+					</edom>
+					<edom>
+						<edomv>Quaternary</edomv>
+						<edomvd>Quaternary period</edomvd>
+						<edomvds>author</edomvds>
+					</edom>
+					<edom>
+						<edomv>Quaternary or Tertiary</edomv>
+						<edomvd>Quaternary or Tertiary period</edomvd>
+						<edomvds>author</edomvds>
+					</edom>
+					<edom>
+						<edomv>Quaternary-Tertiary</edomv>
+						<edomvd>Quaternary-Tertiary period</edomvd>
+						<edomvds>author</edomvds>
+					</edom>
+					<edom>
+						<edomv>Tertiary</edomv>
+						<edomvd>Tertiary period</edomvd>
+						<edomvds>author</edomvds>
+					</edom>
+					<edom>
+						<edomv>Paleocene-Upper Cretaceous</edomv>
+						<edomvd>Paleocene-Upper Cretaceous period</edomvd>
+						<edomvds>author</edomvds>
+					</edom>
+				</attrdomv>
+				<attalias Sync="TRUE">PERIOD</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">26</attwidth></attr>
+			<attr>
+				<attrlabl Sync="TRUE">EPOCH</attrlabl>
+				<attrdef>Geologic epoch</attrdef>
+				<attrdefs>author</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>Early Eocene</edomv>
+						<edomvd>Early Eocene epoch</edomvd>
+						<edomvds>author</edomvds>
+					</edom>
+					<edom>
+						<edomv>Early Pleistocene</edomv>
+						<edomvd>Early Pleistocene epoch</edomvd>
+						<edomvds>author</edomvds>
+					</edom>
+					<edom>
+						<edomv>Early to Middle Pleistocene</edomv>
+						<edomvd>Early to Middle Pleistocene epoch</edomvd>
+						<edomvds>author</edomvds>
+					</edom>
+					<edom>
+						<edomv>Eocene</edomv>
+						<edomvd>Eocene epoch</edomvd>
+						<edomvds>author</edomvds>
+					</edom>
+					<edom>
+						<edomv>Eocene or Paleocene</edomv>
+						<edomvd>Eocene or Paleocene epoch</edomvd>
+						<edomvds>author</edomvds>
+					</edom>
+					<edom>
+						<edomv>Holocene</edomv>
+						<edomvd>Holocene epoch</edomvd>
+						<edomvds>author</edomvds>
+					</edom>
+					<edom>
+						<edomv>Holocene-Pleistocene</edomv>
+						<edomvd>Holocene-Pleistocene epoch</edomvd>
+						<edomvds>author</edomvds>
+					</edom>
+					<edom>
+						<edomv>Late Holocene</edomv>
+						<edomvd>Late Holocene epoch</edomvd>
+						<edomvds>author</edomvds>
+					</edom>
+					<edom>
+						<edomv>Late Miocene</edomv>
+						<edomvd>Late Miocene epoch</edomvd>
+						<edomvds>author</edomvds>
+					</edom>
+					<edom>
+						<edomv>Late Miocene-Early Pliocene</edomv>
+						<edomvd>Late Miocene-Early Pliocene epoch</edomvd>
+						<edomvds>author</edomvds>
+					</edom>
+					<edom>
+						<edomv>late Oligocene-early Miocene</edomv>
+						<edomvd>late Oligocene-early Miocene epoch</edomvd>
+						<edomvds>author</edomvds>
+					</edom>
+					<edom>
+						<edomv>Late Pleistocene</edomv>
+						<edomvd>Late Pleistocene epoch</edomvd>
+						<edomvds>author</edomvds>
+					</edom>
+					<edom>
+						<edomv>Late-Middle Miocene</edomv>
+						<edomvd>Late-Middle Miocene epoch</edomvd>
+						<edomvds>author</edomvds>
+					</edom>
+					<edom>
+						<edomv>Lower Eocene</edomv>
+						<edomvd>Lower Eocene epoch</edomvd>
+						<edomvds>author</edomvds>
+					</edom>
+					<edom>
+						<edomv>Middle Eocene</edomv>
+						<edomvd>Middle Eocene epoch</edomvd>
+						<edomvds>author</edomvds>
+					</edom>
+					<edom>
+						<edomv>Middle Eocene to upper Paleocene</edomv>
+						<edomvd>Middle Eocene to upper Paleocene epoch</edomvd>
+						<edomvds>author</edomvds>
+					</edom>
+					<edom>
+						<edomv>Middle Miocene</edomv>
+						<edomvd>Middle Miocene epoch</edomvd>
+						<edomvds>author</edomvds>
+					</edom>
+					<edom>
+						<edomv>Middle Pleistocene</edomv>
+						<edomvd>Middle Pleistocene epoch</edomvd>
+						<edomvds>author</edomvds>
+					</edom>
+					<edom>
+						<edomv>Middle-Early(?) Miocene</edomv>
+						<edomvd>Middle-Early(?) Miocene epoch</edomvd>
+						<edomvds>author</edomvds>
+					</edom>
+					<edom>
+						<edomv>Middle-Late Miocene</edomv>
+						<edomvd>Middle-Late Miocene epoch</edomvd>
+						<edomvds>author</edomvds>
+					</edom>
+					<edom>
+						<edomv>Miocene</edomv>
+						<edomvd>Miocene epoch</edomvd>
+						<edomvds>author</edomvds>
+					</edom>
+					<edom>
+						<edomv>Oligocene</edomv>
+						<edomvd>Oligocene epoch</edomvd>
+						<edomvds>author</edomvds>
+					</edom>
+					<edom>
+						<edomv>Paleocene?</edomv>
+						<edomvd>Paleocene epoch?</edomvd>
+						<edomvds>author</edomvds>
+					</edom>
+					<edom>
+						<edomv>Pleistocene</edomv>
+						<edomvd>Pleistocene epoch</edomvd>
+						<edomvds>author</edomvds>
+					</edom>
+					<edom>
+						<edomv>Pleistocene or Pleistocene</edomv>
+						<edomvd>Pleistocene or Pleistocene epoch</edomvd>
+						<edomvds>author</edomvds>
+					</edom>
+					<edom>
+						<edomv>Pleistocene?</edomv>
+						<edomvd>Pleistocene epoch?</edomvd>
+						<edomvds>author</edomvds>
+					</edom>
+					<edom>
+						<edomv>Pliocene</edomv>
+						<edomvd>Pliocene epoch</edomvd>
+						<edomvds>author</edomvds>
+					</edom>
+					<edom>
+						<edomv>Pliocene-Pleistocene?</edomv>
+						<edomvd>Pliocene-Pleistocene epoch?</edomvd>
+						<edomvds>author</edomvds>
+					</edom>
+				</attrdomv>
+				<attalias Sync="TRUE">EPOCH</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">32</attwidth></attr>
+			<attr>
+				<attrlabl Sync="TRUE">LIQ_SUSC</attrlabl>
+				<attrdef>Relative liquefaction susceptiblity class</attrdef>
+				<attrdefs>author</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>High</edomv>
+						<edomvd>High liquefaction susceptibility</edomvd>
+						<edomvds>author</edomvds>
+					</edom>
+					<edom>
+						<edomv>Moderate</edomv>
+						<edomvd>Moderate liquefaction susceptibility</edomvd>
+						<edomvds>author</edomvds>
+					</edom>
+					<edom>
+						<edomv>Low</edomv>
+						<edomvd>Low liquefaction susceptibility</edomvd>
+						<edomvds>author</edomvds>
+					</edom>
+					<edom>
+						<edomv>Variable</edomv>
+						<edomvd>Variable liquefaction susceptibility</edomvd>
+						<edomvds>author</edomvds>
+					</edom>
+				</attrdomv>
+				<attalias Sync="TRUE">LIQ_SUSC</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">8</attwidth></attr>
+			<attr>
+				<attrlabl Sync="TRUE">STRENGTH</attrlabl>
+				<attrdef>Estimated rock strength class</attrdef>
+				<attrdefs>author</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>A</edomv>
+						<edomvd>Crystalline rocks and well-cemented sandstones</edomvd>
+						<edomvds>author</edomvds>
+					</edom>
+					<edom>
+						<edomv>B</edomv>
+						<edomvd>Unconsolidated and weakly cemented sandstones</edomvd>
+						<edomvds>author</edomvds>
+					</edom>
+					<edom>
+						<edomv>C</edomv>
+						<edomvd>Shales and clays</edomvd>
+						<edomvds>author</edomvds>
+					</edom>
+				</attrdomv>
+				<attalias Sync="TRUE">STRENGTH</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">5</attwidth></attr>
+			<attr><attrlabl Sync="TRUE">UBC</attrlabl><attalias Sync="TRUE">UBC</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">1</attwidth><attrdomv><edom><edomv>B</edomv><edomvd>Rock (shear wave velocity 2,500 to 5,000 feet/second)</edomvd><edomvds>ICBO, 1997</edomvds></edom><edom><edomv>C</edomv><edomvd>Very dense soil and soft rock (shear wave velocity 1,200 to 2,500 feet/second)</edomvd><edomvds>ICBO, 1997</edomvds></edom><edom><edomv>D</edomv><edomvd>Stiff soil profile (shear wave velocity 600 to 1,200 feet/second)</edomvd><edomvds>ICBO, 1997</edomvds></edom></attrdomv><attrdef>Estimated 1997 Uniform Building Code site class</attrdef><attrdefs>author</attrdefs></attr></detailed>
+	</eainfo>
+	<distinfo>
+		<distrib>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>Monterey County Environmental Resource Policy Department</cntorg>
+				</cntorgp>
+				<cntpos>Database Coordinator</cntpos>
+				<cntaddr>
+					<addrtype>mailing address</addrtype>
+					<address>P.O. Box 180</address>
+					<city>Salinas</city>
+					<state>CA</state>
+					<postal>93902</postal>
+				</cntaddr>
+				<cntvoice>(831) 755-5353</cntvoice>
+				<cntfax>(831) 796-3062</cntfax>
+				<hours>Monday to Friday, 8 AM to 5 PM, Pacific Time</hours>
+			</cntinfo>
+		</distrib>
+		<distliab>This database is intended for regional planning purposes and not for site-specific evaluation. Information in this data set is preliminary in nature. This information is provided with understanding that it is not guaranteed to be correct or and conclusions drawn from such information, whether from individual use or aggregate use with other data, are the responsibility of the user.</distliab>
+		<stdorder>
+			<digform>
+				<digtinfo>
+					<transize>17.825</transize>
+					<dssize Sync="TRUE">17.931</dssize></digtinfo>
+			</digform>
+		</stdorder>
+		<custom>Contact the Monterey County Environmental Resource Policy Department for a printed copy of the map or for an ESRI shapefile of the data set.</custom>
+		<techpreq>For those users that do not have ArcView or ARC/INFO, ESRI provides a free GIS data viewer, ArcExplorer, that can be downloaded from their website at: http://www.esri.com/software/arcexplorer/index.html.  ArcExplorer is currently only supported on the Windows 95/98 or Windows NT platforms.</techpreq>
+	</distinfo>
+	<metainfo>
+		<metd Sync="TRUE">20010625</metd>
+		<metrd>20010625</metrd>
+		<metc>
+			<cntinfo>
+				<cntperp>
+					<cntper>Lew Rosenberg</cntper>
+					<cntorg>Consulting Geologist</cntorg>
+				</cntperp>
+				<cntaddr>
+					<addrtype>mailing address</addrtype>
+					<address>P.O. Box 183</address>
+					<city>Templeton</city>
+					<state>CA</state>
+					<postal>93465-0183</postal>
+				</cntaddr>
+				<cntvoice>(805) 434-1750</cntvoice>
+				<cntfax>(805) 434-1750</cntfax>
+				<cntemail>Lrosenberg@thegrid.net</cntemail>
+				<hours>Monday to Friday, 8 AM to 5 PM, Pacific Time</hours>
+			</cntinfo>
+		</metc>
+		<metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv>
+		<mettc Sync="TRUE">local time</mettc>
+		<langmeta Sync="TRUE">en</langmeta><metextns><onlink Sync="TRUE">http://www.esri.com/metadata/esriprof80.html</onlink><metprof Sync="TRUE">ESRI Metadata Profile</metprof></metextns></metainfo>
+	<Esri><MetaID>{80C26FF8-47EE-11D5-A7B0-000000000000}</MetaID><CreaDate>20010513</CreaDate><CreaTime>16414200</CreaTime><SyncOnce>FALSE</SyncOnce><SyncDate>20010625</SyncDate><SyncTime>15305600</SyncTime><ModDate>20010625</ModDate><ModTime>15372800</ModTime></Esri></metadata>

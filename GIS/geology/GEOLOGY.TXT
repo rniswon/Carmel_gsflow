@@ -1,0 +1,3105 @@
+Identification_Information:
+  Citation:
+    Citation_Information:
+      Originator: Rosenberg, Lewis I.
+      Publication_Date: 2001
+      Title: Digital geologic map of Monterey County, California
+      Edition: version 1.0
+      Geospatial_Data_Presentation_Form: vector digital data
+      Larger_Work_Citation:
+        Citation_Information:
+          Originator: County of Monterey
+          Publication_Date: 2001
+          Title: 21st Century General Plan Update
+          Online_Linkage: http://www.co.monterey.ca.us/gpu
+  Description:
+    Abstract:
+      For geologic and seismic hazard evaluation, the most important factor is the geologic model. In this study, the geologic model is a digital compilation of stratigraphic formations and faults in Monterey County. T.W. Dibblee, Jr. mapped most of the geology in Monterey County for the U.S. Geological Survey in the 1960s and 1970s. Other major contributors of mapping include  J.C. Tinsley, III, W.R. Dupré, V.M. Seiders, D.C. Ross, J.C. Clark, and C.A. Hall.
+
+      To provide a logical framework for the many geologic units in Monterey County, T.W. Dibblee, Jr. prepared a countywide correlation of map units, with emphasis on the Tertiary and Cretaceous age sedimentary rocks. Cretaceous plutonic and metamorphic rocks follow the nomenclature of Ross (1972, 1976). Quaternary deposits are classified based on the work of Tinsley and Dupré.
+
+      This data set presents a unified, seamless geologic coverage for the seventy-nine 1:24,000 scale quadrangles that cover Monterey County.
+    Purpose: The purpose of this map is to provide a seamless, regionally consistent geologic database for regional planning studies in Monterey County.
+  Time_Period_of_Content:
+    Time_Period_Information:
+      Range_of_Dates/Times:
+        Beginning_Date: 1934
+        Ending_Date: 2001
+    Currentness_Reference: publication date
+  Status:
+    Progress: In work
+    Maintenance_and_Update_Frequency: As needed
+  Spatial_Domain:
+    Bounding_Coordinates:
+      West_Bounding_Coordinate: -121.991705
+      East_Bounding_Coordinate: -120.213947
+      North_Bounding_Coordinate: 36.943886
+      South_Bounding_Coordinate: 35.758422
+  Keywords:
+    Theme:
+      Theme_Keyword_Thesaurus: None
+      Theme_Keyword: geology
+      Theme_Keyword: bedrock geology
+      Theme_Keyword: surficial geology
+      Theme_Keyword: geologic history
+      Theme_Keyword: terranes
+      Theme_Keyword: geologic structures
+      Theme_Keyword: landslides
+    Place:
+      Place_Keyword_Thesaurus: None
+      Place_Keyword: Aromas
+      Place_Keyword: Arroyo Seco
+      Place_Keyword: Big Sur
+      Place_Keyword: Bolsa Knolls
+      Place_Keyword: Bradley
+      Place_Keyword: Cachagua
+      Place_Keyword: California
+      Place_Keyword: Carmel Highlands
+      Place_Keyword: Carmel Valley
+      Place_Keyword: Carmel Valley Village
+      Place_Keyword: Carmel-By-The-Sea
+      Place_Keyword: Castroville
+      Place_Keyword: Del Rey Oaks
+      Place_Keyword: Gonzales
+      Place_Keyword: Greenfield
+      Place_Keyword: Jamesburg
+      Place_Keyword: Jolon
+      Place_Keyword: King City
+      Place_Keyword: Lockwood
+      Place_Keyword: Lucia
+      Place_Keyword: Marina
+      Place_Keyword: Monterey
+      Place_Keyword: Monterey County
+      Place_Keyword: Moss Landing
+      Place_Keyword: Pacific Grove
+      Place_Keyword: Pajaro
+      Place_Keyword: Parkfield
+      Place_Keyword: Pebble Beach
+      Place_Keyword: Prunedale
+      Place_Keyword: Salinas
+      Place_Keyword: Salinas Valley
+      Place_Keyword: San Ardo
+      Place_Keyword: San Lucas
+      Place_Keyword: Sand City
+      Place_Keyword: Seaside
+      Place_Keyword: Soledad
+      Place_Keyword: Spreckels
+      Place_Keyword: Tassajara Hot Springs
+      Place_Keyword: United States
+  Access_Constraints: Contact the Monterey County Environmental Resource Policy Department.
+  Use_Constraints: These data may not be distributed without the written permission of the County of Monterey.
+  Point_of_Contact:
+    Contact_Information:
+      Contact_Person_Primary:
+        Contact_Person: Lew Rosenberg
+        Contact_Organization: Consulting Geologist
+      Contact_Address:
+        Address_Type: mailing address
+        Address: P.O. Box 183
+        City: Templeton
+        State_or_Province: CA
+        Postal_Code: 93465-0183
+      Contact_Voice_Telephone: (805) 434-1750
+      Contact_Facsimile_Telephone: (805) 434-1750
+      Contact_Electronic_Mail_Address: Lrosenberg@thegrid.net
+      Hours_of_Service: Monday to Friday, 8 AM to 5 PM, Pacific Time
+  Data_Set_Credit:
+    This project was funded by the County of Monterey, Environmental Resource Policy Department.  This project utilizes previous work by Lewis Rosenberg that was supported by research grants from the U.S. Geological Survey and the California Division of Mines and Geology.  As such, please note the following disclaimer:
+
+    Research partly supported by the U.S. Geological Survey (USGS), Department of the Interior, under USGS award numbers 1434-94-G-2443 to Lewis I. Rosenberg and Joseph C. Clark and 1434-HQ-98-GR-0007 to J.C. Clark and L.I. Rosenberg. The California Division of Mines and Geology provided support to Rosenberg and Clark for field work in the Spreckels quadrangle during 1998. The views and conclusions contained in this document are those of the authors and should not be interpreted as necessarily representing the official policies, either expressed or implied, of the U.S. Government or the State of California.
+  Native_Data_Set_Environment: Microsoft Windows NT Version 4.0 (Build 1381) Service Pack 6; ESRI ArcCatalog 8.1.0.642
+Data_Quality_Information:
+  Attribute_Accuracy:
+    Attribute_Accuracy_Report: All attributes created during the creation process were verified by displaying the lines in both the database and the spatial coverage, but no formal tests were performed.
+  Logical_Consistency_Report: These data are believed to be logically consistent, although no tests were performed.
+  Completeness_Report: The geologic database is compilation of more than 82 maps and reports on Monterey County geology from 1934 to 2001. Due to time and funding constraints, detailed structural data such as folds, bedding attitudes, and depositional contacts were not included in this database. The original data used in this map were mapped at scales ranging from 1:2,400 to 1:125,000, with the majority at 1:62,500 scale.
+  Positional_Accuracy:
+    Horizontal_Positional_Accuracy:
+      Horizontal_Positional_Accuracy_Report: The geologic contacts are compiled from maps ranging from 1:2,400 to 1:125,000 scale, with the majority at 1:62,500 scale. Using the "map resolution" concept outined by R.R. Wahl (USGS Open-File Report 99-386, p. 96: where (Map scale denominator)/2/1000 = map scale, in meters), the estimated horizontal error ranges from 1.2 m (1:2,400 scale) to 62.5 m (1:125,000 scale), with a typical error of 31.3 m (1:62,500) scale. This error level reflects the accuracy of the conversion from hard copy to digital maps; however, the overall accuracy may differ if the uncertainty in each individual map used in the compilation is included. Because the source authors do not quantitatively specify the estimate error in their mapping, it is not possible to include this in the overall horizontal positional accuracy report.
+    Vertical_Positional_Accuracy:
+  Lineage:
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Bechtel Civil, Inc.
+          Publication_Date: 1988
+          Title: New San Clemente Dam project, evaluation of slope stability in the reservoir area
+          Geospatial_Data_Presentation_Form: map
+          Series_Information:
+            Series_Name: unpublished report to Monterey Peninsula Water Management District
+      Source_Scale_Denominator: 12000
+      Type_of_Source_Media: paper
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 1988
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: Bechtel (1988)
+      Source_Contribution: Landslide mapping near San Clemente Dam, Carmel Valley 7.5-minute quadrangle.
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Bowen, O.E., Jr.
+          Publication_Date: Unpublished Material
+          Title: Geologic map of the Natividad 7.5-minute quadrangle
+          Geospatial_Data_Presentation_Form: map
+          Publication_Information:
+      Source_Scale_Denominator: 24000
+      Type_of_Source_Media: Paper
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Range_of_Dates/Times:
+            Beginning_Date: 1968
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: Bowen (1968)
+      Source_Contribution: Landslides and marble outcrops in the Natividad 7.5-minute quadrangle.
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Bowen, O.E., Jr.
+          Publication_Date: Unpublished Material
+          Title: Geologic map of the Chualar 7.5-minute quadrangle
+          Geospatial_Data_Presentation_Form: map
+          Series_Information:
+      Source_Scale_Denominator: 24000
+      Type_of_Source_Media: paper
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 1969
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: Bowen (1969)
+      Source_Contribution: Landslides and marble outcrops in the Chualar 7.5-minute quadrangle.
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Burch, S.H.
+          Publication_Date: 1971
+          Title: Complete Bouguer gravity and general geology of the Cape San Martin, Bryson, Piedras Blancas, and San Simeon quadrangles, California
+          Series_Information:
+            Series_Name: U.S. Geological Survey Professional
+            Issue_Identification: Paper
+      Source_Scale_Denominator: 62500
+      Type_of_Source_Media: paper
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 1971
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: Burch (1971)
+      Source_Contribution: Bedrock geology for parts of the Cape San Martin and Villa Creek 7.5-minute quadrangles.
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Clark, J.C.
+          Publication_Date: 2000
+          Title: unpublished written communication to L.I. Rosenberg
+          Geospatial_Data_Presentation_Form: document
+          Series_Information:
+      Source_Scale_Denominator: 24000
+      Type_of_Source_Media: paper
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 2000
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: Clark (2000)
+      Source_Contribution: Revised nomenclature to Tertiary sandstone near Pebble Beach, Monterey 7.5-minute quadrangle.
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Clark, J.C.
+          Originator: Dupré, W.R.
+          Originator: Rosenberg, L.I.
+          Publication_Date: 1997
+          Title: Geologic map of the Monterey and Seaside 7.5-minute quadrangles, Monterey County, California: A digital database
+          Edition: version 1.0
+          Geospatial_Data_Presentation_Form: vector digital data
+          Series_Information:
+            Series_Name: Open-File Report
+            Issue_Identification: 97-30
+          Publication_Information:
+            Publisher: U.S. Geological Survey
+          Other_Citation_Details: 32 p., 2 sheets.
+          Online_Linkage: http://wrgis.wr.usgs.gov/open-file/of97-30
+      Source_Scale_Denominator: 24000
+      Type_of_Source_Media: online
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 1997
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: Clark and others (1997)
+      Source_Contribution: Bedrock and surficial geology in the Monterey and Seaside 7.5-minute quadrangles.
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Clark, J.C.
+          Originator: Brabb, E.E.
+          Originator: Rosenberg, L.I.
+          Publication_Date: 2000
+          Title: Geologic map and map database of the Spreckels 7.5-minute quadrangle, Monterey County, California
+          Edition: version 1.0
+          Geospatial_Data_Presentation_Form: vector digital data
+          Series_Information:
+            Series_Name: Miscellaneous Field Studies Map
+            Issue_Identification: 2349
+          Publication_Information:
+            Publisher: U.S. Geological Survey
+          Other_Citation_Details: 22 p., 1 sheet.
+          Online_Linkage: http://geopubs.wr.usgs.gov/map-mf/mf2349
+      Source_Scale_Denominator: 24000
+      Type_of_Source_Media: online
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 2000
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: Clark and others (2000)
+      Source_Contribution: Bedrock and surficial geology, landslides, and paleontology in the Spreckels 7.5-minute quadrangle.
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Cleary Consultants, Inc.
+          Publication_Date: 1994
+          Title: Geological and geotechnical investigation, Vesting Tentative Map submittal, Rancho San Carlos project, Monterey County, California
+          Geospatial_Data_Presentation_Form: document
+          Series_Information:
+            Series_Name: unpublished report
+          Publication_Information:
+            Publication_Place: Los Altos, CA
+            Publisher: Cleary Consultants, Inc.
+          Other_Citation_Details: 55 p., 5 appendices, 15 sheets
+      Source_Scale_Denominator: 2400
+      Type_of_Source_Media: paper
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 1994
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: Cleary Consultants (1994)
+      Source_Contribution: Bedrock geology and landslides in parts of the Mount Carmel and Carmel Valley 7.5-minute quadrangles.
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Cotton, William and Associates
+          Publication_Date: 1995
+          Title: Cachagua fault investigation, in The MARK Group, Final report, geotechnical and engineering studies for the New Los Padres water supply project, Monterey Peninsula Water Management District
+          Geospatial_Data_Presentation_Form: map
+          Series_Information:
+            Series_Name: unpublished report
+          Other_Citation_Details: appendix E, p. E-1 to E12.
+      Source_Scale_Denominator: 2400
+      Type_of_Source_Media: paper
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 1995
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: Cotton (1995)
+      Source_Contribution: Bedrock and surficial geology near Los Padres Dam, Carmel Valley 7.5-minute quadrangle.
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Crippen, R.A., Jr.
+          Publication_Date: 1951
+          Title: Nephrite jade and associated rocks of the Cape San Martin region, Monterey County, California
+          Geospatial_Data_Presentation_Form: map
+          Series_Information:
+            Series_Name: Special Report
+            Issue_Identification: 10-A
+          Publication_Information:
+            Publisher: California Division of Mines
+          Other_Citation_Details: 14 p.
+      Source_Scale_Denominator: 18000
+      Type_of_Source_Media: paper
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 1951
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: Crippen (1951)
+      Source_Contribution: Bedrock geology along the coast between Plaskett Creek and Cape San Martin, Cape San Martin 7.5-minute quadrangle.
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Dibblee, T.W., Jr.
+          Publication_Date: 1971
+          Title: Geologic map of the Bradley quadrangle, California
+          Geospatial_Data_Presentation_Form: map
+          Series_Information:
+            Series_Name: Open-File Map
+            Issue_Identification: 71-87
+          Publication_Information:
+            Publisher: U.S. Geological Survey
+      Source_Scale_Denominator: 62500
+      Type_of_Source_Media: paper
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 1971
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: Dibblee (1971a)
+      Source_Contribution: Bedrock and surficial geology  in parts of the Hames Valley, Wunpost, Bradley, and Tierra Redonda Mountain 7.5-minute quadrangles.
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Dibblee, T.W., Jr.
+          Publication_Date: 1971
+          Title: Geologic map of the Bryson quadrangle, California
+          Geospatial_Data_Presentation_Form: map
+          Series_Information:
+            Series_Name: Open-File Map
+            Issue_Identification: 71-87
+          Publication_Information:
+            Publisher: U.S. Geological Survey
+      Source_Scale_Denominator: 62500
+      Type_of_Source_Media: paper
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 1971
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: Dibblee (1971b)
+      Source_Contribution: Bedrock and surficial geology in parts of the Jolon, Williams Hill, and Bryson 7.5-minute quadrangles.
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Dibblee, T.W., Jr.
+          Publication_Date: 1971
+          Title: Geologic map of the Coalinga quadrangle, California
+          Geospatial_Data_Presentation_Form: map
+          Series_Information:
+            Series_Name: Open-File Map
+            Issue_Identification: 71-87
+          Publication_Information:
+            Publisher: U.S. Geological Survey
+      Source_Scale_Denominator: 62500
+      Type_of_Source_Media: paper
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 1971
+      Source_Citation_Abbreviation: Dibblee (1971c)
+      Source_Contribution: Bedrock and surficial geology in part of the Curry Mountain 7.5-minute quadrangle.
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Dibblee, T.W., Jr.
+          Publication_Date: 1971
+          Title: Geologic map of the Greenfield quadrangle, California
+          Geospatial_Data_Presentation_Form: map
+          Series_Information:
+            Series_Name: Open-File Map
+            Issue_Identification: 71-87
+          Publication_Information:
+            Publisher: U.S. Geological Survey
+      Source_Scale_Denominator: 62500
+      Type_of_Source_Media: paper
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 1971
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: Dibblee (1971d)
+      Source_Contribution: Bedrock and surficial geology in parts of the North Chalone Peak, Topo Valley, Greenfield, and Pinalito Canyon 7.5-minute quadrangles.
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Dibblee, T.W., Jr.
+          Publication_Date: 1971
+          Title: Geologic map of the Hernandez Valley quadrangle, California
+          Geospatial_Data_Presentation_Form: map
+          Series_Information:
+            Series_Name: Open-File Map
+            Issue_Identification: 71-87
+          Publication_Information:
+            Publisher: U.S. Geological Survey
+      Source_Scale_Denominator: 62500
+      Type_of_Source_Media: paper
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 1971
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: Dibblee (1971e)
+      Source_Contribution: Bedrock and surficial geology in parts of the Lonoak and Hepsedam Peak 7.5-minute quadrangles.
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Dibblee, T.W., Jr.
+          Publication_Date: 1971
+          Title: Geologic map of the Junipero Serra quadrangle, California
+          Geospatial_Data_Presentation_Form: map
+          Series_Information:
+            Series_Name: Open-File Map
+            Issue_Identification: 71-87
+          Publication_Information:
+            Publisher: U.S. Geological Survey
+      Source_Scale_Denominator: 62500
+      Type_of_Source_Media: paper
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 1971
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: Dibblee (1971f)
+      Source_Contribution: Bedrock and surficial geology in parts of the Junipero Serra, Reliz Canyon, Bear Canyon, and Cone Peak 7.5-minute quadrangles.
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Dibblee, T.W., Jr.
+          Publication_Date: 1971
+          Title: Geologic map of the King City quadrangle, California
+          Geospatial_Data_Presentation_Form: map
+          Series_Information:
+            Series_Name: Open-File Map
+            Issue_Identification: 71-87
+          Publication_Information:
+            Publisher: U.S. Geological Survey
+      Source_Scale_Denominator: 62500
+      Type_of_Source_Media: paper
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 1971
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: Dibblee (1971g)
+      Source_Contribution: Bedrock and surficial geology in parts of the Thompson Canyon, San Lucas, Espinosa Canyon, and Cosio Knob 7.5-minute quadrangles.
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Dibblee, T.W., Jr.
+          Publication_Date: 1971
+          Title: Geologic map of the New Idria quadrangle, California
+          Geospatial_Data_Presentation_Form: map
+          Series_Information:
+            Series_Name: Open-File Map
+            Issue_Identification: 71-87
+          Publication_Information:
+            Publisher: U.S. Geological Survey
+      Source_Scale_Denominator: 62500
+      Type_of_Source_Media: paper
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 1971
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: Dibblee (1971h)
+      Source_Contribution: Bedrock and surficial geology in part of the San Benito Mountain 7.5-minute quadrangle.
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Dibblee, T.W., Jr.
+          Publication_Date: 1971
+          Title: Geologic map of the Parkfield quadrangle, California
+          Geospatial_Data_Presentation_Form: map
+          Series_Information:
+            Series_Name: Open-File Map
+            Issue_Identification: 71-87
+          Publication_Information:
+            Publisher: U.S. Geological Survey
+      Source_Scale_Denominator: 62500
+      Type_of_Source_Media: paper
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 1971
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: Dibblee (1971i)
+      Source_Contribution: Bedrock and surficial geology in parts of the Parkfield, The Dark Hole, Cholame Hills, and Cholame Valley 7.5-minute quadrangles.
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Dibblee, T.W., Jr.
+          Publication_Date: 1971
+          Title: Geologic map of the Priest Valley quadrangle, California
+          Geospatial_Data_Presentation_Form: map
+          Series_Information:
+            Series_Name: Open-File Map
+            Issue_Identification: 71-87
+          Publication_Information:
+            Publisher: U.S. Geological Survey
+      Source_Scale_Denominator: 62500
+      Type_of_Source_Media: paper
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 1971
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: Dibblee (1971j)
+      Source_Contribution: Bedrock and surficial geology in parts of the Priest Valley, Slack Canyon, and Smith Mountain 7.5-minute quadrangles.
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Dibblee, T.W., Jr.
+          Publication_Date: 1971
+          Title: Geologic map of the "Reef Ridge" quadrangle, California
+          Geospatial_Data_Presentation_Form: map
+          Series_Information:
+            Series_Name: Open-File Map
+            Issue_Identification: 71-87
+          Publication_Information:
+            Publisher: U.S. Geological Survey
+      Source_Scale_Denominator: 62500
+      Type_of_Source_Media: paper
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 1971
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: Dibblee (1971k)
+      Source_Contribution: Bedrock and surficial geology in parts of the Tent Hills and Garza Peak 7.5-minute quadrangles.
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Dibblee, T.W., Jr.
+          Publication_Date: 1971
+          Title: Geologic map of the San Ardo quadrangle, California
+          Geospatial_Data_Presentation_Form: map
+          Series_Information:
+            Series_Name: Open-File Map
+            Issue_Identification: 71-87
+          Publication_Information:
+            Publisher: U.S. Geological Survey
+      Source_Scale_Denominator: 62500
+      Type_of_Source_Media: paper
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 1971
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: Dibblee (1971l)
+      Source_Contribution: Bedrock and surficial geology in parts of the Nattrass Valley, Monarch Peak, Pancho Rico Valley, and San Ardo 7.5-minute quadrangles.
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Dibblee, T.W., Jr.
+          Publication_Date: 1971
+          Title: Geologic map of the San Miguel quadrangle, California
+          Geospatial_Data_Presentation_Form: map
+          Series_Information:
+            Series_Name: Open-File Map
+            Issue_Identification: 71-87
+          Publication_Information:
+            Publisher: U.S. Geological Survey
+      Source_Scale_Denominator: 62500
+      Type_of_Source_Media: paper
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 1971
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: Dibblee (1971m)
+      Source_Contribution: Bedrock and surficial geology in parts of the Valleton, Stockdale Mountain, Ranchita Canyon, and San Miguel 7.5-minute quadrangles.
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Dibblee, T.W., Jr.
+          Publication_Date: 1972
+          Title: Geologic map of the Jamesburg quadrangle, California
+          Geospatial_Data_Presentation_Form: map
+          Series_Information:
+            Series_Name: Open-File Map
+            Issue_Identification: 71-87
+          Publication_Information:
+            Publisher: U.S. Geological Survey
+      Source_Scale_Denominator: 62500
+      Type_of_Source_Media: paper
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 1972
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: Dibblee (1972a)
+      Source_Contribution: Bedrock and surficial geology in parts of the Carmel Valley, Rana Creek, Chews Ridge, and Ventana Cones 7.5-minute quadrangles.
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Dibblee, T.W., Jr.
+          Publication_Date: 1972
+          Title: Geologic map of the Soledad quadrangle, California
+          Geospatial_Data_Presentation_Form: map
+          Series_Information:
+            Series_Name: Open-File Map
+            Issue_Identification: 71-87
+          Publication_Information:
+            Publisher: U.S. Geological Survey
+      Source_Scale_Denominator: 62500
+      Type_of_Source_Media: paper
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 1972
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: Dibblee (1972b)
+      Source_Contribution: Bedrock and surficial geology in parts of the Palo Escrito Peak, Soledad, Paraiso Springs, and Sycamore Flat 7.5-minute quadrangles.
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Dibblee, T.W., Jr.
+          Publication_Date: 1973
+          Title: Geologic map of the Gonzales quadrangle, California
+          Geospatial_Data_Presentation_Form: map
+          Series_Information:
+            Series_Name: Open-File Map
+            Issue_Identification: 71-87
+          Publication_Information:
+            Publisher: U.S. Geological Survey
+      Source_Scale_Denominator: 62500
+      Type_of_Source_Media: paper
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 1973
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: Dibblee (1973a)
+      Source_Contribution: Bedrock and surficial geology in parts of the Mount Harlan, Paicines, Mount Johnson, and Gonzales 7.5-minute quadrangles.
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Dibblee, T.W., Jr.
+          Publication_Date: 1973
+          Title: Geologic map of the Point Sur 15-minute quadrangle, Monterey County, California
+          Geospatial_Data_Presentation_Form: map
+          Series_Information:
+            Series_Name: Open-File Map
+            Issue_Identification: 71-87
+          Publication_Information:
+            Publisher: U.S. Geological Survey
+      Source_Scale_Denominator: 62500
+      Type_of_Source_Media: paper
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 1973
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: Dibblee (1973b)
+      Source_Contribution: Bedrock and surficial geology in parts of the Soberanes Point, Mount Carmel, Big Sur, and Point Sur 7.5-minute quadrangles.
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Dibblee, T.W., Jr.
+          Publication_Date: 1973
+          Title: Geologic map of the Salinas 15-minute quadrangle, Monterey County, California
+          Geospatial_Data_Presentation_Form: map
+          Series_Information:
+            Series_Name: Open-File Map
+            Issue_Identification: 71-87
+          Publication_Information:
+            Publisher: U.S. Geological Survey
+      Source_Scale_Denominator: 62500
+      Type_of_Source_Media: paper
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 1973
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: Dibblee (1973c)
+      Source_Contribution: Bedrock and surficial geology in parts of the Natividad, Chualar, and Spreckels 7.5-minute quadrangles.
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Dibblee, T.W., Jr.
+          Publication_Date: 1979
+          Title: Preliminary geologic map of the Bickmore Canyon quadrangle, San Benito and Monterey Counties, California
+          Geospatial_Data_Presentation_Form: map
+          Series_Information:
+            Series_Name: Open-File Report
+            Issue_Identification: 79-701
+          Publication_Information:
+            Publisher: U.S. Geological Survey
+      Source_Scale_Denominator: 24000
+      Type_of_Source_Media: paper
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 1979
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: Dibblee (1979a)
+      Source_Contribution: Bedrock and surficial geology in part of the Bickmore Canyon 7.5-minute quadrangle.
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Dibblee, T.W., Jr.
+          Publication_Date: 1979
+          Title: Preliminary geologic map of the Paicines quadrangle, San Benito and Monterey Counties, California
+          Geospatial_Data_Presentation_Form: map
+          Series_Information:
+            Series_Name: Open-File Report
+            Issue_Identification: 79-290
+          Publication_Information:
+            Publisher: U.S. Geological Survey
+      Source_Scale_Denominator: 24000
+      Type_of_Source_Media: paper
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 1979
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: Dibblee (1979b)
+      Source_Contribution: Bedrock and surficial geology in part of the Paicines 7.5-minute quadrangle.
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Dibblee, T.W., Jr.
+          Publication_Date: 1980
+          Title: Geology along the San Andreas fault from Gilroy to Parkfield, in Streitz, Robert, and Sherburne, Roger, eds., Studies of the San Andreas fault in northern California
+          Geospatial_Data_Presentation_Form: map
+          Series_Information:
+            Series_Name: Special Report
+          Publication_Information:
+            Publisher: California Division of Mines and Geology
+      Source_Scale_Denominator: 200000
+      Type_of_Source_Media: paper
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 1980
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: Dibblee (1980)
+      Source_Contribution: Sandstone unit near San Andreas fault, Smith Mountain 7.5-minute quadrangle.
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Dibblee, T.W., Jr.
+          Title: Geologic map of the Cape San Martin 15-minute quadrangle, California
+          Geospatial_Data_Presentation_Form: map
+          Series_Information:
+            Series_Name: unpublished map
+          Publication_Information:
+            Publisher: U.S. Forest Service, Los Padres National Forest
+      Source_Scale_Denominator: 62500
+      Type_of_Source_Media: paper
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 1981
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: Dibblee (1981)
+      Source_Contribution: Bedrock and surficial geology in parts of the Cape San Martin and Villa Creek 7.5-minute quadrangles.
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Dibblee, T.W., Jr.
+          Publication_Date: 1982
+          Title: Geologic map of the Alder Peak 7.5-minute quadrangle, California
+          Geospatial_Data_Presentation_Form: map
+          Series_Information:
+            Series_Name: unpublished map
+          Publication_Information:
+            Publisher: U.S. Forest Service, Los Padres National Forest
+      Source_Scale_Denominator: 24000
+      Type_of_Source_Media: paper
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 1982
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: Dibblee (1982a)
+      Source_Contribution: Bedrock and surficial geology in the Alder Peak 7.5-minute quadrangle.
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Dibblee, T.W., Jr.
+          Publication_Date: 1982
+          Title: Geologic map of the Partington Ridge 7.5-minute quadrangle, California
+          Geospatial_Data_Presentation_Form: map
+          Series_Information:
+            Series_Name: unpublished map
+          Publication_Information:
+            Publisher: U.S. Forest Service, Los Padres National Forest
+      Source_Scale_Denominator: 24000
+      Type_of_Source_Media: paper
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 1982
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: Dibblee (1982b)
+      Source_Contribution: Bedrock and surficial geology in the Partington Ridge 7.5-minute quadrangle.
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Dibblee, T.W., Jr.
+          Publication_Date: 1982
+          Title: Geologic map of the Tassajara Hot Springs 7.5-minute quadrangle, California
+          Geospatial_Data_Presentation_Form: map
+          Series_Information:
+            Series_Name: unpublished map
+          Publication_Information:
+            Publisher: U.S. Forest Service, Los Padres National Forest
+      Source_Scale_Denominator: 24000
+      Type_of_Source_Media: paper
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 1982
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: Dibblee (1982c)
+      Source_Contribution: Bedrock and surficial geology in the Tassajara Hot Springs 7.5-minute quadrangle.
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Dibblee, T.W., Jr.
+          Originator: Nilsen, T.H.
+          Originator: Brabb, E.E.
+          Publication_Date: 1979
+          Title: Preliminary geologic map of the San Juan Bautista quadrangle, San Benito and Monterey Counties, California
+          Geospatial_Data_Presentation_Form: map
+          Series_Information:
+            Series_Name: Open-File Map
+            Issue_Identification: 79-375
+          Publication_Information:
+            Publisher: U.S. Geological Survey
+      Source_Scale_Denominator: 24000
+      Type_of_Source_Media: paper
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 1979
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: Dibblee and others (1979)
+      Source_Contribution: Bedrock and surficial geology in the San Juan Bautista 7.5-minute quadrangle.
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Dupré, W.R.
+          Publication_Date: 1988
+          Title: Geologic maps of the Bishop, Holt, and Rana Creek Ranches
+          Geospatial_Data_Presentation_Form: map
+          Series_Information:
+            Series_Name: unpublished mapping
+          Other_Citation_Details: work in cooperation with Kingsley Associates
+      Source_Scale_Denominator: 12000
+      Type_of_Source_Media: paper
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 1988
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: Dupré (1988)
+      Source_Contribution: Quaternary geology in parts of the Carmel Valley and Rana Creek 7.5-minute quadrangles.
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Dupré, W.R.
+          Publication_Date: 1990
+          Title: Maps showing geology and liquefaction susceptibility of Quaternary deposits in the Monterey, Seaside, Spreckels, and Carmel Valley quadrangles, Monterey County, California
+          Geospatial_Data_Presentation_Form: map
+          Series_Information:
+            Series_Name: Miscellaneous Field Studies Map
+            Issue_Identification: 2096
+          Publication_Information:
+            Publisher: U.S. Geological Survey
+          Other_Citation_Details: 2 sheets
+      Source_Scale_Denominator: 24000
+      Type_of_Source_Media: paper
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 1990
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: Dupré (1990)
+      Source_Contribution: Quaternary geology in part of the Carmel Valley 7.5-minute quadrangle.
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Dupré, W.R.
+          Originator: Tinsley, J.C., III
+          Publication_Date: 1980
+          Title: Maps showing geology and liquefaction potential of northern Monterey and southern Santa Cruz Counties, California
+          Geospatial_Data_Presentation_Form: map
+          Series_Information:
+            Series_Name: Miscellaneous Field Studies Map
+            Issue_Identification: 1199
+          Publication_Information:
+            Publisher: U.S. Geological Survey
+          Other_Citation_Details: 2 sheets.
+      Source_Scale_Denominator: 62500
+      Type_of_Source_Media: paper
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 1980
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: Dupré and Tinsley (1980)
+      Source_Contribution: Quaternary geology in parts of the Natividad and San Juan Bautista 7.5-minute quadrangles.
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Geomatrix Consultants, Inc.
+          Publication_Date: 1997
+          Title: Final report, geologic evaluation of MTA Camp Roberts
+          Geospatial_Data_Presentation_Form: map
+          Series_Information:
+            Series_Name: unpublished report
+          Publication_Information:
+            Publication_Place: San Francisco, CA
+            Publisher: Geomatrix Consultants, Inc.
+      Source_Scale_Denominator: 35200
+      Type_of_Source_Media: paper
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 1997
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: Geomatrix (1997)
+      Source_Contribution: Quaternary geology of the Camp Roberts area, Bradley and San Miguel 7.5-minute quadrangles.
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Greene, H.G.
+          Publication_Date: 1972
+          Title: Preliminary coastal geologic and fault map, Yankee Point to Point Sur, California
+          Series_Information:
+            Series_Name: unpublished mapping
+      Source_Scale_Denominator: 24000
+      Type_of_Source_Media: paper
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 1972
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: Greene (1972)
+      Source_Contribution: Quaternary geology  in parts of the Soberanes Point and Point Sur 7.5-minute quadrangles.
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Hall, C.A., Jr.
+          Publication_Date: 1991
+          Title: Geology of the Point Sur-Lopez Point region, Coast Ranges, California: A part of the Southern California allochthon
+          Geospatial_Data_Presentation_Form: map
+          Series_Information:
+            Series_Name: Special Paper
+            Issue_Identification: 266
+          Publication_Information:
+            Publication_Place: Boulder, CO
+            Publisher: Geological Society of America
+          Other_Citation_Details: 40 p., 2 sheets.
+      Source_Scale_Denominator: 24000
+      Type_of_Source_Media: paper
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 1991
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: Hall (1991)
+      Source_Contribution: Bedrock and surficial geology in parts of the Point Sur, Big Sur, Pfeiffer Point, Partington Ridge, and Lopez Point 7.5-minute quadrangles.
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Hall, C.A., Jr.
+          Originator: Loomis, K.B.
+          Publication_Date: 1992
+          Title: Geological map of the Kreyenhagen Hills-Sunflower (McLure) Valley area, Fresno, Kern, Kings, and Monterey Counties, California
+          Geospatial_Data_Presentation_Form: map
+          Series_Information:
+            Series_Name: Map and Chart Series
+            Issue_Identification: MCH074
+          Publication_Information:
+            Publication_Place: Boulder, CO
+            Publisher: Geological Society of America
+          Other_Citation_Details: 17 p., 4 sheets.
+      Source_Scale_Denominator: 24000
+      Type_of_Source_Media: paper
+      Source_Time_Period_of_Content:
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: Hall and Loomis (1992)
+      Source_Contribution: Bedrock and surficial geology in parts of the Tent Hills and Garza Peak 7.5-minute quadrangles.
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Hart, E.W.
+          Publication_Date: 1985
+          Title: Rinconada fault (Espinosa and San Marcos segments), Monterey and San Luis Obispo Counties
+          Geospatial_Data_Presentation_Form: map
+          Series_Information:
+            Series_Name: Fault Evaluation Report
+            Issue_Identification: FER-175
+          Publication_Information:
+            Publisher: California Division of Mines and Geology
+          Other_Citation_Details: 8 p., 2 sheets.
+      Source_Scale_Denominator: 24000
+      Type_of_Source_Media: paper
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 1985
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: Hart (1985)
+      Source_Contribution: Landslide mapping in parts of the Tierra Redonda Mountain, Hames Valley, Williams Hill, Espinosa Canyon, and Cosio Knob 7.5-minute quadrangles.
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Johnson, Rogers E. & Associates
+          Publication_Date: 1985
+          Title: Preliminary report of landsliding in the vicinity of the proposed new San Clemente Reservoir, Monterey County, California
+          Geospatial_Data_Presentation_Form: map
+          Series_Information:
+            Series_Name: unpublished report
+          Other_Citation_Details: 19 p.
+      Source_Scale_Denominator: 24000
+      Type_of_Source_Media: paper
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 1985
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: R.E. Johnson & Associates (1985)
+      Source_Contribution: Landslide mapping near San Clemente Dam, Carmel Valley 7.5-minute quadrangle.
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Klaus, A.C.
+          Publication_Date: 1999
+          Title: Quaternary alluvial surfaces and deformation, Monterey County, California
+          Geospatial_Data_Presentation_Form: map
+          Series_Information:
+            Series_Name: M.S. thesis
+          Publication_Information:
+            Publication_Place: San Jose, CA
+            Publisher: San Jose State University
+          Other_Citation_Details: 106 p., 5 sheets.
+      Source_Scale_Denominator: 24000
+      Type_of_Source_Media: paper
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 1999
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: Klaus (1999)
+      Source_Contribution: Alluvial fan deposits and surfaces in the Lockwood Valley:  Cosio Knob, Jolon, and Williams Hill 7.5-minute quadrangles.
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Maddock, M.E.
+          Publication_Date: 1960
+          Title: Geologic map and sections of Pico Blanco limestone deposit
+          Geospatial_Data_Presentation_Form: map
+          Series_Information:
+            Series_Name: unpublished report
+          Other_Citation_Details: cited in Hart (1966, p. 64).
+      Source_Scale_Denominator: 21800
+      Type_of_Source_Media: paper
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 1960
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: Maddock (1960)
+      Source_Contribution: Geologic mapping of Pico Blanco limestone deposit, including landslides: Big Sur 7.5-minute quadrangle.
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: McKittrick, M.A.
+          Publication_Date: 1987
+          Title: Geologic map of the Tularcitos fault zone, Monterey County, California
+          Geospatial_Data_Presentation_Form: map
+          Series_Information:
+            Series_Name: unpublished report
+          Other_Citation_Details: 22 p., 5 sheets.
+      Source_Scale_Denominator: 12000
+      Type_of_Source_Media: paper
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 1987
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: McKittrick (1987)
+      Source_Contribution: Bedrock and surficial geology in parts of the Carmel Valley and Rana Creek 7.5-minute quadrangles.
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Neel, T.H.
+          Publication_Date: 1963
+          Title: Geology of the lower Tularcitos Creek-Cachagua Grade area, Jamesburg quadrangle, California
+          Geospatial_Data_Presentation_Form: map
+          Series_Information:
+            Series_Name: M.S. thesis
+          Publication_Information:
+            Publication_Place: Stanford, CA
+            Publisher: Stanford University
+      Source_Scale_Denominator: 24000
+      Type_of_Source_Media: paper
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 1963
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: Neel (1963)
+      Source_Contribution: Bedrock and surficial geology in part of the Carmel Valley 7.5-minute quadrangle.
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Norris, Richard
+          Publication_Date: 1985
+          Title: Geology of the Landels-Hill Big Creek Reserve, Monterey County, California
+          Geospatial_Data_Presentation_Form: map
+          Series_Information:
+            Series_Name: Environmental Field Program Publication
+            Issue_Identification: 16
+          Publication_Information:
+            Publication_Place: Santa Cruz
+            Publisher: University of California
+          Other_Citation_Details: 71 p.
+      Source_Scale_Denominator: 24000
+      Type_of_Source_Media: paper
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 1985
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: Norris (1985)
+      Source_Contribution: Landslide mapping in part of the Lopez Point 7.5-minute quadrangle.
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Oshiro, L.K.
+          Publication_Date: 1981
+          Title: Geologic investigation of marine terraces and Quaternary tectonics at Pt. Sur and Pacific Valley, Monterey County, California
+          Geospatial_Data_Presentation_Form: map
+          Series_Information:
+            Series_Name: Senior thesis
+          Publication_Information:
+            Publication_Place: Santa Cruz, CA
+            Publisher: University of California
+          Other_Citation_Details: 14 p., 3 sheets.
+      Source_Scale_Denominator: 24000
+      Type_of_Source_Media: paper
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 1981
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: Oshiro (1981)
+      Source_Contribution: Quaternary geology along the coast in parts of the Point Sur, Big Sur, Pfeiffer Point, and Cape San Martin 7.5-minute quadrangles.
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Phifer, D.W.
+          Publication_Date: 1972
+          Title: Preliminary notes on the marine terraces of the Santa Lucia Range in Soberanes Point quadrangle, California
+          Geospatial_Data_Presentation_Form: map
+          Series_Information:
+            Series_Name: unpublished reconnaissance report
+          Publication_Information:
+            Publication_Place: Monterey, CA
+            Publisher: U.S. Naval Postgraduate School
+          Other_Citation_Details: 17 p.
+      Source_Scale_Denominator: 24000
+      Type_of_Source_Media: paper
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 1972
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: Phifer (1972)
+      Source_Contribution: Marine terraces in the Soberanes Point 7.5-minute quadrangle.
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Reiche, Parry
+          Publication_Date: 1934
+          Title: The geology of the Lucia quadrangle, California
+          Geospatial_Data_Presentation_Form: map
+          Series_Information:
+            Series_Name: Ph.D. dissertation
+          Publication_Information:
+            Publication_Place: Berkeley, CA
+            Publisher: University of California
+          Other_Citation_Details: 186 p., 1 sheet
+      Source_Scale_Denominator: 62500
+      Type_of_Source_Media: paper
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 1934
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: Reiche (1934)
+      Source_Contribution: Bedrock geology in parts of the Partington Ridge, Tassajara Hot Springs, and Lopez Point 7.5-minute quadrangles.
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Reneau, S.L.
+          Publication_Date: 1979
+          Title: A survey of landslides of the coastal Santa Lucia Range, Lopez Point quadrangle, Monterey County, California
+          Geospatial_Data_Presentation_Form: map
+          Series_Information:
+            Series_Name: Senior thesis
+          Publication_Information:
+            Publication_Place: Santa Cruz, CA
+            Publisher: University of California
+          Other_Citation_Details: 36 p.
+      Source_Scale_Denominator: 24000
+      Type_of_Source_Media: paper
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 1979
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: Reneau (1979)
+      Source_Contribution: Landslides in the Lopez Point 7.5-minute quadrangle.
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Rosenberg, L.I.
+          Publication_Date: 1993
+          Title: Earthquake and landslide hazards in the Carmel Valley area, Monterey County, California
+          Geospatial_Data_Presentation_Form: map
+          Series_Information:
+            Series_Name: M.S. thesis
+          Publication_Information:
+            Publication_Place: San Jose, CA
+            Publisher: San Jose State University
+          Other_Citation_Details: 123 p., 2 appendices, 3 sheets.
+      Source_Scale_Denominator: 24000
+      Type_of_Source_Media: paper
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 1993
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: Rosenberg (1993)
+      Source_Contribution: Bedrock and surficial geology in parts of the Carmel Valley and Mount Carmel 7.5-minute quadrangles.
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Rosenberg, L.I.
+          Publication_Date: 1998
+          Title: Slope failure, Sleepy Hollow Steelhead Rearing Facility, Carmel Valley, California
+          Geospatial_Data_Presentation_Form: raster digital data
+          Series_Information:
+            Series_Name: unpublished report
+          Other_Citation_Details: 30 p., 2 sheets.
+      Source_Scale_Denominator: 480
+      Type_of_Source_Media: paper
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 1998
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: Rosenberg (1998)
+      Source_Contribution: Landslides near Sleepy Hollow Fish Rearing Facility, Carmel Valley 7.5-minute quadrangle.
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Rosenberg, L.I.
+          Publication_Date: 2001
+          Title: unpublished mapping
+          Geospatial_Data_Presentation_Form: vector digital data
+          Series_Information:
+      Source_Scale_Denominator: 24000
+      Type_of_Source_Media: CD-ROM
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 2001
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: Rosenberg (2001)
+      Source_Contribution: Unpublished mapping of Quaternary alluvial deposits from aerial photographs and soil survey maps in parts of the Greenfield, Pinalito Canyon, San Lucas, Thompson Canyon, Williams Hill, and Stockdale Mountain 7.5-minute quadrangles.
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Ross, D.C.
+          Publication_Date: 1972
+          Title: Geologic map of the pre-Cenozoic basement rocks, Gabilan Range, Monterey and San Benito Counties, California
+          Geospatial_Data_Presentation_Form: map
+          Series_Information:
+            Series_Name: Miscellaneous Field Studies Map
+            Issue_Identification: 357
+          Publication_Information:
+            Publisher: U.S. Geological Survey
+          Other_Citation_Details: 2 sheets.
+      Source_Scale_Denominator: 125000
+      Type_of_Source_Media: paper
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 1972
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: Ross (1972)
+      Source_Contribution: Pre-Cenozoic basement rocks in parts of the Prunedale, San Juan Bautista, Mount Harlan, Mount Johnson, Bickmore Canyon, Soledad, North Chalone Peak, Topo Valley, Lonoak, Pinalito Canyon, Greenfield, San Lucas, and Nattrass Valley 7.5-minute quadrangles.
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Ross, D.C.
+          Publication_Date: 1974
+          Title: Map showing basement geology and locations of wells drilled to basement, Salinian block, central and southern Coast Ranges, California
+          Geospatial_Data_Presentation_Form: map
+          Series_Information:
+            Series_Name: Miscellaneous Field Studies Map
+            Issue_Identification: 588
+          Publication_Information:
+            Publisher: U.S. Geological Survey
+          Other_Citation_Details: 2 sheets
+      Source_Scale_Denominator: 500000
+      Type_of_Source_Media: paper
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 1974
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: Ross (1974)
+      Source_Contribution: Pre-Cenozoic basement rocks in parts of the Lonoak and Hepsedam Peak 7.5-minute quadrangles.
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Ross, D.C.
+          Publication_Date: 1976
+          Title: Reconnaissance geologic map of pre-Cenozoic basement rocks, northern Santa Lucia Range, Monterey County, California
+          Geospatial_Data_Presentation_Form: map
+          Series_Information:
+            Series_Name: Miscellaneous Field Studies Map
+            Issue_Identification: 750
+          Publication_Information:
+            Publisher: U.S. Geological Survey
+          Other_Citation_Details: 7 p., 2 sheets.
+      Source_Scale_Denominator: 125000
+      Type_of_Source_Media: paper
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 1976
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: Ross (1976)
+      Source_Contribution: Pre-Cenozoic basement rocks in parts of the Chualar, Palo Escrito Peak, Rana Creek, Carmel Valley, Mount Carmel, Soberanes Point, Point Sur, Big Sur, Ventana Cones, Chews Ridge, Sycamore Flat, Paraiso Springs, Reliz Canyon, Junipero Serra Peak, Tassajara Hot Springs, Cone Peak, Bear Canyon, Alder Peak, and Cape San Martin 7.5-minute quadrangles.
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Seiders, V.M.
+          Publication_Date: 1989
+          Title: Geologic map of the Burnett Peak quadrangle, Monterey and San Luis Obispo Counties, California
+          Geospatial_Data_Presentation_Form: map
+          Series_Information:
+            Series_Name: Geologic Quadrangle Map
+            Issue_Identification: 1658
+          Publication_Information:
+            Publisher: U.S. Geological Survey
+      Source_Scale_Denominator: 24000
+      Type_of_Source_Media: paper
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 1989
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: Seiders (1989a)
+      Source_Contribution: Bedrock and surficial geology in the Burnett Peak 7.5-minute quadrangle.
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Seiders, V.M.
+          Publication_Date: 1989
+          Title: Geologic map of the Burro Mountain quadrangle, Monterey and San Luis Obispo Counties, California
+          Geospatial_Data_Presentation_Form: map
+          Series_Information:
+            Series_Name: Miscellaneous Field Studies Map
+            Issue_Identification: 2090
+          Publication_Information:
+            Publisher: U.S. Geological Survey
+      Source_Scale_Denominator: 24000
+      Type_of_Source_Media: paper
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 1989
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: Seiders (1989b)
+      Source_Contribution: Bedrock and surficial geology in the Burro Mountain 7.5-minute quadrangle.
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Seiders, V.M.
+          Originator: Joyce, J.M.
+          Originator: Leverett, K.A.
+          Originator: McClean, Hugh
+          Publication_Date: 1983
+          Title: Geologic map of part of the Ventana Wilderness and the Black Butte, Bear Mountain, and Bear Canyon Roadless areas, Monterey County, California, U.S. Geological Survey Miscellaneous Field Studies Map MF-1559-B, scale 1
+          Geospatial_Data_Presentation_Form: map
+          Series_Information:
+            Series_Name: Miscellaneous Field Studies Map
+            Issue_Identification: 1559-B
+          Publication_Information:
+            Publisher: U.S. Geological Survey
+      Source_Scale_Denominator: 50000
+      Type_of_Source_Media: paper
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 1983
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: Seiders and others (1983)
+      Source_Contribution: Bedrock and surficial geology in parts of the Ventana Cones, Chews Ridge, Sycamore Flat, Reliz Canyon, Junipero Serra Peak, Tassajara Hot Springs, Partington Ridge, Lopez Point, Cone Peak, Bear Canyon, and Cape San Martin 7.5-minute quadrangles.
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Sims, J.D.
+          Publication_Date: 1988
+          Title: Geologic map of the San Andreas fault zone in the Cholame Valley and Cholame Hills quadrangles, San Luis Obispo and Monterey Counties, California
+          Geospatial_Data_Presentation_Form: map
+          Series_Information:
+            Series_Name: Miscellaneous Field Studies Map
+            Issue_Identification: 1995
+          Publication_Information:
+            Publisher: U.S. Geological Survey
+      Source_Scale_Denominator: 24000
+      Type_of_Source_Media: paper
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 1988
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: Sims (1988)
+      Source_Contribution: Bedrock and surficial geology in most of the Cholame Valley and Cholame Hills 7.5-minute quadrangles.
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Sims, J.D.
+          Publication_Date: 1990
+          Title: Geologic map of the San Andreas fault in the Parkfield 7.5-minute quadrangle, Monterey and Fresno Counties, California
+          Geospatial_Data_Presentation_Form: map
+          Series_Information:
+            Series_Name: Miscellaneous Field Studies Map
+            Issue_Identification: 2115
+          Publication_Information:
+            Publisher: U.S. Geological Survey
+      Source_Scale_Denominator: 24000
+      Type_of_Source_Media: paper
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 1990
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: Sims (1990)
+      Source_Contribution: Bedrock and surficial geology in most of the Parkfield 7.5-minute quadrangle.
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Snetsinger, K.G.
+          Publication_Date: 1962
+          Title: Late Tertiary and Quaternary history of the lower Arroyo Seco area, Monterey County, California
+          Geospatial_Data_Presentation_Form: map
+          Series_Information:
+            Series_Name: M.S. thesis
+          Publication_Information:
+            Publication_Place: Stanford, CA
+            Publisher: Stanford University
+          Other_Citation_Details: 36 p., 4 sheets.
+      Source_Scale_Denominator: 24000
+      Type_of_Source_Media: paper
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 1962
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: Snetsinger (1962)
+      Source_Contribution: Bedrock and surficial geology in parts of the Sycamore Flat, Paraiso Springs,  Reliz Canyon, and Junipero Serra Peak 7.5-minute quadrangles.
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Tinsley, J.C., III.
+          Publication_Date: 1975
+          Title: Quaternary geology of the northern Salinas Valley, Monterey County, California
+          Geospatial_Data_Presentation_Form: map
+          Series_Information:
+            Series_Name: Ph.D. dissertation
+          Publication_Information:
+            Publication_Place: Stanford, CA
+            Publisher: Stanford University
+          Other_Citation_Details: 195 p., 2 sheets.
+      Source_Scale_Denominator: 62500
+      Type_of_Source_Media: stable-base material
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 1975
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: Tinsley (1975)
+      Source_Contribution: Quaternary geology in parts of the Spreckels, Chualar, Gonzales, Mount Johnson, Soledad, Palo Escrito Peak, Rana Creek, Sycamore Flat, Paraiso Springs, and Greenfield 7.5-minute quadrangles.
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Tinsley, J.C., III.
+          Originator: Dupré, W.R.
+          Originator: unknown others
+          Publication_Date: Unpublished Material
+          Title: Digital maps showing geology of northern Monterey and southern Santa Cruz Counties, California
+          Geospatial_Data_Presentation_Form: vector digital data
+          Series_Information:
+      Source_Scale_Denominator: 62500
+      Type_of_Source_Media: paper
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 2000
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: Tinsley and others (2000)
+      Source_Contribution: Quaternary geology in parts of the Watsonville West, Watsonville East,  Moss Landing, Prunedale, Salinas, and Marina 7.5-minute quadrangles.
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Tuttle, M.P.
+          Publication_Date: 1985
+          Title: Earthquake potential of the San Gregorio-Hosgri fault zone, California
+          Geospatial_Data_Presentation_Form: map
+          Series_Information:
+            Series_Name: M.S. thesis
+          Publication_Information:
+            Publication_Place: Santa Cruz, CA
+            Publisher: University of California
+          Other_Citation_Details: 69 p., 2 appendices, 4 sheets.
+      Source_Scale_Denominator: 24000
+      Type_of_Source_Media: paper
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 1985
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: Tuttle (1985)
+      Source_Contribution: Quaternary geology in part of the Soberanes Point 7.5-minute quadrangle.
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Wagner, D.L.
+          Originator: Greene, H.G.
+          Originator: Little, J.D.
+          Originator: Watkins, S.E.
+          Publication_Date: Unpublished Material
+          Title: Geologic map of the Monterey 1:100,000 scale quadrangle and Monterey Bay: a digital database
+          Geospatial_Data_Presentation_Form: vector digital data
+          Series_Information:
+      Source_Scale_Denominator: 100000
+      Type_of_Source_Media: paper
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 1999
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: Wagner and others (1999)
+      Source_Contribution: Red beds in part of the San Juan Bautista 7.5-minute quadrangle.
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Weidman, R.M.
+          Publication_Date: 1959
+          Title: Geology of the King City quadrangle, California
+          Geospatial_Data_Presentation_Form: map
+          Series_Information:
+            Series_Name: Ph.D. dissertation
+          Publication_Information:
+            Publication_Place: Berkeley, CA
+            Publisher: University of California
+          Other_Citation_Details: 229 p.
+      Source_Scale_Denominator: 24000
+      Type_of_Source_Media: paper
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 1959
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: Weidman (1959)
+      Source_Contribution: Bedrock and surficial geology in part of the Cosio Knob 7.5-minute quadrangle.
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Wiedmann, J.P.
+          Publication_Date: 1964
+          Title: Geology of the upper Tularcitos Creek-Cachagua Creek area, Jamesburg quadrangle, California
+          Geospatial_Data_Presentation_Form: map
+          Series_Information:
+            Series_Name: M.S. thesis
+          Publication_Information:
+            Publication_Place: Stanford, CA
+            Publisher: Stanford University
+          Other_Citation_Details: 80 p., 4 sheets.
+      Source_Scale_Denominator: 24000
+      Type_of_Source_Media: paper
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 1964
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: Wiedmann (1964)
+      Source_Contribution: Bedrock and surficial geology in part of the Rana Creek 7.5-minute quadrangle.
+    Process_Step:
+      Process_Description: The various maps used in the compilation were converted to digital format using a Vidar large-format monochrome scanner at a resolution of 300 dots per inch. The scanned images were saved as uncompressed TIFF files and georeferenced using ArcView Image Analysis software to 1:24,000 scale USGS Digital Raster Graphic (DRG) maps. The scanned images were then vectorized using ARC/INFO software.  The vectorized maps were compiled mainly at 1:24,000 scale in the area north of Salinas and 1:62:500 elsewhere in the county.  The compilation at 1:62,500 scale requires simplification in some areas and combining of some geologic units.  Also, minor adjustment of contacts across the quadrangle boundaries was locally necessary.  The digital editing was done using ArcView software.
+Spatial_Data_Organization_Information:
+  Direct_Spatial_Reference_Method: Vector
+  Point_and_Vector_Object_Information:
+    SDTS_Terms_Description:
+      SDTS_Point_and_Vector_Object_Type: G-polygon
+      Point_and_Vector_Object_Count: 7261
+Spatial_Reference_Information:
+  Horizontal_Coordinate_System_Definition:
+    Planar:
+      Grid_Coordinate_System:
+        Grid_Coordinate_System_Name: State Plane Coordinate System
+        State_Plane_Coordinate_System:
+          SPCS_Zone_Identifier: 404
+          Lambert_Conformal_Conic:
+            Standard_Parallel: 36.000000
+            Standard_Parallel: 37.250000
+            Longitude_of_Central_Meridian: -119.000000
+            Latitude_of_Projection_Origin: 35.333333
+            False_Easting: 6561666.666667
+            False_Northing: 1640416.666667
+      Planar_Coordinate_Information:
+        Planar_Coordinate_Encoding_Method: coordinate pair
+        Coordinate_Representation:
+          Abscissa_Resolution: 0.001024
+          Ordinate_Resolution: 0.001024
+        Planar_Distance_Units: survey feet
+    Geodetic_Model:
+      Horizontal_Datum_Name: North American Datum of 1983
+      Ellipsoid_Name: Geodetic Reference System 80
+      Semi-major_Axis: 6378137.000000
+      Denominator_of_Flattening_Ratio: 298.257222
+Entity_and_Attribute_Information:
+  Detailed_Description:
+    Entity_Type:
+      Entity_Type_Label: geology
+      Entity_Type_Definition_Source: Data set describing bedrock and surficial geologic units
+    Attribute:
+      Attribute_Label: FID
+      Attribute_Definition: Internal feature number.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Sequential unique whole numbers that are automatically generated.
+    Attribute:
+      Attribute_Label: Shape
+      Attribute_Definition: Feature geometry.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Coordinates defining the features.
+    Attribute:
+      Attribute_Label: SOURCE
+      Attribute_Definition: Source of geologic mapping
+      Attribute_Definition_Source: author
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: List of names
+    Attribute:
+      Attribute_Label: DET_LAB
+      Attribute_Definition: Detailed label designed for 1:24,000 scale mapping
+      Attribute_Definition_Source: author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Jc
+          Enumerated_Domain_Value_Definition: Radiolarian chert
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Jd
+          Enumerated_Domain_Value_Definition: Diabase and diorite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Jhg
+          Enumerated_Domain_Value_Definition: Hornblende quartz gabbro of Gold Hill
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Jsp?
+          Enumerated_Domain_Value_Definition: Serpentinite?
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Jsp
+          Enumerated_Domain_Value_Definition: Serpentinite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Jv
+          Enumerated_Domain_Value_Definition: Mafic volcanic rocks
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Ka
+          Enumerated_Domain_Value_Definition: Aplite, alaskite, and pegmatite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Kag
+          Enumerated_Domain_Value_Definition: Aplitic granite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Kbt
+          Enumerated_Domain_Value_Definition: Biotite tonalite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Kct
+          Enumerated_Domain_Value_Definition: Charnockitic tonalite of Compton (1960)
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Kd
+          Enumerated_Domain_Value_Definition: Diorite (Gabilan Range)
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Kep
+          Enumerated_Domain_Value_Definition: El Piojo Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Kgdb
+          Enumerated_Domain_Value_Definition: Granodiorite-quartz diorite of Bear Mountain
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Kgdc
+          Enumerated_Domain_Value_Definition: Granodiorite of Cachagua
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Kgdg
+          Enumerated_Domain_Value_Definition: Granodiorite of Gloria Road
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Kgdj
+          Enumerated_Domain_Value_Definition: Porphyritic granodiorite of Junipero Serra Peak
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Kgdm
+          Enumerated_Domain_Value_Definition: Porphyritic granodiorite of Monterey
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Kgdn
+          Enumerated_Domain_Value_Definition: Granodiorite of Natividad
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Kgds
+          Enumerated_Domain_Value_Definition: Porphyritic granodiorite of Sand Creek
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Kgf?
+          Enumerated_Domain_Value_Definition: Gravelly Flat Formation?
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Kgf
+          Enumerated_Domain_Value_Definition: Gravelly Flat Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Kgh
+          Enumerated_Domain_Value_Definition: Heteregeneous granitic complex
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Kgj
+          Enumerated_Domain_Value_Definition: Granite of Jacks Hill
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Kgr
+          Enumerated_Domain_Value_Definition: Granitic rocks, undifferentiated
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Kif
+          Enumerated_Domain_Value_Definition: Italian Flat Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: KJf?
+          Enumerated_Domain_Value_Definition: Franciscan complex, undifferentiated?
+        Enumerated_Domain:
+          Enumerated_Domain_Value: KJf
+          Enumerated_Domain_Value_Definition: Franciscan complex, undifferentiated
+        Enumerated_Domain:
+          Enumerated_Domain_Value: KJfl
+          Enumerated_Domain_Value_Definition: Franciscan complex, limestone
+        Enumerated_Domain:
+          Enumerated_Domain_Value: KJfm
+          Enumerated_Domain_Value_Definition: Franciscan complex, mélange
+        Enumerated_Domain:
+          Enumerated_Domain_Value: KJfs
+          Enumerated_Domain_Value_Definition: Franciscan complex, graywacke
+        Enumerated_Domain:
+          Enumerated_Domain_Value: KJfv
+          Enumerated_Domain_Value_Definition: Franciscan complex, greenstone
+        Enumerated_Domain:
+          Enumerated_Domain_Value: KJt
+          Enumerated_Domain_Value_Definition: Toro Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Kmi
+          Enumerated_Domain_Value_Definition: Gabbro and diorite (Santa Lucia Range)
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Kms
+          Enumerated_Domain_Value_Definition: Schist of Sierra de Salinas
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Kp
+          Enumerated_Domain_Value_Definition: Panoche Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Kqdc
+          Enumerated_Domain_Value_Definition: Hornblende-biotite quartz diorite-diorite of Corral de Tierra
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Kqdg
+          Enumerated_Domain_Value_Definition: Gneissic quartz diorite of Stonewall Canyon
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Kqdj?
+          Enumerated_Domain_Value_Definition: Quartz diorite-granodiorite of Johnson Canyon?
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Kqdj
+          Enumerated_Domain_Value_Definition: Quartz diorite-granodiorite of Johnson Canyon
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Kqdp
+          Enumerated_Domain_Value_Definition: Hornblende-biotite quartz diorite of the Paraiso-Paloma area
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Kqds
+          Enumerated_Domain_Value_Definition: Hornblende-biotite quartz diorite of Soberanes Point
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Kqdv
+          Enumerated_Domain_Value_Definition: Quartz diorite of Vergeles
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Kqmb
+          Enumerated_Domain_Value_Definition: Quartz monzonite of Bickmore Canyon
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Kqmf
+          Enumerated_Domain_Value_Definition: Quartz monzonite of Fremont Peak
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Kqmg
+          Enumerated_Domain_Value_Definition: Garnetiferous quartz monzonite of Pine Canyon
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Kqml
+          Enumerated_Domain_Value_Definition: Garnetiferous quartz monzonite of Little Sur and South Ventana Cone
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Kqmp
+          Enumerated_Domain_Value_Definition: Quartz monzonite of Pinyon Peak
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Kqmv
+          Enumerated_Domain_Value_Definition: Variable quartz monzonite-granodiorite of Big Pines and Island Mountain
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Ksc
+          Enumerated_Domain_Value_Definition: Steve Creek Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Ksi
+          Enumerated_Domain_Value_Definition: Shut-in Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Ks
+          Enumerated_Domain_Value_Definition: Unnamed sedimentary rocks, western facies
+        Enumerated_Domain:
+          Enumerated_Domain_Value: KTg
+          Enumerated_Domain_Value_Definition: Marine clastic sedimentary rocks
+        Enumerated_Domain:
+          Enumerated_Domain_Value: KTs
+          Enumerated_Domain_Value_Definition: Marine clastic sedimentary rocks
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Ku?
+          Enumerated_Domain_Value_Definition: Unnamed sedimentary rocks, eastern facies
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Ku
+          Enumerated_Domain_Value_Definition: Unnamed sedimentary rocks, eastern facies
+        Enumerated_Domain:
+          Enumerated_Domain_Value: pKc
+          Enumerated_Domain_Value_Definition: Coast Ridge belt
+        Enumerated_Domain:
+          Enumerated_Domain_Value: pKgg
+          Enumerated_Domain_Value_Definition: Graphitic gneiss
+        Enumerated_Domain:
+          Enumerated_Domain_Value: pKg
+          Enumerated_Domain_Value_Definition: Graphitic and pyritic belt
+        Enumerated_Domain:
+          Enumerated_Domain_Value: pKm
+          Enumerated_Domain_Value_Definition: Marble
+        Enumerated_Domain:
+          Enumerated_Domain_Value: pKms
+          Enumerated_Domain_Value_Definition: Mica schist (Gabilan Range)
+        Enumerated_Domain:
+          Enumerated_Domain_Value: pKp
+          Enumerated_Domain_Value_Definition: Peltic schist belt
+        Enumerated_Domain:
+          Enumerated_Domain_Value: pKqf
+          Enumerated_Domain_Value_Definition: Quartzofeldspathic rocks
+        Enumerated_Domain:
+          Enumerated_Domain_Value: pKq
+          Enumerated_Domain_Value_Definition: Quartzite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Qa?
+          Enumerated_Domain_Value_Definition: Aromas Sand, undifferentiated?
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Qa
+          Enumerated_Domain_Value_Definition: Aromas Sand, undifferentiated
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Qae
+          Enumerated_Domain_Value_Definition: Aromas Sand, eolian facies
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Qaf?
+          Enumerated_Domain_Value_Definition: Aromas Sand, fluvial facies?
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Qaf
+          Enumerated_Domain_Value_Definition: Aromas Sand, fluvial facies
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Qal?
+          Enumerated_Domain_Value_Definition: Alluvial deposits, undifferentiated?
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Qal
+          Enumerated_Domain_Value_Definition: Alluvial deposits, undifferentiated
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Qan1?
+          Enumerated_Domain_Value_Definition: Terrace deposits of Antioch, youngest terrace surface?
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Qan1
+          Enumerated_Domain_Value_Definition: Terrace deposits of Antioch, youngest terrace surface
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Qan2?
+          Enumerated_Domain_Value_Definition: Terrace deposits of Antioch, middle terrace surface?
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Qan2
+          Enumerated_Domain_Value_Definition: Terrace deposits of Antioch, middle terrace surface
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Qan3?
+          Enumerated_Domain_Value_Definition: Terrace deposits of Antioch, oldest terrace surface?
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Qan3
+          Enumerated_Domain_Value_Definition: Terrace deposits of Antioch, oldest terrace surface
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Qan?
+          Enumerated_Domain_Value_Definition: Terrace deposits of Antioch?
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Qan
+          Enumerated_Domain_Value_Definition: Terrace deposits of Antioch
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Qb?
+          Enumerated_Domain_Value_Definition: Basin deposits
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Qb
+          Enumerated_Domain_Value_Definition: Basin deposits
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Qbs
+          Enumerated_Domain_Value_Definition: Beach sand
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Qc?
+          Enumerated_Domain_Value_Definition: Colluvium?
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Qc
+          Enumerated_Domain_Value_Definition: Colluvium
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Qcf?
+          Enumerated_Domain_Value_Definition: Channel-fill deposits?
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Qcf
+          Enumerated_Domain_Value_Definition: Channel-fill deposits
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Qch?
+          Enumerated_Domain_Value_Definition: Alluvial fan deposits of Chualar?
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Qch
+          Enumerated_Domain_Value_Definition: Alluvial fan deposits of Chualar
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Qct?
+          Enumerated_Domain_Value_Definition: Coastal terraces, undifferentiated?
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Qcta?
+          Enumerated_Domain_Value_Definition: Terrace A surface?
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Qcta
+          Enumerated_Domain_Value_Definition: Terrace A surface
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Qctb?
+          Enumerated_Domain_Value_Definition: Terrace B surface?
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Qctb
+          Enumerated_Domain_Value_Definition: Terrace B surface
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Qctc?
+          Enumerated_Domain_Value_Definition: Terrace C surface?
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Qct
+          Enumerated_Domain_Value_Definition: Coastal terraces, undifferentiated
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Qctc
+          Enumerated_Domain_Value_Definition: Terrace C surface
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Qcth
+          Enumerated_Domain_Value_Definition: Huckleberry coastal terrace
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Qctl?
+          Enumerated_Domain_Value_Definition: Lighthouse coastal terrace?
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Qctl
+          Enumerated_Domain_Value_Definition: Lighthouse coastal terrace
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Qctm?
+          Enumerated_Domain_Value_Definition: Monte Vista coastal terrace?
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Qctm
+          Enumerated_Domain_Value_Definition: Monte Vista coastal terrace
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Qcto?
+          Enumerated_Domain_Value_Definition: Ocean View coastal terrace?
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Qcto
+          Enumerated_Domain_Value_Definition: Ocean View coastal terrace
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Qctp?
+          Enumerated_Domain_Value_Definition: Peninsula College coastal terrace?
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Qctp
+          Enumerated_Domain_Value_Definition: Peninsula College coastal terrace
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Qcts?
+          Enumerated_Domain_Value_Definition: Sylvan coastal terrace?
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Qcts
+          Enumerated_Domain_Value_Definition: Sylvan coastal terrace
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Qds?
+          Enumerated_Domain_Value_Definition: Dune sand?
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Qds
+          Enumerated_Domain_Value_Definition: Dune sand
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Qe
+          Enumerated_Domain_Value_Definition: Eolian deposits
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Qem?
+          Enumerated_Domain_Value_Definition: Eolian deposits of Manressa Beach?
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Qem
+          Enumerated_Domain_Value_Definition: Eolian deposits of Manressa Beach
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Qfd
+          Enumerated_Domain_Value_Definition: Flandrian dune deposits
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Qfl
+          Enumerated_Domain_Value_Definition: Artificial fill
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Qfp?
+          Enumerated_Domain_Value_Definition: Flood-plain deposits, undifferentiated?
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Qfp
+          Enumerated_Domain_Value_Definition: Flood-plain deposits, undifferentiated
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Qfpl
+          Enumerated_Domain_Value_Definition: Alluvial fans, late Pleistocene
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Qfpm?
+          Enumerated_Domain_Value_Definition: Alluvial fans, middle Pleistocene?
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Qfpm
+          Enumerated_Domain_Value_Definition: Alluvial fans, middle Pleistocene
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Qfu?
+          Enumerated_Domain_Value_Definition: Pleistocene alluvial fans, undifferentiated?
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Qfu
+          Enumerated_Domain_Value_Definition: Pleistocene alluvial fans, undifferentiated
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Qgl?
+          Enumerated_Domain_Value_Definition: Alluvial fan deposits of Gloria?
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Qgl
+          Enumerated_Domain_Value_Definition: Alluvial fan deposits of Gloria
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Qhf?
+          Enumerated_Domain_Value_Definition: Holocene alluvial fan deposits?
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Qhf
+          Enumerated_Domain_Value_Definition: Holocene alluvial fan deposits
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Qls?
+          Enumerated_Domain_Value_Definition: Landslide deposits
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Qls
+          Enumerated_Domain_Value_Definition: Landslide deposits
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Qod1?
+          Enumerated_Domain_Value_Definition: Older coastal dunes, younger?
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Qod1
+          Enumerated_Domain_Value_Definition: Older coastal dunes, younger
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Qod2?
+          Enumerated_Domain_Value_Definition: Older coastal dunes, older?
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Qod2
+          Enumerated_Domain_Value_Definition: Older coastal dunes, older
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Qod?
+          Enumerated_Domain_Value_Definition: Older coastal dunes?
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Qod
+          Enumerated_Domain_Value_Definition: Older coastal dunes
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Qoe?
+          Enumerated_Domain_Value_Definition: Older eolian deposits?
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Qoe
+          Enumerated_Domain_Value_Definition: Older eolian deposits
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Qof?
+          Enumerated_Domain_Value_Definition: Older flood-plain deposits?
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Qof
+          Enumerated_Domain_Value_Definition: Older flood-plain deposits
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Qp?
+          Enumerated_Domain_Value_Definition: Alluvial fan deposits of Placentia?
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Qp
+          Enumerated_Domain_Value_Definition: Alluvial fan deposits of Placentia
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Qsc?
+          Enumerated_Domain_Value_Definition: Stream channel deposits?
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Qscp?
+          Enumerated_Domain_Value_Definition: Sandstone and conglomerate?
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Qscp
+          Enumerated_Domain_Value_Definition: Sandstone and conglomerate
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Qsc
+          Enumerated_Domain_Value_Definition: Stream channel deposits
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Qt?
+          Enumerated_Domain_Value_Definition: Terrace deposits, undifferentiated?
+        Enumerated_Domain:
+          Enumerated_Domain_Value: QTc?
+          Enumerated_Domain_Value_Definition: Continental deposits?
+        Enumerated_Domain:
+          Enumerated_Domain_Value: QTcb
+          Enumerated_Domain_Value_Definition: Basalt of Crystal Knob
+        Enumerated_Domain:
+          Enumerated_Domain_Value: QTc
+          Enumerated_Domain_Value_Definition: Continental deposits
+        Enumerated_Domain:
+          Enumerated_Domain_Value: QTcl
+          Enumerated_Domain_Value_Definition: Paso Robles Formation, clay
+        Enumerated_Domain:
+          Enumerated_Domain_Value: QTcs
+          Enumerated_Domain_Value_Definition: Sedimentary rocks of Crystal Knob
+        Enumerated_Domain:
+          Enumerated_Domain_Value: QTg
+          Enumerated_Domain_Value_Definition: Paso Robles Formation, gravel
+        Enumerated_Domain:
+          Enumerated_Domain_Value: QTh
+          Enumerated_Domain_Value_Definition: Hans Grieve Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Qtlp
+          Enumerated_Domain_Value_Definition: Fluvial terrace deposits, late Pleistocene
+        Enumerated_Domain:
+          Enumerated_Domain_Value: QTm
+          Enumerated_Domain_Value_Definition: Paso Robles Formation, marl
+        Enumerated_Domain:
+          Enumerated_Domain_Value: QTp?
+          Enumerated_Domain_Value_Definition: Paso Robles Formation, undifferentiated?
+        Enumerated_Domain:
+          Enumerated_Domain_Value: QTpc
+          Enumerated_Domain_Value_Definition: Paso Robles Formation, clay and gravel
+        Enumerated_Domain:
+          Enumerated_Domain_Value: QTp
+          Enumerated_Domain_Value_Definition: Paso Robles Formation, undifferentiated
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Qt
+          Enumerated_Domain_Value_Definition: Terrace deposits, undifferentiated
+        Enumerated_Domain:
+          Enumerated_Domain_Value: QTv?
+          Enumerated_Domain_Value_Definition: Varian Ranch beds
+        Enumerated_Domain:
+          Enumerated_Domain_Value: QTv
+          Enumerated_Domain_Value_Definition: Varian Ranch beds
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Qwf?
+          Enumerated_Domain_Value_Definition: Terrace deposits of Watsonville?
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Qwf
+          Enumerated_Domain_Value_Definition: Terrace deposits of Watsonville
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Qyf?
+          Enumerated_Domain_Value_Definition: Younger flood-plain deposits?
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Qyfa
+          Enumerated_Domain_Value_Definition: Younger flood-plain deposits, thin veneer
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Qyf
+          Enumerated_Domain_Value_Definition: Younger flood-plain deposits
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Ta
+          Enumerated_Domain_Value_Definition: Avenal Sandstone
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Tbe
+          Enumerated_Domain_Value_Definition: Berry Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Tc?
+          Enumerated_Domain_Value_Definition: Carmelo Formation?
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Tc
+          Enumerated_Domain_Value_Definition: Carmelo Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Tcc
+          Enumerated_Domain_Value_Definition: Church Creek Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Tcg
+          Enumerated_Domain_Value_Definition: Unnamed clastic sediments, sandstone and conglomerate
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Tcs
+          Enumerated_Domain_Value_Definition: Church Creek Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Te?
+          Enumerated_Domain_Value_Definition: Etchegoin Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Te
+          Enumerated_Domain_Value_Definition: Etchegoin Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Tj?
+          Enumerated_Domain_Value_Definition: Junipero Sandstone?
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Tj
+          Enumerated_Domain_Value_Definition: Junipero Sandstone
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Tl
+          Enumerated_Domain_Value_Definition: Lucia Shale
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Tm?
+          Enumerated_Domain_Value_Definition: Monterey Formation, siliceous?
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Tmc?
+          Enumerated_Domain_Value_Definition: Monterey Formation, clay shale?
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Tmc
+          Enumerated_Domain_Value_Definition: Monterey Formation, clay shale
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Tmdi
+          Enumerated_Domain_Value_Definition: Monterey Formation, diatomite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Tmd
+          Enumerated_Domain_Value_Definition: Monterey Formation, Devilwater member
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Tmi
+          Enumerated_Domain_Value_Definition: Monterey Formation, siltstone
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Tml
+          Enumerated_Domain_Value_Definition: Monterey Formation, semi-siliceous
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Tm
+          Enumerated_Domain_Value_Definition: Monterey Formation, siliceous
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Tms
+          Enumerated_Domain_Value_Definition: Unnamed clastic sediments, marine sandstone
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Tnt
+          Enumerated_Domain_Value_Definition: Unnamed red beds of upper Tularcitos Canyon
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Tn
+          Enumerated_Domain_Value_Definition: Unnamed clastic sediments, red beds
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Tpa
+          Enumerated_Domain_Value_Definition: Piedras Altas Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Tpd
+          Enumerated_Domain_Value_Definition: Pancho Rico Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Tpi
+          Enumerated_Domain_Value_Definition: Pancho Rico Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Tpo?
+          Enumerated_Domain_Value_Definition: Pancho Rico Formation, mudstone?
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Tpo
+          Enumerated_Domain_Value_Definition: Pancho Rico Formation, mudstone
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Tpr
+          Enumerated_Domain_Value_Definition: Point of Rocks Sandstone
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Tps
+          Enumerated_Domain_Value_Definition: Pancho Rico Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Trb
+          Enumerated_Domain_Value_Definition: Red beds
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Trc
+          Enumerated_Domain_Value_Definition: Reliz Canyon Formation, unnamed conglomerate
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Tr
+          Enumerated_Domain_Value_Definition: Reliz Canyon Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Trr
+          Enumerated_Domain_Value_Definition: Reef Ridge Shale
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Tsg
+          Enumerated_Domain_Value_Definition: Unnamed conglomerate and sandstone
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Tsh
+          Enumerated_Domain_Value_Definition: Unnamed marine sandstone, clay shale
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Tsm?
+          Enumerated_Domain_Value_Definition: Santa Margarita Sandstone?
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Tsm
+          Enumerated_Domain_Value_Definition: Santa Margarita Sandstone
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Tss
+          Enumerated_Domain_Value_Definition: Unnamed marine sandstone
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Ttj
+          Enumerated_Domain_Value_Definition: Tejon Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Ttr
+          Enumerated_Domain_Value_Definition: The Rocks Sandstone
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Tts?
+          Enumerated_Domain_Value_Definition: Marine sandstone?
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Tts
+          Enumerated_Domain_Value_Definition: Marine sandstone
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Tt
+          Enumerated_Domain_Value_Definition: Temblor Sandstone
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Tucc
+          Enumerated_Domain_Value_Definition: Unnamed clastic sedimentary unit
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Tucg
+          Enumerated_Domain_Value_Definition: Unnamed clastic sedimentary unit
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Tucs?
+          Enumerated_Domain_Value_Definition: Unnamed clastic sedimentary unit?
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Tucs
+          Enumerated_Domain_Value_Definition: Unnamed clastic sedimentary unit
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Tuc
+          Enumerated_Domain_Value_Definition: Unnamed conglomerate
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Tuss
+          Enumerated_Domain_Value_Definition: Unnamed sandstone, undifferentiated
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Tus
+          Enumerated_Domain_Value_Definition: Unnamed sandstone
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Tva
+          Enumerated_Domain_Value_Definition: Basaltic andesite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Tvb
+          Enumerated_Domain_Value_Definition: Olivine basalt
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Tvd?
+          Enumerated_Domain_Value_Definition: Dacitic felsite?
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Tvd
+          Enumerated_Domain_Value_Definition: Dacitic felsite
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Tvg
+          Enumerated_Domain_Value_Definition: Vaqueros Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Tvp
+          Enumerated_Domain_Value_Definition: Pinnacles Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Tvq?
+          Enumerated_Domain_Value_Definition: Vaqueros Formation?
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Tvq
+          Enumerated_Domain_Value_Definition: Vaqueros Formation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Tvr
+          Enumerated_Domain_Value_Definition: Rhyolite breccia and obsidian
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Tvt?
+          Enumerated_Domain_Value_Definition: Vaqueros Formation?
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Tvt
+          Enumerated_Domain_Value_Definition: Vaqueros Formation
+    Attribute:
+      Attribute_Label: CLASS
+      Attribute_Definition: Rock type
+      Attribute_Definition_Source: author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: sedimentary
+          Enumerated_Domain_Value_Definition: sedimentary rock
+          Enumerated_Domain_Value_Definition_Source: author
+        Enumerated_Domain:
+          Enumerated_Domain_Value: metamorphic
+          Enumerated_Domain_Value_Definition: metamorphic rock
+          Enumerated_Domain_Value_Definition_Source: author
+        Enumerated_Domain:
+          Enumerated_Domain_Value: igneous
+          Enumerated_Domain_Value_Definition: igneous rock
+          Enumerated_Domain_Value_Definition_Source: author
+    Attribute:
+      Attribute_Label: LITHOLOGY
+      Attribute_Definition: Main lithologic characteristic
+      Attribute_Definition_Source: author
+    Attribute:
+      Attribute_Label: DET_NAME
+      Attribute_Definition: Detailed name designed for 1:24,000 scale mapping
+      Attribute_Definition_Source: author
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: see enumerated domain for "det_lab" for definition
+    Attribute:
+      Attribute_Label: GEN_NAME
+      Attribute_Definition: Generalized name designed for scales less detailed than 1:24,000 scale mapping
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: see enumerated domain for "gen_lab" for definition
+    Attribute:
+      Attribute_Label: GEN_LAB
+      Attribute_Definition: Generalized label designed for scales less detailed than 1:24,000 scale mapping
+      Attribute_Definition_Source: author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Alluvial deposits, undifferentiated
+          Enumerated_Domain_Value_Definition: Qal
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Alluvial fan deposits, Holocene
+          Enumerated_Domain_Value_Definition: Qhf
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Alluvial fans, late Pleistocene
+          Enumerated_Domain_Value_Definition: Qfpl
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Alluvial fans, middle Pleistocene
+          Enumerated_Domain_Value_Definition: Qfpm
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Aplite, alaskite, and pegmatite
+          Enumerated_Domain_Value_Definition: Ka
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Aplitic granite
+          Enumerated_Domain_Value_Definition: Kag
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Aromas Sand, undifferentiated?
+          Enumerated_Domain_Value_Definition: Qa
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Aromas Sand, undifferentiated
+          Enumerated_Domain_Value_Definition: Qa
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Artificial fill
+          Enumerated_Domain_Value_Definition: Qfl
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Avenal Sandstone
+          Enumerated_Domain_Value_Definition: Ta
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Basalt of Crystal Knob
+          Enumerated_Domain_Value_Definition: QTcb
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Basaltic andesite
+          Enumerated_Domain_Value_Definition: Tva
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Basin deposits
+          Enumerated_Domain_Value_Definition: Qb
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Beach sand
+          Enumerated_Domain_Value_Definition: Qbs
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Berry Formation
+          Enumerated_Domain_Value_Definition: Tbe
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Biotite tonalite
+          Enumerated_Domain_Value_Definition: Kbt
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Carmelo Formation
+          Enumerated_Domain_Value_Definition: Tc
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Charnockitic tonalite of Compton (1960)
+          Enumerated_Domain_Value_Definition: Kct
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Church Creek Formation
+          Enumerated_Domain_Value_Definition: Tcc
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Church Creek Formation
+          Enumerated_Domain_Value_Definition: Tcs
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Coast Ridge belt
+          Enumerated_Domain_Value_Definition: pKc
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Coastal terraces
+          Enumerated_Domain_Value_Definition: Qct
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Colluvium
+          Enumerated_Domain_Value_Definition: Qc
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Continental deposits, undifferentiated
+          Enumerated_Domain_Value_Definition: QTc
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Dacitic felsite
+          Enumerated_Domain_Value_Definition: Tvd
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Diabase and diorite
+          Enumerated_Domain_Value_Definition: Jd
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Diorite (Gabilan Range)
+          Enumerated_Domain_Value_Definition: Kd
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Dune deposits
+          Enumerated_Domain_Value_Definition: Qd
+        Enumerated_Domain:
+          Enumerated_Domain_Value: El Piojo Formation
+          Enumerated_Domain_Value_Definition: Kep
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Eolian deposits
+          Enumerated_Domain_Value_Definition: Qe
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Etchegoin Formation
+          Enumerated_Domain_Value_Definition: Te
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Flood-plain deposits, undifferentiated?
+          Enumerated_Domain_Value_Definition: Qfp
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Flood-plain deposits, undifferentiated
+          Enumerated_Domain_Value_Definition: Qfp
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Fluvial terrace deposits, late Pleistocene
+          Enumerated_Domain_Value_Definition: Qtlp
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Fluvial terrace deposits, middle Pleistocene
+          Enumerated_Domain_Value_Definition: Qtmp
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Fluvial terrace deposits, undifferentiated
+          Enumerated_Domain_Value_Definition: Qt
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Franciscan complex, graywacke
+          Enumerated_Domain_Value_Definition: KJfs
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Franciscan complex, greenstone
+          Enumerated_Domain_Value_Definition: KJfv
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Franciscan complex, limestone
+          Enumerated_Domain_Value_Definition: KJfl
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Franciscan complex, melange
+          Enumerated_Domain_Value_Definition: KJfm
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Franciscan complex, undifferentiated
+          Enumerated_Domain_Value_Definition: KJf
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Gabbro and diorite (Santa Lucia Range)
+          Enumerated_Domain_Value_Definition: Kmi
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Garnetiferous quartz monzonite of Little Sur and South Ventana Cone
+          Enumerated_Domain_Value_Definition: Kqml
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Garnetiferous quartz monzonite of Pine Canyon
+          Enumerated_Domain_Value_Definition: Kqmg
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Gneissic quartz diorite of Stonewall Canyon
+          Enumerated_Domain_Value_Definition: Kqdg
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Granite of Jacks Hill
+          Enumerated_Domain_Value_Definition: Kgj
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Granitic rocks, undifferentiated
+          Enumerated_Domain_Value_Definition: Kgr
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Granodiorite of Cachagua
+          Enumerated_Domain_Value_Definition: Kgdc
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Granodiorite of Gloria Road
+          Enumerated_Domain_Value_Definition: Kgdg
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Granodiorite of Natividad
+          Enumerated_Domain_Value_Definition: Kgdn
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Granodiorite-quartz diorite of Bear Mountain
+          Enumerated_Domain_Value_Definition: Kgdb
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Graphitic and pyritic belt
+          Enumerated_Domain_Value_Definition: pKg
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Graphitic gneiss
+          Enumerated_Domain_Value_Definition: pKgg
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Gravelly Flat Formation
+          Enumerated_Domain_Value_Definition: Kgf
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Hans Grieve Formation
+          Enumerated_Domain_Value_Definition: QTh
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Heteregeneous granitic complex
+          Enumerated_Domain_Value_Definition: Kgh
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Hornblende quartz gabbro of Gold Hill
+          Enumerated_Domain_Value_Definition: Jhg
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Hornblende-biotite quartz diorite of Soberanes Point
+          Enumerated_Domain_Value_Definition: Kqds
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Hornblende-biotite quartz diorite of the Paraiso-Paloma area
+          Enumerated_Domain_Value_Definition: Kqdp
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Hornblende-biotite quartz diorite-diorite of Corral de Tierra
+          Enumerated_Domain_Value_Definition: Kqdc
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Italian Flat Formation
+          Enumerated_Domain_Value_Definition: Kif
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Junipero Sandstone
+          Enumerated_Domain_Value_Definition: Tj
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Landslide deposits
+          Enumerated_Domain_Value_Definition: Qls
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Lucia Shale
+          Enumerated_Domain_Value_Definition: Tl
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Mafic volcanic rocks
+          Enumerated_Domain_Value_Definition: Jv
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Marble
+          Enumerated_Domain_Value_Definition: pKm
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Marine clastic sedimentary rocks
+          Enumerated_Domain_Value_Definition: KTg
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Marine clastic sedimentary rocks
+          Enumerated_Domain_Value_Definition: KTs
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Marine sandstone
+          Enumerated_Domain_Value_Definition: Tts
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Mica schist (Gabilan Range)
+          Enumerated_Domain_Value_Definition: pKms
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Monterey Formation, clay shale
+          Enumerated_Domain_Value_Definition: Tmc
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Monterey Formation, Devilwater member
+          Enumerated_Domain_Value_Definition: Tmd
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Monterey Formation, semi-siliceous
+          Enumerated_Domain_Value_Definition: Tml
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Monterey Formation, siliceous
+          Enumerated_Domain_Value_Definition: Tm
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Monterey Formation, siltstone
+          Enumerated_Domain_Value_Definition: Tmi
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Monterey Formation
+          Enumerated_Domain_Value_Definition: Tmdi
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Olivine basalt
+          Enumerated_Domain_Value_Definition: Tvb
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Pancho Rico Formation, mudstone
+          Enumerated_Domain_Value_Definition: Tpo
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Pancho Rico Formation
+          Enumerated_Domain_Value_Definition: Tpd
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Pancho Rico Formation
+          Enumerated_Domain_Value_Definition: Tpi
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Pancho Rico Formation
+          Enumerated_Domain_Value_Definition: Tps
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Panoche Formation
+          Enumerated_Domain_Value_Definition: Kp
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Paso Robles Formation, clay and gravel
+          Enumerated_Domain_Value_Definition: QTpc
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Paso Robles Formation, undifferentiated
+          Enumerated_Domain_Value_Definition: QTp
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Paso Robles Formation
+          Enumerated_Domain_Value_Definition: QTcl
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Paso Robles Formation
+          Enumerated_Domain_Value_Definition: QTg
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Paso Robles Formation
+          Enumerated_Domain_Value_Definition: QTm
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Peltic schist belt
+          Enumerated_Domain_Value_Definition: pKp
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Piedras Altas Formation
+          Enumerated_Domain_Value_Definition: Tpa
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Pinnacles Formation
+          Enumerated_Domain_Value_Definition: Tvp
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Pleistocene alluvial fans, undifferentiated
+          Enumerated_Domain_Value_Definition: Qfu
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Point of Rocks Sandstone
+          Enumerated_Domain_Value_Definition: Tpr
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Porphyritic granodiorite of Junipero Serra Peak
+          Enumerated_Domain_Value_Definition: Kgdj
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Porphyritic granodiorite of Monterey
+          Enumerated_Domain_Value_Definition: Kgdm
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Porphyritic granodiorite of Sand Creek
+          Enumerated_Domain_Value_Definition: Kgds
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Quartz diorite of Vergeles
+          Enumerated_Domain_Value_Definition: Kqdv
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Quartz diorite-granodiorite of Johnson Canyon
+          Enumerated_Domain_Value_Definition: Kqdj
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Quartz monzonite of Bickmore Canyon
+          Enumerated_Domain_Value_Definition: Kqmb
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Quartz monzonite of Fremont Peak
+          Enumerated_Domain_Value_Definition: Kqmf
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Quartz monzonite of Pinyon Peak
+          Enumerated_Domain_Value_Definition: Kqmp
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Quartzite
+          Enumerated_Domain_Value_Definition: pKq
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Quartzofeldspathic rocks
+          Enumerated_Domain_Value_Definition: pKqf
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Radiolarian chert
+          Enumerated_Domain_Value_Definition: Jc
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Red beds
+          Enumerated_Domain_Value_Definition: Trb
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Reef Ridge Shale
+          Enumerated_Domain_Value_Definition: Trr
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Reliz Canyon Formation, unnamed conglomerate
+          Enumerated_Domain_Value_Definition: Trc
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Reliz Canyon Formation
+          Enumerated_Domain_Value_Definition: Tr
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Rhyolite breccia and obsidian
+          Enumerated_Domain_Value_Definition: Tvr
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Sandstone and conglomerate
+          Enumerated_Domain_Value_Definition: Qscp
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Santa Margarita Sandstone
+          Enumerated_Domain_Value_Definition: Tsm
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Schist of Sierra de Salinas
+          Enumerated_Domain_Value_Definition: Kms
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Sedimentary rocks of Crystal Knob
+          Enumerated_Domain_Value_Definition: QTcs
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Serpentinite
+          Enumerated_Domain_Value_Definition: Jsp
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Shut-in Formation
+          Enumerated_Domain_Value_Definition: Ksi
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Steve Creek Formation
+          Enumerated_Domain_Value_Definition: Ksc
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Stream channel deposits
+          Enumerated_Domain_Value_Definition: Qsc
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Tejon Formation
+          Enumerated_Domain_Value_Definition: Ttj
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Temblor Sandstone
+          Enumerated_Domain_Value_Definition: Tt
+        Enumerated_Domain:
+          Enumerated_Domain_Value: The Rocks Sandstone
+          Enumerated_Domain_Value_Definition: Ttr
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Toro Formation
+          Enumerated_Domain_Value_Definition: KJt
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Unnamed clastic sedimentary unit
+          Enumerated_Domain_Value_Definition: Tucc
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Unnamed clastic sedimentary unit
+          Enumerated_Domain_Value_Definition: Tucg
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Unnamed clastic sedimentary unit
+          Enumerated_Domain_Value_Definition: Tucs
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Unnamed clastic sediments, marine sandstone
+          Enumerated_Domain_Value_Definition: Tms
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Unnamed clastic sediments, red beds
+          Enumerated_Domain_Value_Definition: Tn
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Unnamed clastic sediments, red beds
+          Enumerated_Domain_Value_Definition: Tnt
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Unnamed clastic sediments, sandstone and conglomerate
+          Enumerated_Domain_Value_Definition: Tcg
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Unnamed clastic sediments
+          Enumerated_Domain_Value_Definition: Tms
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Unnamed conglomerate and sandstone
+          Enumerated_Domain_Value_Definition: Tcg
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Unnamed conglomerate and sandstone
+          Enumerated_Domain_Value_Definition: Tsg
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Unnamed marine sandstone, clay shale
+          Enumerated_Domain_Value_Definition: Tsh
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Unnamed marine sandstone
+          Enumerated_Domain_Value_Definition: Tss
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Unnamed sedimentary rocks, eastern facies
+          Enumerated_Domain_Value_Definition: Ku
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Unnamed sedimentary rocks, western facies
+          Enumerated_Domain_Value_Definition: Ks
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Vaqueros Formation
+          Enumerated_Domain_Value_Definition: Tvg
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Vaqueros Formation
+          Enumerated_Domain_Value_Definition: Tvq
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Vaqueros Formation
+          Enumerated_Domain_Value_Definition: Tvt
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Variable quartz monzonite-granodiorite of Big Pines and Island Mountain
+          Enumerated_Domain_Value_Definition: Kqmv
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Varian Ranch beds
+          Enumerated_Domain_Value_Definition: QTv
+    Attribute:
+      Attribute_Label: ERA
+      Attribute_Definition: Geologic era
+      Attribute_Definition_Source: author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Cenozoic
+          Enumerated_Domain_Value_Definition: Cenozoic era
+          Enumerated_Domain_Value_Definition_Source: author
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Mesozoic
+          Enumerated_Domain_Value_Definition: Mesozoic era
+          Enumerated_Domain_Value_Definition_Source: author
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Mesozoic or older
+          Enumerated_Domain_Value_Definition: Mesozoic era or older
+          Enumerated_Domain_Value_Definition_Source: author
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Cenozoic-Mesozoic
+          Enumerated_Domain_Value_Definition: Cenozoic-Mesozoic era
+          Enumerated_Domain_Value_Definition_Source: author
+    Attribute:
+      Attribute_Label: PERIOD
+      Attribute_Definition: Geologic period
+      Attribute_Definition_Source: author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Cretaceous
+          Enumerated_Domain_Value_Definition: Cretaceous period
+          Enumerated_Domain_Value_Definition_Source: author
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Cretaceous?
+          Enumerated_Domain_Value_Definition: Cretaceous period?
+          Enumerated_Domain_Value_Definition_Source: author
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Jurassic
+          Enumerated_Domain_Value_Definition: Jurassic period
+          Enumerated_Domain_Value_Definition_Source: author
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Jurassic-Cretaceous
+          Enumerated_Domain_Value_Definition: Jurassic-Cretaceous period
+          Enumerated_Domain_Value_Definition_Source: author
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Late Cretaceous
+          Enumerated_Domain_Value_Definition: Late Cretaceous period
+          Enumerated_Domain_Value_Definition_Source: author
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Late Jurassic
+          Enumerated_Domain_Value_Definition: Late Jurassic period
+          Enumerated_Domain_Value_Definition_Source: author
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Pre-Cretaceous
+          Enumerated_Domain_Value_Definition: older than Cretaceous period
+          Enumerated_Domain_Value_Definition_Source: author
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Quaternary
+          Enumerated_Domain_Value_Definition: Quaternary period
+          Enumerated_Domain_Value_Definition_Source: author
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Quaternary or Tertiary
+          Enumerated_Domain_Value_Definition: Quaternary or Tertiary period
+          Enumerated_Domain_Value_Definition_Source: author
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Quaternary-Tertiary
+          Enumerated_Domain_Value_Definition: Quaternary-Tertiary period
+          Enumerated_Domain_Value_Definition_Source: author
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Tertiary
+          Enumerated_Domain_Value_Definition: Tertiary period
+          Enumerated_Domain_Value_Definition_Source: author
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Paleocene-Upper Cretaceous
+          Enumerated_Domain_Value_Definition: Paleocene-Upper Cretaceous period
+          Enumerated_Domain_Value_Definition_Source: author
+    Attribute:
+      Attribute_Label: EPOCH
+      Attribute_Definition: Geologic epoch
+      Attribute_Definition_Source: author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Early Eocene
+          Enumerated_Domain_Value_Definition: Early Eocene epoch
+          Enumerated_Domain_Value_Definition_Source: author
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Early Pleistocene
+          Enumerated_Domain_Value_Definition: Early Pleistocene epoch
+          Enumerated_Domain_Value_Definition_Source: author
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Early to Middle Pleistocene
+          Enumerated_Domain_Value_Definition: Early to Middle Pleistocene epoch
+          Enumerated_Domain_Value_Definition_Source: author
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Eocene
+          Enumerated_Domain_Value_Definition: Eocene epoch
+          Enumerated_Domain_Value_Definition_Source: author
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Eocene or Paleocene
+          Enumerated_Domain_Value_Definition: Eocene or Paleocene epoch
+          Enumerated_Domain_Value_Definition_Source: author
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Holocene
+          Enumerated_Domain_Value_Definition: Holocene epoch
+          Enumerated_Domain_Value_Definition_Source: author
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Holocene-Pleistocene
+          Enumerated_Domain_Value_Definition: Holocene-Pleistocene epoch
+          Enumerated_Domain_Value_Definition_Source: author
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Late Holocene
+          Enumerated_Domain_Value_Definition: Late Holocene epoch
+          Enumerated_Domain_Value_Definition_Source: author
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Late Miocene
+          Enumerated_Domain_Value_Definition: Late Miocene epoch
+          Enumerated_Domain_Value_Definition_Source: author
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Late Miocene-Early Pliocene
+          Enumerated_Domain_Value_Definition: Late Miocene-Early Pliocene epoch
+          Enumerated_Domain_Value_Definition_Source: author
+        Enumerated_Domain:
+          Enumerated_Domain_Value: late Oligocene-early Miocene
+          Enumerated_Domain_Value_Definition: late Oligocene-early Miocene epoch
+          Enumerated_Domain_Value_Definition_Source: author
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Late Pleistocene
+          Enumerated_Domain_Value_Definition: Late Pleistocene epoch
+          Enumerated_Domain_Value_Definition_Source: author
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Late-Middle Miocene
+          Enumerated_Domain_Value_Definition: Late-Middle Miocene epoch
+          Enumerated_Domain_Value_Definition_Source: author
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Lower Eocene
+          Enumerated_Domain_Value_Definition: Lower Eocene epoch
+          Enumerated_Domain_Value_Definition_Source: author
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Middle Eocene
+          Enumerated_Domain_Value_Definition: Middle Eocene epoch
+          Enumerated_Domain_Value_Definition_Source: author
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Middle Eocene to upper Paleocene
+          Enumerated_Domain_Value_Definition: Middle Eocene to upper Paleocene epoch
+          Enumerated_Domain_Value_Definition_Source: author
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Middle Miocene
+          Enumerated_Domain_Value_Definition: Middle Miocene epoch
+          Enumerated_Domain_Value_Definition_Source: author
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Middle Pleistocene
+          Enumerated_Domain_Value_Definition: Middle Pleistocene epoch
+          Enumerated_Domain_Value_Definition_Source: author
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Middle-Early(?) Miocene
+          Enumerated_Domain_Value_Definition: Middle-Early(?) Miocene epoch
+          Enumerated_Domain_Value_Definition_Source: author
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Middle-Late Miocene
+          Enumerated_Domain_Value_Definition: Middle-Late Miocene epoch
+          Enumerated_Domain_Value_Definition_Source: author
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Miocene
+          Enumerated_Domain_Value_Definition: Miocene epoch
+          Enumerated_Domain_Value_Definition_Source: author
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Oligocene
+          Enumerated_Domain_Value_Definition: Oligocene epoch
+          Enumerated_Domain_Value_Definition_Source: author
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Paleocene?
+          Enumerated_Domain_Value_Definition: Paleocene epoch?
+          Enumerated_Domain_Value_Definition_Source: author
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Pleistocene
+          Enumerated_Domain_Value_Definition: Pleistocene epoch
+          Enumerated_Domain_Value_Definition_Source: author
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Pleistocene or Pleistocene
+          Enumerated_Domain_Value_Definition: Pleistocene or Pleistocene epoch
+          Enumerated_Domain_Value_Definition_Source: author
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Pleistocene?
+          Enumerated_Domain_Value_Definition: Pleistocene epoch?
+          Enumerated_Domain_Value_Definition_Source: author
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Pliocene
+          Enumerated_Domain_Value_Definition: Pliocene epoch
+          Enumerated_Domain_Value_Definition_Source: author
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Pliocene-Pleistocene?
+          Enumerated_Domain_Value_Definition: Pliocene-Pleistocene epoch?
+          Enumerated_Domain_Value_Definition_Source: author
+    Attribute:
+      Attribute_Label: LIQ_SUSC
+      Attribute_Definition: Relative liquefaction susceptiblity class
+      Attribute_Definition_Source: author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: High
+          Enumerated_Domain_Value_Definition: High liquefaction susceptibility
+          Enumerated_Domain_Value_Definition_Source: author
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Moderate
+          Enumerated_Domain_Value_Definition: Moderate liquefaction susceptibility
+          Enumerated_Domain_Value_Definition_Source: author
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Low
+          Enumerated_Domain_Value_Definition: Low liquefaction susceptibility
+          Enumerated_Domain_Value_Definition_Source: author
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Variable
+          Enumerated_Domain_Value_Definition: Variable liquefaction susceptibility
+          Enumerated_Domain_Value_Definition_Source: author
+    Attribute:
+      Attribute_Label: STRENGTH
+      Attribute_Definition: Estimated rock strength class
+      Attribute_Definition_Source: author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: A
+          Enumerated_Domain_Value_Definition: Crystalline rocks and well-cemented sandstones
+          Enumerated_Domain_Value_Definition_Source: author
+        Enumerated_Domain:
+          Enumerated_Domain_Value: B
+          Enumerated_Domain_Value_Definition: Unconsolidated and weakly cemented sandstones
+          Enumerated_Domain_Value_Definition_Source: author
+        Enumerated_Domain:
+          Enumerated_Domain_Value: C
+          Enumerated_Domain_Value_Definition: Shales and clays
+          Enumerated_Domain_Value_Definition_Source: author
+    Attribute:
+      Attribute_Label: UBC
+      Attribute_Definition: Estimated 1997 Uniform Building Code site class
+      Attribute_Definition_Source: author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: B
+          Enumerated_Domain_Value_Definition: Rock (shear wave velocity 2,500 to 5,000 feet/second)
+          Enumerated_Domain_Value_Definition_Source: ICBO, 1997
+        Enumerated_Domain:
+          Enumerated_Domain_Value: C
+          Enumerated_Domain_Value_Definition: Very dense soil and soft rock (shear wave velocity 1,200 to 2,500 feet/second)
+          Enumerated_Domain_Value_Definition_Source: ICBO, 1997
+        Enumerated_Domain:
+          Enumerated_Domain_Value: D
+          Enumerated_Domain_Value_Definition: Stiff soil profile (shear wave velocity 600 to 1,200 feet/second)
+          Enumerated_Domain_Value_Definition_Source: ICBO, 1997
+Distribution_Information:
+  Distributor:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: Monterey County Environmental Resource Policy Department
+      Contact_Position: Database Coordinator
+      Contact_Address:
+        Address_Type: mailing address
+        Address: P.O. Box 180
+        City: Salinas
+        State_or_Province: CA
+        Postal_Code: 93902
+      Contact_Voice_Telephone: (831) 755-5353
+      Contact_Facsimile_Telephone: (831) 796-3062
+      Hours_of_Service: Monday to Friday, 8 AM to 5 PM, Pacific Time
+  Distribution_Liability: This database is intended for regional planning purposes and not for site-specific evaluation. Information in this data set is preliminary in nature. This information is provided with understanding that it is not guaranteed to be correct or and conclusions drawn from such information, whether from individual use or aggregate use with other data, are the responsibility of the user.
+  Standard_Order_Process:
+    Digital_Form:
+      Digital_Transfer_Information:
+        Transfer_Size: 17.825
+  Custom_Order_Process: Contact the Monterey County Environmental Resource Policy Department for a printed copy of the map or for an ESRI shapefile of the data set.
+  Technical_Prerequisites: For those users that do not have ArcView or ARC/INFO, ESRI provides a free GIS data viewer, ArcExplorer, that can be downloaded from their website at: http://www.esri.com/software/arcexplorer/index.html.  ArcExplorer is currently only supported on the Windows 95/98 or Windows NT platforms.
+Metadata_Reference_Information:
+  Metadata_Date: 20010625
+  Metadata_Review_Date: 20010625
+  Metadata_Contact:
+    Contact_Information:
+      Contact_Person_Primary:
+        Contact_Person: Lew Rosenberg
+        Contact_Organization: Consulting Geologist
+      Contact_Address:
+        Address_Type: mailing address
+        Address: P.O. Box 183
+        City: Templeton
+        State_or_Province: CA
+        Postal_Code: 93465-0183
+      Contact_Voice_Telephone: (805) 434-1750
+      Contact_Facsimile_Telephone: (805) 434-1750
+      Contact_Electronic_Mail_Address: Lrosenberg@thegrid.net
+      Hours_of_Service: Monday to Friday, 8 AM to 5 PM, Pacific Time
+  Metadata_Standard_Name: FGDC Content Standards for Digital Geospatial Metadata
+  Metadata_Standard_Version: FGDC-STD-001-1998
+  Metadata_Time_Convention: local time
+  Metadata_Extensions:
+    Online_Linkage: http://www.esri.com/metadata/esriprof80.html
+    Profile_Name: ESRI Metadata Profile

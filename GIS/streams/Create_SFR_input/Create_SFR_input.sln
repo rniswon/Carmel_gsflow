@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{6989167D-11E4-40FE-8C1A-2192A86A7E90}") = "Create_SFR_input", "Create_SFR_input\Create_SFR_input.vfproj", "{2AD86BCA-811B-425D-90B5-7A7B621F45E3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2AD86BCA-811B-425D-90B5-7A7B621F45E3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2AD86BCA-811B-425D-90B5-7A7B621F45E3}.Debug|Win32.Build.0 = Debug|Win32
+		{2AD86BCA-811B-425D-90B5-7A7B621F45E3}.Release|Win32.ActiveCfg = Release|Win32
+		{2AD86BCA-811B-425D-90B5-7A7B621F45E3}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
