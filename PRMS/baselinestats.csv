@@ -1,0 +1,379 @@
+Basin_Subbasin ID   ,   Type  ,       Gauge             ,  Statistic  ,     Daily    ,    Monthly   ,   Yearly    
+           1 , basin_cfs , Carmel River at Lagoon , MSE          , 0.000000 , 0.000000 , 0.000000
+           1 , basin_cfs , Carmel River at Lagoon , MSE Log10    , 0.000000 , 0.000000 , 0.000000
+           1 , basin_cfs , Carmel River at Lagoon , MSE TrLam    , 0.000000 , 0.000000 , 0.000000
+           1 , basin_cfs , Carmel River at Lagoon , PBias        , 0.000000 , 0.000000 , 0.000000
+           1 , basin_cfs , Carmel River at Lagoon , PBias Log10  , 0.000000 , 0.000000 , 0.000000
+           1 , basin_cfs , Carmel River at Lagoon , PBias TrLam  , 0.000000 , 0.000000 , 0.000000
+           1 , basin_cfs , Carmel River at Lagoon , NSE          , 0.000000 , 0.000000 , 0.000000
+           1 , basin_cfs , Carmel River at Lagoon , NSE Log10    , 0.000000 , 0.000000 , 0.000000
+           1 , basin_cfs , Carmel River at Lagoon , NSE TrLam    , 0.000000 , 0.000000 , 0.000000
+           1 , basin_cfs , Carmel River at Lagoon , MSE FDC      , 0.000000 , 0.000000 , 0.000000
+           1 , basin_cfs , Carmel River at Lagoon , MSE FDCLog10 , 0.000000 , 0.000000 , 0.000000
+           1 , basin_cfs , Carmel River at Lagoon , MSE FDCTrLam , 0.000000 , 0.000000 , 0.000000
+           1 , basin_cfs , Carmel River at Lagoon , QPCorr       , 0.000000 , 0.000000 , 0.000000
+           1 , basin_cfs , Carmel River at Lagoon , MaxAbs PBias , 0.000000 , 0.000000 , 0.000000
+           1 , basin_cfs , Carmel River at Lagoon , MaxAbsPBiasL , 0.000000 , 0.000000 , 0.000000
+           1 , basin_cfs , Carmel River at Lagoon , Pct Mean Dif , 0.000000 , 0.000000 , 0.000000
+           1 , basin_cfs , Carmel River at Lagoon , Pct Var Diff , 0.000000 , 0.000000 , 0.000000
+           1 , basin_cfs , Carmel River at Lagoon , Pct L10MeanD , 0.000000 , 0.000000 , 0.000000
+           1 , basin_cfs , Carmel River at Lagoon , Pct L10VarDf , 0.000000 , 0.000000 , 0.000000
+           1 , basin_cfs , Carmel River at Lagoon , Pct LTrMeanD , 0.000000 , 0.000000 , 0.000000
+           1 , basin_cfs , Carmel River at Lagoon , Pct LTrVarDf , 0.000000 , 0.000000 , 0.000000
+           1 , sub_cfs , BelowLosPadresReservoir , MSE          , 52044.952441 , 12419.864240 , 1384.402694
+           1 , sub_cfs , BelowLosPadresReservoir , MSE Log10    , 0.257343 , 0.222360 , 0.097644
+           1 , sub_cfs , BelowLosPadresReservoir , MSE TrLam    , 17.691435 , 12.813896 , 5.005106
+           1 , sub_cfs , BelowLosPadresReservoir , PBias        , 17.006779 , 17.630844 , 19.715845
+           1 , sub_cfs , BelowLosPadresReservoir , PBias Log10  , 12.754415 , 12.171886 , 6.796047
+           1 , sub_cfs , BelowLosPadresReservoir , PBias TrLam  , 6.808334 , 6.931743 , 5.571280
+           1 , sub_cfs , BelowLosPadresReservoir , NSE          , -2.219107 , -0.593175 , -0.425582
+           1 , sub_cfs , BelowLosPadresReservoir , NSE Log10    , 0.136664 , 0.282630 , -0.210713
+           1 , sub_cfs , BelowLosPadresReservoir , NSE TrLam    , -0.059667 , 0.190464 , -0.253248
+           1 , sub_cfs , BelowLosPadresReservoir , MSE FDC      , 15776.325807 , 1445.869755 , 130.454266
+           1 , sub_cfs , BelowLosPadresReservoir , MSE FDCLog10 , 0.034485 , 0.035672 , 0.013208
+           1 , sub_cfs , BelowLosPadresReservoir , MSE FDCTrLam , 0.096416 , 0.088391 , 0.047815
+           1 , sub_cfs , BelowLosPadresReservoir , QPCorr       , 0.812884 , 0.578310 , 0.781711
+           1 , sub_cfs , BelowLosPadresReservoir , MaxAbs PBias , 101.209483 , 102.530267 , 44.720699
+           1 , sub_cfs , BelowLosPadresReservoir , MaxAbsPBiasL , 31.541594 , 31.455634 , 10.506036
+           1 , sub_cfs , BelowLosPadresReservoir , Pct Mean Dif , 17.006779 , 17.630844 , 19.715845
+           1 , sub_cfs , BelowLosPadresReservoir , Pct Var Diff , 185.099168 , 68.936212 , -17.878786
+           1 , sub_cfs , BelowLosPadresReservoir , Pct L10MeanD , 12.754415 , 12.171886 , 6.796047
+           1 , sub_cfs , BelowLosPadresReservoir , Pct L10VarDf , -46.684626 , -45.814734 , -55.228440
+           1 , sub_cfs , BelowLosPadresReservoir , Pct LTrMeanD , 6.808334 , 6.931743 , 5.571280
+           1 , sub_cfs , BelowLosPadresReservoir , Pct LTrVarDf , -21.043836 , -21.172939 , -43.965312
+           2 , sub_cfs , DonJuanBridge , MSE          , 57998.702643 , 12013.366166 , 965.497063
+           2 , sub_cfs , DonJuanBridge , MSE Log10    , 0.220728 , 0.215275 , 0.073272
+           2 , sub_cfs , DonJuanBridge , MSE TrLam    , 8.563239 , 7.657151 , 2.947561
+           2 , sub_cfs , DonJuanBridge , PBias        , 43.807492 , 43.134240 , 45.462925
+           2 , sub_cfs , DonJuanBridge , PBias Log10  , 38.983297 , 36.144799 , 14.275563
+           2 , sub_cfs , DonJuanBridge , PBias TrLam  , 24.874467 , 23.922472 , 13.700286
+           2 , sub_cfs , DonJuanBridge , NSE          , 0.433221 , 0.780489 , 0.859867
+           2 , sub_cfs , DonJuanBridge , NSE Log10    , 0.598466 , 0.620159 , 0.602922
+           2 , sub_cfs , DonJuanBridge , NSE TrLam    , 0.745373 , 0.770141 , 0.736387
+           2 , sub_cfs , DonJuanBridge , MSE FDC      , 12448.905812 , 1142.367705 , 561.774930
+           2 , sub_cfs , DonJuanBridge , MSE FDCLog10 , 0.176236 , 0.173718 , 0.063673
+           2 , sub_cfs , DonJuanBridge , MSE FDCTrLam , 0.350616 , 0.336729 , 0.210929
+           2 , sub_cfs , DonJuanBridge , QPCorr       , 0.193321 , 0.105994 , 0.065651
+           2 , sub_cfs , DonJuanBridge , MaxAbs PBias , 2672.148044 , 2005.068710 , 1143.022662
+           2 , sub_cfs , DonJuanBridge , MaxAbsPBiasL , 814.036586 , 471.024093 , 137.012707
+           2 , sub_cfs , DonJuanBridge , Pct Mean Dif , 43.807492 , 43.134240 , 45.462925
+           2 , sub_cfs , DonJuanBridge , Pct Var Diff , 62.067558 , 6.289300 , -32.806886
+           2 , sub_cfs , DonJuanBridge , Pct L10MeanD , 38.983297 , 36.144799 , 14.275563
+           2 , sub_cfs , DonJuanBridge , Pct L10VarDf , -76.532583 , -76.467428 , -81.046356
+           2 , sub_cfs , DonJuanBridge , Pct LTrMeanD , 24.874467 , 23.922472 , 13.700286
+           2 , sub_cfs , DonJuanBridge , Pct LTrVarDf , -45.671936 , -49.612226 , -67.170957
+           3 , sub_cfs , Highway1Bridge , MSE          , 70097.459973 , 16804.108112 , 1381.073009
+           3 , sub_cfs , Highway1Bridge , MSE Log10    ,    NaN ,    NaN ,    NaN
+           3 , sub_cfs , Highway1Bridge , MSE TrLam    , 26.381937 , 22.896045 , 7.547018
+           3 , sub_cfs , Highway1Bridge , PBias        , 58.149491 , 57.124943 , 59.979922
+           3 , sub_cfs , Highway1Bridge , PBias Log10  ,    NaN ,    NaN ,    NaN
+           3 , sub_cfs , Highway1Bridge , PBias TrLam  , 57.783558 , 51.083226 , 19.873060
+           3 , sub_cfs , Highway1Bridge , NSE          , 0.424767 , 0.748041 , 0.840433
+           3 , sub_cfs , Highway1Bridge , NSE Log10    ,    NaN ,    NaN ,    NaN
+           3 , sub_cfs , Highway1Bridge , NSE TrLam    , 0.574209 , 0.618993 , 0.610634
+           3 , sub_cfs , Highway1Bridge , MSE FDC      , 10139.957030 , 1849.133986 , 921.715890
+           3 , sub_cfs , Highway1Bridge , MSE FDCLog10 ,    NaN ,    NaN ,    NaN
+           3 , sub_cfs , Highway1Bridge , MSE FDCTrLam , 1.672892 , 1.508109 , 0.587544
+           3 , sub_cfs , Highway1Bridge , QPCorr       , 0.209237 , 0.126063 , 0.075238
+           3 , sub_cfs , Highway1Bridge , MaxAbs PBias ,    Inf ,    Inf ,    Inf
+           3 , sub_cfs , Highway1Bridge , MaxAbsPBiasL ,    NaN ,    NaN ,    NaN
+           3 , sub_cfs , Highway1Bridge , Pct Mean Dif , 58.149491 , 57.124943 , 59.979922
+           3 , sub_cfs , Highway1Bridge , Pct Var Diff , 53.407762 , -0.133320 , -35.470275
+           3 , sub_cfs , Highway1Bridge , Pct L10MeanD ,    NaN ,    NaN ,    NaN
+           3 , sub_cfs , Highway1Bridge , Pct L10VarDf ,    NaN ,    NaN ,    NaN
+           3 , sub_cfs , Highway1Bridge , Pct LTrMeanD , 57.783558 , 51.083226 , 19.873060
+           3 , sub_cfs , Highway1Bridge , Pct LTrVarDf , -69.797110 , -71.392735 , -78.989413
+           4 , sub_cfs , SleepyHollowWeir , MSE          , 15017.307694 , 5107.501863 , 565.164195
+           4 , sub_cfs , SleepyHollowWeir , MSE Log10    , 0.133095 , 0.131599 , 0.055645
+           4 , sub_cfs , SleepyHollowWeir , MSE TrLam    , 6.019066 , 5.756439 , 2.044950
+           4 , sub_cfs , SleepyHollowWeir , PBias        , 34.561304 , 37.397548 , 35.921408
+           4 , sub_cfs , SleepyHollowWeir , PBias Log10  , 30.546449 , 28.464010 , 14.709328
+           4 , sub_cfs , SleepyHollowWeir , PBias TrLam  , 18.205694 , 17.861349 , 11.420053
+           4 , sub_cfs , SleepyHollowWeir , NSE          , 0.346075 , 0.552517 , 0.735345
+           4 , sub_cfs , SleepyHollowWeir , NSE Log10    , 0.626221 , 0.639258 , 0.700894
+           4 , sub_cfs , SleepyHollowWeir , NSE TrLam    , 0.687621 , 0.690888 , 0.748540
+           4 , sub_cfs , SleepyHollowWeir , MSE FDC      , 2225.193521 , 331.643847 , 283.131711
+           4 , sub_cfs , SleepyHollowWeir , MSE FDCLog10 , 0.087731 , 0.082445 , 0.047652
+           4 , sub_cfs , SleepyHollowWeir , MSE FDCTrLam , 0.198566 , 0.172655 , 0.134410
+           4 , sub_cfs , SleepyHollowWeir , QPCorr       , 0.279724 , 0.236387 , 0.133776
+           4 , sub_cfs , SleepyHollowWeir , MaxAbs PBias , 563.712749 , 542.358182 , 431.668645
+           4 , sub_cfs , SleepyHollowWeir , MaxAbsPBiasL , 174.632740 , 176.657994 , 148.557284
+           4 , sub_cfs , SleepyHollowWeir , Pct Mean Dif , 34.561304 , 37.397548 , 35.921408
+           4 , sub_cfs , SleepyHollowWeir , Pct Var Diff , 29.021597 , -11.920031 , -44.683657
+           4 , sub_cfs , SleepyHollowWeir , Pct L10MeanD , 30.546449 , 28.464010 , 14.709328
+           4 , sub_cfs , SleepyHollowWeir , Pct L10VarDf , -69.528116 , -68.939486 , -73.981554
+           4 , sub_cfs , SleepyHollowWeir , Pct LTrMeanD , 18.205694 , 17.861349 , 11.420053
+           4 , sub_cfs , SleepyHollowWeir , Pct LTrVarDf , -45.517010 , -48.189085 , -63.247068
+           5 , sub_cfs , RoblesdelRio(USGS) , MSE          , 42427.258514 , 11900.282110 , 1791.509288
+           5 , sub_cfs , RoblesdelRio(USGS) , MSE Log10    ,    NaN , 0.240208 , 0.057397
+           5 , sub_cfs , RoblesdelRio(USGS) , MSE TrLam    , 8.583942 , 7.405976 , 2.610236
+           5 , sub_cfs , RoblesdelRio(USGS) , PBias        , 37.569210 , 36.935438 , 37.305565
+           5 , sub_cfs , RoblesdelRio(USGS) , PBias Log10  ,    NaN , 42.887230 , 15.698148
+           5 , sub_cfs , RoblesdelRio(USGS) , PBias TrLam  , 26.095437 , 24.919031 , 13.548877
+           5 , sub_cfs , RoblesdelRio(USGS) , NSE          , 0.564897 , 0.771207 , 0.820707
+           5 , sub_cfs , RoblesdelRio(USGS) , NSE Log10    ,    NaN , 0.628049 , 0.763344
+           5 , sub_cfs , RoblesdelRio(USGS) , NSE TrLam    , 0.743006 , 0.777573 , 0.822466
+           5 , sub_cfs , RoblesdelRio(USGS) , MSE FDC      , 4216.717461 , 1662.811469 , 1445.717054
+           5 , sub_cfs , RoblesdelRio(USGS) , MSE FDCLog10 ,    NaN , 0.175505 , 0.052316
+           5 , sub_cfs , RoblesdelRio(USGS) , MSE FDCTrLam , 0.304012 , 0.306435 , 0.197069
+           5 , sub_cfs , RoblesdelRio(USGS) , QPCorr       , 0.188615 , 0.121317 , 0.078198
+           5 , sub_cfs , RoblesdelRio(USGS) , MaxAbs PBias , 111.769524 , 110.107036 , 84.162160
+           5 , sub_cfs , RoblesdelRio(USGS) , MaxAbsPBiasL , 70.809086 , 69.225122 , 31.105411
+           5 , sub_cfs , RoblesdelRio(USGS) , Pct Mean Dif , 37.569210 , 36.935438 , 37.305565
+           5 , sub_cfs , RoblesdelRio(USGS) , Pct Var Diff , 24.786504 , -17.502521 , -43.528402
+           5 , sub_cfs , RoblesdelRio(USGS) , Pct L10MeanD ,    NaN , 42.887230 , 15.698148
+           5 , sub_cfs , RoblesdelRio(USGS) , Pct L10VarDf ,    NaN , -74.291258 , -64.379551
+           5 , sub_cfs , RoblesdelRio(USGS) , Pct LTrMeanD , 26.095437 , 24.919031 , 13.548877
+           5 , sub_cfs , RoblesdelRio(USGS) , Pct LTrVarDf , -45.881257 , -49.438136 , -53.734232
+           6 , sub_cfs , NearCarmel(USGS) , MSE          , 58048.097787 , 18002.948977 , 2376.498241
+           6 , sub_cfs , NearCarmel(USGS) , MSE Log10    ,    NaN ,    NaN ,    NaN
+           6 , sub_cfs , NearCarmel(USGS) , MSE TrLam    , 25.944295 , 23.105146 , 7.942483
+           6 , sub_cfs , NearCarmel(USGS) , PBias        , 51.295658 , 50.571213 , 51.148825
+           6 , sub_cfs , NearCarmel(USGS) , PBias Log10  ,    NaN ,    NaN ,    NaN
+           6 , sub_cfs , NearCarmel(USGS) , PBias TrLam  , 63.362646 , 56.778897 , 22.179457
+           6 , sub_cfs , NearCarmel(USGS) , NSE          , 0.501041 , 0.716910 , 0.814951
+           6 , sub_cfs , NearCarmel(USGS) , NSE Log10    ,    NaN ,    NaN ,    NaN
+           6 , sub_cfs , NearCarmel(USGS) , NSE TrLam    , 0.580375 , 0.624717 , 0.708147
+           6 , sub_cfs , NearCarmel(USGS) , MSE FDC      , 5420.984942 , 2033.877712 , 1835.463020
+           6 , sub_cfs , NearCarmel(USGS) , MSE FDCLog10 ,    NaN ,    NaN ,    NaN
+           6 , sub_cfs , NearCarmel(USGS) , MSE FDCTrLam , 1.548606 , 1.478060 , 0.598425
+           6 , sub_cfs , NearCarmel(USGS) , QPCorr       , 0.208718 , 0.149450 , 0.084676
+           6 , sub_cfs , NearCarmel(USGS) , MaxAbs PBias , 1586.433168 , 1411.205932 , 1424.837516
+           6 , sub_cfs , NearCarmel(USGS) , MaxAbsPBiasL , 15788.135927 , 144.431104 , 80.857839
+           6 , sub_cfs , NearCarmel(USGS) , Pct Mean Dif , 51.295658 , 50.571213 , 51.148825
+           6 , sub_cfs , NearCarmel(USGS) , Pct Var Diff , 31.092496 , -13.263862 , -41.614074
+           6 , sub_cfs , NearCarmel(USGS) , Pct L10MeanD ,    NaN ,    NaN ,    NaN
+           6 , sub_cfs , NearCarmel(USGS) , Pct L10VarDf ,    NaN ,    NaN ,    NaN
+           6 , sub_cfs , NearCarmel(USGS) , Pct LTrMeanD , 63.362646 , 56.778897 , 22.179457
+           6 , sub_cfs , NearCarmel(USGS) , Pct LTrVarDf , -68.893872 , -70.902638 , -72.234170
+           7 , sub_cfs , Carmel River at Lagoon , MSE          , 0.000000 , 0.000000 , 0.000000
+           7 , sub_cfs , Carmel River at Lagoon , MSE Log10    , 0.000000 , 0.000000 , 0.000000
+           7 , sub_cfs , Carmel River at Lagoon , MSE TrLam    , 0.000000 , 0.000000 , 0.000000
+           7 , sub_cfs , Carmel River at Lagoon , PBias        , 0.000000 , 0.000000 , 0.000000
+           7 , sub_cfs , Carmel River at Lagoon , PBias Log10  , 0.000000 , 0.000000 , 0.000000
+           7 , sub_cfs , Carmel River at Lagoon , PBias TrLam  , 0.000000 , 0.000000 , 0.000000
+           7 , sub_cfs , Carmel River at Lagoon , NSE          , 0.000000 , 0.000000 , 0.000000
+           7 , sub_cfs , Carmel River at Lagoon , NSE Log10    , 0.000000 , 0.000000 , 0.000000
+           7 , sub_cfs , Carmel River at Lagoon , NSE TrLam    , 0.000000 , 0.000000 , 0.000000
+           7 , sub_cfs , Carmel River at Lagoon , MSE FDC      , 0.000000 , 0.000000 , 0.000000
+           7 , sub_cfs , Carmel River at Lagoon , MSE FDCLog10 , 0.000000 , 0.000000 , 0.000000
+           7 , sub_cfs , Carmel River at Lagoon , MSE FDCTrLam , 0.000000 , 0.000000 , 0.000000
+           7 , sub_cfs , Carmel River at Lagoon , QPCorr       , 0.000000 , 0.000000 , 0.000000
+           7 , sub_cfs , Carmel River at Lagoon , MaxAbs PBias , 0.000000 , 0.000000 , 0.000000
+           7 , sub_cfs , Carmel River at Lagoon , MaxAbsPBiasL , 0.000000 , 0.000000 , 0.000000
+           7 , sub_cfs , Carmel River at Lagoon , Pct Mean Dif , 0.000000 , 0.000000 , 0.000000
+           7 , sub_cfs , Carmel River at Lagoon , Pct Var Diff , 0.000000 , 0.000000 , 0.000000
+           7 , sub_cfs , Carmel River at Lagoon , Pct L10MeanD , 0.000000 , 0.000000 , 0.000000
+           7 , sub_cfs , Carmel River at Lagoon , Pct L10VarDf , 0.000000 , 0.000000 , 0.000000
+           7 , sub_cfs , Carmel River at Lagoon , Pct LTrMeanD , 0.000000 , 0.000000 , 0.000000
+           7 , sub_cfs , Carmel River at Lagoon , Pct LTrVarDf , 0.000000 , 0.000000 , 0.000000
+           8 , sub_cfs , AboveLosPadresReservoir , MSE          , 195804.114555 , 69309.397348 , 16802.736994
+           8 , sub_cfs , AboveLosPadresReservoir , MSE Log10    , 0.199619 , 0.149203 , 0.089178
+           8 , sub_cfs , AboveLosPadresReservoir , MSE TrLam    , 22.889105 , 16.469412 , 10.745205
+           8 , sub_cfs , AboveLosPadresReservoir , PBias        , -50.517591 , -48.690376 , -49.085231
+           8 , sub_cfs , AboveLosPadresReservoir , PBias Log10  , -15.960896 , -12.575915 , -13.136583
+           8 , sub_cfs , AboveLosPadresReservoir , PBias TrLam  , -19.208866 , -16.159909 , -17.212043
+           8 , sub_cfs , AboveLosPadresReservoir , NSE          , 0.254768 , 0.324384 , -190.807304
+           8 , sub_cfs , AboveLosPadresReservoir , NSE Log10    , 0.145730 , 0.239071 , -786.218766
+           8 , sub_cfs , AboveLosPadresReservoir , NSE TrLam    , 0.303897 , 0.402852 , -504.189942
+           8 , sub_cfs , AboveLosPadresReservoir , MSE FDC      , 50562.994645 , 18855.175094 , 12300.177442
+           8 , sub_cfs , AboveLosPadresReservoir , MSE FDCLog10 , 0.036563 , 0.031354 , 0.076917
+           8 , sub_cfs , AboveLosPadresReservoir , MSE FDCTrLam , 0.284747 , 0.297116 , 0.802622
+           8 , sub_cfs , AboveLosPadresReservoir , QPCorr       , 0.416089 , 0.427104 , 2.000000
+           8 , sub_cfs , AboveLosPadresReservoir , MaxAbs PBias , 170.728810 , 48.690376 , 49.085231
+           8 , sub_cfs , AboveLosPadresReservoir , MaxAbsPBiasL , 17.585508 , 12.575915 , 13.136583
+           8 , sub_cfs , AboveLosPadresReservoir , Pct Mean Dif , -50.517591 , -48.690376 , -49.085231
+           8 , sub_cfs , AboveLosPadresReservoir , Pct Var Diff , -23.002602 , -59.708774 , 16410.840152
+           8 , sub_cfs , AboveLosPadresReservoir , Pct L10MeanD , -15.960896 , -12.575915 , -13.136583
+           8 , sub_cfs , AboveLosPadresReservoir , Pct L10VarDf , -14.818424 , -14.638531 , 73110.392824
+           8 , sub_cfs , AboveLosPadresReservoir , Pct LTrMeanD , -19.208866 , -16.159909 , -17.212043
+           8 , sub_cfs , AboveLosPadresReservoir , Pct LTrVarDf , -24.472055 , -29.244861 , 46023.708077
+           9 , sub_cfs , CachaguaCreek , MSE          , 2840.955351 , 862.675712 , 44.794895
+           9 , sub_cfs , CachaguaCreek , MSE Log10    ,    NaN ,    NaN ,    NaN
+           9 , sub_cfs , CachaguaCreek , MSE TrLam    , 4.888457 , 4.185955 , 1.094139
+           9 , sub_cfs , CachaguaCreek , PBias        , 366.687214 , 363.332352 , 369.708658
+           9 , sub_cfs , CachaguaCreek , PBias Log10  ,    NaN ,    NaN ,    NaN
+           9 , sub_cfs , CachaguaCreek , PBias TrLam  , 89.874279 , 83.323978 , 49.104101
+           9 , sub_cfs , CachaguaCreek , NSE          , -1.439120 , -1.124805 , 0.313493
+           9 , sub_cfs , CachaguaCreek , NSE Log10    ,    NaN ,    NaN ,    NaN
+           9 , sub_cfs , CachaguaCreek , NSE TrLam    , 0.570037 , 0.635928 , 0.745387
+           9 , sub_cfs , CachaguaCreek , MSE FDC      , 1433.228321 , 575.071409 , 40.658628
+           9 , sub_cfs , CachaguaCreek , MSE FDCLog10 ,    NaN ,    NaN ,    NaN
+           9 , sub_cfs , CachaguaCreek , MSE FDCTrLam , 0.175720 , 0.162784 , 0.084493
+           9 , sub_cfs , CachaguaCreek , QPCorr       , 0.396755 , 0.227515 , 0.121697
+           9 , sub_cfs , CachaguaCreek , MaxAbs PBias ,    Inf ,    Inf ,    Inf
+           9 , sub_cfs , CachaguaCreek , MaxAbsPBiasL ,    NaN ,    NaN ,    NaN
+           9 , sub_cfs , CachaguaCreek , Pct Mean Dif , 366.687214 , 363.332352 , 369.708658
+           9 , sub_cfs , CachaguaCreek , Pct Var Diff , 278.696461 , 334.538889 , 141.803168
+           9 , sub_cfs , CachaguaCreek , Pct L10MeanD ,    NaN ,    NaN ,    NaN
+           9 , sub_cfs , CachaguaCreek , Pct L10VarDf ,    NaN ,    NaN ,    NaN
+           9 , sub_cfs , CachaguaCreek , Pct LTrMeanD , 89.874279 , 83.323978 , 49.104101
+           9 , sub_cfs , CachaguaCreek , Pct LTrVarDf , -45.925447 , -51.108285 , -65.332767
+          10 , sub_cfs , SanClementeCreek , MSE          , 570.606271 , 354.613377 , 53.906423
+          10 , sub_cfs , SanClementeCreek , MSE Log10    ,    NaN , 0.566094 , 0.065933
+          10 , sub_cfs , SanClementeCreek , MSE TrLam    , 4.690471 , 4.272171 , 1.150071
+          10 , sub_cfs , SanClementeCreek , PBias        , -35.055968 , -35.380712 , -34.793965
+          10 , sub_cfs , SanClementeCreek , PBias Log10  ,    NaN , 106.047477 , -6.700890
+          10 , sub_cfs , SanClementeCreek , PBias TrLam  , 8.331927 , 6.365905 , -4.913667
+          10 , sub_cfs , SanClementeCreek , NSE          , 0.568375 , 0.571208 , 0.534972
+          10 , sub_cfs , SanClementeCreek , NSE Log10    ,    NaN , 0.436533 , 0.656353
+          10 , sub_cfs , SanClementeCreek , NSE TrLam    , 0.591183 , 0.611209 , 0.655947
+          10 , sub_cfs , SanClementeCreek , MSE FDC      , 350.448372 , 284.442200 , 52.026898
+          10 , sub_cfs , SanClementeCreek , MSE FDCLog10 ,    NaN , 0.510395 , 0.061616
+          10 , sub_cfs , SanClementeCreek , MSE FDCTrLam , 0.323188 , 0.305526 , 0.095981
+          10 , sub_cfs , SanClementeCreek , QPCorr       , 0.182673 , 0.111030 , 0.057351
+          10 , sub_cfs , SanClementeCreek , MaxAbs PBias , 4582.187077 , 1036.077947 , 333.174412
+          10 , sub_cfs , SanClementeCreek , MaxAbsPBiasL , 149704.810213 , 961.842760 , 97.158374
+          10 , sub_cfs , SanClementeCreek , Pct Mean Dif , -35.055968 , -35.380712 , -34.793965
+          10 , sub_cfs , SanClementeCreek , Pct Var Diff , -74.834061 , -82.281633 , -87.890027
+          10 , sub_cfs , SanClementeCreek , Pct L10MeanD ,    NaN , 106.047477 , -6.700890
+          10 , sub_cfs , SanClementeCreek , Pct L10VarDf ,    NaN , -88.939463 , -79.624383
+          10 , sub_cfs , SanClementeCreek , Pct LTrMeanD , 8.331927 , 6.365905 , -4.913667
+          10 , sub_cfs , SanClementeCreek , Pct LTrVarDf , -76.495485 , -77.568612 , -79.402911
+          11 , sub_cfs , GarzasCreekatGarzasRoad , MSE          , 490.559805 , 182.400127 , 23.757897
+          11 , sub_cfs , GarzasCreekatGarzasRoad , MSE Log10    ,    NaN ,    NaN ,    NaN
+          11 , sub_cfs , GarzasCreekatGarzasRoad , MSE TrLam    , 6.331796 , 6.085346 , 1.805880
+          11 , sub_cfs , GarzasCreekatGarzasRoad , PBias        , -9.340078 , -10.276369 , -7.390680
+          11 , sub_cfs , GarzasCreekatGarzasRoad , PBias Log10  ,    NaN ,    NaN ,    NaN
+          11 , sub_cfs , GarzasCreekatGarzasRoad , PBias TrLam  , 41.872240 , 34.322620 , 4.802341
+          11 , sub_cfs , GarzasCreekatGarzasRoad , NSE          , 0.563631 , 0.648911 , 0.620298
+          11 , sub_cfs , GarzasCreekatGarzasRoad , NSE Log10    ,    NaN ,    NaN ,    NaN
+          11 , sub_cfs , GarzasCreekatGarzasRoad , NSE TrLam    , 0.545529 , 0.566809 , 0.604571
+          11 , sub_cfs , GarzasCreekatGarzasRoad , MSE FDC      , 292.672567 , 151.125368 , 21.164199
+          11 , sub_cfs , GarzasCreekatGarzasRoad , MSE FDCLog10 ,    NaN ,    NaN ,    NaN
+          11 , sub_cfs , GarzasCreekatGarzasRoad , MSE FDCTrLam , 0.470288 , 0.479998 , 0.146128
+          11 , sub_cfs , GarzasCreekatGarzasRoad , QPCorr       , 0.188026 , 0.089306 , 0.086560
+          11 , sub_cfs , GarzasCreekatGarzasRoad , MaxAbs PBias ,    Inf ,    Inf ,    Inf
+          11 , sub_cfs , GarzasCreekatGarzasRoad , MaxAbsPBiasL ,    NaN ,    NaN ,    NaN
+          11 , sub_cfs , GarzasCreekatGarzasRoad , Pct Mean Dif , -9.340078 , -10.276369 , -7.390680
+          11 , sub_cfs , GarzasCreekatGarzasRoad , Pct Var Diff , -74.732593 , -76.390427 , -79.681640
+          11 , sub_cfs , GarzasCreekatGarzasRoad , Pct L10MeanD ,    NaN ,    NaN ,    NaN
+          11 , sub_cfs , GarzasCreekatGarzasRoad , Pct L10VarDf ,    NaN ,    NaN ,    NaN
+          11 , sub_cfs , GarzasCreekatGarzasRoad , Pct LTrMeanD , 41.872240 , 34.322620 , 4.802341
+          11 , sub_cfs , GarzasCreekatGarzasRoad , Pct LTrVarDf , -80.881047 , -82.317980 , -82.111490
+          12 , sub_cfs , PineCreek , MSE          , 147.233147 , 82.541409 , 11.586652
+          12 , sub_cfs , PineCreek , MSE Log10    ,    NaN ,    NaN , 0.066114
+          12 , sub_cfs , PineCreek , MSE TrLam    , 3.775255 , 3.387506 , 0.691060
+          12 , sub_cfs , PineCreek , PBias        , -37.331643 , -37.544229 , -36.987598
+          12 , sub_cfs , PineCreek , PBias Log10  ,    NaN ,    NaN , -13.176218
+          12 , sub_cfs , PineCreek , PBias TrLam  , 6.569481 , 4.943434 , -5.896145
+          12 , sub_cfs , PineCreek , NSE          , 0.576064 , 0.610369 , 0.578863
+          12 , sub_cfs , PineCreek , NSE Log10    ,    NaN ,    NaN , 0.645032
+          12 , sub_cfs , PineCreek , NSE TrLam    , 0.575188 , 0.599068 , 0.671920
+          12 , sub_cfs , PineCreek , MSE FDC      , 79.259403 , 63.605376 , 11.062502
+          12 , sub_cfs , PineCreek , MSE FDCLog10 ,    NaN ,    NaN , 0.062534
+          12 , sub_cfs , PineCreek , MSE FDCTrLam , 0.270715 , 0.249657 , 0.057658
+          12 , sub_cfs , PineCreek , QPCorr       , 0.206093 , 0.110540 , 0.051800
+          12 , sub_cfs , PineCreek , MaxAbs PBias ,    Inf ,    Inf , 462.976955
+          12 , sub_cfs , PineCreek , MaxAbsPBiasL ,    NaN ,    NaN , 348.895827
+          12 , sub_cfs , PineCreek , Pct Mean Dif , -37.331643 , -37.544229 , -36.987598
+          12 , sub_cfs , PineCreek , Pct Var Diff , -68.522855 , -78.443602 , -85.383144
+          12 , sub_cfs , PineCreek , Pct L10MeanD ,    NaN ,    NaN , -13.176218
+          12 , sub_cfs , PineCreek , Pct L10VarDf ,    NaN ,    NaN , -79.838520
+          12 , sub_cfs , PineCreek , Pct LTrMeanD , 6.569481 , 4.943434 , -5.896145
+          12 , sub_cfs , PineCreek , Pct LTrVarDf , -77.038756 , -77.996338 , -78.067001
+          13 , sub_cfs , RobinsonCanyonCreek , MSE          , 90.078343 , 22.381370 , 1.899793
+          13 , sub_cfs , RobinsonCanyonCreek , MSE Log10    ,    NaN ,    NaN , 0.248125
+          13 , sub_cfs , RobinsonCanyonCreek , MSE TrLam    , 2.002537 , 2.077777 , 0.613321
+          13 , sub_cfs , RobinsonCanyonCreek , PBias        , 17.249770 , 15.034114 , 20.046330
+          13 , sub_cfs , RobinsonCanyonCreek , PBias Log10  ,    NaN ,    NaN , -225.612967
+          13 , sub_cfs , RobinsonCanyonCreek , PBias TrLam  , 47.235759 , 38.469016 , 9.953072
+          13 , sub_cfs , RobinsonCanyonCreek , NSE          , 0.334502 , 0.524357 , 0.592784
+          13 , sub_cfs , RobinsonCanyonCreek , NSE Log10    ,    NaN ,    NaN , 0.504684
+          13 , sub_cfs , RobinsonCanyonCreek , NSE TrLam    , 0.567463 , 0.579096 , 0.659271
+          13 , sub_cfs , RobinsonCanyonCreek , MSE FDC      , 68.856808 , 20.116964 , 1.777436
+          13 , sub_cfs , RobinsonCanyonCreek , MSE FDCLog10 ,    NaN ,    NaN , 0.238368
+          13 , sub_cfs , RobinsonCanyonCreek , MSE FDCTrLam , 0.142085 , 0.163036 , 0.049314
+          13 , sub_cfs , RobinsonCanyonCreek , QPCorr       , 0.321561 , 0.129296 , 0.116601
+          13 , sub_cfs , RobinsonCanyonCreek , MaxAbs PBias ,    Inf ,    Inf , 4995.857767
+          13 , sub_cfs , RobinsonCanyonCreek , MaxAbsPBiasL ,    NaN ,    NaN , -87.506946
+          13 , sub_cfs , RobinsonCanyonCreek , Pct Mean Dif , 17.249770 , 15.034114 , 20.046330
+          13 , sub_cfs , RobinsonCanyonCreek , Pct Var Diff , -89.516147 , -85.007019 , -79.726666
+          13 , sub_cfs , RobinsonCanyonCreek , Pct L10MeanD ,    NaN ,    NaN , -225.612967
+          13 , sub_cfs , RobinsonCanyonCreek , Pct L10VarDf ,    NaN ,    NaN , -89.539618
+          13 , sub_cfs , RobinsonCanyonCreek , Pct LTrMeanD , 47.235759 , 38.469016 , 9.953072
+          13 , sub_cfs , RobinsonCanyonCreek , Pct LTrVarDf , -80.509418 , -82.784032 , -79.166956
+          14 , sub_cfs , TularcitosCreek , MSE          , 6659.617239 , 2258.402823 , 188.415053
+          14 , sub_cfs , TularcitosCreek , MSE Log10    ,    NaN ,    NaN , 0.134997
+          14 , sub_cfs , TularcitosCreek , MSE TrLam    , 3.847211 , 3.196445 , 1.166121
+          14 , sub_cfs , TularcitosCreek , PBias        , 839.596315 , 825.239473 , 862.581932
+          14 , sub_cfs , TularcitosCreek , PBias Log10  ,    NaN ,    NaN , 513.049667
+          14 , sub_cfs , TularcitosCreek , PBias TrLam  , 74.499456 , 75.049503 , 71.768859
+          14 , sub_cfs , TularcitosCreek , NSE          , -12.729716 , -7.442918 , -2.539663
+          14 , sub_cfs , TularcitosCreek , NSE Log10    ,    NaN ,    NaN , 0.518779
+          14 , sub_cfs , TularcitosCreek , NSE TrLam    , 0.120855 , 0.277850 , 0.594277
+          14 , sub_cfs , TularcitosCreek , MSE FDC      , 5348.270221 , 1974.936096 , 175.633354
+          14 , sub_cfs , TularcitosCreek , MSE FDCLog10 ,    NaN ,    NaN , 0.105697
+          14 , sub_cfs , TularcitosCreek , MSE FDCTrLam , 0.065650 , 0.052600 , 0.054034
+          14 , sub_cfs , TularcitosCreek , QPCorr       , 0.371126 , 0.281313 , 0.286770
+          14 , sub_cfs , TularcitosCreek , MaxAbs PBias ,    Inf ,    Inf , 7882.181809
+          14 , sub_cfs , TularcitosCreek , MaxAbsPBiasL ,    NaN ,    NaN , 1839.340518
+          14 , sub_cfs , TularcitosCreek , Pct Mean Dif , 839.596315 , 825.239473 , 862.581932
+          14 , sub_cfs , TularcitosCreek , Pct Var Diff , 1707.734494 , 1153.112903 , 504.759390
+          14 , sub_cfs , TularcitosCreek , Pct L10MeanD ,    NaN ,    NaN , 513.049667
+          14 , sub_cfs , TularcitosCreek , Pct L10VarDf ,    NaN ,    NaN , -80.920524
+          14 , sub_cfs , TularcitosCreek , Pct LTrMeanD , 74.499456 , 75.049503 , 71.768859
+          14 , sub_cfs , TularcitosCreek , Pct LTrVarDf , 70.954819 , 58.918601 , -23.740893
+          15 , sub_cfs , GarzasCreek(Canyon) , MSE          , 361.706980 , 165.584295 , 25.640645
+          15 , sub_cfs , GarzasCreek(Canyon) , MSE Log10    ,    NaN ,    NaN , 0.129987
+          15 , sub_cfs , GarzasCreek(Canyon) , MSE TrLam    , 5.511556 , 5.002774 , 1.697981
+          15 , sub_cfs , GarzasCreek(Canyon) , PBias        , 138.746773 , 119.197413 , 139.556369
+          15 , sub_cfs , GarzasCreek(Canyon) , PBias Log10  ,    NaN ,    NaN , 78.907964
+          15 , sub_cfs , GarzasCreek(Canyon) , PBias TrLam  , 42.039502 , 36.453905 , 17.286223
+          15 , sub_cfs , GarzasCreek(Canyon) , NSE          , -3.965443 , -2.150650 , -5.608152
+          15 , sub_cfs , GarzasCreek(Canyon) , NSE Log10    ,    NaN ,    NaN , -0.686713
+          15 , sub_cfs , GarzasCreek(Canyon) , NSE TrLam    , 0.238394 , 0.337554 , -1.322212
+          15 , sub_cfs , GarzasCreek(Canyon) , MSE FDC      , 127.970644 , 55.979523 , 9.121093
+          15 , sub_cfs , GarzasCreek(Canyon) , MSE FDCLog10 ,    NaN ,    NaN , 0.004886
+          15 , sub_cfs , GarzasCreek(Canyon) , MSE FDCTrLam , 0.150141 , 0.152993 , 0.013002
+          15 , sub_cfs , GarzasCreek(Canyon) , QPCorr       , 0.762680 , 0.594573 , 0.869025
+          15 , sub_cfs , GarzasCreek(Canyon) , MaxAbs PBias ,    Inf ,    Inf , 141.391681
+          15 , sub_cfs , GarzasCreek(Canyon) , MaxAbsPBiasL ,    NaN ,    NaN , 78.907964
+          15 , sub_cfs , GarzasCreek(Canyon) , Pct Mean Dif , 138.746773 , 119.197413 , 139.556369
+          15 , sub_cfs , GarzasCreek(Canyon) , Pct Var Diff , 402.994513 , 271.312396 , 526.374715
+          15 , sub_cfs , GarzasCreek(Canyon) , Pct L10MeanD ,    NaN ,    NaN , 78.907964
+          15 , sub_cfs , GarzasCreek(Canyon) , Pct L10VarDf ,    NaN ,    NaN , 7.323711
+          15 , sub_cfs , GarzasCreek(Canyon) , Pct LTrMeanD , 42.039502 , 36.453905 , 17.286223
+          15 , sub_cfs , GarzasCreek(Canyon) , Pct LTrVarDf , -56.474435 , -56.949363 , 84.147214
+          16 , sub_cfs , HitchcockCreek , MSE          , 11.892182 , 1.824087 , 0.133727
+          16 , sub_cfs , HitchcockCreek , MSE Log10    ,    NaN ,    NaN ,    NaN
+          16 , sub_cfs , HitchcockCreek , MSE TrLam    , 1.244155 , 1.239923 , 0.573285
+          16 , sub_cfs , HitchcockCreek , PBias        , 117.131755 , 114.576079 , 124.004315
+          16 , sub_cfs , HitchcockCreek , PBias Log10  ,    NaN ,    NaN ,    NaN
+          16 , sub_cfs , HitchcockCreek , PBias TrLam  , 64.085151 , 53.673168 , 21.917102
+          16 , sub_cfs , HitchcockCreek , NSE          , 0.516149 , 0.819311 , 0.880637
+          16 , sub_cfs , HitchcockCreek , NSE Log10    ,    NaN ,    NaN ,    NaN
+          16 , sub_cfs , HitchcockCreek , NSE TrLam    , 0.634866 , 0.666056 , 0.648126
+          16 , sub_cfs , HitchcockCreek , MSE FDC      , 2.584321 , 0.505708 , 0.098112
+          16 , sub_cfs , HitchcockCreek , MSE FDCLog10 ,    NaN ,    NaN ,    NaN
+          16 , sub_cfs , HitchcockCreek , MSE FDCTrLam , 0.080862 , 0.093740 , 0.046518
+          16 , sub_cfs , HitchcockCreek , QPCorr       , 0.279572 , 0.093650 , 0.059660
+          16 , sub_cfs , HitchcockCreek , MaxAbs PBias ,    Inf ,    Inf ,    Inf
+          16 , sub_cfs , HitchcockCreek , MaxAbsPBiasL ,    NaN ,    NaN ,    NaN
+          16 , sub_cfs , HitchcockCreek , Pct Mean Dif , 117.131755 , 114.576079 , 124.004315
+          16 , sub_cfs , HitchcockCreek , Pct Var Diff , -40.096458 , -26.060416 , -22.502660
+          16 , sub_cfs , HitchcockCreek , Pct L10MeanD ,    NaN ,    NaN ,    NaN
+          16 , sub_cfs , HitchcockCreek , Pct L10VarDf ,    NaN ,    NaN ,    NaN
+          16 , sub_cfs , HitchcockCreek , Pct LTrMeanD , 64.085151 , 53.673168 , 21.917102
+          16 , sub_cfs , HitchcockCreek , Pct LTrVarDf , -70.021547 , -74.205021 , -79.113370
+          17 , sub_cfs , PotreroCreek , MSE          , 34.382940 , 13.350121 , 1.636116
+          17 , sub_cfs , PotreroCreek , MSE Log10    ,    NaN ,    NaN ,    NaN
+          17 , sub_cfs , PotreroCreek , MSE TrLam    , 2.298316 , 2.253754 , 1.150520
+          17 , sub_cfs , PotreroCreek , PBias        , 21.166938 , 19.295033 , 26.631580
+          17 , sub_cfs , PotreroCreek , PBias Log10  ,    NaN ,    NaN ,    NaN
+          17 , sub_cfs , PotreroCreek , PBias TrLam  , 55.632711 , 43.967152 , 13.844866
+          17 , sub_cfs , PotreroCreek , NSE          , 0.421044 , 0.551535 , 0.576983
+          17 , sub_cfs , PotreroCreek , NSE Log10    ,    NaN ,    NaN ,    NaN
+          17 , sub_cfs , PotreroCreek , NSE TrLam    , 0.498605 , 0.530526 , 0.500794
+          17 , sub_cfs , PotreroCreek , MSE FDC      , 22.986577 , 10.891205 , 1.443808
+          17 , sub_cfs , PotreroCreek , MSE FDCLog10 ,    NaN ,    NaN ,    NaN
+          17 , sub_cfs , PotreroCreek , MSE FDCTrLam , 0.161867 , 0.173061 , 0.084295
+          17 , sub_cfs , PotreroCreek , QPCorr       , 0.275009 , 0.139456 , 0.132083
+          17 , sub_cfs , PotreroCreek , MaxAbs PBias ,    Inf ,    Inf ,    Inf
+          17 , sub_cfs , PotreroCreek , MaxAbsPBiasL ,    NaN ,    NaN ,    NaN
+          17 , sub_cfs , PotreroCreek , Pct Mean Dif , 21.166938 , 19.295033 , 26.631580
+          17 , sub_cfs , PotreroCreek , Pct Var Diff , -83.870104 , -81.869310 , -79.925979
+          17 , sub_cfs , PotreroCreek , Pct L10MeanD ,    NaN ,    NaN ,    NaN
+          17 , sub_cfs , PotreroCreek , Pct L10VarDf ,    NaN ,    NaN ,    NaN
+          17 , sub_cfs , PotreroCreek , Pct LTrMeanD , 55.632711 , 43.967152 , 13.844866
+          17 , sub_cfs , PotreroCreek , Pct LTrVarDf , -82.394474 , -84.214859 , -85.736949
