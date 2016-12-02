@@ -86,6 +86,12 @@ Wtrshd_20120227_nad83z10.shp - carmel watershed
 
 subbasin.img - subbasins based on gage locations
 
+GIS/bathy
+
+/los_padres_bathy - los padres bathymetry data provided by MPWMD
+
+/sfr_x_sections - files of data of cross sections mapped to sfr segments
+
 
 
 MODFLOW/OUTPUT/budget
