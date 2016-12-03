@@ -1,5 +1,0 @@
-# SteadyState Diversion File
-# Galante Diversion
-# 11.29.2016
-0	116.9
-1	116.9
