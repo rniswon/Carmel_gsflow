@@ -1,7 +1,7 @@
 # Well Pumping Time Series Data for Well E01 : E01
 # Start Date 0: Steady State Simulation
-# Created on 29-Nov-2016 14:02:16
+# Created on 01-Dec-2016 09:32:06
 # Column-1: Time in days from start date
 # Column-2: Pumping Volume in cubic meters
-         0  0.00
+         0 -81.05
          1 -81.05
