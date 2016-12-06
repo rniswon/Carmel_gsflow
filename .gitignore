@@ -24,7 +24,7 @@ GIS/dem_10m/*.*
 GIS/gages/*.*
 GIS/geology/*.*
 GIS/hru_params/*.*
-GIS/ss_hobs/*.*
+#GIS/ss_hobs/*.*
 GIS/watersheds/*.*  
 GIS/wells/*.* 
 
