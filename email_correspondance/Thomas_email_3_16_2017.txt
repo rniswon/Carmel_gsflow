@@ -1,0 +1,21 @@
+To All,
+ 
+After talking with all of you, this is my understanding of where we are at. Please add to this email if you have some additional information or questions.
+ 
+Rich has all the files he needs for steady state calibration (HOBS done). He will have preliminary calibration of the model done in May.
+ 
+Jon and Mike have transient data that they can deliver to Rich, but they need to know how to format it, so it works for Rich’s new format option.
+ 
+Jon needs to know what stream node in the model is going to be used for diversions of water from San Clemente Reservoir for when it was used in the past. I think this is coming from Rich.
+ 
+Larry (District Engineer) stated that Jon and I need to confirm with Cal-Am their operations in the future for future model runs. For example, Cal-Am states that once the desal plant in completed they will only take 600 AF from June 1- Nov. 30 from the Carmel River Alluvial Aquifer. Cal-Am states they will take the majority their legal water from the Carmel River in winter.
+ 
+Justin has been working on PRMS/MODFLOW report text and figures. He is about halfway through and plans on making some good headway this week. Hopes to have a copy for review by next Sunday afternoon (19th).
+He has also worked on the MODFLOW side dealing with the conceptual model development and model construction. The model construction is limited to the parts he completed, but can be expanded based on Rich, Jon, and Mike’s efforts.. So this section is left open right now.
+ 
+Other wild cards to think about is how are we going to represent Los Padres Reservoir expansion, removal, or loss of storage overtime for future model runs.
+ 
+I am hoping we can have a conference call in April to help coordinate our efforts.
+ 
+Best,
+Thomas
