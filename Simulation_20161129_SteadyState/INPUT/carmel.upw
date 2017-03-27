@@ -1,16 +1,17 @@
 # Carmel starting K values
-0   -9999.    0     0            ILPFCB  HDRY   NPLPF UPWHDRY
-1 1 1                          LAYTYP
-2 2 2                          LAYAVG
-1.0 1.0 1.0                    CHANI
-0 0 0                          LAYVKA
-0 0 0                          LAYWET
-CONSTANT 5.0                     HORIZONTAL HYDRAULIC CONDUCTIVITY FOR LAYER 1  (0.8)
-CONSTANT 5.0                     VERTICAL HYDRAULIC CONDUCTIVITY FOR LAYER 1    (0.4)
-CONSTANT 5.0e-3                  HORIZONTAL HYDRAULIC CONDUCTIVITY FOR LAYER 2  (5.0e-3) 
-CONSTANT 5.0e-3                  VERTICAL HYDRAULIC CONDUCTIVITY FOR LAYER 2    (5.0e-3)
-CONSTANT 1.0e-4                  HORIZONTAL HYDRAULIC CONDUCTIVITY FOR LAYER 3  (1.0e-3)
-CONSTANT 1.0e-4                  VERTICAL HYDRAULIC CONDUCTIVITY FOR LAYER 3    (1.0e-3)      
+# ILPFCB    HDRY   NPLPF UPWHDRY
+       0  -9999.       0       0 
+1 1 1                                                                  # LAYTYP
+2 2 2                                                                  # LAYAVG
+1.0 1.0 1.0                                                            # CHANI
+0 0 0                                                                  # LAYVKA
+0 0 0                                                                  # LAYWET
+OPEN/CLOSE   upw_support\Kh_lay_1.txt    1.00 (FREE) -1                # HORIZONTAL HYDRAULIC CONDUCTIVITY FOR LAYER 1  (0.8)
+OPEN/CLOSE   upw_support\Kv_lay_1.txt    1.00 (FREE) -1                # VERTICAL HYDRAULIC CONDUCTIVITY FOR LAYER 1    (0.4)
+OPEN/CLOSE   upw_support\Kh_lay_2.txt    1.00 (FREE) -1                # HORIZONTAL HYDRAULIC CONDUCTIVITY FOR LAYER 2  (5.0e-3) 
+OPEN/CLOSE   upw_support\Kv_lay_2.txt    1.00 (FREE) -1                # VERTICAL HYDRAULIC CONDUCTIVITY FOR LAYER 2    (5.0e-3)
+OPEN/CLOSE   upw_support\Kh_lay_3.txt    1.00 (FREE) -1                # HORIZONTAL HYDRAULIC CONDUCTIVITY FOR LAYER 3  (1.0e-3)
+OPEN/CLOSE   upw_support\Kv_lay_3.txt    1.00 (FREE) -1                # VERTICAL HYDRAULIC CONDUCTIVITY FOR LAYER 3    (1.0e-3)      
 
 
 
