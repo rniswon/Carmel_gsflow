@@ -2,12 +2,12 @@
 # Created on 29-Nov-2016 14:03:51
 # Data are TABUNIT, TABVAL, TABLAY, TABROW, TABCOL
 # 
-OPTIONS   ! character options
-SPECIFY 0.1    0        ! reducing pumping for dry wells
-tabfiles 1957         2 ! number of pumping files and max number of rows
-END                     ! end characer options
-         1957        -3 0  MXWELL IWELCB
-         1           ITMP -- Stress Period   1 ITMP can be any positive number if tabfiles are used.
+OPTIONS
+ SPECIFY 0.1    0              # reducing pumping for dry wells
+ TABFILES 1957         2       # number of pumping files and max number of rows
+END
+         1957        -3 0      # MXWELL IWELCB
+         1                     # ITMP -- Stress Period   1 ITMP can be any positive number if tabfiles are used.
 100    2    2   41   84
 101    2    2   51   54
 102    2    2  115  210
