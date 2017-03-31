@@ -17,5 +17,8 @@
 1684  1 90 6                     # BL   GAGESEG  GAGERCH  UNIT  OUTTYPE  GAGE ABBREVIATION
 1840  3 91 6                     # LP   GAGESEG  GAGERCH  UNIT  OUTTYPE  GAGE ABBREVIATION
 
+
+
+
 # OUTTYPE = 6: Used for unsaturated flow routing to provide a listing of time, stage, 
 #              groundwater head, streambed seepage, change in unsaturated storage, and recharge

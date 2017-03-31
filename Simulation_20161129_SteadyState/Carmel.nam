@@ -1993,6 +1993,6 @@ data 2054  ./input/tabfiles/Well_XTRA6.tab
 data 2055  ./input/tabfiles/Well_XTRA8.tab
 data 2056  ./input/tabfiles/Well_XTRA9.tab
 data 5000  ./input/tabfiles/Los_Padres_Diversion.tab
-data 5001  ./input/tabfiles/San_Clemente_Diversion.tab
+data 5001  ./input/tabfiles/San_Clamente_Diversion.tab
 data 5002  ./input/tabfiles/Galante_Diversion.tab
 
