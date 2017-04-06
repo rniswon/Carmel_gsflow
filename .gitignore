@@ -28,3 +28,6 @@ GIS/hru_params/*.*
 GIS/watersheds/*.*  
 GIS/wells/*.* 
 
+PEST/grid.dbf
+PEST/ppts_w_zones.dbf
+GIS/hru_params_v10/

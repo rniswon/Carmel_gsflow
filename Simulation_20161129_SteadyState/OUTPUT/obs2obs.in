@@ -1,0 +1,7 @@
+* model output
+.\gages\gagH1.out.ins    .\gages\gagH1.out
+.\UZF_tot.out.ins        .\UZF_tot.out
+* equations
+SS_Diff = gage_out_H1 - RECH
+* output
+SS_Diff
