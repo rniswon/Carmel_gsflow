@@ -8,6 +8,7 @@ dis  11  ./input/Carmel.dis
 nwt  12  ./input/Carmel.nwt
 upw  13  ./input/Carmel.upw
 uzf  14  ./input/Carmel.uzf
+#sfr  15  ./input/Carmel_nolake.sfr
 sfr  15  ./input/Carmel.sfr
 gage 16  ./input/Carmel.gag
 lak  17  ./input/Carmel.lak   
