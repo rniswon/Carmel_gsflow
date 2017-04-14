@@ -1,10 +1,10 @@
 pcf
 * control data
 restart regularisation
-   2831    363     13   6803      14
-      5     20 single  point   1   0   0
+   2832    365     14   6803      14
+      6     20 single  point   1   0   0
   5.0  -3.0   0.3  0.03    10
-  5.0   5.0 0.001  0
+ 12.0  12.0 0.001  0
   0.1
     0  0.01     3     3  0.01     3
     1     1     1
@@ -13,20 +13,22 @@ restart regularisation
       2050     1E-07
          0
 * parameter groups
-StrmBed        relative   0.10  0.0   switch  2.0 outside_pts
-L1_Kh          relative   0.10  0.0   switch  2.0 outside_pts
-L2_Kh_Zn2      relative   0.10  0.0   switch  2.0 outside_pts
-L2_Kh_Zn3      relative   0.10  0.0   switch  2.0 outside_pts
-L2_Kh_Zn4      relative   0.10  0.0   switch  2.0 outside_pts
-L2_Kh_Zn5      relative   0.10  0.0   switch  2.0 outside_pts
-L2_Kh_Zn6      relative   0.10  0.0   switch  2.0 outside_pts
-L2_Kh_Zn7      relative   0.10  0.0   switch  2.0 outside_pts
-L2_Kh_Zn8      relative   0.10  0.0   switch  2.0 outside_pts
-L2_Kh_Zn9      relative   0.10  0.0   switch  2.0 outside_pts
-L3_Kh_Zn10     relative   0.10  0.0   switch  2.0 outside_pts
-SurfK_Alluv    relative   0.10  0.0   switch  2.0 outside_pts
-SurfK_Mtn      relative   0.10  0.0   switch  2.0 outside_pts
+FINF           relative   0.05  0.0   switch  2.0 best_fit
+StrmBed        relative   0.05  0.0   switch  2.0 best_fit
+L1_Kh          relative   0.05  0.0   switch  2.0 best_fit
+L2_Kh_Zn2      relative   0.05  0.0   switch  2.0 best_fit
+L2_Kh_Zn3      relative   0.05  0.0   switch  2.0 best_fit
+L2_Kh_Zn4      relative   0.05  0.0   switch  2.0 best_fit
+L2_Kh_Zn5      relative   0.05  0.0   switch  2.0 best_fit
+L2_Kh_Zn6      relative   0.05  0.0   switch  2.0 best_fit
+L2_Kh_Zn7      relative   0.05  0.0   switch  2.0 best_fit
+L2_Kh_Zn8      relative   0.05  0.0   switch  2.0 best_fit
+L2_Kh_Zn9      relative   0.05  0.0   switch  2.0 best_fit
+L3_Kh_Zn10     relative   0.05  0.0   switch  2.0 best_fit
+SurfK_Alluv    relative   0.05  0.0   switch  2.0 best_fit
+SurfK_Mtn      relative   0.05  0.0   switch  2.0 best_fit
 * parameter data
+    finf       log   factor    0.38         0.10000    1.000    FINF        1.0000    0.0000   1
  pp_3_l1       log   factor     5.0         0.00001    500.0    L1_Kh       1.0000    0.0000   1
  pp_4_l1       log   factor     5.0         0.00001    500.0    L1_Kh       1.0000    0.0000   1
  pp_9_l1       log   factor     5.0         0.00001    500.0    L1_Kh       1.0000    0.0000   1
@@ -2891,8 +2893,10 @@ gage_out_RC        5042.76      0.0    Q_Obs
 gage_out_RR      302673.16      0.0    Q_Obs
 gage_out_SH      152353.79      0.0    Q_Obs
 gage_out_TU       13979.65      0.0    Q_Obs
-gwet              50000.00      1.0    GWET
-rech              20000.00      1.0    Rech
+gwet              50000.00      0.0    GWET
+gwdischrg         24074.30      1.0    Rech
+rech                  0.00      0.0    Rech
+runoff                0.00      0.0    Rech
 ss_diff               0.00      1.0    Rech
 ObsWel_1             33.43      1.0    H_Obs
 ObsWel_2             35.57      1.0    H_Obs
@@ -3241,6 +3245,7 @@ ObsWel_462          389.07      1.0    H_Obs
 _RunModel.bat
 * model input/output
 .\INPUT\Carmel.sfr.tpl                      .\INPUT\Carmel.sfr
+.\INPUT\Carmel.uzf.tpl                      .\INPUT\Carmel.uzf
 .\INPUT\pest++\Lay_1_K_PP_List.txt.tpl      .\INPUT\pest++\Lay_1_K_PP_List.txt
 .\INPUT\pest++\Lay_2_K_PP_List.txt.tpl      .\INPUT\pest++\Lay_2_K_PP_List.txt
 .\INPUT\pest++\Lay_3_K_PP_List.txt.tpl      .\INPUT\pest++\Lay_3_K_PP_List.txt
