@@ -21,7 +21,7 @@ OPEN/CLOSE .\input\uzf_support\finf_1.txt   @         FINF@ (free)    0         
 1                                                                                   # NUZF2
 CONSTANT  0.0030226                                                                 # PET FOR STRESS PERIOD 1   # orig is 0.003556020
 1                                                                                   # NUZF3
-OPEN/CLOSE .\input\uzf_support\extdp_1.txt             0.55 (free)    0             # EXTDP FOR STRESS PERIOD 1 
+OPEN/CLOSE .\input\uzf_support\extdp_1.txt  @        EXTDP@ (free)    0             # EXTDP FOR STRESS PERIOD 1 
 1                                                                                   # NUZF4
 OPEN/CLOSE .\input\uzf_support\extwc_1.txt              1.0 (free)    0             # EXTWC FOR STRESS PERIOD 1 
 -1
