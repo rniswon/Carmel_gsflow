@@ -31,3 +31,5 @@ GIS/wells/*.*
 PEST/grid.dbf
 PEST/ppts_w_zones.dbf
 GIS/hru_params_v10/
+PEST/Iteration_1_Back_From_Condor/
+PEST/Iteration_2_Back_From_Condor/

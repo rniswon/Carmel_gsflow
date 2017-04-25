@@ -6,12 +6,12 @@ f
 Struct_File.SurfK.Variogram.txt     
 SurfK     
 o    
-400000.0   
+30000.0   
 1    
 8    
 SurfK     
 o    
-400000.0   
+30000.0   
 1    
 8    
 ..\Carmel-Interpolated_SurfK_By_ppk2fac.txt    
