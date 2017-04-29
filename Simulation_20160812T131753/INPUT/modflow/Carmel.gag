@@ -1,0 +1,25 @@
+18                               # NUMGAGE
+ 103  2 75 6                     # H1   GAGESEG  GAGERCH  UNIT  OUTTYPE  GAGE ABBREVIATION
+ 141  3 76 6                     # LA   GAGESEG  GAGERCH  UNIT  OUTTYPE  GAGE ABBREVIATION
+ 121  1 77 6                     # NC   GAGESEG  GAGERCH  UNIT  OUTTYPE  GAGE ABBREVIATION
+ 150  2 78 6                     # PO   GAGESEG  GAGERCH  UNIT  OUTTYPE  GAGE ABBREVIATION
+ 265  8 79 6                     # RC   GAGESEG  GAGERCH  UNIT  OUTTYPE  GAGE ABBREVIATION
+ 577  3 80 6                     # GC   GAGESEG  GAGERCH  UNIT  OUTTYPE  GAGE ABBREVIATION
+ 501  6 81 6                     # GA   GAGESEG  GAGERCH  UNIT  OUTTYPE  GAGE ABBREVIATION
+ 310  4 82 6                     # DJ   GAGESEG  GAGERCH  UNIT  OUTTYPE  GAGE ABBREVIATION
+ 711  4 83 6                     # HI   GAGESEG  GAGERCH  UNIT  OUTTYPE  GAGE ABBREVIATION
+ 702  2 84 6                     # RR   GAGESEG  GAGERCH  UNIT  OUTTYPE  GAGE ABBREVIATION
+ 855  1 85 6                     # TU   GAGESEG  GAGERCH  UNIT  OUTTYPE  GAGE ABBREVIATION
+1001  5 86 6                     # SH   GAGESEG  GAGERCH  UNIT  OUTTYPE  GAGE ABBREVIATION
+1188  7 87 6                     # CL   GAGESEG  GAGERCH  UNIT  OUTTYPE  GAGE ABBREVIATION
+1506  2 88 6                     # PI   GAGESEG  GAGERCH  UNIT  OUTTYPE  GAGE ABBREVIATION
+1564  3 89 6                     # CA   GAGESEG  GAGERCH  UNIT  OUTTYPE  GAGE ABBREVIATION
+1684  1 90 6                     # BL   GAGESEG  GAGERCH  UNIT  OUTTYPE  GAGE ABBREVIATION
+1840  3 91 6                     # LP   GAGESEG  GAGERCH  UNIT  OUTTYPE  GAGE ABBREVIATION
+-1  -92   3                      # LOS PADRES RESERVOIR GAGLAKE UNIT OUTTYPE
+
+
+
+
+# OUTTYPE = 6: Used for unsaturated flow routing to provide a listing of time, stage, 
+#              groundwater head, streambed seepage, change in unsaturated storage, and recharge

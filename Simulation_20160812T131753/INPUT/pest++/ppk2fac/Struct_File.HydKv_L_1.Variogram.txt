@@ -1,0 +1,12 @@
+STRUCTURE HydKv_L_1            
+  NUGGET 0.0           
+  TRANSFORM log        
+  NUMVARIOGRAM 1       
+  VARIOGRAM var1 1.0   
+END STRUCTURE          
+VARIOGRAM var1         
+  VARTYPE 2            
+  BEARING 0            
+  A  5000.0            
+  ANISOTROPY 1.0       
+END VARIOGRAM          

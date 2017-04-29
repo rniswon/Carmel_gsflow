@@ -16,7 +16,7 @@ hob  18  ./input/Carmel.hob
 wel  19  ./input/Carmel.wel
 #data 24  ./input/Los_Padres_outflow.txt
 #data 27    ./input/Los_Padres_bathy.txt
-data(binary) 58  ./input/Carmel.hed
+data(binary) 58  ./output/Carmel.hed
 data 75  ./output/gages/gagH1.out
 data 76  ./output/gages/gagLA.out
 data 77  ./output/gages/gagNC.out
