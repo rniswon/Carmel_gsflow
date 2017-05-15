@@ -4,7 +4,7 @@
 # Created on 09May2017 20:26:24
 # Column1: Time in days from start date
 # Column2: Pumping Volume in cubic meters/day
-         0  0.00
+         0  0.0001
          1 19579.05
        270 14194.81
        300 14194.81
