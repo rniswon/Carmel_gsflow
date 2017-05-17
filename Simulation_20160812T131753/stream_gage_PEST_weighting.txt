@@ -1,0 +1,17 @@
+H1           0.75        Highway 1 Gage – Subject to lagoon backwater at low stages (has estimated record for those portions.)  However is important because it is downstream from large production wells
+LA           0              Carmel River Lagoon Stage Gage - Can remove from simulation is a stage gage in the Lagoon
+NC          1.0          USGS Near Carmel – Quality record below main
+PO          0.5          Protrero Creek - Not a major contributor to main stem flow
+RC           0.5          Robinson Cyn – Not a major contributor to main stem flow
+GC          0.5          Garzas Cyn – Largely bedrock control
+GA          1.0          Garzas @ Garzas Rd (Carmel River Confluence) – Important loosing stretch btwn GC and GA
+DJ           1.0          Carmel River @ Don Juan Bridge Good main stem gage below major contributing tribs
+HI            0.5          Hitchcock Creek – Not a major contributor
+RR           1.0          Carmel River @ Rosies Bridge (USGS Robles Del Rio) – Good record on main stem
+TU          1.0          Turlacitos Creek – This will be a tricky calibration point, Wtrshed is in rain shadow and usually takes 10 to 12 inches before surface flow due to sandy soils and large alluvial flood plain
+SH           0.75        Carmel River @ Sleepy Hollow Weir – Good low flow gage, higher flows are estimated San Clemente Dam spillage
+CL           0.9          San Clemente Creek – Good contributor of water, however trout pond in filled from Creek in Spring causes 1 to 5 day drop, otherwise good record
+PI            0.9          Pine Creek – Good contributor drains undeveloped granitic watershed
+CA          0.8          Cachagua Creek – Takes 8 to 10 inches to start flow, has a number of legal and illegal direct stream diversions too small to include in simulation, but as an aggregate may lower the validity of this gage as a calibration point
+BL           0.75        Carmel River Below Los Padres – Good main stem gage will  be affected by releases from Los Padres during low flow periods
+LP           0              Carmel River Above Los Padres – once a month reading, not a continuous record, can be removed from the simulation

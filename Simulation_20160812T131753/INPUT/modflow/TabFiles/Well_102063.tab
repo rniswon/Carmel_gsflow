@@ -1,18 +1,16 @@
 # Well Pumping Time Series Data for Well 102063 : 102063
-# Start Date 1958
-# Created on 09-Mar-2017 11:48:01
+# Start Date 1990
+# Transient Simulation
+# Created on 09-May-2017 20:26:39
 # Column-1: Time in days from start date
 # Column-2: Pumping Volume in cubic meters
          0  0.00
-     19890 -0.10
-     19920 -0.09
-     19950 -0.10
-     19980 -0.11
-     20010 -0.14
-     20040 -0.15
-     20070 -0.16
-     20100 -0.16
-     20130 -0.15
-     20160 -0.13
-     20190 -0.11
-     20220 -0.10
+      8370 -0.03
+      8400 -0.03
+      8430 -0.04
+      8460 -0.04
+      8490 -0.05
+      8520 -0.05
+      8550 -0.05
+      8580 -0.05
+      8610 -0.05
