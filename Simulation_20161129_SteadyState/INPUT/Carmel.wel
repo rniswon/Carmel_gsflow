@@ -3,7 +3,7 @@
 # Data are TABUNIT, TABVAL, TABLAY, TABROW, TABCOL
 # 
 OPTIONS
- SPECIFY 0.01    0              # reducing pumping for dry wells
+ SPECIFY  0.01        61       # reducing pumping for dry wells
  TABFILES 1957         2       # number of pumping files and max number of rows
 END
          1957        -3 0      # MXWELL IWELCB
