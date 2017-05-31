@@ -1,7 +1,7 @@
 pcf
 * control data
 restart estimation
-   2833    364     14      0       4
+   2834    364     15      0       4
       6     20 single  point   1   0   0
   5.0  -3.0   0.3  0.03    10
  15.0  15.0 0.001  0
@@ -14,6 +14,7 @@ restart estimation
          0
 * parameter groups
 FINF           relative   0.050  0.0   Always_3  2.0   outside_pts
+pET            relative   0.050  0.0   Always_3  2.0   outside_pts
 StrmBed        relative   0.050  0.0   Always_3  2.0   outside_pts
 L1_Kh          relative   0.020  0.0   Always_3  2.0   parabolic
 L2_Kh_Zn2      relative   0.020  0.0   Always_3  2.0   parabolic
@@ -30,6 +31,7 @@ SurfK_Mtn      relative   0.050  0.0   Always_3  2.0   outside_pts
 * parameter data
 finf          log   factor   0.3978911      0.10000    1.000    finf        1.0000    0.0000   1
 extdp         log   factor   0.1000000      0.10000    1.000    finf        1.0000    0.0000   1
+pET           log   factor   1.0000000      0.80000    1.200     pET        1.0000    0.0000   1
 pp_3_l1     fixed   factor    12.63562      0.00001    500.0    l1_kh       1.0000    0.0000   1
 pp_4_l1     fixed   factor    5.834222      0.00001    500.0    l1_kh       1.0000    0.0000   1
 pp_9_l1     fixed   factor    1.640631      0.00001    500.0    l1_kh       1.0000    0.0000   1
