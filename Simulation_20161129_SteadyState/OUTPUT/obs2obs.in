@@ -1,6 +1,7 @@
 * model output
 .\UZF_tot.out.ins        .\UZF_tot.out
+.\Carmel.lst.ins         .\Carmel.lst
 * equations
-gwdischrg = Rech - GWET
+gwdischrg = StrmIn - StrmOut + Rech - 64000 - GWET
 * output
 gwdischrg
