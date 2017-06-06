@@ -54,13 +54,25 @@ cd ..\pest++\
 
 
 
-REM For SurfK (regulate infiltration)
+REM For SurfK (regulate surface discharge)
 REM -------------------------------------
 
 call 02_Sub.PP2Layer.bat      .\Carmel-Interpolated_%8_By_ppk2fac.txt    .\%8_PP_List.txt       ..\uzf_support\%8.txt  
 cd ..\uzf_support\
 echo  406  328     >   RefArr_In.txt
 echo  %8.txt      >>   RefArr_In.txt
+call ReformArray.exe < RefArr_In.txt
+cd ..\pest++\
+
+
+
+REM For VKS (regulate infiltration)
+REM -------------------------------------
+
+call 02_Sub.PP2Layer.bat      .\Carmel-Interpolated_%9_By_ppk2fac.txt    .\%9_PP_List.txt       ..\uzf_support\%9.txt  
+cd ..\uzf_support\
+echo  406  328     >   RefArr_In.txt
+echo  %9.txt      >>   RefArr_In.txt
 call ReformArray.exe < RefArr_In.txt
 cd ..\pest++\
 

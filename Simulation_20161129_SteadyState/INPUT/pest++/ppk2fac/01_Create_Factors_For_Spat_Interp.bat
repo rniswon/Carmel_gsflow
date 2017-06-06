@@ -56,10 +56,9 @@ echo Finished Interpolating Pilot Points and Writing New "Factor" File For Surfa
 echo *******************************************************************************************************************
 echo .
 
-
-
-REM Call  02_Sub.Create_Factors_For_Spatial_Interpolation_Lays_4_and_5_Kh.bat  ..\Carmel_GridSpecification.txt    HydK_L_4_5     HCond_4_5
-REM Call  02_Sub.Create_Factors_For_Spatial_Interpolation_Lay_6_Kh.bat         ..\Carmel_GridSpecification.txt    HydK_L_6       HCond_6  
-REM Call  02_Sub.Create_Factors_For_Spatial_Interpolation_Lays_2_and_3_SY.bat  ..\Carmel_GridSpecification.txt    SY_L_2_3       SpYld_2_3
-REM Call  02_Sub.Create_Factors_For_Spatial_Interpolation_Lays_4_and_5_SY.bat  ..\Carmel_GridSpecification.txt    SY_L_4_5       SpYld_4_5
-REM Call  02_Sub.Create_Factors_For_Spatial_Interpolation_Lay_6_SY.bat         ..\Carmel_GridSpecification.txt    SY_L_6         SpYld_6  
+Call  02_Sub.Create_Factors_For_Spat_Interp_vks.bat    ..\Carmel_GridSpecification.txt    vks   1
+echo .
+echo *******************************************************************************************************************
+echo Finished Interpolating Pilot Points and Writing New "Factor" File For vks (vert. hydraulic K in unsat zone)
+echo *******************************************************************************************************************
+echo .

@@ -2,6 +2,11 @@
 .\UZF_tot.out.ins        .\UZF_tot.out
 .\Carmel.lst.ins         .\Carmel.lst
 * equations
-gwdischrg = StrmIn - StrmOut + Rech - 64000 - GWET
+StrmNet   = StrmIn - StrmOut
+temp1     = StrmNet + Rech - 64000
+temp2     = temp1 - gwet
+gwdischrg = temp2
+TotalIn   = Rech + StrmIn
 * output
 gwdischrg
+TotalIn

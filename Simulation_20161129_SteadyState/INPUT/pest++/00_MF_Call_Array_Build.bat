@@ -11,9 +11,9 @@ REM ____________________________________________________________________________
 REM
 REM  
 
-REM                            %1    %2    %3    %4     %5      %6      %7          %8 
-REM                            --    --    --    --     --      --      --          -- 
-call 01_Sub.ArrayBuild.bat    HydKh  L_1   L_2   L_3   Lay_1   Lay_2   Lay_3      SurfK
+REM                            %1    %2    %3    %4     %5      %6      %7          %8      %9
+REM                            --    --    --    --     --      --      --          --      --
+call 01_Sub.ArrayBuild.bat    HydKh  L_1   L_2   L_3   Lay_1   Lay_2   Lay_3      SurfK    vks
 
 
 
