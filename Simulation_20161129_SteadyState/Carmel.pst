@@ -1,7 +1,7 @@
 pcf
 * control data
 restart estimation
-   3533    367     17      0       5
+   3533    368     17      0       6
       7     21 single  point   1   0   0
   5.0  -3.0   0.3  0.03    10
  15.0  15.0 0.001  0
@@ -13,23 +13,23 @@ restart estimation
       1300     1E-07
          0
 * parameter groups
-FINF           relative   0.020  0.0   switch  2.0   outside_pts
-pET            relative   0.020  0.0   switch  2.0   outside_pts
-StrmBed        relative   0.020  0.0   switch  2.0   outside_pts
-L1_Kh          relative   0.020  0.0   switch  2.0   outside_pts
-L2_Kh_Zn2      relative   0.020  0.0   switch  2.0   outside_pts
-L2_Kh_Zn3      relative   0.020  0.0   switch  2.0   outside_pts
-L2_Kh_Zn4      relative   0.020  0.0   switch  2.0   outside_pts
-L2_Kh_Zn5      relative   0.020  0.0   switch  2.0   outside_pts
-L2_Kh_Zn6      relative   0.020  0.0   switch  2.0   outside_pts
-L2_Kh_Zn7      relative   0.020  0.0   switch  2.0   outside_pts
-L2_Kh_Zn8      relative   0.020  0.0   switch  2.0   outside_pts
-L2_Kh_Zn9      relative   0.020  0.0   switch  2.0   outside_pts
-L3_Kh_Zn10     relative   0.020  0.0   switch  2.0   outside_pts
-SurfK_Alluv    relative   0.020  0.0   switch  2.0   outside_pts
-SurfK_Mtn      relative   0.020  0.0   switch  2.0   outside_pts
-vks_alluv      relative   0.020  0.0   switch  2.0   outside_pts
-vks_mtn        relative   0.020  0.0   switch  2.0   outside_pts
+FINF           relative   0.040  0.0   switch  2.0   outside_pts
+pET            relative   0.040  0.0   switch  2.0   outside_pts
+StrmBed        relative   0.040  0.0   switch  2.0   outside_pts
+L1_Kh          relative   0.040  0.0   switch  2.0   outside_pts
+L2_Kh_Zn2      relative   0.040  0.0   switch  2.0   outside_pts
+L2_Kh_Zn3      relative   0.040  0.0   switch  2.0   outside_pts
+L2_Kh_Zn4      relative   0.040  0.0   switch  2.0   outside_pts
+L2_Kh_Zn5      relative   0.040  0.0   switch  2.0   outside_pts
+L2_Kh_Zn6      relative   0.040  0.0   switch  2.0   outside_pts
+L2_Kh_Zn7      relative   0.040  0.0   switch  2.0   outside_pts
+L2_Kh_Zn8      relative   0.040  0.0   switch  2.0   outside_pts
+L2_Kh_Zn9      relative   0.040  0.0   switch  2.0   outside_pts
+L3_Kh_Zn10     relative   0.040  0.0   switch  2.0   outside_pts
+SurfK_Alluv    relative   0.040  0.0   switch  2.0   outside_pts
+SurfK_Mtn      relative   0.040  0.0   switch  2.0   outside_pts
+vks_alluv      relative   0.040  0.0   switch  2.0   outside_pts
+vks_mtn        relative   0.040  0.0   switch  2.0   outside_pts
 * parameter data
 finf          log   factor   0.3978768      0.10000    1.000     finf       1.0000    0.0000   1
 extdp         log   factor   0.5475920      0.10000    1.000     finf       1.0000    0.0000   1
@@ -1237,7 +1237,7 @@ pp_118_l2     log   factor   0.0000425      0.00000001 100.0    l2_kh_zn5   1.00
 pp_145_l2     log   factor   0.0003647      0.00000001 100.0    l2_kh_zn5   1.0000    0.0000   1
 pp_152_l2     log   factor   0.0000240      0.00000001 100.0    l2_kh_zn5   1.0000    0.0000   1
 pp_189_l2     log   factor   0.0000490      0.00000001 100.0    l2_kh_zn5   1.0000    0.0000   1
-pp_232_l2     log   factor   0.0000000      0.00000001 100.0    l2_kh_zn5   1.0000    0.0000   1
+pp_232_l2     log   factor   0.0000020      0.00000001 100.0    l2_kh_zn5   1.0000    0.0000   1
 pp_240_l2     log   factor   0.0000109      0.00000001 100.0    l2_kh_zn5   1.0000    0.0000   1
 pp_243_l2     log   factor   0.0000723      0.00000001 100.0    l2_kh_zn5   1.0000    0.0000   1
 pp_244_l2     log   factor   0.0001319      0.00000001 100.0    l2_kh_zn5   1.0000    0.0000   1
@@ -1353,14 +1353,14 @@ pp_263_l2     log   factor   0.0001017      0.00000001 100.0    l2_kh_zn6   1.00
 pp_264_l2     log   factor   0.0000256      0.00000001 100.0    l2_kh_zn6   1.0000    0.0000   1
 pp_265_l2     log   factor   0.0000044      0.00000001 100.0    l2_kh_zn6   1.0000    0.0000   1
 pp_266_l2     log   factor   0.0000203      0.00000001 100.0    l2_kh_zn6   1.0000    0.0000   1
-pp_267_l2     log   factor   0.0000000      0.00000001 100.0    l2_kh_zn6   1.0000    0.0000   1
+pp_267_l2     log   factor   0.0000020      0.00000001 100.0    l2_kh_zn6   1.0000    0.0000   1
 pp_269_l2     log   factor   0.0000502      0.00000001 100.0    l2_kh_zn6   1.0000    0.0000   1
 pp_282_l2     log   factor   0.0000109      0.00000001 100.0    l2_kh_zn6   1.0000    0.0000   1
 pp_283_l2     log   factor   0.0000634      0.00000001 100.0    l2_kh_zn6   1.0000    0.0000   1
 pp_293_l2     log   factor   0.0214245      0.00000001 100.0    l2_kh_zn6   1.0000    0.0000   1
 pp_298_l2     log   factor   0.0000068      0.00000001 100.0    l2_kh_zn6   1.0000    0.0000   1
 pp_304_l2     log   factor   0.0000011      0.00000001 100.0    l2_kh_zn6   1.0000    0.0000   1
-pp_305_l2     log   factor   0.0000000      0.00000001 100.0    l2_kh_zn6   1.0000    0.0000   1
+pp_305_l2     log   factor   0.0000020      0.00000001 100.0    l2_kh_zn6   1.0000    0.0000   1
 pp_310_l2     log   factor   0.0000394      0.00000001 100.0    l2_kh_zn6   1.0000    0.0000   1
 pp_312_l2     log   factor   0.0000101      0.00000001 100.0    l2_kh_zn6   1.0000    0.0000   1
 pp_313_l2     log   factor   0.0000031      0.00000001 100.0    l2_kh_zn6   1.0000    0.0000   1
@@ -3298,7 +3298,7 @@ vks_248       log   factor   0.00001028     0.000001    10.0      vks_mtn   1.00
 vks_249       log   factor   0.00001859     0.000001    10.0      vks_mtn   1.0000    0.0000   1
 vks_250       log   factor   0.00002697     0.000001    10.0      vks_mtn   1.0000    0.0000   1
 vks_256       log   factor   0.00003569     0.000001    10.0      vks_mtn   1.0000    0.0000   1
-vks_261       log   factor   0.00000050     0.000001    10.0      vks_mtn   1.0000    0.0000   1
+vks_261       log   factor   0.00001050     0.000001    10.0      vks_mtn   1.0000    0.0000   1
 vks_262       log   factor   0.00002007     0.000001    10.0      vks_mtn   1.0000    0.0000   1
 vks_263       log   factor   0.00002593     0.000001    10.0      vks_mtn   1.0000    0.0000   1
 vks_265       log   factor   0.00005773     0.000001    10.0      vks_mtn   1.0000    0.0000   1
@@ -3468,7 +3468,7 @@ vks_586       log   factor   0.00002179     0.000001    10.0      vks_mtn   1.00
 vks_589       log   factor   0.00001769     0.000001    10.0      vks_mtn   1.0000    0.0000   1
 vks_596       log   factor   0.00001554     0.000001    10.0      vks_mtn   1.0000    0.0000   1
 vks_601       log   factor   0.00000173     0.000001    10.0      vks_mtn   1.0000    0.0000   1
-vks_602       log   factor   0.00000042     0.000001    10.0      vks_mtn   1.0000    0.0000   1
+vks_602       log   factor   0.00000142     0.000001    10.0      vks_mtn   1.0000    0.0000   1
 vks_603       log   factor   0.00001965     0.000001    10.0      vks_mtn   1.0000    0.0000   1
 vks_606       log   factor   0.00001526     0.000001    10.0      vks_mtn   1.0000    0.0000   1
 vks_608       log   factor   0.00002857     0.000001    10.0      vks_mtn   1.0000    0.0000   1
@@ -3570,6 +3570,7 @@ GWET
 Rech
 H_Obs
 Strm
+Pump
 * observation data
 gage_out_BL    110486.0651      0.0    Q_Obs
 gage_out_CA       20059.59      0.0    Q_Obs
@@ -3588,9 +3589,10 @@ gage_out_RC        5042.76      0.0    Q_Obs
 gage_out_RR      302673.16      0.0    Q_Obs
 gage_out_SH      152353.79      0.0    Q_Obs
 gage_out_TU       13979.65      0.0    Q_Obs
-gwet             100000.00     0.06    GWET
-gwdischrg         24074.30     0.0008  Rech
-TotalIn          188084.30     0.0005  Rech
+gwet             100000.00     0.01    GWET
+pumping           65000.00     0.01    Pump
+gwdischrg         24074.30     0.00    Rech
+TotalIn          188084.30     0.02    Rech
 rech                  0.00      0.0    Rech
 runoff                0.00      0.0    Rech
 StrmIn                0.00      0.0    Strm
