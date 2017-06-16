@@ -2,8 +2,8 @@
 #                                        LINMETH=1 (GMRES); =2 (xmd)
 #HEADTOL  FLUXTOL MAXITEROUT THICKFACT   LINMETH    IPRNWT     IBOTAV            OPTIONS  [DBDTHETA]  [DBDKAPPA] [DBDGAMMA] [MOMFACT] [BACKFLAG] [MAXBACKITER] [BACKTOL] [BACKREDUCE]
 # [IACL] [NORDER]    [LEVEL]   [NORTH] [IREDSYS] [RRCTOLS] [IDROPTOL] [EPSRN]  [HCLOSEXMD] [MXITERXMD]
-    1.0   2500.0       1000    1.0e-7         2         1          1 SPECIFIED CONTINUE         0.9     0.00001      0.000      0.0          0            50       1.5         0.2
-       1        0         7        7         1       0.0          1  5.0E-3       1.0e-3         200   XMD
+    1.0   2500.0       1000    1.0e-7         2         1          1 SPECIFIED CONTINUE         0.85     0.00001      0.000      0.0          0            50       1.5         0.2
+       2        0         7        0         0       0.0          1  5.0E-3       1.0e-3         200   XMD
 
 
 

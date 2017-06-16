@@ -2,6 +2,7 @@
 # NUZTOP IUZFOPT IRUNFLG IETFLG IUZFCB1 IUZFCB2 NTRAIL NSETS NUZGAGES SURFDEP
 OPTIONS
  SPECIFYTHTI
+ SPECIFYTHTR
  SPECIFYSURFK
  SEEPSURFK
 END
@@ -12,7 +13,8 @@ OPEN/CLOSE .\INPUT\modflow\uzf_support\vks.txt                  2.0 (free)    0 
 OPEN/CLOSE .\INPUT\modflow\uzf_support\surfk.txt      4.0229068E-04 (free)    0             # SURFK       # 0.1*VKS
 CONSTANT   4.0                                                                      # BROOKS/COREY EPSILON (EPS)
 CONSTANT   0.35                                                                     # SATURATED WATER CONTENT (THTS)
-OPEN/CLOSE .\INPUT\modflow\uzf_support\thti.txt             1.0012  (free)    0             # THTI
+OPEN/CLOSE .\INPUT\modflow\uzf_support\thtr.txt             1.0   (free)    0               # THTR
+OPEN/CLOSE .\INPUT\modflow\uzf_support\thtr.txt             1.005   (free)    0             # THTI
 -92                                                                                 # IFTUNIT (gage)
 1                                                                                   # NUZF1
 OPEN/CLOSE .\INPUT\modflow\uzf_support\finf_1.txt     3.9813490E-01 (free)    0             # INFILTRATION AT TOP OF LAYER 1 (FINF) STRESS PERIOD 1
