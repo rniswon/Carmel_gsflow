@@ -4,10 +4,10 @@
 ann_diff_93   = AnnRO_sim93 - AnnRO_obs93
 ann_diff_94   = AnnRO_sim94 - AnnRO_obs94
 ann_diff_95   = AnnRO_sim95 - AnnRO_obs95
-perc_off_93   = ann_diff_93 / AnnRO_obs93 * 100
-perc_off_94   = ann_diff_94 / AnnRO_obs94 * 100
-perc_off_95   = ann_diff_95 / AnnRO_obs95 * 100
+prct_H1_93   = ann_diff_93 / AnnRO_obs93 * 100
+prct_H1_94   = ann_diff_94 / AnnRO_obs94 * 100
+prct_H1_95   = ann_diff_95 / AnnRO_obs95 * 100
 * output
-perc_off_93
-perc_off_94
-perc_off_95
+prct_H1_93
+prct_H1_94
+prct_H1_95
