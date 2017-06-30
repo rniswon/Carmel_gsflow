@@ -25,44 +25,44 @@ REM   %3    Enter name for output real array file:
 REM For Hydraulic conductivity of layer 1
 REM ------------------------------------------
 
-call 02_Sub.PP2Layer.bat      .\Carmel-Interpolated_%1_%2_By_ppk2fac.txt    .\%5_K_PP_List.txt      ..\upw_support\Kh_%5.txt 
-cd ..\upw_support\
-echo  406  328     >   RefArr_In.txt
-echo  Kh_%5.txt   >>   RefArr_In.txt
-call ReformArray.exe < RefArr_In.txt
-cd ..\pest++\
+call 02_Sub.PP2Layer.bat      .\Carmel-Interpolated_%1_%2_By_ppk2fac.txt    .\%5_K_PP_List.txt      ..\modflow\upw_support\Kh_%5.txt 
+cd    ..\modflow\upw_support\
+echo  406  328      >   RefArr_In.txt
+echo  Kh_%5.txt    >>   RefArr_In.txt
+call  ReformArray.exe < RefArr_In.txt
+cd    ..\..\pest++\
 
 REM For Hydraulic conductivity of layer 2
 REM ------------------------------------------
 
-call 02_Sub.PP2Layer.bat      .\Carmel-Interpolated_%1_%3_By_ppk2fac.txt    .\%6_K_PP_List.txt      ..\upw_support\Kh_%6.txt  
-cd ..\upw_support\
-echo  406  328     >   RefArr_In.txt
-echo  Kh_%6.txt   >>   RefArr_In.txt
-call ReformArray.exe < RefArr_In.txt
-cd ..\pest++\
+call 02_Sub.PP2Layer.bat      .\Carmel-Interpolated_%1_%3_By_ppk2fac.txt    .\%6_K_PP_List.txt      ..\modflow\upw_support\Kh_%6.txt  
+cd    ..\umodflow\pw_support\
+echo  406  328      >   RefArr_In.txt
+echo  Kh_%6.txt    >>   RefArr_In.txt
+call  ReformArray.exe < RefArr_In.txt
+cd    ..\..\pest++\
 
 REM For Hydraulic conductivity of layer 3
 REM -------------------------------------
 
-call 02_Sub.PP2Layer.bat      .\Carmel-Interpolated_%1_%4_By_ppk2fac.txt    .\%7_K_PP_List.txt      ..\upw_support\Kh_%7.txt 
-cd ..\upw_support\
-echo  406  328     >   RefArr_In.txt
-echo  Kh_%7.txt   >>   RefArr_In.txt
-call ReformArray.exe < RefArr_In.txt
-cd ..\pest++\
+call 02_Sub.PP2Layer.bat      .\Carmel-Interpolated_%1_%4_By_ppk2fac.txt    .\%7_K_PP_List.txt      ..\modflow\upw_support\Kh_%7.txt 
+cd    ..\modflow\upw_support\
+echo  406  328      >   RefArr_In.txt
+echo  Kh_%7.txt    >>   RefArr_In.txt
+call  ReformArray.exe < RefArr_In.txt
+cd    ..\..\pest++\
 
 
 
 REM For SurfK (regulate infiltration)
 REM -------------------------------------
 
-call 02_Sub.PP2Layer.bat      .\Carmel-Interpolated_%8_By_ppk2fac.txt    .\%8_PP_List.txt       ..\uzf_support\%8.txt  
-cd ..\uzf_support\
-echo  406  328     >   RefArr_In.txt
-echo  %8.txt      >>   RefArr_In.txt
-call ReformArray.exe < RefArr_In.txt
-cd ..\pest++\
+call 02_Sub.PP2Layer.bat      .\Carmel-Interpolated_%8_By_ppk2fac.txt    .\%8_PP_List.txt       ..\modflow\uzf_support\%8.txt  
+cd    ..\modflow\uzf_support\
+echo  406  328      >   RefArr_In.txt
+echo  %8.txt       >>   RefArr_In.txt
+call  ReformArray.exe < RefArr_In.txt
+cd    ..\..\pest++\
 
 
 

@@ -25,32 +25,32 @@ REM   %3    Enter name for output real array file:
 REM For Hydraulic conductivity of layer 1
 REM ------------------------------------------
 
-call 02_Sub.PP2Layer.bat      .\Carmel-Interpolated_%1_%2_By_ppk2fac.txt    .\%5_SY_PP_List.txt      ..\upw_support\SY_%5.txt 
-cd ..\upw_support\
-echo  406  328     >   RefArr_In.txt
-echo  SY_%5.txt   >>   RefArr_In.txt
-call ReformArray.exe < RefArr_In.txt
-cd ..\pest++\
+call 02_Sub.PP2Layer.bat      .\Carmel-Interpolated_%1_%2_By_ppk2fac.txt    .\%5_SY_PP_List.txt      ..\modflow\upw_support\SY_%5.txt 
+cd    ..\modflow\upw_support\
+echo  406  328      >   RefArr_In.txt
+echo  SY_%5.txt    >>   RefArr_In.txt
+call  ReformArray.exe < RefArr_In.txt
+cd    ..\..\pest++\
 
 REM For Hydraulic conductivity of layer 2
 REM ------------------------------------------
 
-call 02_Sub.PP2Layer.bat      .\Carmel-Interpolated_%1_%3_By_ppk2fac.txt    .\%6_SY_PP_List.txt      ..\upw_support\SY_%6.txt  
-cd ..\upw_support\
-echo  406  328     >   RefArr_In.txt
-echo  SY_%6.txt   >>   RefArr_In.txt
-call ReformArray.exe < RefArr_In.txt
-cd ..\pest++\
+call 02_Sub.PP2Layer.bat      .\Carmel-Interpolated_%1_%3_By_ppk2fac.txt    .\%6_SY_PP_List.txt      ..\modflow\upw_support\SY_%6.txt  
+cd    ..\modflow\upw_support\
+echo  406  328      >   RefArr_In.txt
+echo  SY_%6.txt    >>   RefArr_In.txt
+call  ReformArray.exe < RefArr_In.txt
+cd    ..\..\pest++\
 
 REM REM For Hydraulic conductivity of layer 3
 REM REM -------------------------------------
 REM 
-REM call 02_Sub.PP2Layer.bat      .\Carmel-Interpolated_%1_%4_By_ppk2fac.txt    .\%7_SY_PP_List.txt      ..\upw_support\SY_%7.txt 
-REM cd ..\upw_support\
-REM echo  406  328     >   RefArr_In.txt
-REM echo  SY_%7.txt   >>   RefArr_In.txt
-REM call ReformArray.exe < RefArr_In.txt
-REM cd ..\pest++\
+REM call 02_Sub.PP2Layer.bat      .\Carmel-Interpolated_%1_%4_By_ppk2fac.txt    .\%7_SY_PP_List.txt      ..\modflow\upw_support\SY_%7.txt 
+REM cd    ..\modflow\upw_support\
+REM echo  406  328      >   RefArr_In.txt
+REM echo  SY_%7.txt    >>   RefArr_In.txt
+REM call  ReformArray.exe < RefArr_In.txt
+REM cd    ..\..\pest++\
 
 
 
