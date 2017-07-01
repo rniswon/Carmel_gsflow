@@ -9,12 +9,12 @@ END
        3       1       1      1       0      0       5    20        1     3.0
 OPEN/CLOSE .\INPUT\modflow\uzf_support\iuzfbnd.txt                1 (free)    6             # UZFBND
 OPEN/CLOSE .\INPUT\modflow\uzf_support\irunbnd.txt                1 (free)    6             # IRUNBND
-OPEN/CLOSE .\INPUT\modflow\uzf_support\vks.txt        5.7920420E+00 (free)    0             # VKS         # Transient for Martis is 4.0
+OPEN/CLOSE .\INPUT\modflow\uzf_support\vks.txt        5.0000000E+00 (free)    0             # VKS         # Transient for Martis is 4.0
 OPEN/CLOSE .\INPUT\modflow\uzf_support\surfk.txt      2.3555488E-02 (free)    0             # SURFK       # 0.1*VKS
 CONSTANT   4.0                                                                      # BROOKS/COREY EPSILON (EPS)
 CONSTANT   0.35                                                                     # SATURATED WATER CONTENT (THTS)
-OPEN/CLOSE .\INPUT\modflow\uzf_support\thtr.txt             1.0   (free)    0               # THTR
-OPEN/CLOSE .\INPUT\modflow\uzf_support\thtr.txt             1.005   (free)    0             # THTI
+CONSTANT   0.01                                                                     # SATURATED WATER CONTENT (THTR)
+CONSTANT   0.0101                                                                     # SATURATED WATER CONTENT (THTI)
 -92                                                                                 # IFTUNIT (gage)
 1                                                                                   # NUZF1
 OPEN/CLOSE .\INPUT\modflow\uzf_support\finf_1.txt     3.9223680E-01 (free)    0             # INFILTRATION AT TOP OF LAYER 1 (FINF) STRESS PERIOD 1
