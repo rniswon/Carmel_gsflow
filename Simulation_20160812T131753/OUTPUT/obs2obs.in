@@ -1,6 +1,0 @@
-* model output
-.\UZF_tot.out.ins        .\UZF_tot.out
-* equations
-gwdischrg = Rech - GWET
-* output
-gwdischrg
