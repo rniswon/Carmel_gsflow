@@ -134,11 +134,9 @@
     integer i
     real dum
 !
-    read(10,*)
     do i=1,numreach
     read(funit,*)this%iseg(i),this%iReach(i),this%OutSeg(i),this%iupseg(i),this%RchLen(i),this%iRch(i),    &
-                 this%jRch(i),this%kRch(i),this%StrTop(i),this%Slope(i),this%Width(i),dum,dum,dum,         &
-                 this%mainflg(i)
+                 this%jRch(i),this%kRch(i),this%StrTop(i),this%Slope(i),this%Width(i),this%mainflg(i)
     end do
     do i=1,numreach
       this%slopeseg(this%iseg(i)) = this%slopeseg(this%iseg(i)) + this%Slope(i)
