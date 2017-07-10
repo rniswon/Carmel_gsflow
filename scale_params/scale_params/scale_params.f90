@@ -17,23 +17,25 @@
     implicit none
 
     ! Variables
-    CHARACTER(LEN=200) line 
-    CHARACTER(LEN=20) paramname
-    INTEGER LLOC,ISTART,ISTOP,I,IOUT,IN,numvals,inscale,iloc,intchk,Iostat,in2
+    CHARACTER(LEN=80) line 
+    CHARACTER(LEN=40) line2
+    INTEGER LLOC,ISTART,ISTOP,I,IOUT,IN,numvals,inscale,iloc,intchk,Iostat,in2,out2,L,isave
     REAL r, scale
     REAL,SAVE,DIMENSION(:),POINTER :: param
     in2 = 8
     inscale = 9
     in = 10
+    out2 = 12
     iout = 11
     Iostat = 1
     open(inscale,file='scale_ssr2gw_rate.dat')
     open(in,file='carmel_main.param')
+    open(out2,file='carmel_main_scaled.param')
     open(in2,file='ssr2gw_rate_static.dat')
     open(iout,file='scale.out')
     read(inscale,*)scale
     i=0
-! find parameter of interest for scaling
+! find parameter(s) of interest for scaling
      DO
         i = i + 1  !save i for below
         read(in,*,IOSTAT=Iostat)line
@@ -53,7 +55,8 @@
               exit
             end if
         end select
-      end do
+     end do
+     isave = i
 ! allocate array to hold parameter
         allocate (param(numvals))
         
@@ -63,16 +66,19 @@
           param(i) = scale*param(i)
         end do
 ! 
-!  skip back to line in parameter file to write scaled value
-        rewind(in)
-!  set location where parameter starts in paramter file
-        iloc = i + 4
+!  start back at top of file
+        close(in)
+        open(in,file='carmel_main.param')
+!  set location in parameter file for start of values
+        iloc = isave + 4
         do i = 1, iloc
-            read(in,*)
+            READ(IN,'(A)') LINE
+            WRITE(out2,'(A)') TRIM(adjustl(line))
         end do
-!
+! update new scaled values in parameter file
         do i = 1, numvals
-          write(in,*)param(i)
+          write(line2,*)param(i)
+          write(out2,*)TRIM(adjustl(line2))
         end do
     end program scale_params
 

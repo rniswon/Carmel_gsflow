@@ -58,7 +58,7 @@ data_file
 param_file
 2
 4
-.\INPUT\prms\carmel_main.param
+.\INPUT\prms\carmel_main_scaled.param
 .\INPUT\prms\hrucascades.params
 ####
 modflow_name
