@@ -1,0 +1,12 @@
+* parameter data
+finf           = 0.3922368
+extdp          = 0.4078737
+pet            = 0.5523764
+srfk_mult      = 2.3555488E-02
+vks2ssr2_rat   = 2.000000
+ssr2gw_scale   = 1.0000000
+vks_mult       = vks2ssr2_rat * ssr2gw_scale
+* template and model input files
+.\Carmel.uzf.tpl          .\Carmel.uzf
+* control data
+single point

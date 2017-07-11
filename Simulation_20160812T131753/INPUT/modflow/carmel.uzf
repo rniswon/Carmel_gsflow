@@ -7,23 +7,22 @@ OPTIONS
  SEEPSURFK
 END
        3       1       1      1       0      0       5    20        1     3.0
-OPEN/CLOSE .\INPUT\modflow\uzf_support\iuzfbnd.txt                1 (free)    6             # UZFBND
-OPEN/CLOSE .\INPUT\modflow\uzf_support\irunbnd.txt                1 (free)    6             # IRUNBND
-OPEN/CLOSE .\INPUT\modflow\uzf_support\vks.txt        1.0000000E+00 (free)    0             # VKS         # Transient for Martis is 4.0
-OPEN/CLOSE .\INPUT\modflow\uzf_support\surfk.txt      2.3555488E-02 (free)    0             # SURFK       # 0.1*VKS
+OPEN/CLOSE .\input\uzf_support\iuzfbnd.txt                1 (free)    6             # UZFBND
+OPEN/CLOSE .\input\uzf_support\irunbnd.txt                1 (free)    6             # IRUNBND
+OPEN/CLOSE .\input\uzf_support\vks.txt        2.0000000E+00 (free)    0             # VKS         # Transient for Martis is 4.0
+OPEN/CLOSE .\input\uzf_support\surfk.txt      2.3555488E-02 (free)    0             # SURFK       # 0.1*VKS
 CONSTANT   4.0                                                                      # BROOKS/COREY EPSILON (EPS)
 CONSTANT   0.35                                                                     # SATURATED WATER CONTENT (THTS)
-CONSTANT   0.01                                                                     # SATURATED WATER CONTENT (THTR)
-CONSTANT   0.0105                                                                     # SATURATED WATER CONTENT (THTI)
+OPEN/CLOSE .\input\uzf_support\thti.txt             1.0012  (free)    0             # THTI
 -92                                                                                 # IFTUNIT (gage)
 1                                                                                   # NUZF1
-OPEN/CLOSE .\INPUT\modflow\uzf_support\finf_1.txt     3.9223680E-01 (free)    0             # INFILTRATION AT TOP OF LAYER 1 (FINF) STRESS PERIOD 1
+OPEN/CLOSE .\input\uzf_support\finf_1.txt     3.9223680E-01 (free)    0             # INFILTRATION AT TOP OF LAYER 1 (FINF) STRESS PERIOD 1
 1                                                                                   # NUZF2
-OPEN/CLOSE .\INPUT\modflow\uzf_support\pET.txt        5.5237640E-01 (free)    0             # PET FOR STRESS PERIOD 1   # orig is 0.003556020
+OPEN/CLOSE .\input\uzf_support\pET.txt        5.5237640E-01 (free)    0             # PET FOR STRESS PERIOD 1   # orig is 0.003556020
 1                                                                                   # NUZF3
-OPEN/CLOSE .\INPUT\modflow\uzf_support\extdp_1.txt    4.0787370E-01 (free)    0             # EXTDP FOR STRESS PERIOD 1
+OPEN/CLOSE .\input\uzf_support\extdp_1.txt    4.0787370E-01 (free)    0             # EXTDP FOR STRESS PERIOD 1
 1                                                                                   # NUZF4
-OPEN/CLOSE .\INPUT\modflow\uzf_support\extwc_1.txt              1.0 (free)    0             # EXTWC FOR STRESS PERIOD 1
+OPEN/CLOSE .\input\uzf_support\extwc_1.txt              1.0 (free)    0             # EXTWC FOR STRESS PERIOD 1
 -1
 -1
 -1
