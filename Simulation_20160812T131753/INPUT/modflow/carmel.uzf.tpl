@@ -12,17 +12,18 @@ OPEN/CLOSE .\input\modflow\uzf_support\iuzfbnd.txt                1 (free)    6 
 OPEN/CLOSE .\input\modflow\uzf_support\irunbnd.txt                1 (free)    6      # IRUNBND 
 OPEN/CLOSE .\input\modflow\uzf_support\vks.txt      @     vks_mult@ (free)    0      # VKS         # Transient for Martis is 4.0           
 OPEN/CLOSE .\input\modflow\uzf_support\surfk.txt    @    srfk_mult@ (free)    0      # SURFK       # 0.1*VKS           
-CONSTANT   4.0                                                                       # BROOKS/COREY EPSILON (EPS) 
-CONSTANT   0.35                                                                      # SATURATED WATER CONTENT (THTS) 
-OPEN/CLOSE .\input\modflow\uzf_support\thti.txt             1.0012  (free)    0      # THTI 
-1                                                                                    # NUZF1
-OPEN/CLOSE .\input\modflow\uzf_support\finf_1.txt   @         FINF@ (free)    0      # INFILTRATION AT TOP OF LAYER 1 (FINF) STRESS PERIOD 1
-1                                                                                    # NUZF2
-OPEN/CLOSE .\input\modflow\uzf_support\pET.txt      @          pET@ (free)    0      # PET FOR STRESS PERIOD 1   # orig is 0.003556020    
-1                                                                                    # NUZF3
-OPEN/CLOSE .\input\modflow\uzf_support\extdp_1.txt  @        EXTDP@ (free)    0      # EXTDP FOR STRESS PERIOD 1 
-1                                                                                    # NUZF4
-OPEN/CLOSE .\input\modflow\uzf_support\extwc_1.txt              1.0 (free)    0      # EXTWC FOR STRESS PERIOD 1 
+CONSTANT   4.0                                                                      # BROOKS/COREY EPSILON (EPS)
+CONSTANT   0.35                                                                     # SATURATED WATER CONTENT (THTS)
+CONSTANT   0.01                                                                     # SATURATED WATER CONTENT (THTR)
+CONSTANT   0.0105                                                                     # SATURATED WATER CONTENT (THTI)
+1                                                                                   # NUZF1
+OPEN/CLOSE .\INPUT\modflow\uzf_support\finf_1.txt     3.9223680E-01 (free)    0             # INFILTRATION AT TOP OF LAYER 1 (FINF) STRESS PERIOD 1
+1                                                                                   # NUZF2
+OPEN/CLOSE .\INPUT\modflow\uzf_support\pET.txt        5.5237640E-01 (free)    0             # PET FOR STRESS PERIOD 1   # orig is 0.003556020
+1                                                                                   # NUZF3
+OPEN/CLOSE .\INPUT\modflow\uzf_support\extdp_1.txt    4.0787370E-01 (free)    0             # EXTDP FOR STRESS PERIOD 1
+1                                                                                   # NUZF4
+OPEN/CLOSE .\INPUT\modflow\uzf_support\extwc_1.txt              1.0 (free)    0             # EXTWC FOR STRESS PERIOD 1
 -1
 -1
 -1
