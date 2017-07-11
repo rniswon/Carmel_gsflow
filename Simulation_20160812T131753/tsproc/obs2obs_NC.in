@@ -1,12 +1,12 @@
 * model output
-.\CR_H1_Processed_Output.out.ins        .\CR_NC_Processed_Output.out
+.\CR_NC_Processed_Output.out.ins        .\CR_NC_Processed_Output.out
 * equations
-ann_diff_93   = AnnRO_sim93 - AnnRO_obs93
-ann_diff_94   = AnnRO_sim94 - AnnRO_obs94
-ann_diff_95   = AnnRO_sim95 - AnnRO_obs95
-prct_NC_93   = ann_diff_93 / AnnRO_obs93 * 100
-prct_NC_94   = ann_diff_94 / AnnRO_obs94 * 100
-prct_NC_95   = ann_diff_95 / AnnRO_obs95 * 100
+ann_diff_93   = RO_sim93_NC - RO_obs93_NC
+ann_diff_94   = RO_sim94_NC - RO_obs94_NC
+ann_diff_95   = RO_sim95_NC - RO_obs95_NC
+prct_NC_93   = ann_diff_93 / RO_obs93_NC * 100
+prct_NC_94   = ann_diff_94 / RO_obs94_NC * 100
+prct_NC_95   = ann_diff_95 / RO_obs95_NC * 100
 * output
 prct_NC_93
 prct_NC_94
