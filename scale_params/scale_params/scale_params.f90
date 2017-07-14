@@ -20,6 +20,7 @@
     CHARACTER(LEN=80) line 
     CHARACTER(LEN=40) line2
     INTEGER LLOC,ISTART,ISTOP,I,IOUT,IN,numvals,inscale,iloc,intchk,Iostat,in2,out2,L,isave
+    INTEGER Reason
     REAL r, scale
     REAL,SAVE,DIMENSION(:),POINTER :: param
     in2 = 8
@@ -38,15 +39,15 @@
 ! find parameter(s) of interest for scaling
      DO
         i = i + 1  !save i for below
-        read(in,*,IOSTAT=Iostat)line
+        read(in,*,IOSTAT=Iostat) line
         LLOC=1
         CALL URWORD(LINE,LLOC,ISTART,ISTOP,1,I,R,IOUT,IN)
         select case (LINE(ISTART:ISTOP))
         case('SSR2GW_RATE')
-            read(in,*)
-            read(in,*)
-            read(in,*)numvals
-            read(in,*)              !next value to read will be first parameter value
+            read(in,*) line
+            read(in,*) line
+            read(in,*) numvals
+            read(in,*) line         !next value to read will be first parameter value
             write(iout,*)'found ssr2gw_rate'
             exit
         case default
@@ -68,6 +69,8 @@
 ! 
 !  start back at top of file
         close(in)
+        
+        
         open(in,file='carmel_main.param')
 !  set location in parameter file for start of values
         iloc = isave + 4
@@ -77,8 +80,28 @@
         end do
 ! update new scaled values in parameter file
         do i = 1, numvals
+          ! Advance file pointer
+          READ(IN,'(A)') LINE
+          
+          ! Insert new lines
           write(line2,*)param(i)
           write(out2,*)TRIM(adjustl(line2))
         end do
+        
+! finish transfering lines     
+        do
+          READ(IN,'(A)',IOSTAT=Reason)  line
+          IF (Reason > 0)  THEN
+             exit
+          ELSE IF (Reason < 0) THEN
+             exit
+          ELSE
+            write(out2,*) TRIM(adjustl(line))
+          END IF
+        END DO
+        
+        close(IN)
+        close(out2)
+   
     end program scale_params
 
