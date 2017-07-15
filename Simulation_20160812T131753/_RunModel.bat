@@ -38,7 +38,7 @@ REM call obs2obs.exe obs2obs_SH.in obs2obs_SH.out
 cd ..\
 
 call  obs2obs.exe obs2obs.in obs2obs.out
-cd    ..\
+
 
 
 
