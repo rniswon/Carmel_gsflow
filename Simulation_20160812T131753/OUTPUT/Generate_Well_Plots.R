@@ -1,6 +1,6 @@
 setwd('D:/EDM_LT/GitHub/Carmel/Simulation_20160812T131753/OUTPUT/')
 
-dat <- read.table('hobs.out', header=FALSE, skip=1, col.names=c('sim','obs','name'))
+dat <- read.table('hobsout.dat', header=FALSE, skip=1, col.names=c('sim','obs','name'))
 dat$name <- as.character(dat$name)
 dat$id   <- sapply(strsplit(dat[,'name'], "\\_"), `[[`, 1)
 dat$date <- sapply(strsplit(dat[,'name'], "\\_"), `[[`, 2)
@@ -10,7 +10,7 @@ uni_names <- unique(dat$id)
 
 for(i in (1:length(uni_names))){
     wel <- subset(dat, dat$id==uni_names[i])
-    wel <- subset(wel, wel$sim > 0)
+    wel <- subset(wel, wel$sim != 0)
     
     if(nrow(wel)!=0){
         png(paste('./well_fits/well_fit_',as.character(i),'.png',sep=''), height=600, width=700, res=130)
