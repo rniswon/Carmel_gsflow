@@ -3597,7 +3597,7 @@ gage_out_TU      13979.65       0.0           Q_Obs
 gwet            100000.00       0.01          GWET
 pumping         65000.00        0.01          Pump
 gwdischrg       24074.30        0.00          Rech
-TotalIn        188084.30        0.02          Rech
+TotalIn        188084.30        0.03          Rech
 rech                0.00        0.0           Rech
 runoff              0.00        0.0           Rech
 StrmIn              0.00        0.0           Strm
