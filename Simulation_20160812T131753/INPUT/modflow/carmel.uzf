@@ -6,11 +6,11 @@ OPTIONS
  SPECIFYSURFK
  SEEPSURFK
 END
-       3       1       1      1       0      0       5    20        0     3.0
+       2       1       1      1       0      0       5    20        0     3.0
 OPEN/CLOSE .\input\modflow\uzf_support\iuzfbnd.txt                1 (free)    6     # UZFBND
 OPEN/CLOSE .\input\modflow\uzf_support\irunbnd.txt                1 (free)    6     # IRUNBND
 OPEN/CLOSE .\input\modflow\uzf_support\vks.txt        2.0000000E+00 (free)    0     # VKS         # Transient for Martis is 4.0
-OPEN/CLOSE .\input\modflow\uzf_support\surfk.txt      1.5268610E-02 (free)    0     # SURFK       # 0.1*VKS
+OPEN/CLOSE .\input\modflow\uzf_support\surfk.txt      1.5268610E-03 (free)    0     # SURFK       # 0.1*VKS
 CONSTANT   4.0                                                                      # BROOKS/COREY EPSILON (EPS)
 OPEN/CLOSE .\input\modflow\uzf_support\thts.txt                1 (free)       6     # SATURATED WATER CONTENT (THTS)
 CONSTANT   0.01                                                                     # SATURATED WATER CONTENT (THTR)
