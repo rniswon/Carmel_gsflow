@@ -7,7 +7,7 @@ OPTIONS
  SPECIFYSURFK
  SEEPSURFK
 END
-       3       1       1      1       0      0       5    20        0     3.0
+       2       1       1      1       0      0       5    20        0     3.0
 OPEN/CLOSE .\input\modflow\uzf_support\iuzfbnd.txt                1 (free)    6     # UZFBND
 OPEN/CLOSE .\input\modflow\uzf_support\irunbnd.txt                1 (free)    6     # IRUNBND 
 OPEN/CLOSE .\input\modflow\uzf_support\vks.txt      @     vks_mult@ (free)    0     # VKS         # Transient for Martis is 4.0           
@@ -23,7 +23,7 @@ OPEN/CLOSE .\INPUT\modflow\uzf_support\pET.txt      @          pET@ (free)    0 
 1                                                                                   # NUZF3
 OPEN/CLOSE .\INPUT\modflow\uzf_support\extdp_1.txt  @        extdp@ (free)    0     # EXTDP FOR STRESS PERIOD 1
 1                                                                                   # NUZF4
-OPEN/CLOSE .\INPUT\modflow\uzf_support\extwc_1.txt              1.0 (free)    0     # EXTWC FOR STRESS PERIOD 1
+CONSTANT   0.15                                                                     # EXTWC FOR STRESS PERIOD 1
 -1
 -1
 -1
