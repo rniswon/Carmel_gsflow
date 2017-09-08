@@ -33,7 +33,8 @@ data            89   .\OUTPUT\GAGES\CA.gg15
 data            90   .\OUTPUT\GAGES\BL.gg16
 data            91   .\OUTPUT\GAGES\LP.gg17
 data            95   .\OUTPUT\GAGES\Los_Padres_Res.gg18
-IWRT            93   .\OUTPUT\restartdata1.out
+IWRT            93   .\OUTPUT\restartdata1.out        
+IRED            94   .\input\modflow\restartdata1.in
 data          1001   .\INPUT\modflow\TabFiles\Well_100051.tab
 data          1002   .\INPUT\modflow\TabFiles\Well_100155.tab
 data          1003   .\INPUT\modflow\TabFiles\Well_100156.tab
