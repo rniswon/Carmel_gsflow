@@ -18375,7 +18375,7 @@ _RunModel.bat
 .\tsproc\obs2obs_GA.out.ins                 .\tsproc\obs2obs_GA.out
 .\tsproc\obs2obs_H1.out.ins                 .\tsproc\obs2obs_H1.out
 .\tsproc\obs2obs_NC.out.ins                 .\tsproc\obs2obs_NC.out
-.\tsproc\obs2obs_RR.out.ins                 .\tsproc\obs2obs_RR.outd
+.\tsproc\obs2obs_RR.out.ins                 .\tsproc\obs2obs_RR.out
 .\OUTPUT\hobsout.dat.ins                    .\OUTPUT\hobsout.dat
 ++# The following is associated with PEST++ input and
 ++# is parsed using key words that can be specified in any order
