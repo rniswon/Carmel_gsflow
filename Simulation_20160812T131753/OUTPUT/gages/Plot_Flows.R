@@ -1,4 +1,13 @@
-setwd('D:\DATA\Niswonger\Carmel.git\Simulation_20160812T131753\OUTPUT\gages')
+
+# ******************************************
+# Uncomment the following on Rich's machine:
+# ******************************************
+# setwd('D:\DATA\Niswonger\Carmel.git\Simulation_20160812T131753\OUTPUT\gages')
+
+# ******************************************
+# Uncomment the following on Eric's machine:
+# ******************************************
+setwd('D:/EDM_LT/GitHub/Carmel/Simulation_20160812T131753/OUTPUT/gages')
 
 # 7 gages
 H1 <- read.table('H1.gg1', skip=2, header=FALSE, col.names=c('Time','Stage','Depth','GWHead','MidptFlow','StreamLoss','GWRech','ChngeUZStor','VolUZStor'))
@@ -11,40 +20,47 @@ CL <- read.table('CL.gg13', skip=2, header=FALSE, col.names=c('Time','Stage','De
 # 
 
 # Because the simulated values don't have a time stamp, need to give them one.  According to the transient control file, dates range from 10-1-1990 to 10-31-1995
-H1_dates <- seq(as.Date('1990-10-01'), as.Date('2012-12-31'), by='day')
-NC_dates <- seq(as.Date('1990-10-01'), as.Date('2012-12-31'), by='day')
-GA_dates <- seq(as.Date('1990-10-01'), as.Date('2012-12-31'), by='day')
-DJ_dates <- seq(as.Date('1990-10-01'), as.Date('2012-12-31'), by='day')
-RR_dates <- seq(as.Date('1990-10-01'), as.Date('2012-12-31'), by='day')
-SH_dates <- seq(as.Date('1990-10-01'), as.Date('2012-12-31'), by='day')
-CL_dates <- seq(as.Date('1990-10-01'), as.Date('2012-12-31'), by='day')
+H1_dates_full <- seq(as.Date('1990-10-01'), as.Date('2012-12-31'), by='day')
+NC_dates_full <- seq(as.Date('1990-10-01'), as.Date('2012-12-31'), by='day')
+GA_dates_full <- seq(as.Date('1990-10-01'), as.Date('2012-12-31'), by='day')
+DJ_dates_full <- seq(as.Date('1990-10-01'), as.Date('2012-12-31'), by='day')
+RR_dates_full <- seq(as.Date('1990-10-01'), as.Date('2012-12-31'), by='day')
+SH_dates_full <- seq(as.Date('1990-10-01'), as.Date('2012-12-31'), by='day')
+CL_dates_full <- seq(as.Date('1990-10-01'), as.Date('2012-12-31'), by='day')
+
+H1_dates_calib <- seq(as.Date('1990-10-01'), as.Date('1995-10-31'), by='day')
+NC_dates_calib <- seq(as.Date('1990-10-01'), as.Date('1995-10-31'), by='day')
+GA_dates_calib <- seq(as.Date('1990-10-01'), as.Date('1995-10-31'), by='day')
+DJ_dates_calib <- seq(as.Date('1990-10-01'), as.Date('1995-10-31'), by='day')
+RR_dates_calib <- seq(as.Date('1990-10-01'), as.Date('1995-10-31'), by='day')
+SH_dates_calib <- seq(as.Date('1990-10-01'), as.Date('1995-10-31'), by='day')
+CL_dates_calib <- seq(as.Date('1990-10-01'), as.Date('1995-10-31'), by='day')
+
 
 # Check to make sure their lengths are equivelent before merging:
-length(H1_dates)
-length(NC_dates)
-length(GA_dates)
-length(DJ_dates)
-length(RR_dates)
-length(SH_dates)
-length(CL_dates)
-# 1857
+length(H1_dates_full)
+length(H1_dates_calib)
 nrow(H1)
-nrow(NC)
-nrow(GA)
-nrow(DJ)
-nrow(RR)
-nrow(SH)
-nrow(CL)
-# 1857
 
 # Add the time stamp to the simulated values
-H1$Date <- H1_dates         
-NC$Date <- NC_dates
-GA$Date <- GA_dates
-DJ$Date <- DJ_dates   
-RR$Date <- RR_dates 
-SH$Date <- SH_dates
-CL$Date <- CL_dates
+if(nrow(H1)==1857){
+    H1$Date <- H1_dates_calib
+    NC$Date <- NC_dates_calib
+    GA$Date <- GA_dates_calib
+    DJ$Date <- DJ_dates_calib
+    RR$Date <- RR_dates_calib
+    SH$Date <- SH_dates_calib
+    CL$Date <- CL_dates_calib
+} else {
+    H1$Date <- H1_dates_full
+    NC$Date <- NC_dates_full
+    GA$Date <- GA_dates_full
+    DJ$Date <- DJ_dates_full
+    RR$Date <- RR_dates_full
+    SH$Date <- SH_dates_full
+    CL$Date <- CL_dates_full
+}
+
 
 # Retrieve the observations
 H1_obs <- read.table('../../tsproc/H1_StrmQ_obs.txt', header=FALSE, col.names=c('dummy','Date','Time','Q','dummy2'))
@@ -56,12 +72,85 @@ SH_obs <- read.table('../../tsproc/SH_StrmQ_obs.txt', header=FALSE, col.names=c(
 CL_obs <- read.table('../../tsproc/CL_StrmQ_obs.txt', header=FALSE, col.names=c('dummy','Date','Time','Q','dummy2'))
 
 H1_obs$Date <- as.Date(H1_obs$Date, '%m/%d/%Y')  # This changes the internal storage of the Date Column of values from type 'factor' to type 'date'
-NC_obs$Date <- as.Date(NC_obs$Date, '%m/%d/%Y')  # This changes the internal storage of the Date Column of values from type 'factor' to type 'date'
-GA_obs$Date <- as.Date(GA_obs$Date, '%m/%d/%Y')  # This changes the internal storage of the Date Column of values from type 'factor' to type 'date'
-DJ_obs$Date <- as.Date(DJ_obs$Date, '%m/%d/%Y')  # This changes the internal storage of the Date Column of values from type 'factor' to type 'date'
-RR_obs$Date <- as.Date(RR_obs$Date, '%m/%d/%Y')  # This changes the internal storage of the Date Column of values from type 'factor' to type 'date'
-SH_obs$Date <- as.Date(SH_obs$Date, '%m/%d/%Y')  # This changes the internal storage of the Date Column of values from type 'factor' to type 'date'
-CL_obs$Date <- as.Date(CL_obs$Date, '%m/%d/%Y')  # This changes the internal storage of the Date Column of values from type 'factor' to type 'date'
+NC_obs$Date <- as.Date(NC_obs$Date, '%m/%d/%Y')  
+GA_obs$Date <- as.Date(GA_obs$Date, '%m/%d/%Y')  
+DJ_obs$Date <- as.Date(DJ_obs$Date, '%m/%d/%Y')  
+RR_obs$Date <- as.Date(RR_obs$Date, '%m/%d/%Y')  
+SH_obs$Date <- as.Date(SH_obs$Date, '%m/%d/%Y')  
+CL_obs$Date <- as.Date(CL_obs$Date, '%m/%d/%Y')  
+
+# assign water years to the data
+# =================================
+
+# H1
+# --
+H1$wyr <- as.numeric(format(H1$Date,"%Y"))
+is.nxt <- as.numeric(format(H1$Date,"%m")) %in% 1:9
+H1$wyr[!is.nxt] <- H1$wyr[!is.nxt] + 1
+
+H1_obs$wyr <- as.numeric(format(H1_obs$Date,"%Y"))
+is.nxt <- as.numeric(format(H1_obs$Date,"%m")) %in% 1:9
+H1_obs$wyr[!is.nxt] <- H1_obs$wyr[!is.nxt] + 1
+
+# NC
+# --
+NC$wyr <- as.numeric(format(NC$Date,"%Y"))
+is.nxt <- as.numeric(format(NC$Date,"%m")) %in% 1:9
+NC$wyr[!is.nxt] <- NC$wyr[!is.nxt] + 1
+
+NC_obs$wyr <- as.numeric(format(NC_obs$Date,"%Y"))
+is.nxt <- as.numeric(format(NC_obs$Date,"%m")) %in% 1:9
+NC_obs$wyr[!is.nxt] <- NC_obs$wyr[!is.nxt] + 1
+
+# GA
+# --
+GA$wyr <- as.numeric(format(GA$Date,"%Y"))
+is.nxt <- as.numeric(format(GA$Date,"%m")) %in% 1:9
+GA$wyr[!is.nxt] <- GA$wyr[!is.nxt] + 1
+
+GA_obs$wyr <- as.numeric(format(GA_obs$Date,"%Y"))
+is.nxt <- as.numeric(format(GA_obs$Date,"%m")) %in% 1:9
+GA_obs$wyr[!is.nxt] <- GA_obs$wyr[!is.nxt] + 1
+
+# DJ
+# --
+DJ$wyr <- as.numeric(format(DJ$Date,"%Y"))
+is.nxt <- as.numeric(format(DJ$Date,"%m")) %in% 1:9
+DJ$wyr[!is.nxt] <- DJ$wyr[!is.nxt] + 1
+
+DJ_obs$wyr <- as.numeric(format(DJ_obs$Date,"%Y"))
+is.nxt <- as.numeric(format(DJ_obs$Date,"%m")) %in% 1:9
+DJ_obs$wyr[!is.nxt] <- DJ_obs$wyr[!is.nxt] + 1
+
+# RR
+# --
+RR$wyr <- as.numeric(format(RR$Date,"%Y"))
+is.nxt <- as.numeric(format(RR$Date,"%m")) %in% 1:9
+RR$wyr[!is.nxt] <- RR$wyr[!is.nxt] + 1
+
+RR_obs$wyr <- as.numeric(format(RR_obs$Date,"%Y"))
+is.nxt <- as.numeric(format(RR_obs$Date,"%m")) %in% 1:9
+RR_obs$wyr[!is.nxt] <- RR_obs$wyr[!is.nxt] + 1
+
+# SH
+# --
+SH$wyr <- as.numeric(format(SH$Date,"%Y"))
+is.nxt <- as.numeric(format(SH$Date,"%m")) %in% 1:9
+SH$wyr[!is.nxt] <- SH$wyr[!is.nxt] + 1
+
+SH_obs$wyr <- as.numeric(format(SH_obs$Date,"%Y"))
+is.nxt <- as.numeric(format(SH_obs$Date,"%m")) %in% 1:9
+SH_obs$wyr[!is.nxt] <- SH_obs$wyr[!is.nxt] + 1
+
+# CL
+# --
+CL$wyr <- as.numeric(format(CL$Date,"%Y"))
+is.nxt <- as.numeric(format(CL$Date,"%m")) %in% 1:9
+CL$wyr[!is.nxt] <- CL$wyr[!is.nxt] + 1
+
+CL_obs$wyr <- as.numeric(format(CL_obs$Date,"%Y"))
+is.nxt <- as.numeric(format(CL_obs$Date,"%m")) %in% 1:9
+CL_obs$wyr[!is.nxt] <- CL_obs$wyr[!is.nxt] + 1
 
 
 png('H1_hydroGraph.png',width=6.5, height=4.5, units='in',res=140)
@@ -119,6 +208,146 @@ png('CL_hydroGraph.png',width=6.5, height=4.5, units='in',res=140)
   points(as.Date(CL_obs$Date), CL_obs$Q, typ='l',lty=2, col='red')
   legend('topleft', c('Simulated','Observed'), col=c('black','red'), lty=c(1,2), bty='n', bg='white') 
 dev.off()
+
+
+
+H1_sim_wyr_tot <- aggregate(MidptFlow ~ wyr, data = H1, 'sum')
+H1_sim_wyr_tot[H1_sim_wyr_tot$wyr==1996,'MidptFlow'] <- NA
+H1_obs_wyr_tot <- aggregate((Q * 86400 / 35.315) ~ wyr, data = H1_obs, 'sum')
+H1_df <- data.frame(wyr = 1990:2012)
+H1_df <- merge(H1_df, H1_sim_wyr_tot, by='wyr', all.x = TRUE)
+H1_df <- merge(H1_df, H1_obs_wyr_tot, by='wyr', all.x = TRUE)
+names(H1_df) <- c('wyr', 'Simulated', 'Observed')
+
+NC_sim_wyr_tot <- aggregate(MidptFlow ~ wyr, data = NC, 'sum')
+NC_sim_wyr_tot[H1_sim_wyr_tot$wyr==1996,'MidptFlow'] <- NA
+NC_obs_wyr_tot <- aggregate((Q * 86400 / 35.315) ~ wyr, data = NC_obs, 'sum')
+NC_df <- data.frame(wyr = 1990:2012)
+NC_df <- merge(NC_df, NC_sim_wyr_tot, by='wyr', all.x = TRUE)
+NC_df <- merge(NC_df, NC_obs_wyr_tot, by='wyr', all.x = TRUE)
+names(NC_df) <- c('wyr', 'Simulated', 'Observed')
+
+GA_sim_wyr_tot <- aggregate(MidptFlow ~ wyr, data = GA, 'sum')
+GA_sim_wyr_tot[H1_sim_wyr_tot$wyr==1996,'MidptFlow'] <- NA
+GA_obs_wyr_tot <- aggregate((Q * 86400 / 35.315) ~ wyr, data = GA_obs, 'sum')
+GA_df <- data.frame(wyr = 1990:2012)
+GA_df <- merge(GA_df, GA_sim_wyr_tot, by='wyr', all.x = TRUE)
+GA_df <- merge(GA_df, GA_obs_wyr_tot, by='wyr', all.x = TRUE)
+names(GA_df) <- c('wyr', 'Simulated', 'Observed')
+
+DJ_sim_wyr_tot <- aggregate(MidptFlow ~ wyr, data = DJ, 'sum')
+DJ_sim_wyr_tot[H1_sim_wyr_tot$wyr==1996,'MidptFlow'] <- NA
+DJ_obs_wyr_tot <- aggregate((Q * 86400 / 35.315) ~ wyr, data = DJ_obs, 'sum')
+DJ_df <- data.frame(wyr = 1990:2012)
+DJ_df <- merge(DJ_df, DJ_sim_wyr_tot, by='wyr', all.x = TRUE)
+DJ_df <- merge(DJ_df, DJ_obs_wyr_tot, by='wyr', all.x = TRUE)
+names(DJ_df) <- c('wyr', 'Simulated', 'Observed')
+
+RR_sim_wyr_tot <- aggregate(MidptFlow ~ wyr, data = RR, 'sum')
+RR_sim_wyr_tot[H1_sim_wyr_tot$wyr==1996,'MidptFlow'] <- NA
+RR_obs_wyr_tot <- aggregate((Q * 86400 / 35.315) ~ wyr, data = RR_obs, 'sum')
+RR_df <- data.frame(wyr = 1990:2012)
+RR_df <- merge(RR_df, RR_sim_wyr_tot, by='wyr', all.x = TRUE)
+RR_df <- merge(RR_df, RR_obs_wyr_tot, by='wyr', all.x = TRUE)
+names(RR_df) <- c('wyr', 'Simulated', 'Observed')
+
+SH_sim_wyr_tot <- aggregate(MidptFlow ~ wyr, data = SH, 'sum')
+SH_sim_wyr_tot[H1_sim_wyr_tot$wyr==1996,'MidptFlow'] <- NA
+SH_obs_wyr_tot <- aggregate((Q * 86400 / 35.315) ~ wyr, data = SH_obs, 'sum')
+SH_df <- data.frame(wyr = 1990:2012)
+SH_df <- merge(SH_df, SH_sim_wyr_tot, by='wyr', all.x = TRUE)
+SH_df <- merge(SH_df, SH_obs_wyr_tot, by='wyr', all.x = TRUE)
+names(SH_df) <- c('wyr', 'Simulated', 'Observed')
+
+CL_sim_wyr_tot <- aggregate(MidptFlow ~ wyr, data = CL, 'sum')
+CL_sim_wyr_tot[H1_sim_wyr_tot$wyr==1996,'MidptFlow'] <- NA
+CL_obs_wyr_tot <- aggregate((Q * 86400 / 35.315) ~ wyr, data = CL_obs, 'sum')
+CL_df <- data.frame(wyr = 1990:2012)
+CL_df <- merge(CL_df, CL_sim_wyr_tot, by='wyr', all.x = TRUE)
+CL_df <- merge(CL_df, CL_obs_wyr_tot, by='wyr', all.x = TRUE)
+names(CL_df) <- c('wyr', 'Simulated', 'Observed')
+
+
+# Now generate barplots showing water year totals.
+
+png('H1_WY_totals.png',width=6.5, height=4.5, units='in',res=140)
+  par(mar=c(4,6,1,1))
+  x <- barplot(t(as.matrix(H1_df[,2:3] * 35.315 / 43560.17)), beside=TRUE, yaxt='n', ylim=c(0,300000))
+  abline(h=0)
+  axis(side=2, at=seq(0,300000,50000), labels=c('0','50,000','100,000','150,000','200,000','250,000','300,000'), las=1)
+  axis(side=1, at=seq(2,68,by=3), labels=H1_df$wyr, las=2)
+  mtext(side=2, expression(paste('Total WY Discharge, ',ac%.%ft,sep='')), line=4.5)
+  legend('topright', c('Simulated','Observed'),pch=22,pt.bg=c('grey40','grey90'),pt.cex=1.5,bty='n',bg='white')
+dev.off()
+
+png('NC_WY_totals.png',width=6.5, height=4.5, units='in',res=140)
+  par(mar=c(4,6,1,1))
+  x <- barplot(t(as.matrix(NC_df[,2:3] * 35.315 / 43560.17)), beside=TRUE, yaxt='n', ylim=c(0,300000))
+  abline(h=0)
+  axis(side=2, at=seq(0,300000,50000), labels=c('0','50,000','100,000','150,000','200,000','250,000','300,000'), las=1)
+  axis(side=1, at=seq(2,68,by=3), labels=NC_df$wyr, las=2)
+  mtext(side=2, expression(paste('Total WY Discharge, ',ac%.%ft,sep='')), line=4.5)
+  legend('topright', c('Simulated','Observed'),pch=22,pt.bg=c('grey40','grey90'),pt.cex=1.5,bty='n',bg='white')
+dev.off()
+
+
+png('GA_WY_totals.png',width=6.5, height=4.5, units='in',res=140)
+  par(mar=c(4,6,1,1))
+  x <- barplot(t(as.matrix(GA_df[,2:3] * 35.315 / 43560.17)), beside=TRUE, yaxt='n', ylim=c(0,50000))
+  abline(h=0)
+  axis(side=2, at=seq(0,50000,10000), labels=c('0','10,000','20,000','30,000','40,000','50,000'), las=1)
+  axis(side=1, at=seq(2,68,by=3), labels=GA_df$wyr, las=2)
+  mtext(side=2, expression(paste('Total WY Discharge, ',ac%.%ft,sep='')), line=4.5)
+  legend('topright', c('Simulated','Observed'),pch=22,pt.bg=c('grey40','grey90'),pt.cex=1.5,bty='n',bg='white')
+dev.off()
+
+
+png('DJ_WY_totals.png',width=6.5, height=4.5, units='in',res=140)
+  par(mar=c(4,6,1,1))
+  x <- barplot(t(as.matrix(DJ_df[,2:3] * 35.315 / 43560.17)), beside=TRUE, yaxt='n', ylim=c(0,300000))
+  abline(h=0)
+  axis(side=2, at=seq(0,300000,50000), labels=c('0','50,000','100,000','150,000','200,000','250,000','300,000'), las=1)
+  axis(side=1, at=seq(2,68,by=3), labels=DJ_df$wyr, las=2)
+  mtext(side=2, expression(paste('Total WY Discharge, ',ac%.%ft,sep='')), line=4.5)
+  legend('topright', c('Simulated','Observed'),pch=22,pt.bg=c('grey40','grey90'),pt.cex=1.5,bty='n',bg='white')
+dev.off()
+
+
+png('RR_WY_totals.png',width=6.5, height=4.5, units='in',res=140)
+  par(mar=c(4,6,1,1))
+  x <- barplot(t(as.matrix(RR_df[,2:3] * 35.315 / 43560.17)), beside=TRUE, yaxt='n', ylim=c(0,300000))
+  abline(h=0)
+  axis(side=2, at=seq(0,300000,50000), labels=c('0','50,000','100,000','150,000','200,000','250,000','300,000'), las=1)
+  axis(side=1, at=seq(2,68,by=3), labels=RR_df$wyr, las=2)
+  mtext(side=2, expression(paste('Total WY Discharge, ',ac%.%ft,sep='')), line=4.5)
+  legend('topright', c('Simulated','Observed'),pch=22,pt.bg=c('grey40','grey90'),pt.cex=1.5,bty='n',bg='white')
+dev.off()
+
+
+png('SH_WY_totals.png',width=6.5, height=4.5, units='in',res=140)
+  par(mar=c(4,6,1,1))
+  x <- barplot(t(as.matrix(SH_df[,2:3] * 35.315 / 43560.17)), beside=TRUE, yaxt='n', ylim=c(0,150000))
+  abline(h=0)
+  axis(side=2, at=seq(0,150000,25000), labels=c('0','25,000','50,000','75,000','100,000','125,000','150,000'), las=1)
+  axis(side=1, at=seq(2,68,by=3), labels=SH_df$wyr, las=2)
+  mtext(side=2, expression(paste('Total WY Discharge, ',ac%.%ft,sep='')), line=4.5)
+  legend('topright', c('Simulated','Observed'),pch=22,pt.bg=c('grey40','grey90'),pt.cex=1.5,bty='n',bg='white')
+dev.off()
+
+
+png('CL_WY_totals.png',width=6.5, height=4.5, units='in',res=140)
+  par(mar=c(4,6,1,1))
+  x <- barplot(t(as.matrix(CL_df[,2:3] * 35.315 / 43560.17)), beside=TRUE, yaxt='n', ylim=c(0,50000))
+  abline(h=0)
+  axis(side=2, at=seq(0,50000,10000), labels=c('0','10,000','20,000','30,000','40,000','50,000'), las=1)
+  axis(side=1, at=seq(2,68,by=3), labels=CL_df$wyr, las=2)
+  mtext(side=2, expression(paste('Total WY Discharge, ',ac%.%ft,sep='')), line=4.5)
+  legend('topright', c('Simulated','Observed'),pch=22,pt.bg=c('grey40','grey90'),pt.cex=1.5,bty='n',bg='white')
+dev.off()
+
+
+
+
 
 
 
