@@ -35,5 +35,8 @@ call obs2obs.exe obs2obs_NC.in obs2obs_NC.out
 call obs2obs.exe obs2obs_RR.in obs2obs_RR.out
 REM call obs2obs.exe obs2obs_SH.in obs2obs_SH.out
 
+cd .\..\OUTPUT\
+call obs2obs.exe gsflow_obs2obs.in gsflow_obs2obs.out
+
 cd ..\
 
