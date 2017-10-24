@@ -14,7 +14,7 @@ OPEN/CLOSE .\input\modflow\uzf_support\surfk.txt      1.5268610E-03 (free)    0 
 CONSTANT   4.0                                                                      # BROOKS/COREY EPSILON (EPS)
 OPEN/CLOSE .\input\modflow\uzf_support\thts.txt                1 (free)       6     # SATURATED WATER CONTENT (THTS)
 CONSTANT   0.01                                                                     # SATURATED WATER CONTENT (THTR)
-CONSTANT   0.0105                                                                   # SATURATED WATER CONTENT (THTI)
+OPEN/CLOSE .\input\modflow\uzf_support\thti.txt                1 (free)       6     # SATURATED WATER CONTENT (THTI)
 1                                                                                   # NUZF1
 OPEN/CLOSE .\INPUT\modflow\uzf_support\finf_1.txt     4.0079030E-01 (free)    0     # INFILTRATION AT TOP OF LAYER 1 (FINF) STRESS PERIOD 1
 1                                                                                   # NUZF2
