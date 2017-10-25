@@ -33,7 +33,7 @@ vks_mtn             relative     0.030            0.0      always_3            2
 * parameter data
 finf log factor 0.4639109 0.1 1 finf 1 0 1
 extdp log factor 1 0.1 1 finf 1 0 1
-pet log factor 1.2 0.5 1.2 pet 1 0 1
+pet log factor 0.5 0.5 1.2 pet 1 0 1
 kh_lay_1 fixed factor 1.041357 0.0001 1000 l1_kh 1 0 1
 srfk_mult log factor 6.34E-03 0.0001 10 surfk_alluv 1 0 1
 vks_mult log factor 1.964668 0.01 10 surfk_alluv 1 0 1
