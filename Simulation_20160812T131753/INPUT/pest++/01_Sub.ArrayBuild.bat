@@ -36,7 +36,7 @@ REM For Hydraulic conductivity of layer 2
 REM ------------------------------------------
 
 call 02_Sub.PP2Layer.bat      .\Carmel-Interpolated_%1_%3_By_ppk2fac.txt    .\%6_K_PP_List.txt      ..\modflow\upw_support\Kh_%6.txt  
-cd    ..\umodflow\pw_support\
+cd    ..\modflow\upw_support\
 echo  406  328      >   RefArr_In.txt
 echo  Kh_%6.txt    >>   RefArr_In.txt
 call  ReformArray.exe < RefArr_In.txt
