@@ -1,2 +1,2 @@
 ptf @
-@      ssr2gw_rate@
+@     ssr2gw_scale@

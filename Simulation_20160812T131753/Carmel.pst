@@ -2,11 +2,11 @@ pcf
 * control data
 restart estimation
    4932  13588     15      0       8
-     10     14 single  point   1   0   0
+     11     14 single  point   1   0   0
   5.0  -3.0   0.3  0.03    10
  15.0  15.0 0.001  0
   0.1
-   50  0.01     3     3  0.01     3
+    0  0.01     3     3  0.01     3
     1     1     1
 * singular value decomposition
          1
@@ -29,7 +29,7 @@ L3_Kh_Zn10     relative   0.10  0.0   always_2  2.0   parabolic
 L1_SY          relative   0.10  0.0   always_2  2.0   parabolic
 L2_SY          relative   0.10  0.0   always_2  2.0   parabolic
 * parameter data
-      ssr2gw_scale      none    factor       10.000295        0.00010         20.000           prms  1.0000  0.0000      1
+      ssr2gw_scale      none    factor       1.000295        0.00010         20.000           prms  1.0000  0.0000      1
       vks2ssr2_rat     fixed    factor       2.000000        2.00000           10.0           prms  1.0000  0.0000       1
               finf     fixed    factor      0.4007903        0.10000          1.000            uzf  1.0000  0.0000       1
              extdp     fixed    factor      0.4097178        0.10000          1.000            uzf  1.0000  0.0000       1
@@ -1026,7 +1026,7 @@ L2_SY          relative   0.10  0.0   always_2  2.0   parabolic
          pp_466_l2     fixed    factor   7.1742604E-02      0.0000001            500      l2_kh_zn3       1       0       1
          pp_484_l2     fixed    factor        44.18542      0.0000001            500      l2_kh_zn3       1       0       1
          pp_485_l2     fixed    factor        1.056130      0.0000001            500      l2_kh_zn3       1       0       1
-         pp_486_l2     fixed    factor        852.9544      0.0000001            500      l2_kh_zn3       1       0       1
+         pp_486_l2     fixed    factor        852.9544      0.0000001           1000      l2_kh_zn3       1       0       1
          pp_493_l2     fixed    factor        1.528570      0.0000001            500      l2_kh_zn3       1       0       1
          pp_494_l2     fixed    factor   2.8321041E-03      0.0000001            500      l2_kh_zn3       1       0       1
          pp_495_l2     fixed    factor   9.1988011E-03      0.0000001            500      l2_kh_zn3       1       0       1
@@ -1200,7 +1200,7 @@ L2_SY          relative   0.10  0.0   always_2  2.0   parabolic
          pp_451_l2     fixed    factor       0.1750037      0.0000001            100      l2_kh_zn4       1       0       1
          pp_474_l2     fixed    factor   9.6565804E-04      0.0000001            100      l2_kh_zn4       1       0       1
          pp_477_l2     fixed    factor   1.4151148E-02      0.0000001            100      l2_kh_zn4       1       0       1
-         pp_487_l2     fixed    factor        420.8520      0.0000001            100      l2_kh_zn4       1       0       1
+         pp_487_l2     fixed    factor        420.8520      0.0000001            500      l2_kh_zn4       1       0       1
          pp_489_l2     fixed    factor   2.1486663E-02      0.0000001            100      l2_kh_zn4       1       0       1
          pp_497_l2     fixed    factor        1.098300      0.0000001            100      l2_kh_zn4       1       0       1
          pp_498_l2     fixed    factor       0.6667415      0.0000001            100      l2_kh_zn4       1       0       1
@@ -1320,7 +1320,7 @@ L2_SY          relative   0.10  0.0   always_2  2.0   parabolic
          pp_664_l2     fixed    factor       0.1185331     0.00000001            100      l2_kh_zn5       1       0       1
            pp_5_l2     fixed    factor   6.8125845E-02     0.00000001            100      l2_kh_zn6       1       0       1
            pp_6_l2     fixed    factor   5.1074364E-02     0.00000001            100      l2_kh_zn6       1       0       1
-           pp_9_l2     fixed    factor        214.7076     0.00000001            100      l2_kh_zn6       1       0       1
+           pp_9_l2     fixed    factor        214.7076     0.00000001            300      l2_kh_zn6       1       0       1
           pp_12_l2     fixed    factor   7.5032677E-02     0.00000001            100      l2_kh_zn6       1       0       1
           pp_30_l2     fixed    factor       0.1217244     0.00000001            100      l2_kh_zn6       1       0       1
           pp_34_l2     fixed    factor       0.1907647     0.00000001            100      l2_kh_zn6       1       0       1
@@ -18572,6 +18572,7 @@ _RunModel.bat
 .\INPUT\pest++\SurfK_PP_List.txt.tpl        .\INPUT\pest++\SurfK_PP_List.txt
 .\INPUT\pest++\vks_PP_List.txt.tpl          .\INPUT\pest++\vks_PP_List.txt
 .\INPUT\modflow\carmel.upw.tpl              .\INPUT\modflow\carmel.upw
+.\INPUT\prms\scale_ssr2gw_rate.dat.tpl      .\INPUT\prms\scale_ssr2gw_rate.dat
 .\tsproc\CR_CL_VE.out.ins                   .\tsproc\CR_CL_Processed_Output.out
 .\tsproc\CR_DJ_VE.out.ins                   .\tsproc\CR_DJ_Processed_Output.out
 .\tsproc\CR_GA_VE.out.ins                   .\tsproc\CR_GA_Processed_Output.out
