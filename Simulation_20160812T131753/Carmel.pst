@@ -29,7 +29,7 @@ L3_Kh_Zn10     relative   0.10  0.0   always_2  2.0   parabolic
 L1_SY          relative   0.10  0.0   always_2  2.0   parabolic
 L2_SY          relative   0.10  0.0   always_2  2.0   parabolic
 * parameter data
-      ssr2gw_scale      none    factor       1.000295        0.00010         100.00          prms  1.0000  0.0000      1
+      ssr2gw_scale      none    factor       30.00295        0.00010         100.00          prms  1.0000  0.0000      1
       vks2ssr2_rat     fixed    factor       2.000000        2.00000           10.0           prms  1.0000  0.0000       1
               finf     fixed    factor      0.4007903        0.10000          1.000            uzf  1.0000  0.0000       1
              extdp     fixed    factor      0.4097178        0.10000          1.000            uzf  1.0000  0.0000       1
