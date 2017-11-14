@@ -1,7 +1,7 @@
 # setwd('D:/EDM_LT/GitHub/Carmel/Simulation_20160812T131753/OUTPUT/')
 setwd('D:/DATA/Niswonger/Carmel.git/Simulation_20160812T131753/OUTPUT/')
 
-dat <- read.table('hobsout.dat', header=FALSE, skip=1, col.names=c('sim','obs','name'))
+dat <- read.table('hobs.out', header=FALSE, skip=1, col.names=c('sim','obs','name'))
 dat$name <- as.character(dat$name)
 dat$id   <- sapply(strsplit(dat[,'name'], "\\_"), `[[`, 1)
 dat$date <- sapply(strsplit(dat[,'name'], "\\_"), `[[`, 2)

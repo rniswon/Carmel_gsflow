@@ -11,7 +11,7 @@ sfr             18   .\INPUT\modflow\carmel.sfr
 lak             19   .\INPUT\modflow\carmel.lak
 wel             20   .\INPUT\modflow\carmel.wel
 uzf             21   .\INPUT\modflow\carmel.uzf
-hob             22   .\INPUT\modflow\carmel.hob
+#hob             22   .\INPUT\modflow\carmel.hob
 data            33   .\OUTPUT\hobsout.dat
 data(binary)    58   .\INPUT\modflow\bas_support\strt_hd.unf
 gage            48   .\INPUT\modflow\carmel.gag
@@ -2210,6 +2210,6 @@ data          3172   .\INPUT\modflow\TabFiles\Well_XTRA6.tab
 data          3173   .\INPUT\modflow\TabFiles\Well_XTRA7.tab
 data          3174   .\INPUT\modflow\TabFiles\Well_XTRA8.tab
 data          3175   .\INPUT\modflow\TabFiles\Well_XTRA9.tab
-data          5001   .\INPUT\modflow\TabFiles\Diversion_LosPadresRel.tab
+#data          5001   .\INPUT\modflow\TabFiles\Diversion_LosPadresRel.tab
 data          5002   .\INPUT\modflow\TabFiles\Diversion_SanClemente.tab
 data          5003   .\INPUT\modflow\TabFiles\Diversion_Galante.tab
