@@ -2210,6 +2210,6 @@ data          3172   .\INPUT\modflow\TabFiles\Well_XTRA6.tab
 data          3173   .\INPUT\modflow\TabFiles\Well_XTRA7.tab
 data          3174   .\INPUT\modflow\TabFiles\Well_XTRA8.tab
 data          3175   .\INPUT\modflow\TabFiles\Well_XTRA9.tab
-data          5001   .\INPUT\modflow\TabFiles\Diversion_LosPadresRel.tab
+#data          5001   .\INPUT\modflow\TabFiles\Diversion_LosPadresRel.tab
 data          5002   .\INPUT\modflow\TabFiles\Diversion_SanClemente.tab
 data          5003   .\INPUT\modflow\TabFiles\Diversion_Galante.tab

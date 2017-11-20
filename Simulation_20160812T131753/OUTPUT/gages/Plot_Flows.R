@@ -2,12 +2,12 @@
 # ******************************************
 # Uncomment the following on Rich's machine:
 # ******************************************
-# setwd('D:\DATA\Niswonger\Carmel.git\Simulation_20160812T131753\OUTPUT\gages')
+ setwd('D:/DATA/Niswonger/Carmel.git/Simulation_20160812T131753/OUTPUT/gages')
 
 # ******************************************
 # Uncomment the following on Eric's machine:
 # ******************************************
-setwd('D:/EDM_LT/GitHub/Carmel/Simulation_20160812T131753/OUTPUT/gages')
+# setwd('D:/EDM_LT/GitHub/Carmel/Simulation_20160812T131753/OUTPUT/gages')
 
 # 7 gages
 H1 <- read.table('H1.gg1', skip=2, header=FALSE, col.names=c('Time','Stage','Depth','GWHead','MidptFlow','StreamLoss','GWRech','ChngeUZStor','VolUZStor'))
@@ -20,21 +20,21 @@ CL <- read.table('CL.gg13', skip=2, header=FALSE, col.names=c('Time','Stage','De
 # 
 
 # Because the simulated values don't have a time stamp, need to give them one.  According to the transient control file, dates range from 10-1-1990 to 10-31-1995
-H1_dates_full <- seq(as.Date('1990-10-01'), as.Date('2012-12-31'), by='day')
-NC_dates_full <- seq(as.Date('1990-10-01'), as.Date('2012-12-31'), by='day')
-GA_dates_full <- seq(as.Date('1990-10-01'), as.Date('2012-12-31'), by='day')
-DJ_dates_full <- seq(as.Date('1990-10-01'), as.Date('2012-12-31'), by='day')
-RR_dates_full <- seq(as.Date('1990-10-01'), as.Date('2012-12-31'), by='day')
-SH_dates_full <- seq(as.Date('1990-10-01'), as.Date('2012-12-31'), by='day')
-CL_dates_full <- seq(as.Date('1990-10-01'), as.Date('2012-12-31'), by='day')
+H1_dates_full <- seq(as.Date('1990-10-01'), as.Date('2010-10-31'), by='day')
+NC_dates_full <- seq(as.Date('1990-10-01'), as.Date('2010-10-31'), by='day')
+GA_dates_full <- seq(as.Date('1990-10-01'), as.Date('2010-10-31'), by='day')
+DJ_dates_full <- seq(as.Date('1990-10-01'), as.Date('2010-10-31'), by='day')
+RR_dates_full <- seq(as.Date('1990-10-01'), as.Date('2010-10-31'), by='day')
+SH_dates_full <- seq(as.Date('1990-10-01'), as.Date('2010-10-31'), by='day')
+CL_dates_full <- seq(as.Date('1990-10-01'), as.Date('2010-10-31'), by='day')
 
-H1_dates_calib <- seq(as.Date('1990-10-01'), as.Date('1995-10-31'), by='day')
-NC_dates_calib <- seq(as.Date('1990-10-01'), as.Date('1995-10-31'), by='day')
-GA_dates_calib <- seq(as.Date('1990-10-01'), as.Date('1995-10-31'), by='day')
-DJ_dates_calib <- seq(as.Date('1990-10-01'), as.Date('1995-10-31'), by='day')
-RR_dates_calib <- seq(as.Date('1990-10-01'), as.Date('1995-10-31'), by='day')
-SH_dates_calib <- seq(as.Date('1990-10-01'), as.Date('1995-10-31'), by='day')
-CL_dates_calib <- seq(as.Date('1990-10-01'), as.Date('1995-10-31'), by='day')
+H1_dates_calib <- seq(as.Date('1990-10-01'), as.Date('2010-10-31'), by='day')
+NC_dates_calib <- seq(as.Date('1990-10-01'), as.Date('2010-10-31'), by='day')
+GA_dates_calib <- seq(as.Date('1990-10-01'), as.Date('2010-10-31'), by='day')
+DJ_dates_calib <- seq(as.Date('1990-10-01'), as.Date('2010-10-31'), by='day')
+RR_dates_calib <- seq(as.Date('1990-10-01'), as.Date('2010-10-31'), by='day')
+SH_dates_calib <- seq(as.Date('1990-10-01'), as.Date('2010-10-31'), by='day')
+CL_dates_calib <- seq(as.Date('1990-10-01'), as.Date('2010-10-31'), by='day')
 
 
 # Check to make sure their lengths are equivelent before merging:
@@ -43,7 +43,7 @@ length(H1_dates_calib)
 nrow(H1)
 
 # Add the time stamp to the simulated values
-if(nrow(H1)==1857){
+if(nrow(H1)==7336){
     H1$Date <- H1_dates_calib
     NC$Date <- NC_dates_calib
     GA$Date <- GA_dates_calib
