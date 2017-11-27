@@ -1433,704 +1433,704 @@ vks_mtn        relative   0.020  0.0   switch  2.0   parabolic
          pp_116_l2       log    factor       3.353183     0.00000001            100      l2_kh_zn9       1       0       1
          pp_122_l2       log    factor  8.1947304E-02     0.00000001            100      l2_kh_zn9       1       0       1
          pp_322_l2       log    factor      0.1316276     0.00000001            100      l2_kh_zn9       1       0       1
- pp_1_l3 log factor 1.00E-04 0.000001 10 l3_kh_zn10 1 0 1
-pp_2_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_3_l3 log factor 1.00E-04 0.000001 10 l3_kh_zn10 1 0 1
-pp_4_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_5_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_6_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_7_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_8_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_9_l3 log factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_10_l3 log factor 1.00E-04 0.000001 10 l3_kh_zn10 1 0 1
-pp_11_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_12_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_13_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_14_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_15_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_16_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_17_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_18_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_19_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_20_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_21_l3 log factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_22_l3 log factor 1.00E-04 0.000001 10 l3_kh_zn10 1 0 1
-pp_23_l3 log factor 1.00E-04 0.000001 10 l3_kh_zn10 1 0 1
-pp_24_l3 log factor 1.00E-04 0.000001 10 l3_kh_zn10 1 0 1
-pp_25_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_26_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_27_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_28_l3 log factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_29_l3 log factor 1.00E-04 0.000001 10 l3_kh_zn10 1 0 1
-pp_30_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_31_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_32_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_33_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_34_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_35_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_36_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_37_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_38_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_39_l3 log factor 1.00E-04 0.000001 10 l3_kh_zn10 1 0 1
-pp_40_l3 log factor 1.00E-04 0.000001 10 l3_kh_zn10 1 0 1
-pp_41_l3 log factor 1.00E-04 0.000001 10 l3_kh_zn10 1 0 1
-pp_42_l3 log factor 1.00E-04 0.000001 10 l3_kh_zn10 1 0 1
-pp_43_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_44_l3 log factor 1.00E-04 0.000001 10 l3_kh_zn10 1 0 1
-pp_45_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_46_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_47_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_48_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_49_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_50_l3 log factor 1.00E-04 0.000001 10 l3_kh_zn10 1 0 1
-pp_51_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_52_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_53_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_54_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_55_l3 log factor 1.00E-04 0.000001 10 l3_kh_zn10 1 0 1
-pp_56_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_57_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_58_l3 log factor 1.00E-04 0.000001 10 l3_kh_zn10 1 0 1
-pp_59_l3 log factor 1.00E-04 0.000001 10 l3_kh_zn10 1 0 1
-pp_60_l3 log factor 1.00E-04 0.000001 10 l3_kh_zn10 1 0 1
-pp_61_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_62_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_63_l3 log factor 1.00E-04 0.000001 10 l3_kh_zn10 1 0 1
-pp_64_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_65_l3 log factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_66_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_67_l3 log factor 1.00E-04 0.000001 10 l3_kh_zn10 1 0 1
-pp_68_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_69_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_70_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_71_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_72_l3 log factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_73_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_74_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_75_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_76_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_77_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_78_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_79_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_80_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_81_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_82_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_83_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_84_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_85_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_86_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_87_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_88_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_89_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_90_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_91_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_92_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_93_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_94_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_95_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_96_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_97_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_98_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_99_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_100_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_101_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_102_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_103_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_104_l3 log factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_105_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_106_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_107_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_108_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_109_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_110_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_111_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_112_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_113_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_114_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_115_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_116_l3 log factor 1.00E-04 0.000001 10 l3_kh_zn10 1 0 1
-pp_117_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_118_l3 log factor 1.00E-04 0.000001 10 l3_kh_zn10 1 0 1
-pp_119_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_120_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_121_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_122_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_123_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_124_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_125_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_126_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_127_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_128_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_129_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_130_l3 log factor 1.00E-04 0.000001 10 l3_kh_zn10 1 0 1
-pp_131_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_132_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_133_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_134_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_135_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_136_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_137_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_138_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_139_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_140_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_141_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_142_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_143_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_144_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_145_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_146_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_147_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_148_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_149_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_150_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_151_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_152_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_153_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_154_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_155_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_156_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_157_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_158_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_159_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_160_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_161_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_162_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_163_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_164_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_165_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_166_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_167_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_168_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_169_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_170_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_171_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_172_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_173_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_174_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_175_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_176_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_177_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_178_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_179_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_180_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_181_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_182_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_183_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_184_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_185_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_186_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_187_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_188_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_189_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_190_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_191_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_192_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_193_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_194_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_195_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_196_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_197_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_198_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_199_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_200_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_201_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_202_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_203_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_204_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_205_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_206_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_207_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_208_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_209_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_210_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_211_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_212_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_213_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_214_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_215_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_216_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_217_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_218_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_219_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_220_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_221_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_222_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_223_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_224_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_225_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_226_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_227_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_228_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_229_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_230_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_231_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_232_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_233_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_234_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_235_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_236_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_237_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_238_l3 log factor 1.00E-04 0.000001 10 l3_kh_zn10 1 0 1
-pp_239_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_240_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_241_l3 log factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_242_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_243_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_244_l3 log factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_245_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_246_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_247_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_248_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_249_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_250_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_251_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_252_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_253_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_254_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_255_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_256_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_257_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_258_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_259_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_260_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_261_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_262_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_263_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_264_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_265_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_266_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_267_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_268_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_269_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_270_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_271_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_272_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_273_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_274_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_275_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_276_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_277_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_278_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_279_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_280_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_281_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_282_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_283_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_284_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_285_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_286_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_287_l3 log factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_288_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_289_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_290_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_291_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_292_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_293_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_294_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_295_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_296_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_297_l3 log factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_298_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_299_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_300_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_301_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_302_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_303_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_304_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_305_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_306_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_307_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_308_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_309_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_310_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_311_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_312_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_313_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_314_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_315_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_316_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_317_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_318_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_319_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_320_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_321_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_322_l3 log factor 1.00E-04 0.000001 10 l3_kh_zn10 1 0 1
-pp_323_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_324_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_325_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_326_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_327_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_328_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_329_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_330_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_331_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_332_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_333_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_334_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_335_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_336_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_337_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_338_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_339_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_340_l3 log factor 1.00E-04 0.000001 10 l3_kh_zn10 1 0 1
-pp_341_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_342_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_343_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_344_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_345_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_346_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_347_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_348_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_349_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_350_l3 log factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_351_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_352_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_353_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_354_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_355_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_356_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_357_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_358_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_359_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_360_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_361_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_362_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_363_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_364_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_365_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_366_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_367_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_368_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_369_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_370_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_371_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_372_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_373_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_374_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_375_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_376_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_377_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_378_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_379_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_380_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_381_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_382_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_383_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_384_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_385_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_386_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_387_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_388_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_389_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_390_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_391_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_392_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_393_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_394_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_395_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_396_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_397_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_398_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_399_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_400_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_401_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_402_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_403_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_404_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_405_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_406_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_407_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_408_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_409_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_410_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_411_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_412_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_413_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_414_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_415_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_416_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_417_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_418_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_419_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_420_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_421_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_422_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_423_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_424_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_425_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_426_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_427_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_428_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_429_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_430_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_431_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_432_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_433_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_434_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_435_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_436_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_437_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_438_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_439_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_440_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_441_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_442_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_443_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_444_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_445_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_446_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_447_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_448_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_449_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_450_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_451_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_452_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_453_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_454_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_455_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_456_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_457_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_458_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_459_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_460_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_461_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_462_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_463_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_464_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_465_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_466_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_467_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_468_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_469_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_470_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_471_l3 log factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_472_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_473_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_474_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_475_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_476_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_477_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_478_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_479_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_480_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_481_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_482_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_483_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_484_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_485_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_486_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_487_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_488_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_489_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_490_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_491_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_492_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_493_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_494_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_495_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_496_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_497_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_498_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_499_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_500_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_501_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_502_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_503_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_504_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_505_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_506_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_507_l3 log factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_508_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_509_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_510_l3 log factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_511_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_512_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_513_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_514_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_515_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_516_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_517_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_518_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_519_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_520_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_521_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_522_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_523_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_524_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_525_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_526_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_527_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_528_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_529_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_530_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_531_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_532_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_533_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_534_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_535_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_536_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_537_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_538_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_539_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_540_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_541_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_542_l3 log factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_543_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_544_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_545_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_546_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_547_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_548_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_549_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_550_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_551_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_552_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_553_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_554_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_555_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_556_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_557_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_558_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_559_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_560_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_561_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_562_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_563_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_564_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_565_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_566_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_567_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_568_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_569_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_570_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_571_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_572_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_573_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_574_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_575_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_576_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_577_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_578_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_579_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_580_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_581_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_582_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_583_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_584_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_585_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_586_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_587_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_588_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_589_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_590_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_591_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_592_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_593_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_594_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_595_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_596_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_597_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_598_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_599_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_600_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_601_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_602_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_603_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_604_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_605_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_606_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_607_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_608_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_609_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_610_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_611_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_612_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_613_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_614_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_615_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_616_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_617_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_618_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_619_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_620_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_621_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_622_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_623_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_624_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_625_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_626_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_627_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_628_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_629_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_630_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_631_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_632_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_633_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_634_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_635_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_636_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_637_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_638_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_639_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_640_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_641_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_642_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_643_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_644_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_645_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_646_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_647_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_648_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_649_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_650_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_651_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_652_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_653_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_654_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_655_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_656_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_657_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_658_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_659_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_660_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_661_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_662_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_663_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_664_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_665_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_666_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_667_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_668_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_669_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_670_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_671_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_672_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_673_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_674_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_675_l3 log factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_676_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_677_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_678_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_679_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_680_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_681_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_682_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_683_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_684_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_685_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_686_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_687_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_688_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_689_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_690_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_691_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_692_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_693_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_694_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_695_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_696_l3 log factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_697_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
-pp_698_l3 fixed factor 1.50E-01 0.000001 10 l3_kh_zn10 1 0 1
+pp_1_l3 log factor 5.02E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_2_l3 fixed factor 1.52E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_3_l3 log factor 7.89E-03 0.000001 10 l3_kh_zn10 1 0 1
+pp_4_l3 fixed factor 3.86E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_5_l3 fixed factor 5.55E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_6_l3 fixed factor 3.40E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_7_l3 fixed factor 5.65E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_8_l3 fixed factor 9.39E-06 0.000001 10 l3_kh_zn10 1 0 1
+pp_9_l3 log factor 5.69E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_10_l3 log factor 4.83E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_11_l3 fixed factor 6.34E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_12_l3 fixed factor 5.19E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_13_l3 fixed factor 3.97E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_14_l3 fixed factor 5.58E-02 0.000001 10 l3_kh_zn10 1 0 1
+pp_15_l3 fixed factor 8.14E-05 0.000001 10 l3_kh_zn10 1 0 1
+pp_16_l3 fixed factor 1.76E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_17_l3 fixed factor 1.92E-03 0.000001 10 l3_kh_zn10 1 0 1
+pp_18_l3 fixed factor 1.11E-03 0.000001 10 l3_kh_zn10 1 0 1
+pp_19_l3 fixed factor 1.46E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_20_l3 fixed factor 1.08E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_21_l3 log factor 5.50E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_22_l3 log factor 5.67E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_23_l3 log factor 2.55E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_24_l3 log factor 4.98E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_25_l3 fixed factor 1.03E-06 0.000001 10 l3_kh_zn10 1 0 1
+pp_26_l3 fixed factor 1.64E-03 0.000001 10 l3_kh_zn10 1 0 1
+pp_27_l3 fixed factor 3.74E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_28_l3 log factor 2.19E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_29_l3 log factor 4.10E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_30_l3 fixed factor 4.11E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_31_l3 fixed factor 2.81E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_32_l3 fixed factor 4.27E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_33_l3 fixed factor 3.44E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_34_l3 fixed factor 3.44E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_35_l3 fixed factor 4.53E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_36_l3 fixed factor 6.23E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_37_l3 fixed factor 4.18E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_38_l3 fixed factor 6.69E-06 0.000001 10 l3_kh_zn10 1 0 1
+pp_39_l3 log factor 3.19E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_40_l3 log factor 7.61E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_41_l3 log factor 6.78E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_42_l3 log factor 6.32E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_43_l3 fixed factor 1.75E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_44_l3 log factor 4.36E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_45_l3 fixed factor 4.48E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_46_l3 fixed factor 1.58E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_47_l3 fixed factor 5.36E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_48_l3 fixed factor 1.60E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_49_l3 fixed factor 4.87E-05 0.000001 10 l3_kh_zn10 1 0 1
+pp_50_l3 log factor 5.09E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_51_l3 fixed factor 3.67E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_52_l3 fixed factor 5.18E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_53_l3 fixed factor 4.38E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_54_l3 fixed factor 4.44E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_55_l3 log factor 1.43E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_56_l3 fixed factor 1.79E-05 0.000001 10 l3_kh_zn10 1 0 1
+pp_57_l3 fixed factor 4.97E-05 0.000001 10 l3_kh_zn10 1 0 1
+pp_58_l3 log factor 5.27E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_59_l3 log factor 4.35E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_60_l3 log factor 1.22E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_61_l3 fixed factor 3.40E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_62_l3 fixed factor 8.74E-05 0.000001 10 l3_kh_zn10 1 0 1
+pp_63_l3 log factor 4.06E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_64_l3 fixed factor 2.21E-05 0.000001 10 l3_kh_zn10 1 0 1
+pp_65_l3 log factor 4.44E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_66_l3 fixed factor 9.37E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_67_l3 log factor 5.07E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_68_l3 fixed factor 4.89E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_69_l3 fixed factor 1.67E-03 0.000001 10 l3_kh_zn10 1 0 1
+pp_70_l3 fixed factor 1.24E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_71_l3 fixed factor 7.05E-06 0.000001 10 l3_kh_zn10 1 0 1
+pp_72_l3 log factor 8.71E-03 0.000001 10 l3_kh_zn10 1 0 1
+pp_73_l3 fixed factor 1.68E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_74_l3 fixed factor 3.58E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_75_l3 fixed factor 1.05E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_76_l3 fixed factor 1.49E-02 0.000001 10 l3_kh_zn10 1 0 1
+pp_77_l3 fixed factor 9.861899 0.000001 10 l3_kh_zn10 1 0 1
+pp_78_l3 fixed factor 1.54E-03 0.000001 10 l3_kh_zn10 1 0 1
+pp_79_l3 fixed factor 1.39E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_80_l3 fixed factor 4.55E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_81_l3 fixed factor 2.12E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_82_l3 fixed factor 1.03E-05 0.000001 10 l3_kh_zn10 1 0 1
+pp_83_l3 fixed factor 1.76E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_84_l3 fixed factor 2.72E-05 0.000001 10 l3_kh_zn10 1 0 1
+pp_85_l3 fixed factor 3.46E-05 0.000001 10 l3_kh_zn10 1 0 1
+pp_86_l3 fixed factor 9.05E-05 0.000001 10 l3_kh_zn10 1 0 1
+pp_87_l3 fixed factor 8.24E-05 0.000001 10 l3_kh_zn10 1 0 1
+pp_88_l3 fixed factor 1.41E-03 0.000001 10 l3_kh_zn10 1 0 1
+pp_89_l3 fixed factor 3.38E-05 0.000001 10 l3_kh_zn10 1 0 1
+pp_90_l3 fixed factor 4.57E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_91_l3 fixed factor 4.88E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_92_l3 fixed factor 4.50E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_93_l3 fixed factor 5.11E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_94_l3 fixed factor 4.93E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_95_l3 fixed factor 4.74E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_96_l3 fixed factor 9.20E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_97_l3 fixed factor 8.46E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_98_l3 fixed factor 6.66E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_99_l3 fixed factor 2.85E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_100_l3 fixed factor 2.35E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_101_l3 fixed factor 6.32E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_102_l3 fixed factor 2.34E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_103_l3 fixed factor 1.71E-03 0.000001 10 l3_kh_zn10 1 0 1
+pp_104_l3 log factor 8.63E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_105_l3 fixed factor 2.76E-05 0.000001 10 l3_kh_zn10 1 0 1
+pp_106_l3 fixed factor 3.24E-03 0.000001 10 l3_kh_zn10 1 0 1
+pp_107_l3 fixed factor 1.73E-03 0.000001 10 l3_kh_zn10 1 0 1
+pp_108_l3 fixed factor 1.49E-02 0.000001 10 l3_kh_zn10 1 0 1
+pp_109_l3 fixed factor 5.05E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_110_l3 fixed factor 9.71E-05 0.000001 10 l3_kh_zn10 1 0 1
+pp_111_l3 fixed factor 4.18E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_112_l3 fixed factor 1.64E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_113_l3 fixed factor 1.04E-02 0.000001 10 l3_kh_zn10 1 0 1
+pp_114_l3 fixed factor 2.61E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_115_l3 fixed factor 3.91E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_116_l3 log factor 2.01E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_117_l3 fixed factor 5.05E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_118_l3 log factor 5.60E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_119_l3 fixed factor 3.91E-06 0.000001 10 l3_kh_zn10 1 0 1
+pp_120_l3 fixed factor 5.99E-06 0.000001 10 l3_kh_zn10 1 0 1
+pp_121_l3 fixed factor 2.21E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_122_l3 fixed factor 3.27E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_123_l3 fixed factor 5.02E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_124_l3 fixed factor 7.91E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_125_l3 fixed factor 3.22E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_126_l3 fixed factor 5.71E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_127_l3 fixed factor 2.51E-05 0.000001 10 l3_kh_zn10 1 0 1
+pp_128_l3 fixed factor 5.26E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_129_l3 fixed factor 4.60E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_130_l3 log factor 2.84E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_131_l3 fixed factor 8.38E-06 0.000001 10 l3_kh_zn10 1 0 1
+pp_132_l3 fixed factor 8.71E-05 0.000001 10 l3_kh_zn10 1 0 1
+pp_133_l3 fixed factor 9.41E-03 0.000001 10 l3_kh_zn10 1 0 1
+pp_134_l3 fixed factor 3.02E-05 0.000001 10 l3_kh_zn10 1 0 1
+pp_135_l3 fixed factor 5.98E-03 0.000001 10 l3_kh_zn10 1 0 1
+pp_136_l3 fixed factor 1.20E-03 0.000001 10 l3_kh_zn10 1 0 1
+pp_137_l3 fixed factor 1.63E-05 0.000001 10 l3_kh_zn10 1 0 1
+pp_138_l3 fixed factor 1.34E-05 0.000001 10 l3_kh_zn10 1 0 1
+pp_139_l3 fixed factor 2.29E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_140_l3 fixed factor 4.90E-03 0.000001 10 l3_kh_zn10 1 0 1
+pp_141_l3 fixed factor 2.49E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_142_l3 fixed factor 9.73E-05 0.000001 10 l3_kh_zn10 1 0 1
+pp_143_l3 fixed factor 5.02E-05 0.000001 10 l3_kh_zn10 1 0 1
+pp_144_l3 fixed factor 3.32E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_145_l3 fixed factor 3.83E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_146_l3 fixed factor 2.88E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_147_l3 fixed factor 1.62E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_148_l3 fixed factor 2.13E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_149_l3 fixed factor 1.71E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_150_l3 fixed factor 2.98E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_151_l3 fixed factor 1.28E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_152_l3 fixed factor 3.83E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_153_l3 fixed factor 6.45E-05 0.000001 10 l3_kh_zn10 1 0 1
+pp_154_l3 fixed factor 3.95E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_155_l3 fixed factor 2.42E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_156_l3 fixed factor 2.15E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_157_l3 fixed factor 5.70E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_158_l3 fixed factor 2.21E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_159_l3 fixed factor 4.85E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_160_l3 fixed factor 5.01E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_161_l3 fixed factor 4.26E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_162_l3 fixed factor 3.40E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_163_l3 fixed factor 3.73E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_164_l3 fixed factor 5.05E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_165_l3 fixed factor 5.51E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_166_l3 fixed factor 4.69E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_167_l3 fixed factor 6.25E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_168_l3 fixed factor 5.11E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_169_l3 fixed factor 4.70E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_170_l3 fixed factor 6.11E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_171_l3 fixed factor 3.76E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_172_l3 fixed factor 5.02E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_173_l3 fixed factor 6.72E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_174_l3 fixed factor 5.09E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_175_l3 fixed factor 1.70E-05 0.000001 10 l3_kh_zn10 1 0 1
+pp_176_l3 fixed factor 4.13E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_177_l3 fixed factor 4.13E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_178_l3 fixed factor 7.60E-05 0.000001 10 l3_kh_zn10 1 0 1
+pp_179_l3 fixed factor 1.00E-06 0.000001 10 l3_kh_zn10 1 0 1
+pp_180_l3 fixed factor 1.54E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_181_l3 fixed factor 4.96E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_182_l3 fixed factor 8.64E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_183_l3 fixed factor 9.02E-05 0.000001 10 l3_kh_zn10 1 0 1
+pp_184_l3 fixed factor 4.44E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_185_l3 fixed factor 3.93E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_186_l3 fixed factor 2.15E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_187_l3 fixed factor 4.15E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_188_l3 fixed factor 4.21E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_189_l3 fixed factor 2.89E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_190_l3 fixed factor 3.31E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_191_l3 fixed factor 3.78E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_192_l3 fixed factor 2.83E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_193_l3 fixed factor 3.50E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_194_l3 fixed factor 3.70E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_195_l3 fixed factor 4.70E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_196_l3 fixed factor 2.58E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_197_l3 fixed factor 1.10E-03 0.000001 10 l3_kh_zn10 1 0 1
+pp_198_l3 fixed factor 5.81E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_199_l3 fixed factor 3.73E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_200_l3 fixed factor 5.16E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_201_l3 fixed factor 5.87E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_202_l3 fixed factor 1.49E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_203_l3 fixed factor 5.40E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_204_l3 fixed factor 4.97E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_205_l3 fixed factor 4.51E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_206_l3 fixed factor 6.55E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_207_l3 fixed factor 5.40E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_208_l3 fixed factor 5.11E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_209_l3 fixed factor 1.02E-03 0.000001 10 l3_kh_zn10 1 0 1
+pp_210_l3 fixed factor 4.12E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_211_l3 fixed factor 8.26E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_212_l3 fixed factor 1.48E-03 0.000001 10 l3_kh_zn10 1 0 1
+pp_213_l3 fixed factor 2.98E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_214_l3 fixed factor 4.10E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_215_l3 fixed factor 5.82E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_216_l3 fixed factor 4.59E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_217_l3 fixed factor 4.93E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_218_l3 fixed factor 5.20E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_219_l3 fixed factor 5.80E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_220_l3 fixed factor 5.05E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_221_l3 fixed factor 5.42E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_222_l3 fixed factor 2.25E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_223_l3 fixed factor 2.72E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_224_l3 fixed factor 4.51E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_225_l3 fixed factor 7.06E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_226_l3 fixed factor 4.99E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_227_l3 fixed factor 2.86E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_228_l3 fixed factor 4.93E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_229_l3 fixed factor 4.00E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_230_l3 fixed factor 4.69E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_231_l3 fixed factor 4.72E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_232_l3 fixed factor 3.39E-05 0.000001 10 l3_kh_zn10 1 0 1
+pp_233_l3 fixed factor 1.58E-05 0.000001 10 l3_kh_zn10 1 0 1
+pp_234_l3 fixed factor 2.88E-06 0.000001 10 l3_kh_zn10 1 0 1
+pp_235_l3 fixed factor 1.50E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_236_l3 fixed factor 1.12E-03 0.000001 10 l3_kh_zn10 1 0 1
+pp_237_l3 fixed factor 3.02E-03 0.000001 10 l3_kh_zn10 1 0 1
+pp_238_l3 log factor 4.75E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_239_l3 fixed factor 3.67E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_240_l3 fixed factor 1.35E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_241_l3 log factor 1.25E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_242_l3 fixed factor 6.44E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_243_l3 fixed factor 3.14E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_244_l3 log factor 5.93E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_245_l3 fixed factor 4.50E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_246_l3 fixed factor 2.00E-05 0.000001 10 l3_kh_zn10 1 0 1
+pp_247_l3 fixed factor 6.80E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_248_l3 fixed factor 4.02E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_249_l3 fixed factor 1.56E-06 0.000001 10 l3_kh_zn10 1 0 1
+pp_250_l3 fixed factor 3.51E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_251_l3 fixed factor 5.87E-03 0.000001 10 l3_kh_zn10 1 0 1
+pp_252_l3 fixed factor 6.35E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_253_l3 fixed factor 8.01E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_254_l3 fixed factor 8.19E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_255_l3 fixed factor 4.63E-03 0.000001 10 l3_kh_zn10 1 0 1
+pp_256_l3 fixed factor 7.01E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_257_l3 fixed factor 9.34E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_258_l3 fixed factor 1.14E-03 0.000001 10 l3_kh_zn10 1 0 1
+pp_259_l3 fixed factor 2.48E-03 0.000001 10 l3_kh_zn10 1 0 1
+pp_260_l3 fixed factor 8.31E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_261_l3 fixed factor 8.83E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_262_l3 fixed factor 3.84E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_263_l3 fixed factor 5.31E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_264_l3 fixed factor 1.45E-02 0.000001 10 l3_kh_zn10 1 0 1
+pp_265_l3 fixed factor 2.01E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_266_l3 fixed factor 1.97E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_267_l3 fixed factor 2.08E-03 0.000001 10 l3_kh_zn10 1 0 1
+pp_268_l3 fixed factor 1.98E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_269_l3 fixed factor 4.53E-02 0.000001 10 l3_kh_zn10 1 0 1
+pp_270_l3 fixed factor 4.17E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_271_l3 fixed factor 1.68E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_272_l3 fixed factor 1.26E-03 0.000001 10 l3_kh_zn10 1 0 1
+pp_273_l3 fixed factor 5.22E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_274_l3 fixed factor 5.38E-05 0.000001 10 l3_kh_zn10 1 0 1
+pp_275_l3 fixed factor 4.81E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_276_l3 fixed factor 2.47E-03 0.000001 10 l3_kh_zn10 1 0 1
+pp_277_l3 fixed factor 9.959023 0.000001 10 l3_kh_zn10 1 0 1
+pp_278_l3 fixed factor 7.29E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_279_l3 fixed factor 1.31E-02 0.000001 10 l3_kh_zn10 1 0 1
+pp_280_l3 fixed factor 5.93E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_281_l3 fixed factor 1.27E-03 0.000001 10 l3_kh_zn10 1 0 1
+pp_282_l3 fixed factor 2.51E-05 0.000001 10 l3_kh_zn10 1 0 1
+pp_283_l3 fixed factor 4.45E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_284_l3 fixed factor 4.72E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_285_l3 fixed factor 6.96E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_286_l3 fixed factor 2.13E-03 0.000001 10 l3_kh_zn10 1 0 1
+pp_287_l3 log factor 2.32E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_288_l3 fixed factor 4.57E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_289_l3 fixed factor 3.04E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_290_l3 fixed factor 1.00E-06 0.000001 10 l3_kh_zn10 1 0 1
+pp_291_l3 fixed factor 1.00E-06 0.000001 10 l3_kh_zn10 1 0 1
+pp_292_l3 fixed factor 2.23E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_293_l3 fixed factor 6.62E-05 0.000001 10 l3_kh_zn10 1 0 1
+pp_294_l3 fixed factor 3.63E-05 0.000001 10 l3_kh_zn10 1 0 1
+pp_295_l3 fixed factor 4.97E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_296_l3 fixed factor 1.67E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_297_l3 log factor 3.77E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_298_l3 fixed factor 7.17E-06 0.000001 10 l3_kh_zn10 1 0 1
+pp_299_l3 fixed factor 4.84E-06 0.000001 10 l3_kh_zn10 1 0 1
+pp_300_l3 fixed factor 1.29E-03 0.000001 10 l3_kh_zn10 1 0 1
+pp_301_l3 fixed factor 1.00E-06 0.000001 10 l3_kh_zn10 1 0 1
+pp_302_l3 fixed factor 3.09E-05 0.000001 10 l3_kh_zn10 1 0 1
+pp_303_l3 fixed factor 1.85E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_304_l3 fixed factor 1.97E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_305_l3 fixed factor 6.66E-05 0.000001 10 l3_kh_zn10 1 0 1
+pp_306_l3 fixed factor 5.54E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_307_l3 fixed factor 1.65E-03 0.000001 10 l3_kh_zn10 1 0 1
+pp_308_l3 fixed factor 5.81E-05 0.000001 10 l3_kh_zn10 1 0 1
+pp_309_l3 fixed factor 3.39E-03 0.000001 10 l3_kh_zn10 1 0 1
+pp_310_l3 fixed factor 2.88E-05 0.000001 10 l3_kh_zn10 1 0 1
+pp_311_l3 fixed factor 2.05E-03 0.000001 10 l3_kh_zn10 1 0 1
+pp_312_l3 fixed factor 9.06E-03 0.000001 10 l3_kh_zn10 1 0 1
+pp_313_l3 fixed factor 8.19E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_314_l3 fixed factor 3.35E-05 0.000001 10 l3_kh_zn10 1 0 1
+pp_315_l3 fixed factor 1.93E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_316_l3 fixed factor 1.34E-03 0.000001 10 l3_kh_zn10 1 0 1
+pp_317_l3 fixed factor 3.40E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_318_l3 fixed factor 2.18E-03 0.000001 10 l3_kh_zn10 1 0 1
+pp_319_l3 fixed factor 1.39E-03 0.000001 10 l3_kh_zn10 1 0 1
+pp_320_l3 fixed factor 1.00E-06 0.000001 10 l3_kh_zn10 1 0 1
+pp_321_l3 fixed factor 1.37E-03 0.000001 10 l3_kh_zn10 1 0 1
+pp_322_l3 log factor 4.89E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_323_l3 fixed factor 4.64E-03 0.000001 10 l3_kh_zn10 1 0 1
+pp_324_l3 fixed factor 1.59E-06 0.000001 10 l3_kh_zn10 1 0 1
+pp_325_l3 fixed factor 2.80E-03 0.000001 10 l3_kh_zn10 1 0 1
+pp_326_l3 fixed factor 6.71E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_327_l3 fixed factor 5.93E-05 0.000001 10 l3_kh_zn10 1 0 1
+pp_328_l3 fixed factor 1.09E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_329_l3 fixed factor 1.54E-05 0.000001 10 l3_kh_zn10 1 0 1
+pp_330_l3 fixed factor 8.44E-05 0.000001 10 l3_kh_zn10 1 0 1
+pp_331_l3 fixed factor 3.12E-05 0.000001 10 l3_kh_zn10 1 0 1
+pp_332_l3 fixed factor 1.00E-05 0.000001 10 l3_kh_zn10 1 0 1
+pp_333_l3 fixed factor 8.59E-05 0.000001 10 l3_kh_zn10 1 0 1
+pp_334_l3 fixed factor 1.14E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_335_l3 fixed factor 2.29E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_336_l3 fixed factor 5.55E-05 0.000001 10 l3_kh_zn10 1 0 1
+pp_337_l3 fixed factor 1.54E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_338_l3 fixed factor 6.49E-06 0.000001 10 l3_kh_zn10 1 0 1
+pp_339_l3 fixed factor 3.69E-05 0.000001 10 l3_kh_zn10 1 0 1
+pp_340_l3 log factor 2.18E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_341_l3 fixed factor 2.05E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_342_l3 fixed factor 1.21E-06 0.000001 10 l3_kh_zn10 1 0 1
+pp_343_l3 fixed factor 2.55E-05 0.000001 10 l3_kh_zn10 1 0 1
+pp_344_l3 fixed factor 7.93E-05 0.000001 10 l3_kh_zn10 1 0 1
+pp_345_l3 fixed factor 6.47E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_346_l3 fixed factor 1.20E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_347_l3 fixed factor 6.99E-05 0.000001 10 l3_kh_zn10 1 0 1
+pp_348_l3 fixed factor 1.46E-05 0.000001 10 l3_kh_zn10 1 0 1
+pp_349_l3 fixed factor 9.89E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_350_l3 log factor 3.69E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_351_l3 fixed factor 1.58E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_352_l3 fixed factor 2.39E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_353_l3 fixed factor 1.57E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_354_l3 fixed factor 9.41E-05 0.000001 10 l3_kh_zn10 1 0 1
+pp_355_l3 fixed factor 2.60E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_356_l3 fixed factor 5.22E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_357_l3 fixed factor 8.60E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_358_l3 fixed factor 3.75E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_359_l3 fixed factor 3.09E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_360_l3 fixed factor 1.74E-03 0.000001 10 l3_kh_zn10 1 0 1
+pp_361_l3 fixed factor 1.00E-06 0.000001 10 l3_kh_zn10 1 0 1
+pp_362_l3 fixed factor 1.29E-03 0.000001 10 l3_kh_zn10 1 0 1
+pp_363_l3 fixed factor 5.34E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_364_l3 fixed factor 1.28E-02 0.000001 10 l3_kh_zn10 1 0 1
+pp_365_l3 fixed factor 5.51E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_366_l3 fixed factor 1.22E-03 0.000001 10 l3_kh_zn10 1 0 1
+pp_367_l3 fixed factor 1.07E-03 0.000001 10 l3_kh_zn10 1 0 1
+pp_368_l3 fixed factor 1.59E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_369_l3 fixed factor 1.40E-03 0.000001 10 l3_kh_zn10 1 0 1
+pp_370_l3 fixed factor 1.04E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_371_l3 fixed factor 6.43E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_372_l3 fixed factor 7.89E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_373_l3 fixed factor 7.99E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_374_l3 fixed factor 6.68E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_375_l3 fixed factor 3.25E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_376_l3 fixed factor 6.95E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_377_l3 fixed factor 1.86E-03 0.000001 10 l3_kh_zn10 1 0 1
+pp_378_l3 fixed factor 1.06E-03 0.000001 10 l3_kh_zn10 1 0 1
+pp_379_l3 fixed factor 1.68E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_380_l3 fixed factor 1.20E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_381_l3 fixed factor 3.43E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_382_l3 fixed factor 2.47E-03 0.000001 10 l3_kh_zn10 1 0 1
+pp_383_l3 fixed factor 0.2264823 0.000001 10 l3_kh_zn10 1 0 1
+pp_384_l3 fixed factor 4.98E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_385_l3 fixed factor 1.16E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_386_l3 fixed factor 1.51E-02 0.000001 10 l3_kh_zn10 1 0 1
+pp_387_l3 fixed factor 5.91E-05 0.000001 10 l3_kh_zn10 1 0 1
+pp_388_l3 fixed factor 3.33E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_389_l3 fixed factor 9.41E-05 0.000001 10 l3_kh_zn10 1 0 1
+pp_390_l3 fixed factor 9.28E-05 0.000001 10 l3_kh_zn10 1 0 1
+pp_391_l3 fixed factor 6.48E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_392_l3 fixed factor 2.11E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_393_l3 fixed factor 1.92E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_394_l3 fixed factor 4.64E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_395_l3 fixed factor 1.41E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_396_l3 fixed factor 9.54E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_397_l3 fixed factor 5.64E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_398_l3 fixed factor 3.12E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_399_l3 fixed factor 3.50E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_400_l3 fixed factor 3.58E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_401_l3 fixed factor 7.27E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_402_l3 fixed factor 5.86E-03 0.000001 10 l3_kh_zn10 1 0 1
+pp_403_l3 fixed factor 3.74E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_404_l3 fixed factor 5.55E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_405_l3 fixed factor 1.30E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_406_l3 fixed factor 5.04E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_407_l3 fixed factor 3.03E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_408_l3 fixed factor 2.16E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_409_l3 fixed factor 2.27E-02 0.000001 10 l3_kh_zn10 1 0 1
+pp_410_l3 fixed factor 5.47E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_411_l3 fixed factor 2.73E-02 0.000001 10 l3_kh_zn10 1 0 1
+pp_412_l3 fixed factor 3.52E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_413_l3 fixed factor 4.91E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_414_l3 fixed factor 9.64E-06 0.000001 10 l3_kh_zn10 1 0 1
+pp_415_l3 fixed factor 4.35E-05 0.000001 10 l3_kh_zn10 1 0 1
+pp_416_l3 fixed factor 8.68E-05 0.000001 10 l3_kh_zn10 1 0 1
+pp_417_l3 fixed factor 4.16E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_418_l3 fixed factor 2.71E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_419_l3 fixed factor 2.85E-03 0.000001 10 l3_kh_zn10 1 0 1
+pp_420_l3 fixed factor 5.35E-05 0.000001 10 l3_kh_zn10 1 0 1
+pp_421_l3 fixed factor 1.27E-02 0.000001 10 l3_kh_zn10 1 0 1
+pp_422_l3 fixed factor 6.45E-02 0.000001 10 l3_kh_zn10 1 0 1
+pp_423_l3 fixed factor 7.86E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_424_l3 fixed factor 8.59E-05 0.000001 10 l3_kh_zn10 1 0 1
+pp_425_l3 fixed factor 5.72E-05 0.000001 10 l3_kh_zn10 1 0 1
+pp_426_l3 fixed factor 1.043386 0.000001 10 l3_kh_zn10 1 0 1
+pp_427_l3 fixed factor 6.81E-03 0.000001 10 l3_kh_zn10 1 0 1
+pp_428_l3 fixed factor 4.64E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_429_l3 fixed factor 1.23E-03 0.000001 10 l3_kh_zn10 1 0 1
+pp_430_l3 fixed factor 2.20E-05 0.000001 10 l3_kh_zn10 1 0 1
+pp_431_l3 fixed factor 1.23E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_432_l3 fixed factor 1.79E-03 0.000001 10 l3_kh_zn10 1 0 1
+pp_433_l3 fixed factor 2.23E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_434_l3 fixed factor 2.73E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_435_l3 fixed factor 9.04E-02 0.000001 10 l3_kh_zn10 1 0 1
+pp_436_l3 fixed factor 6.93E-06 0.000001 10 l3_kh_zn10 1 0 1
+pp_437_l3 fixed factor 5.25E-03 0.000001 10 l3_kh_zn10 1 0 1
+pp_438_l3 fixed factor 6.57E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_439_l3 fixed factor 7.82E-05 0.000001 10 l3_kh_zn10 1 0 1
+pp_440_l3 fixed factor 1.68E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_441_l3 fixed factor 8.42E-03 0.000001 10 l3_kh_zn10 1 0 1
+pp_442_l3 fixed factor 1.49E-03 0.000001 10 l3_kh_zn10 1 0 1
+pp_443_l3 fixed factor 1.15E-05 0.000001 10 l3_kh_zn10 1 0 1
+pp_444_l3 fixed factor 6.53E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_445_l3 fixed factor 1.24E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_446_l3 fixed factor 0.2507452 0.000001 10 l3_kh_zn10 1 0 1
+pp_447_l3 fixed factor 1.72E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_448_l3 fixed factor 6.98E-03 0.000001 10 l3_kh_zn10 1 0 1
+pp_449_l3 fixed factor 1.93E-05 0.000001 10 l3_kh_zn10 1 0 1
+pp_450_l3 fixed factor 7.35E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_451_l3 fixed factor 4.83E-02 0.000001 10 l3_kh_zn10 1 0 1
+pp_452_l3 fixed factor 1.59E-03 0.000001 10 l3_kh_zn10 1 0 1
+pp_453_l3 fixed factor 3.45E-03 0.000001 10 l3_kh_zn10 1 0 1
+pp_454_l3 fixed factor 1.04E-03 0.000001 10 l3_kh_zn10 1 0 1
+pp_455_l3 fixed factor 4.80E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_456_l3 fixed factor 4.98E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_457_l3 fixed factor 7.99E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_458_l3 fixed factor 4.93E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_459_l3 fixed factor 1.12E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_460_l3 fixed factor 5.84E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_461_l3 fixed factor 4.52E-03 0.000001 10 l3_kh_zn10 1 0 1
+pp_462_l3 fixed factor 9.34E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_463_l3 fixed factor 6.29E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_464_l3 fixed factor 5.82E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_465_l3 fixed factor 1.08E-03 0.000001 10 l3_kh_zn10 1 0 1
+pp_466_l3 fixed factor 3.35E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_467_l3 fixed factor 8.43E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_468_l3 fixed factor 4.41E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_469_l3 fixed factor 1.09E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_470_l3 fixed factor 3.95E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_471_l3 log factor 1.82E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_472_l3 fixed factor 9.57E-05 0.000001 10 l3_kh_zn10 1 0 1
+pp_473_l3 fixed factor 2.70E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_474_l3 fixed factor 1.14E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_475_l3 fixed factor 2.27E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_476_l3 fixed factor 3.84E-05 0.000001 10 l3_kh_zn10 1 0 1
+pp_477_l3 fixed factor 3.08E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_478_l3 fixed factor 5.42E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_479_l3 fixed factor 2.52E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_480_l3 fixed factor 5.66E-05 0.000001 10 l3_kh_zn10 1 0 1
+pp_481_l3 fixed factor 8.15E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_482_l3 fixed factor 1.05E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_483_l3 fixed factor 2.16E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_484_l3 fixed factor 3.97E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_485_l3 fixed factor 5.53E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_486_l3 fixed factor 2.80E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_487_l3 fixed factor 4.39E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_488_l3 fixed factor 2.04E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_489_l3 fixed factor 2.71E-02 0.000001 10 l3_kh_zn10 1 0 1
+pp_490_l3 fixed factor 2.98E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_491_l3 fixed factor 1.91E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_492_l3 fixed factor 1.01E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_493_l3 fixed factor 3.15E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_494_l3 fixed factor 2.51E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_495_l3 fixed factor 2.25E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_496_l3 fixed factor 1.42E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_497_l3 fixed factor 5.18E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_498_l3 fixed factor 5.37E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_499_l3 fixed factor 1.33E-05 0.000001 10 l3_kh_zn10 1 0 1
+pp_500_l3 fixed factor 2.32E-05 0.000001 10 l3_kh_zn10 1 0 1
+pp_501_l3 fixed factor 2.02E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_502_l3 fixed factor 3.33E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_503_l3 fixed factor 1.42E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_504_l3 fixed factor 2.20E-03 0.000001 10 l3_kh_zn10 1 0 1
+pp_505_l3 fixed factor 4.86E-06 0.000001 10 l3_kh_zn10 1 0 1
+pp_506_l3 fixed factor 8.97E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_507_l3 log factor 8.15E-03 0.000001 10 l3_kh_zn10 1 0 1
+pp_508_l3 fixed factor 1.10E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_509_l3 fixed factor 1.13E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_510_l3 log factor 3.46E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_511_l3 fixed factor 4.75E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_512_l3 fixed factor 5.08E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_513_l3 fixed factor 4.37E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_514_l3 fixed factor 6.17E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_515_l3 fixed factor 4.60E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_516_l3 fixed factor 5.01E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_517_l3 fixed factor 6.95E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_518_l3 fixed factor 4.95E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_519_l3 fixed factor 5.63E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_520_l3 fixed factor 3.89E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_521_l3 fixed factor 4.52E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_522_l3 fixed factor 4.76E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_523_l3 fixed factor 4.82E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_524_l3 fixed factor 4.53E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_525_l3 fixed factor 4.17E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_526_l3 fixed factor 4.77E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_527_l3 fixed factor 4.84E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_528_l3 fixed factor 3.29E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_529_l3 fixed factor 5.38E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_530_l3 fixed factor 5.31E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_531_l3 fixed factor 4.55E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_532_l3 fixed factor 1.28E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_533_l3 fixed factor 2.54E-06 0.000001 10 l3_kh_zn10 1 0 1
+pp_534_l3 fixed factor 5.64E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_535_l3 fixed factor 2.90E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_536_l3 fixed factor 4.14E-05 0.000001 10 l3_kh_zn10 1 0 1
+pp_537_l3 fixed factor 4.43E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_538_l3 fixed factor 3.66E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_539_l3 fixed factor 2.92E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_540_l3 fixed factor 7.98E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_541_l3 fixed factor 8.34E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_542_l3 log factor 2.09E-03 0.000001 10 l3_kh_zn10 1 0 1
+pp_543_l3 fixed factor 4.49E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_544_l3 fixed factor 5.50E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_545_l3 fixed factor 2.42E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_546_l3 fixed factor 4.59E-05 0.000001 10 l3_kh_zn10 1 0 1
+pp_547_l3 fixed factor 6.82E-05 0.000001 10 l3_kh_zn10 1 0 1
+pp_548_l3 fixed factor 1.92E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_549_l3 fixed factor 4.73E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_550_l3 fixed factor 2.08E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_551_l3 fixed factor 5.45E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_552_l3 fixed factor 2.22E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_553_l3 fixed factor 1.51E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_554_l3 fixed factor 4.89E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_555_l3 fixed factor 5.11E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_556_l3 fixed factor 5.45E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_557_l3 fixed factor 4.89E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_558_l3 fixed factor 5.12E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_559_l3 fixed factor 7.96E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_560_l3 fixed factor 5.28E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_561_l3 fixed factor 1.36E-03 0.000001 10 l3_kh_zn10 1 0 1
+pp_562_l3 fixed factor 8.74E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_563_l3 fixed factor 4.06E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_564_l3 fixed factor 7.74E-03 0.000001 10 l3_kh_zn10 1 0 1
+pp_565_l3 fixed factor 1.01E-03 0.000001 10 l3_kh_zn10 1 0 1
+pp_566_l3 fixed factor 1.45E-02 0.000001 10 l3_kh_zn10 1 0 1
+pp_567_l3 fixed factor 8.41E-02 0.000001 10 l3_kh_zn10 1 0 1
+pp_568_l3 fixed factor 5.09E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_569_l3 fixed factor 6.62E-02 0.000001 10 l3_kh_zn10 1 0 1
+pp_570_l3 fixed factor 9.73E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_571_l3 fixed factor 6.31E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_572_l3 fixed factor 5.12E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_573_l3 fixed factor 5.48E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_574_l3 fixed factor 1.79E-02 0.000001 10 l3_kh_zn10 1 0 1
+pp_575_l3 fixed factor 9.13E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_576_l3 fixed factor 5.73E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_577_l3 fixed factor 4.76E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_578_l3 fixed factor 5.00E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_579_l3 fixed factor 4.88E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_580_l3 fixed factor 4.80E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_581_l3 fixed factor 5.07E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_582_l3 fixed factor 4.41E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_583_l3 fixed factor 4.32E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_584_l3 fixed factor 2.16E-03 0.000001 10 l3_kh_zn10 1 0 1
+pp_585_l3 fixed factor 1.31E-03 0.000001 10 l3_kh_zn10 1 0 1
+pp_586_l3 fixed factor 5.44E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_587_l3 fixed factor 4.84E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_588_l3 fixed factor 5.54E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_589_l3 fixed factor 4.84E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_590_l3 fixed factor 4.64E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_591_l3 fixed factor 1.57E-03 0.000001 10 l3_kh_zn10 1 0 1
+pp_592_l3 fixed factor 5.79E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_593_l3 fixed factor 7.63E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_594_l3 fixed factor 7.12E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_595_l3 fixed factor 2.03E-03 0.000001 10 l3_kh_zn10 1 0 1
+pp_596_l3 fixed factor 3.50E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_597_l3 fixed factor 7.32E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_598_l3 fixed factor 7.08E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_599_l3 fixed factor 5.61E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_600_l3 fixed factor 4.38E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_601_l3 fixed factor 4.47E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_602_l3 fixed factor 1.77E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_603_l3 fixed factor 3.12E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_604_l3 fixed factor 7.81E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_605_l3 fixed factor 7.28E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_606_l3 fixed factor 3.80E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_607_l3 fixed factor 1.31E-03 0.000001 10 l3_kh_zn10 1 0 1
+pp_608_l3 fixed factor 6.85E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_609_l3 fixed factor 8.30E-05 0.000001 10 l3_kh_zn10 1 0 1
+pp_610_l3 fixed factor 1.33E-03 0.000001 10 l3_kh_zn10 1 0 1
+pp_611_l3 fixed factor 5.01E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_612_l3 fixed factor 5.79E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_613_l3 fixed factor 4.56E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_614_l3 fixed factor 1.17E-03 0.000001 10 l3_kh_zn10 1 0 1
+pp_615_l3 fixed factor 1.91E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_616_l3 fixed factor 2.86E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_617_l3 fixed factor 3.81E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_618_l3 fixed factor 6.24E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_619_l3 fixed factor 3.06E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_620_l3 fixed factor 2.64E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_621_l3 fixed factor 3.28E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_622_l3 fixed factor 2.38E-03 0.000001 10 l3_kh_zn10 1 0 1
+pp_623_l3 fixed factor 4.42E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_624_l3 fixed factor 5.30E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_625_l3 fixed factor 5.53E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_626_l3 fixed factor 4.05E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_627_l3 fixed factor 3.98E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_628_l3 fixed factor 2.61E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_629_l3 fixed factor 2.737715 0.000001 10 l3_kh_zn10 1 0 1
+pp_630_l3 fixed factor 0.4151191 0.000001 10 l3_kh_zn10 1 0 1
+pp_631_l3 fixed factor 4.93E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_632_l3 fixed factor 6.04E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_633_l3 fixed factor 5.80E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_634_l3 fixed factor 6.70E-05 0.000001 10 l3_kh_zn10 1 0 1
+pp_635_l3 fixed factor 3.37E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_636_l3 fixed factor 5.03E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_637_l3 fixed factor 3.32E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_638_l3 fixed factor 1.37E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_639_l3 fixed factor 3.63E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_640_l3 fixed factor 4.98E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_641_l3 fixed factor 1.82E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_642_l3 fixed factor 2.46E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_643_l3 fixed factor 8.32E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_644_l3 fixed factor 5.12E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_645_l3 fixed factor 5.35E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_646_l3 fixed factor 5.55E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_647_l3 fixed factor 5.73E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_648_l3 fixed factor 5.48E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_649_l3 fixed factor 1.58E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_650_l3 fixed factor 5.38E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_651_l3 fixed factor 5.34E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_652_l3 fixed factor 5.45E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_653_l3 fixed factor 8.47E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_654_l3 fixed factor 6.58E-03 0.000001 10 l3_kh_zn10 1 0 1
+pp_655_l3 fixed factor 1.22E-02 0.000001 10 l3_kh_zn10 1 0 1
+pp_656_l3 fixed factor 5.19E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_657_l3 fixed factor 5.60E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_658_l3 fixed factor 4.44E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_659_l3 fixed factor 1.97E-03 0.000001 10 l3_kh_zn10 1 0 1
+pp_660_l3 fixed factor 1.14E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_661_l3 fixed factor 4.89E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_662_l3 fixed factor 1.05E-02 0.000001 10 l3_kh_zn10 1 0 1
+pp_663_l3 fixed factor 4.57E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_664_l3 fixed factor 1.22E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_665_l3 fixed factor 4.80E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_666_l3 fixed factor 4.67E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_667_l3 fixed factor 3.58E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_668_l3 fixed factor 5.50E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_669_l3 fixed factor 2.05E-03 0.000001 10 l3_kh_zn10 1 0 1
+pp_670_l3 fixed factor 2.46E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_671_l3 fixed factor 1.07E-03 0.000001 10 l3_kh_zn10 1 0 1
+pp_672_l3 fixed factor 1.70E-05 0.000001 10 l3_kh_zn10 1 0 1
+pp_673_l3 fixed factor 2.90E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_674_l3 fixed factor 1.33E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_675_l3 log factor 2.23E-03 0.000001 10 l3_kh_zn10 1 0 1
+pp_676_l3 fixed factor 1.61E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_677_l3 fixed factor 2.72E-05 0.000001 10 l3_kh_zn10 1 0 1
+pp_678_l3 fixed factor 1.25E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_679_l3 fixed factor 2.80E-03 0.000001 10 l3_kh_zn10 1 0 1
+pp_680_l3 fixed factor 1.89E-03 0.000001 10 l3_kh_zn10 1 0 1
+pp_681_l3 fixed factor 1.00E-03 0.000001 10 l3_kh_zn10 1 0 1
+pp_682_l3 fixed factor 0.1176799 0.000001 10 l3_kh_zn10 1 0 1
+pp_683_l3 fixed factor 8.47E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_684_l3 fixed factor 4.47E-05 0.000001 10 l3_kh_zn10 1 0 1
+pp_685_l3 fixed factor 4.85E-05 0.000001 10 l3_kh_zn10 1 0 1
+pp_686_l3 fixed factor 7.992695 0.000001 10 l3_kh_zn10 1 0 1
+pp_687_l3 fixed factor 2.64E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_688_l3 fixed factor 2.97E-05 0.000001 10 l3_kh_zn10 1 0 1
+pp_689_l3 fixed factor 1.86E-03 0.000001 10 l3_kh_zn10 1 0 1
+pp_690_l3 fixed factor 1.20E-05 0.000001 10 l3_kh_zn10 1 0 1
+pp_691_l3 fixed factor 1.91E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_692_l3 fixed factor 1.51E-02 0.000001 10 l3_kh_zn10 1 0 1
+pp_693_l3 fixed factor 1.05E-06 0.000001 10 l3_kh_zn10 1 0 1
+pp_694_l3 fixed factor 4.50E-06 0.000001 10 l3_kh_zn10 1 0 1
+pp_695_l3 fixed factor 5.20E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_696_l3 log factor 8.47E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_697_l3 fixed factor 2.10E-04 0.000001 10 l3_kh_zn10 1 0 1
+pp_698_l3 fixed factor 5.46E-04 0.000001 10 l3_kh_zn10 1 0 1
             srfk_3     fixed    factor      0.1711655        0.00001          100.0    surfk_alluv  1.0000  0.0000       1
             srfk_4     fixed    factor      0.1492217        0.00001          100.0    surfk_alluv  1.0000  0.0000       1
             srfk_9     fixed    factor      0.3952875        0.00001          100.0    surfk_alluv  1.0000  0.0000       1
@@ -3599,184 +3599,184 @@ rech 0 0 Rech
 runoff 0 0 Rech
 StrmIn 0 0 Strm
 StrmOut 0 0 Strm
-w100328 51.36773 1.7 H_Obs
-w100544 105.59036 1.7 H_Obs
-w100861 14.36212 1.7 H_Obs
-w100959 32.546 1.7 H_Obs
-w100986 21.62599 1.7 H_Obs
-w101095 1.79207 1.7 H_Obs
-w101096 4.00152 1.7 H_Obs
-w101112 35.69173 1.7 H_Obs
-w101290 49.97533 1.7 H_Obs
-w101291 46.87004 1.7 H_Obs
-w101293 34.22971 1.7 H_Obs
-w101299 16.8619 1.7 H_Obs
-w101300 17.77601 1.7 H_Obs
-w101302 16.34232 1.7 H_Obs
-w101303 8.58994 1.7 H_Obs
-w101305 6.24973 1.7 H_Obs
-w101317 65.63937 1.7 H_Obs
-w101318 63.11939 1.7 H_Obs
-w101319 63.35158 1.7 H_Obs
-w101320 57.82963 1.7 H_Obs
-w102028 23.48171 1.7 H_Obs
-w102029 21.33322 1.7 H_Obs
-w102051 28.4111 1.7 H_Obs
-w102077 36.15007 1.7 H_Obs
-w102078 37.68861 1.7 H_Obs
-w102079 40.014 1.7 H_Obs
-w102080 28.52923 1.7 H_Obs
-w102083 32.85365 1.7 H_Obs
-w102084 36.80933 1.7 H_Obs
-w102086 21.2877 1.7 H_Obs
-w102087 23.73664 1.7 H_Obs
-w102093 12.41063 1.7 H_Obs
-w102094 17.77974 1.7 H_Obs
-w102096 11.31415 1.7 H_Obs
-w102097 14.00478 1.7 H_Obs
-w102100 11.14403 1.7 H_Obs
-w102103 8.38366 1.7 H_Obs
-w102106 8.28049 1.7 H_Obs
-w102108 6.34789 1.7 H_Obs
-w102110 0.84363 1.7 H_Obs
-w102111 1.54805 1.7 H_Obs
-w102112 2.42614 1.7 H_Obs
-w102113 4.14173 1.7 H_Obs
-w102170 65.1639 1.7 H_Obs
-w102177 82.65842 1.7 H_Obs
-w102179 82.40945 1.7 H_Obs
-w102197 10.83452 1.7 H_Obs
-w102272 4.20231 1.7 H_Obs
-w102312 10.8458 1.7 H_Obs
-w102393 27.51 1.7 H_Obs
-w102396 26.37705 1.7 H_Obs
-w102397 27.30709 1.7 H_Obs
-w102427 3.77306 1.7 H_Obs
-w102434 81.4589 1.7 H_Obs
-w102436 100.40402 1.7 H_Obs
-w102437 99.91444 1.7 H_Obs
-w102438 36.25373 1.7 H_Obs
-w102439 33.59204 1.7 H_Obs
-w102443 42.54036 1.7 H_Obs
-w102444 81.6944 1.7 H_Obs
-w102484 26.61939 1.7 H_Obs
-w102507 23.558 1.7 H_Obs
-MFC14237_1 7.65833 1.7 H_Obs
-MFC14253_1 10.5392 1.7 H_Obs
-MFC15060_1 6.05474 1.7 H_Obs
-MFC15444_1 2.18955 1.7 H_Obs
-MFC15480_1 10.71083 1.7 H_Obs
-MFC18354_1 20.1076 1.7 H_Obs
-MFC19165_1 17.71944 1.7 H_Obs
-MFC19172_1 19.60737 1.7 H_Obs
-MFC19580_1 23.99524 1.7 H_Obs
-MFC19989_1 23.7016 1.7 H_Obs
-MFC21206_1 25.6624 1.7 H_Obs
-MFC58722_1 260.60178 1.7 H_Obs
-ObsWel_46 310.319 1.7 H_Obs
-ObsWel_48 274.10101 1.7 H_Obs
-ObsWel_55 263.35699 1.7 H_Obs
-ObsWel_70 280.021 1.7 H_Obs
-ObsWel_105 309.927 1.7 H_Obs
-ObsWel_186 262.35001 1.7 H_Obs
-ObsWel_215 585.88599 1.7 H_Obs
-ObsWel_226 280.34299 1.7 H_Obs
-ObsWel_267 293.664 1.7 H_Obs
-ObsWel_272 421.72699 1.7 H_Obs
-ObsWel_317 456.67999 1.7 H_Obs
-ObsWel_318 950.47998 1.7 H_Obs
-ObsWel_319 1243.95996 1.7 H_Obs
-ObsWel_320 1211.96997 1.7 H_Obs
-ObsWel_321 1288.51001 1.7 H_Obs
-ObsWel_322 719.46002 1.7 H_Obs
-ObsWel_324 255.621 1.7 H_Obs
-ObsWel_325 584.72998 1.7 H_Obs
-ObsWel_326 508.11499 1.7 H_Obs
-ObsWel_327 801.86798 1.7 H_Obs
-ObsWel_328 994.31799 1.7 H_Obs
-ObsWel_329 1106.95996 1.7 H_Obs
-ObsWel_330 1141.80005 1.7 H_Obs
-ObsWel_332 329.56201 1.7 H_Obs
-ObsWel_333 399.70999 1.7 H_Obs
-ObsWel_334 382.41 1.7 H_Obs
-ObsWel_335 469.46799 1.7 H_Obs
-ObsWel_336 424.08899 1.7 H_Obs
-ObsWel_337 511.37201 1.7 H_Obs
-ObsWel_338 299.78799 1.7 H_Obs
-ObsWel_339 445.48099 1.7 H_Obs
-ObsWel_342 707.974 1.7 H_Obs
-ObsWel_343 716.55298 1.7 H_Obs
-ObsWel_344 577.20801 1.7 H_Obs
-ObsWel_345 445.51999 1.7 H_Obs
-ObsWel_346 597.66302 1.7 H_Obs
-ObsWel_347 696.34003 1.7 H_Obs
-ObsWel_348 622.00201 1.7 H_Obs
-ObsWel_349 755.02301 1.7 H_Obs
-ObsWel_359 261.84299 1.7 H_Obs
-ObsWel_361 466.71399 1.7 H_Obs
-ObsWel_362 577.10199 1.7 H_Obs
-ObsWel_365 441.53799 1.7 H_Obs
-ObsWel_366 417.60599 1.7 H_Obs
-ObsWel_367 462.76099 1.7 H_Obs
-ObsWel_368 440.06601 1.7 H_Obs
-ObsWel_369 535.216 1.7 H_Obs
-ObsWel_370 401.461 1.7 H_Obs
-ObsWel_372 384.922 1.7 H_Obs
-ObsWel_408 431.62799 1.7 H_Obs
-ObsWel_409 347.702 1.7 H_Obs
-ObsWel_410 317.29401 1.7 H_Obs
-ObsWel_411 272.29901 1.7 H_Obs
-ObsWel_412 276.039 1.7 H_Obs
-ObsWel_413 275.64099 1.7 H_Obs
-ObsWel_414 285.19199 1.7 H_Obs
-ObsWel_415 279.241 1.7 H_Obs
-ObsWel_416 279.04401 1.7 H_Obs
-ObsWel_417 274.94601 1.7 H_Obs
-ObsWel_418 281.633 1.7 H_Obs
-ObsWel_419 283.77301 1.7 H_Obs
-ObsWel_420 288.15399 1.7 H_Obs
-ObsWel_421 285.99799 1.7 H_Obs
-ObsWel_422 292.70001 1.7 H_Obs
-ObsWel_423 290.621 1.7 H_Obs
-ObsWel_424 289.38699 1.7 H_Obs
-ObsWel_425 295.995 1.7 H_Obs
-ObsWel_426 301.245 1.7 H_Obs
-ObsWel_427 288.43201 1.7 H_Obs
-ObsWel_428 299.04999 1.7 H_Obs
-ObsWel_429 296.70099 1.7 H_Obs
-ObsWel_430 304.43799 1.7 H_Obs
-ObsWel_431 280.18301 1.7 H_Obs
-ObsWel_432 308.34601 1.7 H_Obs
-ObsWel_433 303.01199 1.7 H_Obs
-ObsWel_434 323.55099 1.7 H_Obs
-ObsWel_435 321.436 1.7 H_Obs
-ObsWel_436 305.44699 1.7 H_Obs
-ObsWel_437 385.83499 1.7 H_Obs
-ObsWel_438 358.54999 1.7 H_Obs
-ObsWel_439 369.017 1.7 H_Obs
-ObsWel_440 389.48099 1.7 H_Obs
-ObsWel_441 330.26501 1.7 H_Obs
-ObsWel_442 790.53699 1.7 H_Obs
-ObsWel_443 799.43597 1.7 H_Obs
-ObsWel_444 366.263 1.7 H_Obs
-ObsWel_445 275.52499 1.7 H_Obs
-ObsWel_446 260.08401 1.7 H_Obs
-ObsWel_447 280.71899 1.7 H_Obs
-ObsWel_448 267.09201 1.7 H_Obs
-ObsWel_449 269.40601 1.7 H_Obs
-ObsWel_450 302.60501 1.7 H_Obs
-ObsWel_451 440.879 1.7 H_Obs
-ObsWel_452 328.04599 1.7 H_Obs
-ObsWel_453 334.129 1.7 H_Obs
-ObsWel_454 334.14099 1.7 H_Obs
-ObsWel_455 337.45999 1.7 H_Obs
-ObsWel_456 429.59601 1.7 H_Obs
-ObsWel_457 444.12601 1.7 H_Obs
-ObsWel_458 479.81299 1.7 H_Obs
-ObsWel_459 856.35602 1.7 H_Obs
-ObsWel_460 566.008 1.7 H_Obs
-ObsWel_461 387.97 1.7 H_Obs
-ObsWel_462 389.065 1.7 H_Obs
+w100328 51.36773 2.3 H_Obs
+w100544 105.59036 2.3 H_Obs
+w100861 14.36212 2.3 H_Obs
+w100959 32.546 2.3 H_Obs
+w100986 21.62599 2.3 H_Obs
+w101095 1.79207 2.3 H_Obs
+w101096 4.00152 2.3 H_Obs
+w101112 35.69173 2.3 H_Obs
+w101290 49.97533 2.3 H_Obs
+w101291 46.87004 2.3 H_Obs
+w101293 34.22971 2.3 H_Obs
+w101299 16.8619 2.3 H_Obs
+w101300 17.77601 2.3 H_Obs
+w101302 16.34232 2.3 H_Obs
+w101303 8.58994 2.3 H_Obs
+w101305 6.24973 2.3 H_Obs
+w101317 65.63937 2.3 H_Obs
+w101318 63.11939 2.3 H_Obs
+w101319 63.35158 2.3 H_Obs
+w101320 57.82963 2.3 H_Obs
+w102028 23.48171 2.3 H_Obs
+w102029 21.33322 2.3 H_Obs
+w102051 28.4111 2.3 H_Obs
+w102077 36.15007 2.3 H_Obs
+w102078 37.68861 2.3 H_Obs
+w102079 40.014 2.3 H_Obs
+w102080 28.52923 2.3 H_Obs
+w102083 32.85365 2.3 H_Obs
+w102084 36.80933 2.3 H_Obs
+w102086 21.2877 2.3 H_Obs
+w102087 23.73664 2.3 H_Obs
+w102093 12.41063 2.3 H_Obs
+w102094 17.77974 2.3 H_Obs
+w102096 11.31415 2.3 H_Obs
+w102097 14.00478 2.3 H_Obs
+w102100 11.14403 2.3 H_Obs
+w102103 8.38366 2.3 H_Obs
+w102106 8.28049 2.3 H_Obs
+w102108 6.34789 2.3 H_Obs
+w102110 0.84363 2.3 H_Obs
+w102111 1.54805 2.3 H_Obs
+w102112 2.42614 2.3 H_Obs
+w102113 4.14173 2.3 H_Obs
+w102170 65.1639 2.3 H_Obs
+w102177 82.65842 2.3 H_Obs
+w102179 82.40945 2.3 H_Obs
+w102197 10.83452 2.3 H_Obs
+w102272 4.20231 2.3 H_Obs
+w102312 10.8458 2.3 H_Obs
+w102393 27.51 2.3 H_Obs
+w102396 26.37705 2.3 H_Obs
+w102397 27.30709 2.3 H_Obs
+w102427 3.77306 2.3 H_Obs
+w102434 81.4589 2.3 H_Obs
+w102436 100.40402 2.3 H_Obs
+w102437 99.91444 2.3 H_Obs
+w102438 36.25373 2.3 H_Obs
+w102439 33.59204 2.3 H_Obs
+w102443 42.54036 2.3 H_Obs
+w102444 81.6944 2.3 H_Obs
+w102484 26.61939 2.3 H_Obs
+w102507 23.558 2.3 H_Obs
+MFC14237_1 7.65833 2.3 H_Obs
+MFC14253_1 10.5392 2.3 H_Obs
+MFC15060_1 6.05474 2.3 H_Obs
+MFC15444_1 2.18955 2.3 H_Obs
+MFC15480_1 10.71083 2.3 H_Obs
+MFC18354_1 20.1076 2.3 H_Obs
+MFC19165_1 17.71944 2.3 H_Obs
+MFC19172_1 19.60737 2.3 H_Obs
+MFC19580_1 23.99524 2.3 H_Obs
+MFC19989_1 23.7016 2.3 H_Obs
+MFC21206_1 25.6624 2.3 H_Obs
+MFC58722_1 260.60178 2.3 H_Obs
+ObsWel_46 310.319 2.3 H_Obs
+ObsWel_48 274.10101 2.3 H_Obs
+ObsWel_55 263.35699 2.3 H_Obs
+ObsWel_70 280.021 2.3 H_Obs
+ObsWel_105 309.927 2.3 H_Obs
+ObsWel_186 262.35001 2.3 H_Obs
+ObsWel_215 585.88599 2.3 H_Obs
+ObsWel_226 280.34299 2.3 H_Obs
+ObsWel_267 293.664 2.3 H_Obs
+ObsWel_272 421.72699 2.3 H_Obs
+ObsWel_317 456.67999 2.3 H_Obs
+ObsWel_318 950.47998 2.3 H_Obs
+ObsWel_319 1243.95996 2.3 H_Obs
+ObsWel_320 1211.96997 2.3 H_Obs
+ObsWel_321 1288.51001 2.3 H_Obs
+ObsWel_322 719.46002 2.3 H_Obs
+ObsWel_324 255.621 2.3 H_Obs
+ObsWel_325 584.72998 2.3 H_Obs
+ObsWel_326 508.11499 2.3 H_Obs
+ObsWel_327 801.86798 2.3 H_Obs
+ObsWel_328 994.31799 2.3 H_Obs
+ObsWel_329 1106.95996 2.3 H_Obs
+ObsWel_330 1141.80005 2.3 H_Obs
+ObsWel_332 329.56201 2.3 H_Obs
+ObsWel_333 399.70999 2.3 H_Obs
+ObsWel_334 382.41 2.3 H_Obs
+ObsWel_335 469.46799 2.3 H_Obs
+ObsWel_336 424.08899 2.3 H_Obs
+ObsWel_337 511.37201 2.3 H_Obs
+ObsWel_338 299.78799 2.3 H_Obs
+ObsWel_339 445.48099 2.3 H_Obs
+ObsWel_342 707.974 2.3 H_Obs
+ObsWel_343 716.55298 2.3 H_Obs
+ObsWel_344 577.20801 2.3 H_Obs
+ObsWel_345 445.51999 2.3 H_Obs
+ObsWel_346 597.66302 2.3 H_Obs
+ObsWel_347 696.34003 2.3 H_Obs
+ObsWel_348 622.00201 2.3 H_Obs
+ObsWel_349 755.02301 2.3 H_Obs
+ObsWel_359 261.84299 2.3 H_Obs
+ObsWel_361 466.71399 2.3 H_Obs
+ObsWel_362 577.10199 2.3 H_Obs
+ObsWel_365 441.53799 2.3 H_Obs
+ObsWel_366 417.60599 2.3 H_Obs
+ObsWel_367 462.76099 2.3 H_Obs
+ObsWel_368 440.06601 2.3 H_Obs
+ObsWel_369 535.216 2.3 H_Obs
+ObsWel_370 401.461 2.3 H_Obs
+ObsWel_372 384.922 2.3 H_Obs
+ObsWel_408 431.62799 2.3 H_Obs
+ObsWel_409 347.702 2.3 H_Obs
+ObsWel_410 317.29401 2.3 H_Obs
+ObsWel_411 272.29901 2.3 H_Obs
+ObsWel_412 276.039 2.3 H_Obs
+ObsWel_413 275.64099 2.3 H_Obs
+ObsWel_414 285.19199 2.3 H_Obs
+ObsWel_415 279.241 2.3 H_Obs
+ObsWel_416 279.04401 2.3 H_Obs
+ObsWel_417 274.94601 2.3 H_Obs
+ObsWel_418 281.633 2.3 H_Obs
+ObsWel_419 283.77301 2.3 H_Obs
+ObsWel_420 288.15399 2.3 H_Obs
+ObsWel_421 285.99799 2.3 H_Obs
+ObsWel_422 292.70001 2.3 H_Obs
+ObsWel_423 290.621 2.3 H_Obs
+ObsWel_424 289.38699 2.3 H_Obs
+ObsWel_425 295.995 2.3 H_Obs
+ObsWel_426 301.245 2.3 H_Obs
+ObsWel_427 288.43201 2.3 H_Obs
+ObsWel_428 299.04999 2.3 H_Obs
+ObsWel_429 296.70099 2.3 H_Obs
+ObsWel_430 304.43799 2.3 H_Obs
+ObsWel_431 280.18301 2.3 H_Obs
+ObsWel_432 308.34601 2.3 H_Obs
+ObsWel_433 303.01199 2.3 H_Obs
+ObsWel_434 323.55099 2.3 H_Obs
+ObsWel_435 321.436 2.3 H_Obs
+ObsWel_436 305.44699 2.3 H_Obs
+ObsWel_437 385.83499 2.3 H_Obs
+ObsWel_438 358.54999 2.3 H_Obs
+ObsWel_439 369.017 2.3 H_Obs
+ObsWel_440 389.48099 2.3 H_Obs
+ObsWel_441 330.26501 2.3 H_Obs
+ObsWel_442 790.53699 2.3 H_Obs
+ObsWel_443 799.43597 2.3 H_Obs
+ObsWel_444 366.263 2.3 H_Obs
+ObsWel_445 275.52499 2.3 H_Obs
+ObsWel_446 260.08401 2.3 H_Obs
+ObsWel_447 280.71899 2.3 H_Obs
+ObsWel_448 267.09201 2.3 H_Obs
+ObsWel_449 269.40601 2.3 H_Obs
+ObsWel_450 302.60501 2.3 H_Obs
+ObsWel_451 440.879 2.3 H_Obs
+ObsWel_452 328.04599 2.3 H_Obs
+ObsWel_453 334.129 2.3 H_Obs
+ObsWel_454 334.14099 2.3 H_Obs
+ObsWel_455 337.45999 2.3 H_Obs
+ObsWel_456 429.59601 2.3 H_Obs
+ObsWel_457 444.12601 2.3 H_Obs
+ObsWel_458 479.81299 2.3 H_Obs
+ObsWel_459 856.35602 2.3 H_Obs
+ObsWel_460 566.008 2.3 H_Obs
+ObsWel_461 387.97 2.3 H_Obs
+ObsWel_462 389.065 2.3 H_Obs
 * model command line
 _RunModel.bat
 * model input/output
