@@ -1,8 +1,8 @@
 * parameter data
-finf           =      4.0079030E-01
-extdp          =      4.0971780E-01
-pet            =      5.5634810E-01
-srfk_mult      =      1.5268610E-03
+finf           =      4.8864730E-01
+extdp          =      1.0000000E-01
+pet            =      4.9951660E-01
+srfk_mult      =      1.1746007E-04
 vks2ssr2_rat   =      1.1000000E+00
 ssr2gw_scale   =      5.0002950E+01
 vks_mult       = vks2ssr2_rat * ssr2gw_scale
