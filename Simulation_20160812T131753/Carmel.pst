@@ -13,28 +13,28 @@ restart estimation
       1000     1E-07
          0
 * parameter groups
-prms           relative   0.20  0.0   always_2  2.0   parabolic
-uzf            relative   0.10  0.0   always_2  2.0   parabolic
-StrmBed        relative   0.10  0.0   always_2  2.0   parabolic
-L1_Kh          relative   0.10  0.0   always_2  2.0   parabolic
-L2_Kh_Zn2      relative   0.10  0.0   always_2  2.0   parabolic
-L2_Kh_Zn3      relative   0.10  0.0   always_2  2.0   parabolic
-L2_Kh_Zn4      relative   0.10  0.0   always_2  2.0   parabolic
-L2_Kh_Zn5      relative   0.10  0.0   always_2  2.0   parabolic
-L2_Kh_Zn6      relative   0.10  0.0   always_2  2.0   parabolic
-L2_Kh_Zn7      relative   0.10  0.0   always_2  2.0   parabolic
-L2_Kh_Zn8      relative   0.10  0.0   always_2  2.0   parabolic
-L2_Kh_Zn9      relative   0.10  0.0   always_2  2.0   parabolic
-L3_Kh_Zn10     relative   0.10  0.0   always_2  2.0   parabolic
-L1_SY          relative   0.10  0.0   always_2  2.0   parabolic
-L2_SY          relative   0.10  0.0   always_2  2.0   parabolic
+prms           relative   0.10  0.0   always_2  2.0   parabolic
+uzf            relative   0.05  0.0   always_2  2.0   parabolic
+StrmBed        relative   0.05  0.0   always_2  2.0   parabolic
+L1_Kh          relative   0.05  0.0   always_2  2.0   parabolic
+L2_Kh_Zn2      relative   0.05  0.0   always_2  2.0   parabolic
+L2_Kh_Zn3      relative   0.05  0.0   always_2  2.0   parabolic
+L2_Kh_Zn4      relative   0.05  0.0   always_2  2.0   parabolic
+L2_Kh_Zn5      relative   0.05  0.0   always_2  2.0   parabolic
+L2_Kh_Zn6      relative   0.05  0.0   always_2  2.0   parabolic
+L2_Kh_Zn7      relative   0.05  0.0   always_2  2.0   parabolic
+L2_Kh_Zn8      relative   0.05  0.0   always_2  2.0   parabolic
+L2_Kh_Zn9      relative   0.05  0.0   always_2  2.0   parabolic
+L3_Kh_Zn10     relative   0.05  0.0   always_2  2.0   parabolic
+L1_SY          relative   0.05  0.0   always_2  2.0   parabolic
+L2_SY          relative   0.05  0.0   always_2  2.0   parabolic
 * parameter data
       ssr2gw_scale      none    factor       50.00295        0.00010         500.00          prms  1.0000  0.0000      1
-      vks2ssr2_rat     fixed    factor       1.100000        1.50000           10.0           prms  1.0000  0.0000       1
+      vks2ssr2_rat     fixed    factor       1.100000        1.10000           10.0           prms  1.0000  0.0000       1
               finf     fixed    factor      0.4886473        0.10000          1.000            uzf  1.0000  0.0000       1
              extdp     fixed    factor      0.1045052        0.10000          1.000            uzf  1.0000  0.0000       1
-               pet     fixed    factor      0.4995166        0.50000          1.200            uzf  1.0000  0.0000       1
-         srfk_mult     fixed    factor  3.2173706E-05       0.000100           10.0            uzf  1.0000  0.0000       1
+               pet     fixed    factor      0.5000000        0.50000          1.200            uzf  1.0000  0.0000       1
+         srfk_mult     fixed    factor  3.2173706E-05       0.000010           10.0            uzf  1.0000  0.0000       1
           kh_lay_1     fixed    factor       1.041357        0.00010          1000.          l1_kh  1.0000  0.0000       1
          strmbdk_1      none    factor      0.1646032        0.00001          500.0        strmbed  1.0000  0.0000       1
          strmbdk_2      none    factor  3.0931127E-02        0.00001          500.0        strmbed  1.0000  0.0000       1
