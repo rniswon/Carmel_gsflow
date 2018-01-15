@@ -1,0 +1,11 @@
+Here is how to launch pest++ on your machine:
+
+To launch the 'master', launch a cmd prompt in your master directory and type:
+
+ipest++.exe carmel.pst /h :4004
+
+To launch the 'runner' (after the master is idling and in standby mode), type:
+
+ipest++.exe carmel.pst /h IGSWBMWWLTBR478:4004
+
+where "IGSWBMWWLTBR478" is the hostname for your machine (which, if you get a new machine, you can find out the new machine's name by simply typing 'hostname' at the cmd prompt) and 4004 is just a random port number (you could use any value between 4000 and 10000, I think.  

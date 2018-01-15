@@ -16,7 +16,7 @@ OPEN/CLOSE .\input\modflow\uzf_support\thti.txt                1 (free)       6 
 1                                                                                   # NUZF1
 OPEN/CLOSE .\INPUT\modflow\uzf_support\finf_1.txt     4.8864730E-01 (free)    0     # INFILTRATION AT TOP OF LAYER 1 (FINF) STRESS PERIOD 1
 1                                                                                   # NUZF2
-OPEN/CLOSE .\INPUT\modflow\uzf_support\pET.txt        4.9951660E-01 (free)    0     # PET FOR STRESS PERIOD 1   # orig is 0.003556020
+OPEN/CLOSE .\INPUT\modflow\uzf_support\pET.txt        5.0000000E-01 (free)    0     # PET FOR STRESS PERIOD 1   # orig is 0.003556020
 1                                                                                   # NUZF3
 OPEN/CLOSE .\INPUT\modflow\uzf_support\extdp_1.txt    1.0450520E-01 (free)    0     # EXTDP FOR STRESS PERIOD 1
 1                                                                                   # NUZF4
