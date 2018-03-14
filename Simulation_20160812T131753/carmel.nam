@@ -9,6 +9,7 @@ nwt             16   .\INPUT\modflow\carmel.nwt
 oc              17   .\INPUT\modflow\carmel.oc
 sfr             18   .\INPUT\modflow\carmel.sfr
 lak             19   .\INPUT\modflow\carmel.lak
+data            23   .\INPUT\modflow\lak_support\LP_bath.dat
 wel             20   .\INPUT\modflow\carmel.wel
 uzf             21   .\INPUT\modflow\carmel.uzf
 hob             22   .\INPUT\modflow\carmel.hob
