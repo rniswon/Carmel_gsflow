@@ -1,4 +1,5 @@
-18                               # NUMGAGE
+19                               # NUMGAGE
+ 1826 2 96 6                     # ALP   GAGESEG  GAGERCH  UNIT  OUTTYPE  GAGE ABBREVIATION
  103  2 75 6                     # H1   GAGESEG  GAGERCH  UNIT  OUTTYPE  GAGE ABBREVIATION
  141  3 76 6                     # LA   GAGESEG  GAGERCH  UNIT  OUTTYPE  GAGE ABBREVIATION
  121  1 77 6                     # NC   GAGESEG  GAGERCH  UNIT  OUTTYPE  GAGE ABBREVIATION
