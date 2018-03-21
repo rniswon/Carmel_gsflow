@@ -1,5 +1,5 @@
 # setwd('D:/EDM_LT/GitHub/Carmel/Simulation_20160812T131753/OUTPUT/')
-setwd('D:/DATA/Niswonger/Carmel.git/Simulation_20160812T131753/OUTPUT/')
+setwd('C:/Users/rniswon/Documents/Data/Git/carmel.git/Simulation_20160812T131753/OUTPUT/')
 
 dat <- read.table('hobsout.dat', header=FALSE, skip=1, col.names=c('sim','obs','name'))
 dat$name <- as.character(dat$name)
