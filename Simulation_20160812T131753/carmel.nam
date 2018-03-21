@@ -9,6 +9,7 @@ nwt             16   .\INPUT\modflow\carmel.nwt
 oc              17   .\INPUT\modflow\carmel.oc
 sfr             18   .\INPUT\modflow\carmel.sfr
 lak             19   .\INPUT\modflow\carmel.lak
+data            23   .\INPUT\modflow\lak_support\LP_bath.dat
 wel             20   .\INPUT\modflow\carmel.wel
 uzf             21   .\INPUT\modflow\carmel.uzf
 hob             22   .\INPUT\modflow\carmel.hob
@@ -32,6 +33,7 @@ data            88   .\OUTPUT\GAGES\PI.gg14
 data            89   .\OUTPUT\GAGES\CA.gg15
 data            90   .\OUTPUT\GAGES\BL.gg16
 data            91   .\OUTPUT\GAGES\LP.gg17
+data            96   .\OUTPUT\GAGES\ALP.gg18
 data            95   .\OUTPUT\GAGES\Los_Padres_Res.gg18
 IWRT            93   .\OUTPUT\restartdata1.out        
 IRED            94   .\input\modflow\restartdata1.in
