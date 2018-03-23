@@ -1,0 +1,9 @@
+201712051533   0     0     0rniswon D:\DATA\Niswonger\Carmel.git\GIS\plot_heads\SS_head = ASCIIGRID( D:\DATA\NISWON~1\Carmel.git\SIMULA~2\OUTPUT\CARMEL~1.TXT, INT)
+201712051539   0     1     0rniswon D:\DATA\Niswonger\Carmel.git\GIS\plot_heads\ss_dtw = ASCIIGRID( D:\DATA\NISWON~1\Carmel.git\SIMULA~2\OUTPUT\CARMEL~2.TXT, FLOAT)
+201712051613   0     0     0rniswon D:\DATA\Niswonger\Carmel.git\GIS\plot_heads\ss_head = ASCIIGRID( D:\DATA\NISWON~1\Carmel.git\SIMULA~2\OUTPUT\CARMEL~1.TXT, FLOAT
+201712051614   0     0     0rniswon D:\DATA\Niswonger\Carmel.git\GIS\plot_heads\ss_dtw = ASCIIGRID( D:\DATA\NISWON~1\Carmel.git\SIMULA~2\OUTPUT\DEM_AD~1.TXT, FLOAT)
+201712051617   0     1     0rniswon D:\DATA\Niswonger\Carmel.git\GIS\plot_heads\ss_dtw = ASCIIGRID( D:\DATA\NISWON~1\Carmel.git\SIMULA~2\OUTPUT\CARMEL~2.TXT, FLOAT)
+201712051631   0     0     0rniswon D:\DATA\Niswonger\Carmel.git\GIS\plot_heads\ss_heads = ASCIIGRID( D:\DATA\NISWON~1\Carmel.git\SIMULA~2\OUTPUT\CARMEL~1.TXT, INT)
+201712051632   0     0     0rniswon D:\DATA\Niswonger\Carmel.git\GIS\plot_heads\ss_heads_polygon = GRIDSHAPE(D:\DATA\Niswonger\Carmel.git\GIS\plot_heads\ss_heads, W
+201712051634   1     0     0rniswon D:\DATA\Niswonger\Carmel.git\GIS\plot_heads\ss_dtw = ASCIIGRID( D:\DATA\NISWON~1\Carmel.git\SIMULA~2\OUTPUT\CARMEL~2.TXT, INT)
+201712051634   0     1     0rniswon D:\DATA\Niswonger\Carmel.git\GIS\plot_heads\ss_dtw_polygon = GRIDSHAPE(D:\DATA\Niswonger\Carmel.git\GIS\plot_heads\ss_dtw, WEED)
