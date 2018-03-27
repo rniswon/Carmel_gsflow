@@ -38,8 +38,81 @@ readstatvar2df <- function(fname){
   dat2
 }
 
+readPRMSdata2df <- function(fname){
+  # Set variable for later use
+  colnms <- NULL
+  colkeep <- rep(FALSE, times=6)   # First six column of data section are year, mon, day, 
+                                   # hour, min, sec and don't need to be kept after 
+                                   # processed (see below).
+  
+  # Customized function for reading Carmel .data file, may need tweaking 
+  # when applied to other data files if they don't all look like Carmels
+  print(paste0('Reading ',as.character(fname),' ...'))
+  
+  # get header information
+  fname_con <- file(paste0(getwd(),'/',fname)) 
+  con <- fname_con
+  open(con)
+  alines <- readLines(con, n = -1, warn = FALSE) # n=-1 indicated read to eof
+  close(con)
+  
+  # process lines until "#####..." encountered
+  i <- 1
+  first <- TRUE
+  while (!grepl('####', alines[i])){
+    substr1 <- '//'
+    substr2 <- 'runoff'
+    if(grepl(substr1, alines[i]) & grepl(substr2, alines[i])){
+      m_row <- alines[i]
+      m_arr <- strsplit(m_row, " +")                        # split line based on whitespaces
+      if(first) {
+        key <- data.frame(ID=m_arr[[1]][2], name=trimws(substr(alines[i], 6, 30)))
+        first <- !first
+      } else {
+        d_row <- c(m_arr[2], trimws(substr(m_row, 6, 30)))  # 6 & 30 read fixed positioning 
+                                                            # m_row, will only work for current 
+                                                            # data file and may need to be modified 
+                                                            # for other .data files
+        key <- rbind(key, d_row)
+      }
+    }
+  
+    if(length(strsplit(alines[i], " +")[[1]])==2)  {    # This is keying off of whether only 2 values on the line
+                                               # May need to check for other lines with only 2 vals when
+                                               # applied to other models
+      # create a vector of column names based on how many entries are encountered for each parameter
+      m_arr <- strsplit(alines[i], " +")
+      colnms <- c(colnms, paste0(m_arr[[1]][1], '_', seq(1:as.integer(m_arr[[1]][2]))))
+      
+      # create another vector of true/false on whether column is runoff column
+      if(m_arr[[1]][1]=='runoff'){
+        colkeep <- c(colkeep, rep(TRUE, times = as.integer(m_arr[[1]][2])))
+      } else {
+        colkeep <- c(colkeep, rep(FALSE, times = as.integer(m_arr[[1]][2])))
+      }
+    }
+    
+    i <- i + 1
+  }
+  
+  # When code exits while loop, ready to start reading data
+  dat <- read.table(fname, skip=i, col.names=c('yr', 'mon', 'day', 'H', 'M', 'S', colnms))
+  
+  # Construct usable date column
+  dat$Date <- with(dat, as.Date(paste0(yr,'-',mon,'-',day), '%Y-%m-%d'))
+  
+  # Because 'Date' appended to the end, need to append colkeep by one
+  colkeep <- c(colkeep, TRUE)
+  
+  # Drop and reorder columns
+  dat2 <- dat[,colkeep]
+  
+  dat2
+}
+
 # read statvar
 model_out <- readstatvar2df('statvar.dat')
+obs       <- readPRMSdata2df('carmel.data')
 
 # Now get 'obs' data from NWIS web for the USGS gage site
 StartDate <- "1980-10-01"  # Set dates according to model start day
