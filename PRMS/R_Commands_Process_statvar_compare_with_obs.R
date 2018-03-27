@@ -24,7 +24,7 @@ readstatvar2df <- function(fname){
   txt_lines <- read.table(fname, skip=1, nrows=nstats, col.names=c('var_name','code'))
   
   # Strip trailing '1's on basin variables; attach any segment numbers to names
-  dfn <- ifelse(txt_lines$code==1, as.character(txt_lines$var_name), paste0(txt_lines$var_name,'_',txt_lines$code))
+  dfn <- ifelse(txt_lines$code==1 & (as.character(txt_lines$var_name) != 'sub_cfs'), as.character(txt_lines$var_name), paste0(txt_lines$var_name,'_',txt_lines$code))
   
   # Read the meat
   dat <- read.table(fname, skip=nstats + 1, col.names=c('rownum','yr','mon','day','H','M','S',dfn))
@@ -69,10 +69,10 @@ readPRMSdata2df <- function(fname){
         key <- data.frame(ID=m_arr[[1]][2], name=trimws(substr(alines[i], 6, 30)))
         first <- !first
       } else {
-        d_row <- c(m_arr[2], trimws(substr(m_row, 6, 30)))  # 6 & 30 read fixed positioning 
-                                                            # m_row, will only work for current 
-                                                            # data file and may need to be modified 
-                                                            # for other .data files
+        d_row <- data.frame(ID=m_arr[[1]][2], name=trimws(substr(m_row, 6, 30)))  # 6 & 30 read fixed positioning 
+                                                                                  # m_row, will only work for current 
+                                                                                  # data file and may need to be modified 
+                                                                                  # for other .data files
         key <- rbind(key, d_row)
       }
     }
@@ -107,27 +107,29 @@ readPRMSdata2df <- function(fname){
   # Drop and reorder columns
   dat2 <- dat[,colkeep]
   
-  dat2
+  lst_dat <- list(dat2, key)
 }
 
 # read statvar
 model_out <- readstatvar2df('statvar.dat')
 obs       <- readPRMSdata2df('carmel.data')
+obs_ts    <- obs[[1]]   # get the separate elements returned from the function call
+obs_key   <- obs[[2]]   # get the separate elements returned from the function call
 
 # Now get 'obs' data from NWIS web for the USGS gage site
-StartDate <- "1980-10-01"  # Set dates according to model start day
-EndDate   <- "2011-10-31"  # Set dates according to model stop day
-siteNumber <- "11143250"   # NWIS Gage ID
-QParameterCd <- "00060"    # NWIS parameter code for flow
-
-Daily_Q <- readNWISDaily(siteNumber, QParameterCd, StartDate, EndDate, convert = FALSE)
+# StartDate <- "1980-10-01"  # Set dates according to model start day
+# EndDate   <- "2011-10-31"  # Set dates according to model stop day
+# siteNumber <- "11143250"   # NWIS Gage ID
+# QParameterCd <- "00060"    # NWIS parameter code for flow
+# 
+# Daily_Q <- readNWISDaily(siteNumber, QParameterCd, StartDate, EndDate, convert = FALSE)
 
 # Ensure that the time series pulled from NWIS spans the full model period
-if(length(seq(as.Date(StartDate), as.Date(EndDate), by='day')) == nrow(Daily_Q)){
-    print('OK to proceed')
-} else {
-    print('# of Days disperity')
-}
+# if(length(seq(as.Date(StartDate), as.Date(EndDate), by='day')) == nrow(Daily_Q)){
+#     print('OK to proceed')
+# } else {
+#     print('# of Days disperity')
+# }
 
 # At this point Daily_Q is equivalent to Subbasin ID #6 
 # according to ...\Carmel.git\PRMS\subbasin_gauge_key.csv
