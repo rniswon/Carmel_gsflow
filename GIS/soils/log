@@ -1,0 +1,2 @@
+201803011155   0     0     0rniswon D:\DATA\Niswonger\Carmel.git\GIS\soils\K_soils = ASCIIGRID( D:\DATA\NISWON~1\Carmel.git\GIS\soils\K_soils.txt, FLOAT)
+201803011349   0     1     0rniswon D:\DATA\Niswonger\Carmel.git\GIS\soils\k_soils_points = GRIDPOINTSHAPE(D:\DATA\Niswonger\Carmel.git\GIS\soils\k_soils)
