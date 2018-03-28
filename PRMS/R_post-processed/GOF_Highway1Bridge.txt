@@ -1,0 +1,42 @@
+#  ME:    Mean Error
+#  MAE:   Mean Absolute Error
+#  RMSE:  Root Mean Square Error
+#  NRMSE: Normalized Root Mean Square Error
+#  r:     Pearson product-moment correlation coefficient
+#  RSR:   Spearman Correlation coefficient
+#  R2:    Coefficient of Determination
+#  rSD:   Ratio of Standard Deviations
+#  NSE:   Nash-Sutcliffe efficiency
+#  mNSE:  Modified Nash-Sutcliffe efficiency
+#  rNSE:  Relative Nash-Sutcliffe efficiency
+#  d:     Index of Agreement
+#  md:    Modified Index of Agreement
+#  rd:    Relative Index of Agreement
+#  cp:    Coefficient of Persistence
+#  PBIAS: Percent Bias
+#  KGE:   Kling-Gupta efficiency
+#  bR2:   the coef. of determination multiplied by the slope of the linear regression between "sim" and "obs"
+#  VE:    volumetric efficiency
+ 
+*** Comparison of DAILY flows for Highway1Bridge ***
+ 
+ME              67.01
+MAE            105.22
+MSE          74577.32
+RMSE           273.09
+NRMSE %         78.20
+PBIAS %         58.10
+RSR              0.78
+rSD              1.24
+NSE              0.39
+mNSE             0.31
+rNSE             -Inf
+d                0.87
+md               0.62
+rd               -Inf
+cp              -0.72
+r                0.79
+R2               0.63
+bR2              0.60
+KGE              0.34
+VE               0.09

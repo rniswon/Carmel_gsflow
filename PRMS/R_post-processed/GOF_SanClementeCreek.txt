@@ -1,0 +1,42 @@
+#  ME:    Mean Error
+#  MAE:   Mean Absolute Error
+#  RMSE:  Root Mean Square Error
+#  NRMSE: Normalized Root Mean Square Error
+#  r:     Pearson product-moment correlation coefficient
+#  RSR:   Spearman Correlation coefficient
+#  R2:    Coefficient of Determination
+#  rSD:   Ratio of Standard Deviations
+#  NSE:   Nash-Sutcliffe efficiency
+#  mNSE:  Modified Nash-Sutcliffe efficiency
+#  rNSE:  Relative Nash-Sutcliffe efficiency
+#  d:     Index of Agreement
+#  md:    Modified Index of Agreement
+#  rd:    Relative Index of Agreement
+#  cp:    Coefficient of Persistence
+#  PBIAS: Percent Bias
+#  KGE:   Kling-Gupta efficiency
+#  bR2:   the coef. of determination multiplied by the slope of the linear regression between "sim" and "obs"
+#  VE:    volumetric efficiency
+ 
+*** Comparison of DAILY flows for SanClementeCreek ***
+ 
+ME              -4.88
+MAE              9.17
+MSE            594.39
+RMSE            24.38
+NRMSE %         67.10
+PBIAS %        -35.10
+RSR              0.67
+rSD              0.50
+NSE              0.55
+mNSE             0.47
+rNSE             -Inf
+d                0.79
+md               0.67
+rd               -Inf
+cp              -0.62
+r                0.82
+R2               0.67
+bR2              0.29
+KGE              0.36
+VE               0.34

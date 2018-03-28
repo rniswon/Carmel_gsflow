@@ -1,4 +1,4 @@
-library(EGRET)
+#library(EGRET)
 library(hydroGOF)
 library(gdata)
 
@@ -122,6 +122,16 @@ obs       <- readPRMSdata2df('carmel.data')
 obs_ts    <- obs[[1]]   # get the separate elements returned from the function call
 obs_key   <- obs[[2]]   # get the separate elements returned from the function call
 
+# An example for pulling data from NWIS that is going to be set aside for now
+
+# Now get 'obs' data from NWIS web for the USGS gage site
+# StartDate <- "1980-10-01"  # Set dates according to model start day
+# EndDate   <- "2011-10-31"  # Set dates according to model stop day
+# siteNumber <- "11143250"   # NWIS Gage ID
+# QParameterCd <- "00060"    # NWIS parameter code for flow
+# 
+# Daily_Q <- readNWISDaily(siteNumber, QParameterCd, StartDate, EndDate, convert = FALSE)
+
 key_file <- read.csv('./subbasin_gauge_key.csv',header=TRUE)
 
 # Drop first instance of duplicated row
@@ -146,8 +156,15 @@ for(i in (1:nrow(key_file)))
     # Because the window of observed data may be narrower than some of the other observed time series in the .data file, filter further
     obs <- subset(obs, obs$runoff >= 0)
     
+    # If no observations, skip to next for loop iteration
+    if(nrow(obs)==0) next
+    
     # Now, match the simulated time series up with the observed
     sim <- sim[seq(which(sim$Date==obs[1,'Date']), which(sim$Date==obs[nrow(obs),'Date']), by=1), ]
+    
+    # In case there are any missing dates in the observed values, need to fill in
+    dt_complete <- data.frame(Date = seq(obs[1,'Date'], obs[nrow(obs),'Date'], by='day'))
+    obs <- merge(dt_complete, obs, by='Date', all.x=TRUE)
     
     # Process daily time series!
     
@@ -172,82 +189,25 @@ for(i in (1:nrow(key_file)))
                  '#  bR2:   the coef. of determination multiplied by the slope of the linear regression between "sim" and "obs"',
                  '#  VE:    volumetric efficiency',                                                                              
                  ' ',                                                                                                            
-                 paste0('*** ',trimws(key_file[i,'Stream.Gauge.Name']),' ***'),                                                  
-                 ' '), con = paste0('./GOF_',trimws(key_file[i,'Stream.Gauge.Name']),'.txt'))
+                 paste0('*** Comparison of DAILY flows for ',trimws(key_file[i,'Stream.Gauge.Name']),' ***'),                                                  
+                 ' '), con = paste0('./R_post-processed/GOF_',trimws(key_file[i,'Stream.Gauge.Name']),'.txt'))
                                                      
-    write.fwf(gof(sim[!grepl('Date', colnames(sim))], obs[!grepl('Date', colnames(obs))]), file = paste0('./GOF_',trimws(key_file[i,'Stream.Gauge.Name']),'.txt'), append = TRUE, quote=FALSE, rownames=TRUE, colnames=FALSE, width=c(10, 10))
+    write.fwf(gof(sim[!grepl('Date', colnames(sim))], obs[!grepl('Date', colnames(obs))]), file = paste0('./R_post-processed/GOF_',trimws(key_file[i,'Stream.Gauge.Name']),'.txt'), append = TRUE, quote=FALSE, rownames=TRUE, colnames=FALSE, width=c(10, 10))
     
-    # Now get 'obs' data from NWIS web for the USGS gage site
-    # StartDate <- "1980-10-01"  # Set dates according to model start day
-    # EndDate   <- "2011-10-31"  # Set dates according to model stop day
-    # siteNumber <- "11143250"   # NWIS Gage ID
-    # QParameterCd <- "00060"    # NWIS parameter code for flow
-    # 
-    # Daily_Q <- readNWISDaily(siteNumber, QParameterCd, StartDate, EndDate, convert = FALSE)
-    
-
-    # At this point Daily_Q is equivalent to Subbasin ID #6 
-    # according to ...\Carmel.git\PRMS\subbasin_gauge_key.csv
-    # -------------------------------------------------------
-    gof(model_out$sub_cfs_6, Daily_Q$Q)  # NWIS values pulled in as m3/s
-    write.table(gof(model_out$sub_cfs_6, Daily_Q$Q), 'Goodness_of_fit_daily.txt', quote=FALSE, row.names=TRUE, col.names=FALSE)
-    
-    # Example output (see key below)
-    #  ME          54.75
-    #  MAE         98.48
-    #  MSE      61040.90
-    #  RMSE       247.06
-    #  NRMSE %     72.40
-    #  PBIAS %     51.10
-    #  RSR          0.72
-    #  rSD          1.14
-    #  NSE          0.48
-    #  mNSE         0.33
-    #  rNSE    -35455.98
-    #  d            0.87
-    #  md           0.63
-    #  rd       -8497.39
-    #  cp          -0.56
-    #  r            0.79
-    #  R2           0.63
-    #  bR2          0.60
-    #  KGE          0.43
-    #  VE           0.08
-    
-    
-    #  ME:    Mean Error 
-    #  MAE:   Mean Absolute Error 
-    #  RMSE:  Root Mean Square Error 
-    #  NRMSE: Normalized Root Mean Square Error 
-    #  r:     Pearson product-moment correlation coefficient
-    #  RSR:   Spearman Correlation coefficient 
-    #  R2:    Coefficient of Determination 
-    #  rSD:   Ratio of Standard Deviations 
-    #  NSE:   Nash-Sutcliffe efficiency 
-    #  mNSE:  Modified Nash-Sutcliffe efficiency 
-    #  rNSE:  Relative Nash-Sutcliffe efficiency
-    #  d:     Index of Agreement 
-    #  md:    Modified Index of Agreement 
-    #  rd:    Relative Index of Agreement 
-    #  cp:    Coefficient of Persistence 
-    #  PBIAS: Percent Bias
-    #  KGE:   Kling-Gupta efficiency 
-    #  bR2:   the coef. of determination multiplied by the slope of the linear regression between 'sim' and 'obs' 
-    #  VE:    volumetric efficiency 
     
     # plot daily time series
     # ----------------------
-    png('Site_6_Daily_time_series.png', height=700,width=1200, res=130)
+    png(paste0('./R_post-processed/', trimws(key_file[i,'Stream.Gauge.Name']),'_Daily_time_series.png'), height=700,width=1200, res=130)
         par(mar=c(4,5,1,1))
-        plot(Daily_Q$Date, Daily_Q$Q, typ='l', col='blue', lwd=2, xlab='Date', ylab='Q, cfs', xaxs='i', yaxs='i', las=1, ylim=c(0,12000))
-        points(model_out$Date, model_out$sub_cfs_6, col='red', typ='l', lty=2)
+        plot(obs$Date, obs[,!grepl('Date|wyr', colnames(obs))], typ='l', col='blue', lwd=2, xlab='Date', ylab='Q, cfs', xaxs='i', yaxs='i', las=1, ylim=c(0,12000))
+        points(sim$Date, sim[,!grepl('Date|wyr', colnames(sim))], col='red', typ='l', lty=2)
         legend('topright',c('Simulated','Observed'), col=c('red','blue'), lty=c(1,2), lwd=c(2,1), bty='n', bg='white')
     dev.off()
     
-    png('Site_6_Daily_time_series_log_scale.png', height=700,width=1200, res=130)
+    png(paste0('./R_post-processed/', trimws(key_file[i,'Stream.Gauge.Name']),'_Daily_time_series_log_scale.png'), height=700,width=1200, res=130)
         par(mar=c(4,5,1,1))
-        plot(Daily_Q$Date, Daily_Q$Q, typ='l', col='blue', lwd=2, xlab='Date', ylab='Log10(Q), cfs', xaxs='i', yaxs='i', las=1, ylim=c(0.1,12000), log='y')
-        points(model_out$Date, model_out$sub_cfs_6, col='red', typ='l', lty=2)
+        plot(obs$Date,obs[,!grepl('Date|wyr', colnames(obs))], typ='l', col='blue', lwd=2, xlab='Date', ylab='Log10(Q), cfs', xaxs='i', yaxs='i', las=1, ylim=c(0.1,12000), log='y')
+        points(sim$Date, sim[,!grepl('Date|wyr', colnames(sim))], col='red', typ='l', lty=2)
         legend('topright',c('Simulated','Observed'), col=c('red','blue'), lty=c(1,2), lwd=c(2,1), bty='n', bg='white')
     dev.off()
     
@@ -256,71 +216,82 @@ for(i in (1:nrow(key_file)))
     # -----------------------------
     
     # Start by adding water year attribute to simulated data
-    model_out$wyr <- as.numeric(format(as.Date(model_out$Date), "%Y"))
-    is.nxt        <- as.numeric(format(as.Date(model_out$Date), "%m")) %in% 1:9
-    model_out$wyr[!is.nxt] <- model_out$wyr[!is.nxt] + 1
+    sim$wyr <- as.numeric(format(as.Date(sim$Date), "%Y"))
+    is.nxt        <- as.numeric(format(as.Date(sim$Date), "%m")) %in% 1:9
+    sim$wyr[!is.nxt] <- sim$wyr[!is.nxt] + 1
     
-    # next aggregate by water years
-    model_out_ann <- aggregate(sub_cfs_6 ~ wyr, data = model_out, sum)
-    model_out_ann$sub_cfs_6 <- model_out_ann$sub_cfs_6 * 86400 / 43560
+    # Now add water year attribute to observed data
+    obs$wyr <- as.numeric(format(as.Date(obs$Date), "%Y"))
+    is.nxt        <- as.numeric(format(as.Date(obs$Date), "%m")) %in% 1:9
+    obs$wyr[!is.nxt] <- obs$wyr[!is.nxt] + 1
     
-    annual_obs   <- aggregate(Q ~ waterYear, data = Daily_Q, sum)
-    annual_obs$Q <- annual_obs$Q * 86400 / 43560
+    # next aggregate by water years, simulated then observed data
+    sim_ann <- aggregate(sim[[colnames(sim[!grepl('Date|wyr', colnames(sim))])]] ~ wyr, data = sim, sum)
+    names(sim_ann) <- c('wyr', 'ann_tot')
+    sim_ann$ann_tot <- sim_ann$ann_tot * 86400 / 43560
+    
+    obs_ann <- aggregate(obs[[colnames(obs[!grepl('Date|wyr', colnames(obs))])]] ~ wyr, data = obs, sum)
+    names(obs_ann) <- c('wyr', 'ann_tot')
+    obs_ann$ann_tot <- obs_ann$ann_tot * 86400 / 43560
     
     # bar plot of annual totals
-    mat <- matrix(c(model_out_ann$sub_cfs_6, annual_obs$Q), 
-                  byrow=TRUE, nrow = 2, ncol = nrow(model_out_ann), 
+    mat <- matrix(c(sim_ann$ann_tot, obs_ann$ann_tot), 
+                  byrow=TRUE, nrow = 2, ncol = nrow(sim_ann), 
                   dimnames = list(c("Simulated", "Observed"),
-                                  as.character(annual_obs$waterYear)))
+                                  as.character(obs_ann$wyr)))
     
-    png('Site_6_Annual_Totals.png', height=700,width=800, res=130)
-        par(mar=c(4,5,1,1))
+    png(paste0('./R_post-processed/', trimws(key_file[i,'Stream.Gauge.Name']),'_Annual_Totals.png'), height=700,width=800, res=130)
+        par(mar=c(4,5,2,1))
         barplot(mat, beside=TRUE, xlab='Water Year', ylab='', xaxs='i', yaxs='i', yaxt='n', col=c('red', 'blue'), las=1)
-        axis(side=2, at=seq(0,350000,by=50000), labels=seq(0,350,by=50), las=2)
-        mtext(side=2, expression(paste('Total Annual Flow, ',10^3~ ac%.%ft)), line=3)
+        axis(side=2, at=pretty(c(0:max(mat))), labels=pretty(c(0:max(mat))) / 1000, las=2)
+        mtext(side=2, expression(paste('Total Annual Flow,  ',10^3~ ac%.%ft)), line=3)
         abline(h=0)
-        legend('top', c('Simulated','Observed'), pch=22, pt.bg=c('red','blue'), bty='n', bg='white')
+        legend('topleft', c('Simulated','Observed'), pch=22, pt.bg=c('red','blue'), bty='n', bg='white')
     dev.off()    
     
     
     # Run hydroGOF on annual amounts
-    gof(model_out_ann$sub_cfs_6, annual_obs$Q)
-    write.table(gof(model_out_ann$sub_cfs_6, annual_obs$Q), 'Goodness_of_fit_annual.txt', quote=FALSE, row.names=TRUE, col.names=FALSE)
+    writeLines(c('#  ME:    Mean Error',                                                                                         
+                 '#  MAE:   Mean Absolute Error',                                                                                
+                 '#  RMSE:  Root Mean Square Error',                                                                             
+                 '#  NRMSE: Normalized Root Mean Square Error',                                                                  
+                 '#  r:     Pearson product-moment correlation coefficient',                                                     
+                 '#  RSR:   Spearman Correlation coefficient',                                                                   
+                 '#  R2:    Coefficient of Determination',                                                                       
+                 '#  rSD:   Ratio of Standard Deviations',                                                                       
+                 '#  NSE:   Nash-Sutcliffe efficiency',                                                                          
+                 '#  mNSE:  Modified Nash-Sutcliffe efficiency',                                                                 
+                 '#  rNSE:  Relative Nash-Sutcliffe efficiency',                                                                 
+                 '#  d:     Index of Agreement',                                                                                 
+                 '#  md:    Modified Index of Agreement',                                                                        
+                 '#  rd:    Relative Index of Agreement',                                                                        
+                 '#  cp:    Coefficient of Persistence',                                                                         
+                 '#  PBIAS: Percent Bias',                                                                                       
+                 '#  KGE:   Kling-Gupta efficiency',                                                                             
+                 '#  bR2:   the coef. of determination multiplied by the slope of the linear regression between "sim" and "obs"',
+                 '#  VE:    volumetric efficiency',                                                                              
+                 ' ',                                                                                                            
+                 paste0('*** Comparison of ANNUAL totals for ',trimws(key_file[i,'Stream.Gauge.Name']),' ***'),                                                  
+                 ' '), con = paste0('./R_post-processed/Annual_GOF_',trimws(key_file[i,'Stream.Gauge.Name']),'.txt'))
+                                                     
+    write.fwf(gof(sim_ann[!grepl('Date|wyr', colnames(sim_ann))], obs_ann[!grepl('Date|wyr', colnames(obs_ann))]), file = paste0('./R_post-processed/Annual_GOF_',trimws(key_file[i,'Stream.Gauge.Name']),'.txt'), append = TRUE, quote=FALSE, rownames=TRUE, colnames=FALSE, width=c(20, 20))
     
-    # ME           38530.03
-    # MAE          45545.81
-    # MSE     2607963675.08
-    # RMSE         51068.23
-    # NRMSE %         63.60
-    # PBIAS %         51.10
-    # RSR              0.64
-    # rSD              0.79
-    # NSE              0.58
-    # mNSE             0.21
-    # rNSE        -13433.03
-    # d                0.88
-    # md               0.60
-    # rd           -3859.38
-    # cp               0.76
-    # r                0.91
-    # R2               0.84
-    # bR2              0.76
-    # KGE              0.44
-    # VE               0.40
     
-    # Look at daily comparison
-    model_out_dy         <- model_out
-    model_out_dy$mon_day <- format(model_out_dy$Date, "%m%d")
+    # Look at average daily comparison
+    sim_dy         <- sim
+    sim_dy$mon_day <- format(sim_dy$Date, "%m%d")
     
-    Daily_Q_dy         <- Daily_Q
-    Daily_Q_dy$mon_day <- format(Daily_Q_dy$Date, "%m%d")
+    obs_dy         <- obs
+    obs_dy$mon_day <- format(obs_dy$Date, "%m%d")
     
-    sim_dy <- aggregate(sub_cfs_6 ~ mon_day, data = model_out_dy, mean)
-    obs_dy <- aggregate(Q ~ mon_day, data = Daily_Q_dy, mean)
+    sim_dy <- aggregate(sim_dy[[colnames(sim_dy[!grepl('Date|wyr|mon_day', colnames(sim_dy))])]] ~ mon_day, data = sim_dy, mean)
+    names(sim_dy) <- c('JDay','Q')
+    obs_dy <- aggregate(obs_dy[[colnames(obs_dy[!grepl('Date|wyr|mon_day', colnames(obs_dy))])]] ~ mon_day, data = obs_dy, mean)
+    names(obs_dy) <- c('JDay','Q')
     
-    png('Site_6_Daily_Mean_Flow.png', height=700,width=800, res=130)
+    png(paste0('./R_post-processed/', trimws(key_file[i,'Stream.Gauge.Name']),'_Daily_Mean_Flow.png'), height=700, width=800, res=130)
         par(mar=c(4,5,1,1))
-        plot(sim_dy$sub_cfs_6, pch=16, col='red', ylim=c(0,750), las=1, xlab='Day of Year (ticks @ start of the month)', ylab='Mean Daily Flow, cfs', xaxt='n', yaxs='i')
+        plot(sim_dy$Q, pch=16, col='red', ylim=c(0,750), las=1, xlab='Day of Year (ticks @ start of the month)', ylab = 'Mean Daily Flow, cfs', xaxt='n', yaxs='i')
         points(obs_dy$Q, col='blue')
         axis(side=1, at=cumsum(c(1,30,28,31,30,31,30,31,31,30,31,30)), labels=format(seq(as.Date('1980-01-01'), as.Date('1980-12-01'), by='month'), '%m'))
         legend('top', c('Simulated','Observed'), pch=c(16,1), col=c('red','blue'), bty='n', bg='white')

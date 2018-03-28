@@ -1,0 +1,42 @@
+#  ME:    Mean Error
+#  MAE:   Mean Absolute Error
+#  RMSE:  Root Mean Square Error
+#  NRMSE: Normalized Root Mean Square Error
+#  r:     Pearson product-moment correlation coefficient
+#  RSR:   Spearman Correlation coefficient
+#  R2:    Coefficient of Determination
+#  rSD:   Ratio of Standard Deviations
+#  NSE:   Nash-Sutcliffe efficiency
+#  mNSE:  Modified Nash-Sutcliffe efficiency
+#  rNSE:  Relative Nash-Sutcliffe efficiency
+#  d:     Index of Agreement
+#  md:    Modified Index of Agreement
+#  rd:    Relative Index of Agreement
+#  cp:    Coefficient of Persistence
+#  PBIAS: Percent Bias
+#  KGE:   Kling-Gupta efficiency
+#  bR2:   the coef. of determination multiplied by the slope of the linear regression between "sim" and "obs"
+#  VE:    volumetric efficiency
+ 
+*** Comparison of ANNUAL totals for DonJuanBridge ***
+ 
+ME                               35899.06
+MAE                              35899.06
+MSE                         1757162714.72
+RMSE                             41918.52
+NRMSE %                             69.20
+PBIAS %                             43.80
+RSR                                  0.69
+rSD                                  0.93
+NSE                                  0.50
+mNSE                                 0.23
+rNSE                                -3.47
+d                                    0.88
+md                                   0.63
+rd                                  -0.06
+cp                                   0.79
+r                                    0.93
+R2                                   0.87
+bR2                                  0.70
+KGE                                  0.55
+VE                                   0.56

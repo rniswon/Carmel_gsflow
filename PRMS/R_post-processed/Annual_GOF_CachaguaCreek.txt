@@ -1,0 +1,42 @@
+#  ME:    Mean Error
+#  MAE:   Mean Absolute Error
+#  RMSE:  Root Mean Square Error
+#  NRMSE: Normalized Root Mean Square Error
+#  r:     Pearson product-moment correlation coefficient
+#  RSR:   Spearman Correlation coefficient
+#  R2:    Coefficient of Determination
+#  rSD:   Ratio of Standard Deviations
+#  NSE:   Nash-Sutcliffe efficiency
+#  mNSE:  Modified Nash-Sutcliffe efficiency
+#  rNSE:  Relative Nash-Sutcliffe efficiency
+#  d:     Index of Agreement
+#  md:    Modified Index of Agreement
+#  rd:    Relative Index of Agreement
+#  cp:    Coefficient of Persistence
+#  PBIAS: Percent Bias
+#  KGE:   Kling-Gupta efficiency
+#  bR2:   the coef. of determination multiplied by the slope of the linear regression between "sim" and "obs"
+#  VE:    volumetric efficiency
+ 
+*** Comparison of ANNUAL totals for CachaguaCreek ***
+ 
+ME                               16717.23
+MAE                              16717.23
+MSE                          299373276.17
+RMSE                             17302.41
+NRMSE %                            298.10
+PBIAS %                            369.00
+RSR                                  2.98
+rSD                                  1.56
+NSE                                 -8.36
+mNSE                                -3.61
+rNSE                              -160.01
+d                                    0.47
+md                                   0.18
+rd                                  -8.20
+cp                                  -3.25
+r                                    0.90
+R2                                   0.81
+bR2                                  0.30
+KGE                                 -2.73
+VE                                  -2.69

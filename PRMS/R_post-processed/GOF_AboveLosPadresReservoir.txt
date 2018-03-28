@@ -1,0 +1,42 @@
+#  ME:    Mean Error
+#  MAE:   Mean Absolute Error
+#  RMSE:  Root Mean Square Error
+#  NRMSE: Normalized Root Mean Square Error
+#  r:     Pearson product-moment correlation coefficient
+#  RSR:   Spearman Correlation coefficient
+#  R2:    Coefficient of Determination
+#  rSD:   Ratio of Standard Deviations
+#  NSE:   Nash-Sutcliffe efficiency
+#  mNSE:  Modified Nash-Sutcliffe efficiency
+#  rNSE:  Relative Nash-Sutcliffe efficiency
+#  d:     Index of Agreement
+#  md:    Modified Index of Agreement
+#  rd:    Relative Index of Agreement
+#  cp:    Coefficient of Persistence
+#  PBIAS: Percent Bias
+#  KGE:   Kling-Gupta efficiency
+#  bR2:   the coef. of determination multiplied by the slope of the linear regression between "sim" and "obs"
+#  VE:    volumetric efficiency
+ 
+*** Comparison of DAILY flows for AboveLosPadresReservoir ***
+ 
+ME            -193.16
+MAE            258.59
+MSE         232247.84
+RMSE           481.92
+NRMSE %         94.00
+PBIAS %        -50.50
+RSR              0.94
+rSD              0.62
+NSE              0.11
+mNSE             0.14
+rNSE            -1.09
+d                0.72
+md               0.58
+rd               0.35
+cp              -0.47
+r                0.58
+R2               0.34
+bR2              0.17
+KGE              0.33
+VE               0.32

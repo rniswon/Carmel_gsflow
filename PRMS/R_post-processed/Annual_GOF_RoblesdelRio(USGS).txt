@@ -1,0 +1,42 @@
+#  ME:    Mean Error
+#  MAE:   Mean Absolute Error
+#  RMSE:  Root Mean Square Error
+#  NRMSE: Normalized Root Mean Square Error
+#  r:     Pearson product-moment correlation coefficient
+#  RSR:   Spearman Correlation coefficient
+#  R2:    Coefficient of Determination
+#  rSD:   Ratio of Standard Deviations
+#  NSE:   Nash-Sutcliffe efficiency
+#  mNSE:  Modified Nash-Sutcliffe efficiency
+#  rNSE:  Relative Nash-Sutcliffe efficiency
+#  d:     Index of Agreement
+#  md:    Modified Index of Agreement
+#  rd:    Relative Index of Agreement
+#  cp:    Coefficient of Persistence
+#  PBIAS: Percent Bias
+#  KGE:   Kling-Gupta efficiency
+#  bR2:   the coef. of determination multiplied by the slope of the linear regression between "sim" and "obs"
+#  VE:    volumetric efficiency
+ 
+*** Comparison of ANNUAL totals for RoblesdelRio(USGS) ***
+ 
+ME                               27458.69
+MAE                              32978.31
+MSE                         1523853131.39
+RMSE                             39036.56
+NRMSE %                             55.30
+PBIAS %                             37.60
+RSR                                  0.55
+rSD                                  0.78
+NSE                                  0.68
+mNSE                                 0.36
+rNSE                                -3.02
+d                                    0.91
+md                                   0.66
+rd                                  -0.20
+cp                                   0.82
+r                                    0.93
+R2                                   0.86
+bR2                                  0.81
+KGE                                  0.56
+VE                                   0.55

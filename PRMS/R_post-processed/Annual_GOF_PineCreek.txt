@@ -1,0 +1,42 @@
+#  ME:    Mean Error
+#  MAE:   Mean Absolute Error
+#  RMSE:  Root Mean Square Error
+#  NRMSE: Normalized Root Mean Square Error
+#  r:     Pearson product-moment correlation coefficient
+#  RSR:   Spearman Correlation coefficient
+#  R2:    Coefficient of Determination
+#  rSD:   Ratio of Standard Deviations
+#  NSE:   Nash-Sutcliffe efficiency
+#  mNSE:  Modified Nash-Sutcliffe efficiency
+#  rNSE:  Relative Nash-Sutcliffe efficiency
+#  d:     Index of Agreement
+#  md:    Modified Index of Agreement
+#  rd:    Relative Index of Agreement
+#  cp:    Coefficient of Persistence
+#  PBIAS: Percent Bias
+#  KGE:   Kling-Gupta efficiency
+#  bR2:   the coef. of determination multiplied by the slope of the linear regression between "sim" and "obs"
+#  VE:    volumetric efficiency
+ 
+*** Comparison of ANNUAL totals for PineCreek ***
+ 
+ME                               -2171.62
+MAE                               2420.61
+MSE                           10180846.71
+RMSE                              3190.74
+NRMSE %                             85.80
+PBIAS %                            -37.30
+RSR                                  0.86
+rSD                                  0.39
+NSE                                  0.22
+mNSE                                 0.18
+rNSE                                 0.51
+d                                    0.70
+md                                   0.55
+rd                                   0.81
+cp                                   0.63
+r                                    0.94
+R2                                   0.89
+bR2                                  0.49
+KGE                                  0.28
+VE                                   0.58

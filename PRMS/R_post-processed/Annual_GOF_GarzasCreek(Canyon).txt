@@ -1,0 +1,42 @@
+#  ME:    Mean Error
+#  MAE:   Mean Absolute Error
+#  RMSE:  Root Mean Square Error
+#  NRMSE: Normalized Root Mean Square Error
+#  r:     Pearson product-moment correlation coefficient
+#  RSR:   Spearman Correlation coefficient
+#  R2:    Coefficient of Determination
+#  rSD:   Ratio of Standard Deviations
+#  NSE:   Nash-Sutcliffe efficiency
+#  mNSE:  Modified Nash-Sutcliffe efficiency
+#  rNSE:  Relative Nash-Sutcliffe efficiency
+#  d:     Index of Agreement
+#  md:    Modified Index of Agreement
+#  rd:    Relative Index of Agreement
+#  cp:    Coefficient of Persistence
+#  PBIAS: Percent Bias
+#  KGE:   Kling-Gupta efficiency
+#  bR2:   the coef. of determination multiplied by the slope of the linear regression between "sim" and "obs"
+#  VE:    volumetric efficiency
+ 
+*** Comparison of ANNUAL totals for GarzasCreek(Canyon) ***
+ 
+ME                                4118.61
+MAE                               4118.61
+MSE                           26995118.98
+RMSE                              5195.68
+NRMSE %                            358.80
+PBIAS %                            163.60
+RSR                                  3.59
+rSD                                  2.24
+NSE                                -14.02
+mNSE                                -2.49
+rNSE                               -52.70
+d                                    0.30
+md                                   0.22
+rd                                  -1.51
+cp                                  -7.26
+r                                    0.09
+R2                                   0.01
+bR2                                  0.00
+KGE                                 -1.24
+VE                                  -0.64

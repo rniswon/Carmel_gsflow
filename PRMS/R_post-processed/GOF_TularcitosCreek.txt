@@ -1,0 +1,42 @@
+#  ME:    Mean Error
+#  MAE:   Mean Absolute Error
+#  RMSE:  Root Mean Square Error
+#  NRMSE: Normalized Root Mean Square Error
+#  r:     Pearson product-moment correlation coefficient
+#  RSR:   Spearman Correlation coefficient
+#  R2:    Coefficient of Determination
+#  rSD:   Ratio of Standard Deviations
+#  NSE:   Nash-Sutcliffe efficiency
+#  mNSE:  Modified Nash-Sutcliffe efficiency
+#  rNSE:  Relative Nash-Sutcliffe efficiency
+#  d:     Index of Agreement
+#  md:    Modified Index of Agreement
+#  rd:    Relative Index of Agreement
+#  cp:    Coefficient of Persistence
+#  PBIAS: Percent Bias
+#  KGE:   Kling-Gupta efficiency
+#  bR2:   the coef. of determination multiplied by the slope of the linear regression between "sim" and "obs"
+#  VE:    volumetric efficiency
+ 
+*** Comparison of DAILY flows for TularcitosCreek ***
+ 
+ME              34.39
+MAE             34.42
+MSE           7841.25
+RMSE            88.55
+NRMSE %        402.10
+PBIAS %        839.60
+RSR              4.02
+rSD              4.25
+NSE            -15.17
+mNSE            -5.64
+rNSE             -Inf
+d                0.41
+md               0.13
+rd               -Inf
+cp             -29.94
+r                0.63
+R2               0.40
+bR2              0.14
+KGE             -8.01
+VE              -7.40

@@ -1,0 +1,42 @@
+#  ME:    Mean Error
+#  MAE:   Mean Absolute Error
+#  RMSE:  Root Mean Square Error
+#  NRMSE: Normalized Root Mean Square Error
+#  r:     Pearson product-moment correlation coefficient
+#  RSR:   Spearman Correlation coefficient
+#  R2:    Coefficient of Determination
+#  rSD:   Ratio of Standard Deviations
+#  NSE:   Nash-Sutcliffe efficiency
+#  mNSE:  Modified Nash-Sutcliffe efficiency
+#  rNSE:  Relative Nash-Sutcliffe efficiency
+#  d:     Index of Agreement
+#  md:    Modified Index of Agreement
+#  rd:    Relative Index of Agreement
+#  cp:    Coefficient of Persistence
+#  PBIAS: Percent Bias
+#  KGE:   Kling-Gupta efficiency
+#  bR2:   the coef. of determination multiplied by the slope of the linear regression between "sim" and "obs"
+#  VE:    volumetric efficiency
+ 
+*** Comparison of ANNUAL totals for AboveLosPadresReservoir ***
+ 
+ME                              -36658.06
+MAE                              36658.06
+MSE                         1923667137.53
+RMSE                             43859.63
+NRMSE %                            364.70
+PBIAS %                            -42.80
+RSR                                  3.65
+rSD                                  1.83
+NSE                                -25.60
+mNSE                                -3.31
+rNSE                               -21.46
+d                                    0.16
+md                                   0.19
+rd                                   0.29
+cp                                 -11.75
+r                                   -1.00
+R2                                   1.00
+bR2                                  0.55
+KGE                                 -1.21
+VE                                   0.57

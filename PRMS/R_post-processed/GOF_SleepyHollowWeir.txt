@@ -1,0 +1,42 @@
+#  ME:    Mean Error
+#  MAE:   Mean Absolute Error
+#  RMSE:  Root Mean Square Error
+#  NRMSE: Normalized Root Mean Square Error
+#  r:     Pearson product-moment correlation coefficient
+#  RSR:   Spearman Correlation coefficient
+#  R2:    Coefficient of Determination
+#  rSD:   Ratio of Standard Deviations
+#  NSE:   Nash-Sutcliffe efficiency
+#  mNSE:  Modified Nash-Sutcliffe efficiency
+#  rNSE:  Relative Nash-Sutcliffe efficiency
+#  d:     Index of Agreement
+#  md:    Modified Index of Agreement
+#  rd:    Relative Index of Agreement
+#  cp:    Coefficient of Persistence
+#  PBIAS: Percent Bias
+#  KGE:   Kling-Gupta efficiency
+#  bR2:   the coef. of determination multiplied by the slope of the linear regression between "sim" and "obs"
+#  VE:    volumetric efficiency
+ 
+*** Comparison of DAILY flows for SleepyHollowWeir ***
+ 
+ME               2.12
+MAE             64.67
+MSE          32034.61
+RMSE           178.98
+NRMSE %         59.60
+PBIAS %          2.10
+RSR              0.60
+rSD              0.86
+NSE              0.64
+mNSE             0.50
+rNSE             -Inf
+d                0.89
+md               0.71
+rd               -Inf
+cp               0.03
+r                0.81
+R2               0.65
+bR2              0.47
+KGE              0.76
+VE               0.37
