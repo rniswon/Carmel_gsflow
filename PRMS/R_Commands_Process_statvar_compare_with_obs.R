@@ -197,16 +197,19 @@ for(i in (1:nrow(key_file)))
     
     # plot daily time series
     # ----------------------
+    ylim <- c(0,1.01 * max(obs[,!grepl('Date|wyr', colnames(obs))]))
+    ylim_log <- c(0.01,1.01 * max(obs[,!grepl('Date|wyr', colnames(obs))]))
+    
     png(paste0('./R_post-processed/', trimws(key_file[i,'Stream.Gauge.Name']),'_Daily_time_series.png'), height=700,width=1200, res=130)
         par(mar=c(4,5,1,1))
-        plot(obs$Date, obs[,!grepl('Date|wyr', colnames(obs))], typ='l', col='blue', lwd=2, xlab='Date', ylab='Q, cfs', xaxs='i', yaxs='i', las=1, ylim=c(0,12000))
+        plot(obs$Date, obs[,!grepl('Date|wyr', colnames(obs))], typ='l', col='blue', lwd=2, xlab='Date', ylab='Q, cfs', xaxs='i', yaxs='i', las=1, ylim=ylim)
         points(sim$Date, sim[,!grepl('Date|wyr', colnames(sim))], col='red', typ='l', lty=2)
         legend('topright',c('Simulated','Observed'), col=c('red','blue'), lty=c(1,2), lwd=c(2,1), bty='n', bg='white')
     dev.off()
     
     png(paste0('./R_post-processed/', trimws(key_file[i,'Stream.Gauge.Name']),'_Daily_time_series_log_scale.png'), height=700,width=1200, res=130)
         par(mar=c(4,5,1,1))
-        plot(obs$Date,obs[,!grepl('Date|wyr', colnames(obs))], typ='l', col='blue', lwd=2, xlab='Date', ylab='Log10(Q), cfs', xaxs='i', yaxs='i', las=1, ylim=c(0.1,12000), log='y')
+        plot(obs$Date,obs[,!grepl('Date|wyr', colnames(obs))], typ='l', col='blue', lwd=2, xlab='Date', ylab='Log10(Q), cfs', xaxs='i', yaxs='i', las=1, ylim=ylim_log, log='y')
         points(sim$Date, sim[,!grepl('Date|wyr', colnames(sim))], col='red', typ='l', lty=2)
         legend('topright',c('Simulated','Observed'), col=c('red','blue'), lty=c(1,2), lwd=c(2,1), bty='n', bg='white')
     dev.off()
@@ -289,9 +292,11 @@ for(i in (1:nrow(key_file)))
     obs_dy <- aggregate(obs_dy[[colnames(obs_dy[!grepl('Date|wyr|mon_day', colnames(obs_dy))])]] ~ mon_day, data = obs_dy, mean)
     names(obs_dy) <- c('JDay','Q')
     
+    ylim2 <- c(0, 1.01 * max(sim_dy$Q))
+    
     png(paste0('./R_post-processed/', trimws(key_file[i,'Stream.Gauge.Name']),'_Daily_Mean_Flow.png'), height=700, width=800, res=130)
         par(mar=c(4,5,1,1))
-        plot(sim_dy$Q, pch=16, col='red', ylim=c(0,750), las=1, xlab='Day of Year (ticks @ start of the month)', ylab = 'Mean Daily Flow, cfs', xaxt='n', yaxs='i')
+        plot(sim_dy$Q, pch=16, col='red', ylim=ylim2, las=1, xlab='Day of Year (ticks @ start of the month)', ylab = 'Mean Daily Flow, cfs', xaxt='n', yaxs='i')
         points(obs_dy$Q, col='blue')
         axis(side=1, at=cumsum(c(1,30,28,31,30,31,30,31,31,30,31,30)), labels=format(seq(as.Date('1980-01-01'), as.Date('1980-12-01'), by='month'), '%m'))
         legend('top', c('Simulated','Observed'), pch=c(16,1), col=c('red','blue'), bty='n', bg='white')
