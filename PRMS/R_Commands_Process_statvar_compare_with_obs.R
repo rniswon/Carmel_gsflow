@@ -3,7 +3,7 @@ library(hydroGOF)
 library(gdata)
 
 setwd('D:/EDM_LT/github/Carmel/PRMS')
-setwd('C:/Users/rniswon/Documents/Data/Git/carmel.git/PRMS')
+#setwd('C:/Users/rniswon/Documents/Data/Git/carmel.git/PRMS')
 
 
 # ***** Important *****
@@ -199,21 +199,21 @@ for(i in (1:nrow(key_file)))
     
     # plot daily time series
     # ----------------------
-    ylim <- c(0,1.01 * max(obs[,!grepl('Date|wyr', colnames(obs))]))
-    ylim_log <- c(0.01,1.01 * max(obs[,!grepl('Date|wyr', colnames(obs))]))
+    ylim <- c(0,1.01 * max(obs[,!grepl('Date|wyr', colnames(obs))], na.rm=TRUE))
+    ylim_log <- c(0.01,1.01 * max(obs[,!grepl('Date|wyr', colnames(obs))], na.rm=TRUE))
     
     png(paste0('./R_post-processed/', trimws(key_file[i,'Stream.Gauge.Name']),'_Daily_time_series.png'), height=700,width=1200, res=130)
         par(mar=c(4,5,1,1))
         plot(obs$Date, obs[,!grepl('Date|wyr', colnames(obs))], typ='l', col='blue', lwd=2, xlab='Date', ylab='Q, cfs', xaxs='i', yaxs='i', las=1, ylim=ylim)
         points(sim$Date, sim[,!grepl('Date|wyr', colnames(sim))], col='red', typ='l', lty=2)
-        legend('topright',c('Simulated','Observed'), col=c('red','blue'), lty=c(1,2), lwd=c(2,1), bty='n', bg='white')
+        legend('topright',c('Observed','Simulated'), col=c('blue','red'), lty=c(1,2), lwd=c(2,1), bty='n', bg='white')
     dev.off()
     
     png(paste0('./R_post-processed/', trimws(key_file[i,'Stream.Gauge.Name']),'_Daily_time_series_log_scale.png'), height=700,width=1200, res=130)
         par(mar=c(4,5,1,1))
         plot(obs$Date,obs[,!grepl('Date|wyr', colnames(obs))], typ='l', col='blue', lwd=2, xlab='Date', ylab='Log10(Q), cfs', xaxs='i', yaxs='i', las=1, ylim=ylim_log, log='y')
         points(sim$Date, sim[,!grepl('Date|wyr', colnames(sim))], col='red', typ='l', lty=2)
-        legend('topright',c('Simulated','Observed'), col=c('red','blue'), lty=c(1,2), lwd=c(2,1), bty='n', bg='white')
+        legend('topright',c('Observed','Simulated'), col=c('blue','red'), lty=c(1,2), lwd=c(2,1), bty='n', bg='white')
     dev.off()
     
     
