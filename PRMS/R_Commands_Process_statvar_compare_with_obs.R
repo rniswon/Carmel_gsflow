@@ -7,7 +7,15 @@ setwd('D:/EDM_LT/github/Carmel/PRMS')
 
 # Add capability for appending plot version # to end of plot file names
 # Increment this value with each run of the script to preserve old output for comparing with new output
-ver <- 1
+args = commandArgs(trailingOnly=TRUE)
+
+if(length(args)==0) {
+  ver <- 1
+  print('Using a default version number of: 1')
+} else if(length(args) == 1){
+  ver <- args[1]
+  print(paste0('Using a user supplied version number of: ',args[1]))
+}
 
 # ***** Important *****
 # Set this variable for each individual model, comes from .out file, should be in acres
