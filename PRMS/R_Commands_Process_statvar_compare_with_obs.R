@@ -2,9 +2,20 @@
 library(hydroGOF)
 library(gdata)
 
-#setwd('D:/EDM_LT/github/Carmel/PRMS')
-setwd('C:/Users/rniswon/Documents/Data/Git/carmel.git/PRMS')
+setwd('D:/EDM_LT/github/Carmel/PRMS')
+#setwd('C:/Users/rniswon/Documents/Data/Git/carmel.git/PRMS')
 
+# Add capability for appending plot version # to end of plot file names
+# Increment this value with each run of the script to preserve old output for comparing with new output
+args = commandArgs(trailingOnly=TRUE)
+
+if(length(args)==0) {
+  ver <- 1
+  print('Using a default version number of: 1')
+} else if(length(args) == 1){
+  ver <- args[1]
+  print(paste0('Using a user supplied version number of: ',args[1]))
+}
 
 # ***** Important *****
 # Set this variable for each individual model, comes from .out file, should be in acres
@@ -192,28 +203,28 @@ for(i in (1:nrow(key_file)))
                  '#  VE:    volumetric efficiency',                                                                              
                  ' ',                                                                                                            
                  paste0('*** Comparison of DAILY flows for ',trimws(key_file[i,'Stream.Gauge.Name']),' ***'),                                                  
-                 ' '), con = paste0('./R_post-processed/GOF_',trimws(key_file[i,'Stream.Gauge.Name']),'.txt'))
+                 ' '), con = paste0('./R_post-processed/GOF_',trimws(key_file[i,'Stream.Gauge.Name']),'_ver',ver,'.txt'))
                                                      
-    write.fwf(gof(sim[!grepl('Date', colnames(sim))], obs[!grepl('Date', colnames(obs))]), file = paste0('./R_post-processed/GOF_',trimws(key_file[i,'Stream.Gauge.Name']),'.txt'), append = TRUE, quote=FALSE, rownames=TRUE, colnames=FALSE, width=c(10, 10))
+    write.fwf(gof(sim[!grepl('Date', colnames(sim))], obs[!grepl('Date', colnames(obs))]), file = paste0('./R_post-processed/GOF_',trimws(key_file[i,'Stream.Gauge.Name']),'_ver',ver,'.txt'), append = TRUE, quote=FALSE, rownames=TRUE, colnames=FALSE, width=c(10, 10))
     
     
     # plot daily time series
     # ----------------------
-    ylim <- c(0,1.01 * max(obs[,!grepl('Date|wyr', colnames(obs))]))
-    ylim_log <- c(0.01,1.01 * max(obs[,!grepl('Date|wyr', colnames(obs))]))
+    ylim <- c(0,1.01 * max(obs[,!grepl('Date|wyr', colnames(obs))], na.rm=TRUE))
+    ylim_log <- c(0.01,1.01 * max(obs[,!grepl('Date|wyr', colnames(obs))], na.rm=TRUE))
     
-    png(paste0('./R_post-processed/', trimws(key_file[i,'Stream.Gauge.Name']),'_Daily_time_series.png'), height=700,width=1200, res=130)
+    png(paste0('./R_post-processed/', trimws(key_file[i,'Stream.Gauge.Name']),'_Daily_time_series_ver',ver,'.png'), height=700,width=1200, res=130)
         par(mar=c(4,5,1,1))
         plot(obs$Date, obs[,!grepl('Date|wyr', colnames(obs))], typ='l', col='blue', lwd=2, xlab='Date', ylab='Q, cfs', xaxs='i', yaxs='i', las=1, ylim=ylim)
         points(sim$Date, sim[,!grepl('Date|wyr', colnames(sim))], col='red', typ='l', lty=2)
-        legend('topright',c('Simulated','Observed'), col=c('red','blue'), lty=c(1,2), lwd=c(2,1), bty='n', bg='white')
+        legend('topright',c('Observed','Simulated'), col=c('blue','red'), lty=c(1,2), lwd=c(2,1), bty='n', bg='white')
     dev.off()
     
-    png(paste0('./R_post-processed/', trimws(key_file[i,'Stream.Gauge.Name']),'_Daily_time_series_log_scale.png'), height=700,width=1200, res=130)
+    png(paste0('./R_post-processed/', trimws(key_file[i,'Stream.Gauge.Name']),'_Daily_time_series_log_scale_ver',ver,'.png'), height=700,width=1200, res=130)
         par(mar=c(4,5,1,1))
         plot(obs$Date,obs[,!grepl('Date|wyr', colnames(obs))], typ='l', col='blue', lwd=2, xlab='Date', ylab='Log10(Q), cfs', xaxs='i', yaxs='i', las=1, ylim=ylim_log, log='y')
         points(sim$Date, sim[,!grepl('Date|wyr', colnames(sim))], col='red', typ='l', lty=2)
-        legend('topright',c('Simulated','Observed'), col=c('red','blue'), lty=c(1,2), lwd=c(2,1), bty='n', bg='white')
+        legend('topright',c('Observed','Simulated'), col=c('blue','red'), lty=c(1,2), lwd=c(2,1), bty='n', bg='white')
     dev.off()
     
     
@@ -245,7 +256,7 @@ for(i in (1:nrow(key_file)))
                   dimnames = list(c("Simulated", "Observed"),
                                   as.character(obs_ann$wyr)))
     
-    png(paste0('./R_post-processed/', trimws(key_file[i,'Stream.Gauge.Name']),'_Annual_Totals.png'), height=700,width=800, res=130)
+    png(paste0('./R_post-processed/', trimws(key_file[i,'Stream.Gauge.Name']),'_Annual_Totals_ver',ver,'.png'), height=700,width=800, res=130)
         par(mar=c(4,5,2,1))
         barplot(mat, beside=TRUE, xlab='Water Year', ylab='', xaxs='i', yaxs='i', yaxt='n', col=c('red', 'blue'), las=1)
         axis(side=2, at=pretty(c(0:max(mat))), labels=pretty(c(0:max(mat))) / 1000, las=2)
@@ -277,9 +288,9 @@ for(i in (1:nrow(key_file)))
                  '#  VE:    volumetric efficiency',                                                                              
                  ' ',                                                                                                            
                  paste0('*** Comparison of ANNUAL totals for ',trimws(key_file[i,'Stream.Gauge.Name']),' ***'),                                                  
-                 ' '), con = paste0('./R_post-processed/Annual_GOF_',trimws(key_file[i,'Stream.Gauge.Name']),'.txt'))
+                 ' '), con = paste0('./R_post-processed/Annual_GOF_',trimws(key_file[i,'Stream.Gauge.Name']),'_ver',ver,'.txt'))
                                                      
-    write.fwf(gof(sim_ann[!grepl('Date|wyr', colnames(sim_ann))], obs_ann[!grepl('Date|wyr', colnames(obs_ann))]), file = paste0('./R_post-processed/Annual_GOF_',trimws(key_file[i,'Stream.Gauge.Name']),'.txt'), append = TRUE, quote=FALSE, rownames=TRUE, colnames=FALSE, width=c(20, 20))
+    write.fwf(gof(sim_ann[!grepl('Date|wyr', colnames(sim_ann))], obs_ann[!grepl('Date|wyr', colnames(obs_ann))]), file = paste0('./R_post-processed/Annual_GOF_',trimws(key_file[i,'Stream.Gauge.Name']),'_ver',ver,'.txt'), append = TRUE, quote=FALSE, rownames=TRUE, colnames=FALSE, width=c(20, 20))
     
     
     # Look at average daily comparison
@@ -296,7 +307,7 @@ for(i in (1:nrow(key_file)))
     
     ylim2 <- c(0, 1.01 * max(sim_dy$Q))
     
-    png(paste0('./R_post-processed/', trimws(key_file[i,'Stream.Gauge.Name']),'_Daily_Mean_Flow.png'), height=700, width=800, res=130)
+    png(paste0('./R_post-processed/', trimws(key_file[i,'Stream.Gauge.Name']),'_Daily_Mean_Flow_ver',ver,'.png'), height=700, width=800, res=130)
         par(mar=c(4,5,1,1))
         plot(sim_dy$Q, pch=16, col='red', ylim=ylim2, las=1, xlab='Day of Year (ticks @ start of the month)', ylab = 'Mean Daily Flow, cfs', xaxt='n', yaxs='i')
         points(obs_dy$Q, col='blue')
