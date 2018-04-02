@@ -63,7 +63,7 @@ data_file
 param_file
 3
 4
-.\INPUT\prms\carmel.param
+.\INPUT\prms\carmel_scaled.param
 .\INPUT\prms\hrucascades.param
 .\INPUT\prms\gwrcascades.param
 ####
