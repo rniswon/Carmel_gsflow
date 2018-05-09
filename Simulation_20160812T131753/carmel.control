@@ -13,7 +13,7 @@ GSFLOW
 start_time
 6
 1
-1990
+1991
 10
 1
 0
@@ -23,7 +23,7 @@ start_time
 end_time
 6
 1
-2017
+2015
 9
 30
 0
@@ -33,7 +33,7 @@ end_time
 modflow_time_zero
 6
 1
-1990
+1991
 10
 1
 0
@@ -325,7 +325,7 @@ hru_actet
 init_vars_from_file
 1
 1
-1
+0
 ####
 var_init_file
 1

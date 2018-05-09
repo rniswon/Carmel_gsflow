@@ -1,4 +1,6 @@
-#Carmel Valley Simulation -- GSFLOW #HEAD SAVE UNIT 58
+#Carmel Valley Simulation -- GSFLOW #
+HEAD SAVE FORMAT 0
+HEAD SAVE UNIT 99
 DRAWDOWN PRINT FORMAT   0
 PERIOD   1 STEP   1   
     PRINT BUDGET 
@@ -36,7 +38,8 @@ PERIOD   1 STEP   1200
     PRINT BUDGET
 PERIOD   1 STEP   1500   
     PRINT BUDGET
-PERIOD   1 STEP   1550   
+PERIOD   1 STEP   8784   
     PRINT BUDGET
+    save head
  
     

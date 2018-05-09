@@ -13,7 +13,8 @@ data            23   .\INPUT\modflow\lak_support\LP_bath.dat
 wel             20   .\INPUT\modflow\carmel.wel
 uzf             21   .\INPUT\modflow\carmel.uzf
 hob             22   .\INPUT\modflow\carmel.hob
-data            33   .\OUTPUT\hobsout.dat
+data            33   .\OUTPUT\hobsout.dat     
+data            99   .\OUTPUT\heads.out
 data(binary)    58   .\INPUT\modflow\bas_support\strt_hd.unf
 gage            48   .\INPUT\modflow\carmel.gag
 data            75   .\OUTPUT\GAGES\H1.gg1
