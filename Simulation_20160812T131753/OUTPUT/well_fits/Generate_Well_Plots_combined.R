@@ -34,17 +34,19 @@ for(i in seq(1,length(uni_names),by=9)){
     
 
     if(nrow(wel)!=0){
-        png(paste('./well_fits/well_fit_',as.character(i),'.png',sep=''), height=1200, width=1400, res=130)
+        png(paste('./well_fits/well_3x3_fit_',as.character(i),'.png',sep=''), height=1200, width=1400, res=130)
 #            par(mfrow=c(2,2))
-            par(mar=c(3,3,0.25,0.25),mfrow=c(3,3))
+            par(mar=c(3,5,0.25,0.25),mfrow=c(3,3))
             #
             
             #plot 1
-            plot(as.Date(wel1$date), wel1$sim, col="blue", typ='l', xlab='Year', ylab='Head (m)', ylim=c(0.92*min(wel1$sim, wel1$obs), 1.08*max(wel1$sim, wel1$obs)), las=1)
-            points(as.Date(wel1$date), wel1$obs, pch=8, col='red')
-            legend("topright", c('Simulated', 'Observed'), pch=c(NA, 8), col=c('blue','red'), lwd=c(1,NA), bty='n')
-#            mtext(side=3, paste("Well ", as.character(i),sep=''), line=-1.5, adj=0.05)
-            mtext(side=3, com_names[i], line=-1.5, adj=0.05)
+            if(nrow(wel1)!=0){
+              plot(as.Date(wel1$date), wel1$sim, col="blue", typ='l', xlab='Year', ylab='Head (m)', ylim=c(0.92*min(wel1$sim, wel1$obs), 1.08*max(wel1$sim, wel1$obs)), las=1)
+              points(as.Date(wel1$date), wel1$obs, pch=8, col='red')
+              legend("topright", c('Simulated', 'Observed'), pch=c(NA, 8), col=c('blue','red'), lwd=c(1,NA), bty='n')
+#              mtext(side=3, paste("Well ", as.character(i),sep=''), line=-1.5, adj=0.05)
+              mtext(side=3, com_names[i], line=-1.5, adj=0.05)
+            }
             
             #plot 2
             plot(as.Date(wel2$date), wel2$sim, col="blue", typ='l', xlab='Year', ylab='Head (m)', ylim=c(0.92*min(wel2$sim, wel2$obs), 1.08*max(wel2$sim, wel2$obs)), las=1)
@@ -54,11 +56,13 @@ for(i in seq(1,length(uni_names),by=9)){
             mtext(side=3, com_names[i+1], line=-1.5, adj=0.05)
             
             #plot 3
-            plot(as.Date(wel3$date), wel3$sim, col="blue", typ='l', xlab='Year', ylab='Head (m)', ylim=c(0.92*min(wel3$sim, wel3$obs), 1.08*max(wel3$sim, wel3$obs)), las=1)
-            points(as.Date(wel3$date), wel3$obs, pch=8, col='red')
-            legend("topright", c('Simulated', 'Observed'), pch=c(NA, 8), col=c('blue','red'), lwd=c(1,NA), bty='n')
-            #            mtext(side=3, paste("Well ", as.character(i),sep=''), line=-1.5, adj=0.05)
-            mtext(side=3, com_names[i+2], line=-1.5, adj=0.05)
+            if(nrow(wel3)!=0){
+              plot(as.Date(wel3$date), wel3$sim, col="blue", typ='l', xlab='Year', ylab='Head (m)', ylim=c(0.92*min(wel3$sim, wel3$obs), 1.08*max(wel3$sim, wel3$obs)), las=1)
+              points(as.Date(wel3$date), wel3$obs, pch=8, col='red')
+              legend("topright", c('Simulated', 'Observed'), pch=c(NA, 8), col=c('blue','red'), lwd=c(1,NA), bty='n')
+              #            mtext(side=3, paste("Well ", as.character(i),sep=''), line=-1.5, adj=0.05)
+              mtext(side=3, com_names[i+2], line=-1.5, adj=0.05)
+            }
             
             #plot 4
             plot(as.Date(wel4$date), wel4$sim, col="blue", typ='l', xlab='Year', ylab='Head (m)', ylim=c(0.92*min(wel4$sim, wel4$obs), 1.08*max(wel4$sim, wel4$obs)), las=1)
