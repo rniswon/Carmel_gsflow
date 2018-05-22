@@ -2,7 +2,7 @@
 setwd('C:/Users/rniswon/Documents/Data/Git/carmel.git/Simulation_20160812T131753/OUTPUT/')
 
 dat <- read.table('hobsout.dat', header=FALSE, skip=1, col.names=c('sim','obs','name'))
-common_names <- read.table('./well_fits/well_common_names.csv', header=FALSE, skip=1, col.names=c('comname'))
+common_names <- read.table('./well_fits/well_common_names.csv', sep=',', header=FALSE, skip=1, col.names=c('comname'))
 dat$name <- as.character(dat$name)
 dat$id   <- sapply(strsplit(dat[,'name'], "\\_"), `[[`, 1)
 dat$date <- sapply(strsplit(dat[,'name'], "\\_"), `[[`, 2)
