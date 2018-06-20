@@ -20,23 +20,23 @@
  
 *** Comparison of DAILY flows for CachaguaCreek ***
  
-ME              23.52
-MAE             24.12
-MSE           3393.91
-RMSE            58.26
-NRMSE %        170.70
-PBIAS %        366.70
-RSR              1.71
-rSD              1.93
-NSE             -1.91
-mNSE            -1.66
+ME              26.30
+MAE             26.96
+MSE           6314.70
+RMSE            79.47
+NRMSE %        230.10
+PBIAS %        417.60
+RSR              2.30
+rSD              2.62
+NSE             -4.29
+mNSE            -1.99
 rNSE             -Inf
-d                0.62
-md               0.26
+d                0.55
+md               0.28
 rd               -Inf
-cp              -2.46
+cp              -5.27
 r                0.60
 R2               0.36
-bR2              0.28
-KGE             -2.81
-VE              -2.76
+bR2              0.21
+KGE             -3.50
+VE              -3.28

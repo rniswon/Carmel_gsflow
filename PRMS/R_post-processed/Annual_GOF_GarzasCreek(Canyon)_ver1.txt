@@ -20,23 +20,23 @@
  
 *** Comparison of ANNUAL totals for GarzasCreek(Canyon) ***
  
-ME                                4118.61
-MAE                               4118.61
-MSE                           26995118.98
-RMSE                              5195.68
-NRMSE %                            358.80
-PBIAS %                            163.60
-RSR                                  3.59
-rSD                                  2.24
-NSE                                -14.02
-mNSE                                -2.49
-rNSE                               -52.70
+ME                                4714.26
+MAE                               4714.26
+MSE                           28701641.31
+RMSE                              5357.39
+NRMSE %                            370.00
+PBIAS %                            187.30
+RSR                                  3.70
+rSD                                  1.70
+NSE                                -14.97
+mNSE                                -3.00
+rNSE                               -62.38
 d                                    0.30
-md                                   0.22
-rd                                  -1.51
-cp                                  -7.26
+md                                   0.20
+rd                                  -1.78
+cp                                  -7.68
 r                                    0.09
 R2                                   0.01
 bR2                                  0.00
-KGE                                 -1.24
-VE                                  -0.64
+KGE                                 -1.20
+VE                                  -0.87

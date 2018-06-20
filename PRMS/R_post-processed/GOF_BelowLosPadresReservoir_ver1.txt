@@ -20,23 +20,23 @@
  
 *** Comparison of DAILY flows for BelowLosPadresReservoir ***
  
-ME              10.57
-MAE             72.25
-MSE          52142.94
-RMSE           228.35
-NRMSE %        179.60
-PBIAS %         17.00
-RSR              1.80
-rSD              1.69
-NSE             -2.23
-mNSE            -0.06
-rNSE           -44.99
-d                0.32
-md               0.47
-rd              -8.75
-cp             -14.39
-r                0.19
-R2               0.04
-bR2              0.02
-KGE             -0.08
-VE              -0.16
+ME              15.16
+MAE             82.08
+MSE          59202.51
+RMSE           243.32
+NRMSE %        191.40
+PBIAS %         24.40
+RSR              1.91
+rSD              1.86
+NSE             -2.66
+mNSE            -0.21
+rNSE           -67.80
+d                0.34
+md               0.48
+rd             -11.37
+cp             -16.47
+r                0.22
+R2               0.05
+bR2              0.03
+KGE             -0.19
+VE              -0.32

@@ -20,23 +20,23 @@
  
 *** Comparison of ANNUAL totals for DonJuanBridge ***
  
-ME                               35899.06
-MAE                              35899.06
-MSE                         1757162714.72
-RMSE                             41918.52
-NRMSE %                             69.20
-PBIAS %                             43.80
-RSR                                  0.69
-rSD                                  0.93
-NSE                                  0.50
-mNSE                                 0.23
-rNSE                                -3.47
-d                                    0.88
-md                                   0.63
-rd                                  -0.06
-cp                                   0.79
-r                                    0.93
-R2                                   0.87
-bR2                                  0.70
-KGE                                  0.55
-VE                                   0.56
+ME                               50265.12
+MAE                              50265.12
+MSE                         2975114349.63
+RMSE                             54544.61
+NRMSE %                             88.40
+PBIAS %                             62.70
+RSR                                  0.88
+rSD                                  0.95
+NSE                                  0.17
+mNSE                                -0.07
+rNSE                                -6.03
+d                                    0.83
+md                                   0.53
+rd                                  -0.46
+cp                                   0.64
+r                                    0.94
+R2                                   0.88
+bR2                                  0.64
+KGE                                  0.37
+VE                                   0.37

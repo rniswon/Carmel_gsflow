@@ -20,23 +20,23 @@
  
 *** Comparison of ANNUAL totals for SanClementeCreek ***
  
-ME                               -3515.33
-MAE                               4300.62
-MSE                           38758069.68
-RMSE                              6225.60
-NRMSE %                             80.50
-PBIAS %                            -35.00
-RSR                                  0.81
-rSD                                  0.34
-NSE                                  0.32
-mNSE                                 0.26
-rNSE                                 0.57
-d                                    0.68
-md                                   0.56
-rd                                   0.80
-cp                                   0.67
-r                                    0.95
-R2                                   0.91
-bR2                                  0.48
-KGE                                  0.25
+ME                               -2242.85
+MAE                               4086.01
+MSE                           36751986.89
+RMSE                              6062.34
+NRMSE %                             75.70
+PBIAS %                            -23.90
+RSR                                  0.76
+rSD                                  0.33
+NSE                                  0.40
+mNSE                                 0.32
+rNSE                               -11.43
+d                                    0.67
+md                                   0.53
+rd                                  -5.80
+cp                                   0.70
+r                                    0.89
+R2                                   0.80
+bR2                                  0.46
+KGE                                  0.28
 VE                                   0.57

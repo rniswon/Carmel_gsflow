@@ -20,23 +20,23 @@
  
 *** Comparison of ANNUAL totals for RoblesdelRio(USGS) ***
  
-ME                               27458.69
-MAE                              32978.31
-MSE                         1523853131.39
-RMSE                             39036.56
-NRMSE %                             55.30
-PBIAS %                             37.60
-RSR                                  0.55
-rSD                                  0.78
-NSE                                  0.68
-mNSE                                 0.36
-rNSE                                -3.02
-d                                    0.91
-md                                   0.66
-rd                                  -0.20
-cp                                   0.82
-r                                    0.93
-R2                                   0.86
-bR2                                  0.81
-KGE                                  0.56
-VE                                   0.55
+ME                               45880.93
+MAE                              45880.93
+MSE                         2495620762.24
+RMSE                             49956.19
+NRMSE %                             87.10
+PBIAS %                             63.80
+RSR                                  0.87
+rSD                                  0.93
+NSE                                  0.20
+mNSE                                -0.08
+rNSE                                -4.51
+d                                    0.83
+md                                   0.53
+rd                                  -0.18
+cp                                   0.63
+r                                    0.94
+R2                                   0.88
+bR2                                  0.65
+KGE                                  0.35
+VE                                   0.36

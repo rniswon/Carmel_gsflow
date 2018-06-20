@@ -20,23 +20,23 @@
  
 *** Comparison of DAILY flows for PotreroCreek ***
  
-ME               0.29
-MAE              1.71
-MSE             34.46
-RMSE             5.87
-NRMSE %         76.20
-PBIAS %         21.20
-RSR              0.76
-rSD              0.40
-NSE              0.42
-mNSE             0.24
+ME               0.71
+MAE              2.38
+MSE             45.91
+RMSE             6.78
+NRMSE %         87.90
+PBIAS %         51.80
+RSR              0.88
+rSD              0.21
+NSE              0.23
+mNSE            -0.05
 rNSE             -Inf
-d                0.67
-md               0.48
+d                0.43
+md               0.25
 rd               -Inf
-cp               0.13
-r                0.72
-R2               0.53
-bR2              0.17
-KGE              0.31
-VE              -0.25
+cp              -0.16
+r                0.66
+R2               0.43
+bR2              0.08
+KGE              0.00
+VE              -0.73

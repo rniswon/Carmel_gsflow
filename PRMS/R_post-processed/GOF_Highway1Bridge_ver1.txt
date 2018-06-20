@@ -20,23 +20,23 @@
  
 *** Comparison of DAILY flows for Highway1Bridge ***
  
-ME              67.01
-MAE            105.22
-MSE          74577.32
-RMSE           273.09
-NRMSE %         78.20
-PBIAS %         58.10
-RSR              0.78
-rSD              1.24
-NSE              0.39
-mNSE             0.31
+ME              90.70
+MAE            119.96
+MSE          68682.97
+RMSE           262.07
+NRMSE %         74.60
+PBIAS %         80.20
+RSR              0.75
+rSD              1.11
+NSE              0.44
+mNSE             0.20
 rNSE             -Inf
-d                0.87
-md               0.62
+d                0.86
+md               0.57
 rd               -Inf
-cp              -0.72
+cp              -0.56
 r                0.79
-R2               0.63
-bR2              0.60
-KGE              0.34
-VE               0.09
+R2               0.62
+bR2              0.59
+KGE              0.16
+VE              -0.06

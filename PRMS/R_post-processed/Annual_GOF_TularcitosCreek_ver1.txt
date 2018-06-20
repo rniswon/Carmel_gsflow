@@ -20,23 +20,23 @@
  
 *** Comparison of ANNUAL totals for TularcitosCreek ***
  
-ME                               24917.64
-MAE                              24917.64
-MSE                          698287949.19
-RMSE                             26425.14
-NRMSE %                            504.30
-PBIAS %                            839.60
-RSR                                  5.04
-rSD                                  2.41
-NSE                                -26.02
-mNSE                                -8.26
-rNSE                              -203.59
-d                                    0.30
-md                                   0.10
-rd                                  -4.30
-cp                                 -12.90
-r                                    0.79
-R2                                   0.63
-bR2                                  0.16
-KGE                                 -7.52
-VE                                  -7.40
+ME                               29112.56
+MAE                              29112.56
+MSE                          884287425.70
+RMSE                             29736.97
+NRMSE %                            567.50
+PBIAS %                            980.90
+RSR                                  5.67
+rSD                                  1.88
+NSE                                -33.22
+mNSE                                -9.82
+rNSE                              -306.14
+d                                    0.25
+md                                   0.08
+rd                                  -5.76
+cp                                 -16.63
+r                                    0.83
+R2                                   0.69
+bR2                                  0.18
+KGE                                 -8.85
+VE                                  -8.81

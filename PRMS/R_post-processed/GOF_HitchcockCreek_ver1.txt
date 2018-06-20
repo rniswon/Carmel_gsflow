@@ -20,23 +20,23 @@
  
 *** Comparison of DAILY flows for HitchcockCreek ***
  
-ME               1.01
-MAE              1.42
-MSE             12.90
-RMSE             3.59
-NRMSE %         72.50
-PBIAS %        117.10
-RSR              0.72
-rSD              0.77
-NSE              0.47
-mNSE             0.01
+ME               1.40
+MAE              2.16
+MSE             17.93
+RMSE             4.23
+NRMSE %         85.40
+PBIAS %        162.80
+RSR              0.85
+rSD              0.38
+NSE              0.27
+mNSE            -0.50
 rNSE             -Inf
-d                0.81
-md               0.45
+d                0.60
+md               0.24
 rd               -Inf
-cp               0.27
-r                0.72
-R2               0.52
-bR2              0.31
-KGE             -0.23
-VE              -0.66
+cp              -0.02
+r                0.65
+R2               0.42
+bR2              0.13
+KGE             -0.78
+VE              -1.51

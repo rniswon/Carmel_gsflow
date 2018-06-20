@@ -20,23 +20,23 @@
  
 *** Comparison of ANNUAL totals for CachaguaCreek ***
  
-ME                               16717.23
-MAE                              16717.23
-MSE                          299373276.17
-RMSE                             17302.41
-NRMSE %                            298.10
-PBIAS %                            369.00
-RSR                                  2.98
-rSD                                  1.56
-NSE                                 -8.36
-mNSE                                -3.61
-rNSE                              -160.01
-d                                    0.47
-md                                   0.18
-rd                                  -8.20
-cp                                  -3.25
-r                                    0.90
-R2                                   0.81
-bR2                                  0.30
-KGE                                 -2.73
-VE                                  -2.69
+ME                               17851.52
+MAE                              17851.52
+MSE                          375504862.88
+RMSE                             19377.95
+NRMSE %                            329.20
+PBIAS %                            418.70
+RSR                                  3.29
+rSD                                  2.08
+NSE                                -10.40
+mNSE                                -3.80
+rNSE                                 -Inf
+d                                    0.46
+md                                   0.19
+rd                                   -Inf
+cp                                  -4.24
+r                                    0.87
+R2                                   0.75
+bR2                                  0.25
+KGE                                 -3.33
+VE                                  -3.19

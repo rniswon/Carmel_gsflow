@@ -20,23 +20,23 @@
  
 *** Comparison of DAILY flows for AboveLosPadresReservoir ***
  
-ME            -193.16
-MAE            258.59
-MSE         232247.84
-RMSE           481.92
-NRMSE %         94.00
-PBIAS %        -50.50
-RSR              0.94
-rSD              0.62
-NSE              0.11
-mNSE             0.14
-rNSE            -1.09
-d                0.72
-md               0.58
-rd               0.35
-cp              -0.47
-r                0.58
-R2               0.34
-bR2              0.17
-KGE              0.33
-VE               0.32
+ME            -154.13
+MAE            250.90
+MSE         214722.32
+RMSE           463.38
+NRMSE %         90.40
+PBIAS %        -40.30
+RSR              0.90
+rSD              0.91
+NSE              0.18
+mNSE             0.16
+rNSE            -2.05
+d                0.75
+md               0.59
+rd               0.06
+cp              -0.36
+r                0.60
+R2               0.37
+bR2              0.21
+KGE              0.43
+VE               0.34

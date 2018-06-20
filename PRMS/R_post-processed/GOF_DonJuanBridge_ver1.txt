@@ -20,23 +20,23 @@
  
 *** Comparison of DAILY flows for DonJuanBridge ***
  
-ME              51.93
-MAE             89.46
-MSE          60687.55
-RMSE           246.35
-NRMSE %         77.00
-PBIAS %         43.80
-RSR              0.77
-rSD              1.27
-NSE              0.41
-mNSE             0.38
-rNSE            -9.77
-d                0.87
-md               0.67
-rd              -1.29
-cp              -0.67
+ME              72.90
+MAE            100.26
+MSE          53628.13
+RMSE           231.58
+NRMSE %         72.40
+PBIAS %         62.70
+RSR              0.72
+rSD              1.18
+NSE              0.48
+mNSE             0.30
+rNSE           -14.84
+d                0.88
+md               0.63
+rd              -2.63
+cp              -0.46
 r                0.81
-R2               0.65
-bR2              0.60
-KGE              0.45
-VE               0.25
+R2               0.66
+bR2              0.64
+KGE              0.32
+VE               0.14

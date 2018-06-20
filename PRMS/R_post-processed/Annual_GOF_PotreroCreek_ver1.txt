@@ -20,23 +20,23 @@
  
 *** Comparison of ANNUAL totals for PotreroCreek ***
  
-ME                                 211.15
-MAE                                630.40
-MSE                             894530.05
-RMSE                               945.80
-NRMSE %                             63.50
-PBIAS %                             21.20
-RSR                                  0.64
-rSD                                  0.41
-NSE                                  0.57
-mNSE                                 0.28
-rNSE                               -74.11
-d                                    0.78
-md                                   0.50
-rd                                 -36.82
-cp                                   0.77
-r                                    0.92
-R2                                   0.85
-bR2                                  0.55
-KGE                                  0.37
-VE                                   0.37
+ME                                 516.82
+MAE                                910.23
+MSE                            1216960.41
+RMSE                              1103.16
+NRMSE %                             74.10
+PBIAS %                             51.80
+RSR                                  0.74
+rSD                                  0.36
+NSE                                  0.41
+mNSE                                -0.04
+rNSE                              -216.91
+d                                    0.72
+md                                   0.35
+rd                                -103.32
+cp                                   0.71
+r                                    0.93
+R2                                   0.87
+bR2                                  0.62
+KGE                                  0.17
+VE                                   0.09

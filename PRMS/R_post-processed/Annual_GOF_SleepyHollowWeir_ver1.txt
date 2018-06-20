@@ -20,23 +20,23 @@
  
 *** Comparison of ANNUAL totals for SleepyHollowWeir ***
  
-ME                                1489.00
-MAE                              22907.51
-MSE                         1194991007.71
-RMSE                             34568.64
-NRMSE %                             50.90
-PBIAS %                              2.10
-RSR                                  0.51
-rSD                                  0.58
-NSE                                  0.73
-mNSE                                 0.53
-rNSE                                -0.05
-d                                    0.89
+ME                               15404.10
+MAE                              20863.79
+MSE                          622210756.59
+RMSE                             24944.15
+NRMSE %                             46.80
+PBIAS %                             22.20
+RSR                                  0.47
+rSD                                  0.77
+NSE                                  0.77
+mNSE                                 0.49
+rNSE                                -0.59
+d                                    0.93
 md                                   0.71
-rd                                   0.57
-cp                                   0.85
-r                                    0.92
-R2                                   0.85
-bR2                                  0.68
-KGE                                  0.57
-VE                                   0.68
+rd                                   0.51
+cp                                   0.90
+r                                    0.94
+R2                                   0.89
+bR2                                  0.85
+KGE                                  0.67
+VE                                   0.70

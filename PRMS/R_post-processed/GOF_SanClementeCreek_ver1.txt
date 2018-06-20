@@ -20,23 +20,23 @@
  
 *** Comparison of DAILY flows for SanClementeCreek ***
  
-ME              -4.88
-MAE              9.17
-MSE            594.39
-RMSE            24.38
-NRMSE %         67.10
-PBIAS %        -35.10
-RSR              0.67
-rSD              0.50
-NSE              0.55
-mNSE             0.47
+ME              -3.28
+MAE             11.95
+MSE            920.46
+RMSE            30.34
+NRMSE %         84.00
+PBIAS %        -24.00
+RSR              0.84
+rSD              0.24
+NSE              0.29
+mNSE             0.30
 rNSE             -Inf
-d                0.79
-md               0.67
+d                0.51
+md               0.47
 rd               -Inf
-cp              -0.62
-r                0.82
-R2               0.67
-bR2              0.29
-KGE              0.36
-VE               0.34
+cp              -1.53
+r                0.75
+R2               0.56
+bR2              0.14
+KGE              0.16
+VE               0.13

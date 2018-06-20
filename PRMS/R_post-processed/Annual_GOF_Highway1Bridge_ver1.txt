@@ -20,23 +20,23 @@
  
 *** Comparison of ANNUAL totals for Highway1Bridge ***
  
-ME                               46401.25
-MAE                              46401.25
-MSE                         2797698236.93
-RMSE                             52893.27
-NRMSE %                             78.70
-PBIAS %                             58.30
-RSR                                  0.79
-rSD                                  0.90
-NSE                                  0.35
-mNSE                                 0.08
-rNSE                               -13.04
-d                                    0.85
-md                                   0.57
-rd                                  -2.23
-cp                                   0.72
+ME                               62632.92
+MAE                              62632.92
+MSE                         4574702508.31
+RMSE                             67636.55
+NRMSE %                             98.60
+PBIAS %                             80.30
+RSR                                  0.99
+rSD                                  0.92
+NSE                                 -0.03
+mNSE                                -0.22
+rNSE                              -171.95
+d                                    0.80
+md                                   0.49
+rd                                 -33.57
+cp                                   0.54
 r                                    0.92
 R2                                   0.85
-bR2                                  0.66
-KGE                                  0.40
-VE                                   0.42
+bR2                                  0.61
+KGE                                  0.19
+VE                                   0.20

@@ -20,23 +20,23 @@
  
 *** Comparison of ANNUAL totals for RobinsonCanyonCreek ***
  
-ME                                 204.22
-MAE                                679.16
-MSE                            1085764.40
-RMSE                              1042.00
-NRMSE %                             63.80
-PBIAS %                             17.20
-RSR                                  0.64
-rSD                                  0.40
-NSE                                  0.57
-mNSE                                 0.34
-rNSE                               -22.91
-d                                    0.78
-md                                   0.53
-rd                                 -11.29
-cp                                   0.80
-r                                    0.93
-R2                                   0.86
+ME                                 498.73
+MAE                                945.34
+MSE                            1544418.15
+RMSE                              1242.75
+NRMSE %                             76.10
+PBIAS %                             42.10
+RSR                                  0.76
+rSD                                  0.33
+NSE                                  0.38
+mNSE                                 0.08
+rNSE                               -72.09
+d                                    0.69
+md                                   0.39
+rd                                 -36.26
+cp                                   0.71
+r                                    0.91
+R2                                   0.82
 bR2                                  0.57
-KGE                                  0.37
-VE                                   0.43
+KGE                                  0.20
+VE                                   0.20

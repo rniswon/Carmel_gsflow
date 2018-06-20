@@ -2,7 +2,7 @@
 # ******************************************
 # Uncomment the following on Rich's machine:
 # ******************************************
- setwd('D:/DATA/Niswonger/Carmel.git/Simulation_20160812T131753/OUTPUT/gages')
+ setwd('C:/Users/rniswon/Documents/Data/Git/carmel.git/Simulation_20160812T131753/OUTPUT/gages')
 
 # ******************************************
 # Uncomment the following on Eric's machine:
@@ -18,23 +18,24 @@ RR <- read.table('RR.gg10', skip=2, header=FALSE, col.names=c('Time','Stage','De
 SH <- read.table('SH.gg12', skip=2, header=FALSE, col.names=c('Time','Stage','Depth','GWHead','MidptFlow','StreamLoss','GWRech','ChngeUZStor','VolUZStor'))
 CL <- read.table('CL.gg13', skip=2, header=FALSE, col.names=c('Time','Stage','Depth','GWHead','MidptFlow','StreamLoss','GWRech','ChngeUZStor','VolUZStor'))
 # 
+H1
 
 # Because the simulated values don't have a time stamp, need to give them one.  According to the transient control file, dates range from 10-1-1990 to 10-31-1995
-H1_dates_full <- seq(as.Date('1990-10-01'), as.Date('2010-10-31'), by='day')
-NC_dates_full <- seq(as.Date('1990-10-01'), as.Date('2010-10-31'), by='day')
-GA_dates_full <- seq(as.Date('1990-10-01'), as.Date('2010-10-31'), by='day')
-DJ_dates_full <- seq(as.Date('1990-10-01'), as.Date('2010-10-31'), by='day')
-RR_dates_full <- seq(as.Date('1990-10-01'), as.Date('2010-10-31'), by='day')
-SH_dates_full <- seq(as.Date('1990-10-01'), as.Date('2010-10-31'), by='day')
-CL_dates_full <- seq(as.Date('1990-10-01'), as.Date('2010-10-31'), by='day')
+H1_dates_full <- seq(as.Date('1990-10-01'), as.Date('2017-09-30'), by='day')
+NC_dates_full <- seq(as.Date('1990-10-01'), as.Date('2017-09-30'), by='day')
+GA_dates_full <- seq(as.Date('1990-10-01'), as.Date('2017-09-30'), by='day')
+DJ_dates_full <- seq(as.Date('1990-10-01'), as.Date('2017-09-30'), by='day')
+RR_dates_full <- seq(as.Date('1990-10-01'), as.Date('2017-09-30'), by='day')
+SH_dates_full <- seq(as.Date('1990-10-01'), as.Date('2017-09-30'), by='day')
+CL_dates_full <- seq(as.Date('1990-10-01'), as.Date('2017-09-30'), by='day')
 
-H1_dates_calib <- seq(as.Date('1990-10-01'), as.Date('2010-10-31'), by='day')
-NC_dates_calib <- seq(as.Date('1990-10-01'), as.Date('2010-10-31'), by='day')
-GA_dates_calib <- seq(as.Date('1990-10-01'), as.Date('2010-10-31'), by='day')
-DJ_dates_calib <- seq(as.Date('1990-10-01'), as.Date('2010-10-31'), by='day')
-RR_dates_calib <- seq(as.Date('1990-10-01'), as.Date('2010-10-31'), by='day')
-SH_dates_calib <- seq(as.Date('1990-10-01'), as.Date('2010-10-31'), by='day')
-CL_dates_calib <- seq(as.Date('1990-10-01'), as.Date('2010-10-31'), by='day')
+H1_dates_calib <- seq(as.Date('1990-10-01'), as.Date('2017-09-30'), by='day')
+NC_dates_calib <- seq(as.Date('1990-10-01'), as.Date('2017-09-30'), by='day')
+GA_dates_calib <- seq(as.Date('1990-10-01'), as.Date('2017-09-30'), by='day')
+DJ_dates_calib <- seq(as.Date('1990-10-01'), as.Date('2017-09-30'), by='day')
+RR_dates_calib <- seq(as.Date('1990-10-01'), as.Date('2017-09-30'), by='day')
+SH_dates_calib <- seq(as.Date('1990-10-01'), as.Date('2017-09-30'), by='day')
+CL_dates_calib <- seq(as.Date('1990-10-01'), as.Date('2017-09-30'), by='day')
 
 
 # Check to make sure their lengths are equivelent before merging:
@@ -43,7 +44,7 @@ length(H1_dates_calib)
 nrow(H1)
 
 # Add the time stamp to the simulated values
-if(nrow(H1)==7336){
+if(nrow(H1)==9862){
     H1$Date <- H1_dates_calib
     NC$Date <- NC_dates_calib
     GA$Date <- GA_dates_calib
@@ -165,7 +166,7 @@ png('NC_hydroGraph.png',width=6.5, height=4.5, units='in',res=140)
   par(mar=c(4,5,1,1))
   # Don't forget to apply unit conversion to simulated values for lining up with observations.
   plot(as.Date(NC$Date), NC$MidptFlow * 35.315 / 86400, typ='l', xlab='Time Step', xaxs='i', yaxs='i', ylab=expression(paste('Streamflow, ',ft^3~ s^-1,sep='')), las=1)
-  points(as.Date(NC_obs$Date), _obs$Q, typ='l',lty=2, col='red')
+  points(as.Date(NC_obs$Date), NC_obs$Q, typ='l',lty=2, col='red')
   legend('topleft', c('Simulated','Observed'), col=c('black','red'), lty=c(1,2), bty='n', bg='white') 
 dev.off()
 

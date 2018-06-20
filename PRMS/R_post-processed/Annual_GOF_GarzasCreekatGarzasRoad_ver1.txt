@@ -20,23 +20,23 @@
  
 *** Comparison of ANNUAL totals for GarzasCreekatGarzasRoad ***
  
-ME                                -571.26
-MAE                               2437.71
-MSE                           12935894.89
-RMSE                              3596.65
-NRMSE %                             60.60
-PBIAS %                             -9.30
-RSR                                  0.61
-rSD                                  0.42
-NSE                                  0.61
-mNSE                                 0.42
-rNSE                                -1.65
-d                                    0.80
-md                                   0.61
-rd                                  -0.33
-cp                                   0.80
-r                                    0.95
-R2                                   0.90
-bR2                                  0.60
-KGE                                  0.41
-VE                                   0.60
+ME                                 274.57
+MAE                               2944.93
+MSE                           15719675.00
+RMSE                              3964.80
+NRMSE %                             66.80
+PBIAS %                              4.50
+RSR                                  0.67
+rSD                                  0.33
+NSE                                  0.53
+mNSE                                 0.30
+rNSE                                -7.75
+d                                    0.73
+md                                   0.48
+rd                                  -3.98
+cp                                   0.76
+r                                    0.96
+R2                                   0.92
+bR2                                  0.65
+KGE                                  0.33
+VE                                   0.52

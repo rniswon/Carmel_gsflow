@@ -20,23 +20,23 @@
  
 *** Comparison of DAILY flows for NearCarmel(USGS) ***
  
-ME              54.86
-MAE             98.56
-MSE          61052.61
-RMSE           247.09
-NRMSE %         72.40
-PBIAS %         51.30
-RSR              0.72
-rSD              1.14
-NSE              0.48
-mNSE             0.33
+ME              89.28
+MAE            113.36
+MSE          60401.77
+RMSE           245.77
+NRMSE %         76.20
+PBIAS %         84.50
+RSR              0.76
+rSD              1.18
+NSE              0.42
+mNSE             0.20
 rNSE             -Inf
 d                0.87
-md               0.63
+md               0.58
 rd               -Inf
-cp              -0.56
-r                0.79
-R2               0.63
-bR2              0.60
-KGE              0.43
-VE               0.08
+cp              -0.44
+r                0.80
+R2               0.64
+bR2              0.62
+KGE              0.11
+VE              -0.07
