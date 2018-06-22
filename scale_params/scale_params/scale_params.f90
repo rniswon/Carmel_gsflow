@@ -79,8 +79,32 @@
           read(in, *)subbasin(i)
         end do
     rewind(in)
-    i=0
+!    i=0
+!! find parameter(s) of interest for scaling
+!     DO
+!        i = i + 1  !save i for below
+!        read(in,*,IOSTAT=Iostat) line
+!        LLOC=1
+!        CALL URWORD(LINE,LLOC,ISTART,ISTOP,1,I,R,out,IN)
+!        select case (LINE(ISTART:ISTOP))
+!        case('RAIN_ADJ')
+!            read(in,*) line
+!            read(in,*) line
+!            read(in,*) line
+!            read(in,*) numvals
+!            read(in,*) line         !next value to read will be first parameter value         
+!            write(out,*)'found RAIN_ADJ'
+!            exit
+!        case default
+!            if( Iostat < 0 ) then
+!              write(out,*)'end of file reached without finding parameter to scale'
+!              exit
+!            end if
+!        end select
+!     end do
+!     isave = i - 1  !reset to before parameter name
 ! find parameter(s) of interest for scaling
+     i=0
      DO
         i = i + 1  !save i for below
         read(in,*,IOSTAT=Iostat) line
@@ -102,7 +126,7 @@
             end if
         end select
      end do
-     isave = i - 1  !reset to before "rain_adj"
+     isave = i - 1  !reset to before parameter name
 !
 ! allocate array to hold parameter
         allocate (param(numvals))
