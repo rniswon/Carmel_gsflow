@@ -3,7 +3,8 @@
 # Transient Simulation
 # Created on July 20 2018
 # Column1: Time in days from start date
-# Column2: Pumping Volume in cubic meters/day0	9786.32
+# Column2: Pumping Volume in cubic meters/day
+0	9786.32
 91	0.00001
 188	9786.32
 457	0.00001
