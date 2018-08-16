@@ -220,6 +220,15 @@ for(i in (1:nrow(key_file)))
         legend('topright',c('Observed','Simulated'), col=c('blue','red'), lty=c(1,2), lwd=c(2,1), bty='n', bg='white')
     dev.off()
     
+    png(paste0('./R_post-processed/', trimws(key_file[i,'Stream.Gauge.Name']),'_Daily_time_series_max210_ver',ver,'.png'), height=700,width=1200, res=130)
+        par(mar=c(4,5,1,1))
+        plot(obs$Date, obs[,!grepl('Date|wyr', colnames(obs))], typ='l', col='blue', lwd=2, xlab='Date', ylab='Q, cfs', xaxs='i', yaxs='i', yaxt='n', las=1, ylim=c(0,210))
+        axis(side=2, at = seq(0,200,by=20), labels=seq(0,200,by=20), las=1)
+        points(sim$Date, sim[,!grepl('Date|wyr', colnames(sim))], col='red', typ='l', lty=2)
+        legend('topright',c('Observed','Simulated'), col=c('blue','red'), lty=c(1,2), lwd=c(2,1), bty='o', bg='white')
+    dev.off()
+ 
+    
     png(paste0('./R_post-processed/', trimws(key_file[i,'Stream.Gauge.Name']),'_Daily_time_series_log_scale_ver',ver,'.png'), height=700,width=1200, res=130)
         par(mar=c(4,5,1,1))
         plot(obs$Date,obs[,!grepl('Date|wyr', colnames(obs))], typ='l', col='blue', lwd=2, xlab='Date', ylab='Log10(Q), cfs', xaxs='i', yaxs='i', las=1, ylim=ylim_log, log='y')
