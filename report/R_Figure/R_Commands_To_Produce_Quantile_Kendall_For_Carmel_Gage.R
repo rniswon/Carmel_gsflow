@@ -479,3 +479,15 @@ dev.off()
 
 
 plotFiveTrendGraphs(eList, legendLocation = "bottomleft")
+
+Daily_wyr <- subset(Daily, Daily$Date > '1962-09-30' & Daily$Date < '2017-10-01')
+Daily_wyr$zeroQday <- ifelse(Daily_wyr$Q < 0.01, 1, 0)
+dat <- aggregate(zeroQday ~ waterYear, Daily_wyr, sum)
+
+png("D:/EDM_LT/GitHub/Carmel/report/R_Figure/Zero_Flow_Day_Counts.png", width=1200, height=700, res=130)
+  par(mar=c(5,4,1,0.25))
+  x <- barplot(dat$zeroQday, las=1, ylim=c(0,366), ylab='# of Zero Flow Days') 
+  box()
+  axis(side=1, at=seq(x[3], x[53], by=6), labels=seq(1965, 2015, by=5), las=2, tcl=0)
+dev.off()
+
