@@ -1,0 +1,10 @@
+.\Carmel-Interpolated_SY_L_2_By_ppk2fac.txt                                                                               
+f                                                                               
+.\Lay_2_SY_PP_List.txt                                                                              
+s                                                                               
+1e-8                                                                            
+s                                                                               
+1e8                                                                             
+..\modflow\upw_support\SY_Lay_2.txt                                                                              
+f                                                                               
+0.000                                                                           

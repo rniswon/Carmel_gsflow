@@ -1,0 +1,19 @@
+# Well Pumping Time Series Data for Well DWR39999 : DWR39999
+# Start Date 1990
+# Transient Simulation
+# Created on 09-May-2017 20:26:40
+# Column-1: Time in days from start date
+# Column-2: Pumping Volume in cubic meters
+         0  0.00
+      1170 -0.62
+      1200 -0.58
+      1230 -0.67
+      1260 -0.73
+      1290 -0.91
+      1320 -0.96
+      1350 -1.02
+      1380 -1.02
+      1410 -0.93
+      1440 -0.86
+      1470 -0.70
+      1500 -0.63

@@ -1,0 +1,28 @@
+# Well Pumping Time Series Data for Well 101140 : 101140
+# Start Date 1990
+# Transient Simulation
+# Created on 09-May-2017 20:26:38
+# Column-1: Time in days from start date
+# Column-2: Pumping Volume in cubic meters
+         0  0.00
+      8010 -0.04
+      8040 -0.04
+      8070 -0.04
+      8100 -0.05
+      8130 -0.06
+      8160 -0.06
+      8190 -0.06
+      8220 -0.06
+      8250 -0.06
+      8280 -0.05
+      8310 -0.04
+      8340 -0.04
+      8370 -0.01
+      8400 -0.01
+      8430 -0.01
+      8460 -0.01
+      8490 -0.01
+      8520 -0.01
+      8550 -0.01
+      8580 -0.01
+      8610 -0.01

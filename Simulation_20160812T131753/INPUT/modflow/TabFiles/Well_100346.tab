@@ -1,0 +1,27 @@
+# Well Pumping Time Series Data for Well 100346 : Stanton
+# Start Date 1990
+# Transient Simulation
+# Created on 09-May-2017 20:26:33
+# Column-1: Time in days from start date
+# Column-2: Pumping Volume in cubic meters
+         0  0.00
+         1 -98.05
+        30 -113.24
+        60 -95.40
+       120 -102.21
+       150 -27.30
+       180 -99.94
+       210 -1619.74
+       240 -72.76
+       270 -90.15
+       300 -99.00
+       330 -25.66
+       360 -73.29
+       390 -95.82
+       570 -31.66
+       630 -30.55
+       660 -95.36
+       690 -95.75
+       720 -32.62
+       750 -32.59
+       780 -33.23
