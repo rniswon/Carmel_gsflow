@@ -1,0 +1,25 @@
+1991	Dry
+1992	Normal
+1993	Wet
+1994	Dry
+1995	Extremely Wet
+1996	Wet
+1997	Above Normal
+1998	Extremely Wet
+1999	Normal
+2000	Above Normal
+2001	Normal
+2002	Below Normal
+2003	Normal
+2004	Below Normal
+2005	Wet
+2006	Wet
+2007	Dry
+2008	Normal
+2009	Normal
+2010	Above Normal
+2011	Wet
+2012	Dry
+2013	Dry
+2014	Critically Dry
+2015	Dry
