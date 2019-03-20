@@ -1,0 +1,13 @@
+* model output
+.\CR_H1_Processed_Output.out.ins        .\CR_H1_Processed_Output.out
+* equations
+ann_diff_93   = RO_sim93_H1 - RO_obs93_H1
+ann_diff_94   = RO_sim94_H1 - RO_obs94_H1
+ann_diff_95   = RO_sim95_H1 - RO_obs95_H1
+prct_H1_93   = ann_diff_93 / RO_obs93_H1 * 100
+prct_H1_94   = ann_diff_94 / RO_obs94_H1 * 100
+prct_H1_95   = ann_diff_95 / RO_obs95_H1 * 100
+* output
+prct_H1_93
+prct_H1_94
+prct_H1_95

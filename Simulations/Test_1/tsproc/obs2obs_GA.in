@@ -1,0 +1,13 @@
+* model output
+.\CR_GA_Processed_Output.out.ins        .\CR_GA_Processed_Output.out
+* equations
+ann_diff_93   = RO_sim93_GA - RO_obs93_GA
+ann_diff_94   = RO_sim94_GA - RO_obs94_GA
+ann_diff_95   = RO_sim95_GA - RO_obs95_GA
+prct_GA_93   = ann_diff_93 / RO_obs93_GA * 100
+prct_GA_94   = ann_diff_94 / RO_obs94_GA * 100
+prct_GA_95   = ann_diff_95 / RO_obs95_GA * 100
+* output
+prct_GA_93
+prct_GA_94
+prct_GA_95
