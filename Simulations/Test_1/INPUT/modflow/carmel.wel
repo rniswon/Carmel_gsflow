@@ -1,10 +1,10 @@
-# C:\Users\ROQ Inc\CLIENTS\MPWMD\GSFLOW_dropbox_partial\mfiles\mgsflow\testoutput\Simulation_20190317T173956
-# Created on 17-Mar-2019 17:46:18
+# C:\Users\ROQ Inc\CLIENTS\MPWMD\GSFLOW_dropbox_partial\mfiles\mgsflow\testoutput\Simulation_20190320T084217
+# Created on 20-Mar-2019 08:42:47
 # Data are TABUNIT, TABVAL, TABLAY, TABROW, TABCOL
 # 
 OPTIONS   ! character options
 SPECIFY 0.1    0        ! reducing pumping for dry wells
-tabfiles  980       817 ! number of pumping files and max number of rows
+tabfiles  977       817 ! number of pumping files and max number of rows
 END                     ! end characer options
          2        -3 0  MXWELL IWELCB
          1           ITMP -- Stress Period   1 ITMP can be any positive number if tabfiles are used.
@@ -985,6 +985,3 @@ END                     ! end characer options
 1975  121    3  236  357
 1976  157    3  204  345
 1977  313    3  195  284
-5001  316    1  183  243
-5002   83    1  204  240
-5003  139    1  149  203
