@@ -1,0 +1,13 @@
+# Well Pumping Time Series Data for Well P2 : P2
+# Start Date 1990
+# Transient Simulation
+# Created on 09-May-2017 20:26:41
+# Column-1: Time in days from start date
+# Column-2: Pumping Volume in cubic meters
+         0  0.00
+      8460 -31.10
+      8490 -31.10
+      8520 -31.10
+      8550 -23.60
+      8580 -13.94
+      8610 -16.09

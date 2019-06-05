@@ -1,0 +1,31 @@
+# Well Pumping Time Series Data for Well 100959 : Scarlett6
+# Start Date 1990
+# Transient Simulation
+# Created on 09-May-2017 20:26:37
+# Column-1: Time in days from start date
+# Column-2: Pumping Volume in cubic meters
+         0  0.00
+       180 -823.64
+       210 -821.13
+       480 -846.41
+       510 -1532.13
+       540 -127.93
+       570 -20.46
+       600 -13.98
+       630 -14.08
+       660 -13.92
+       690 -4.71
+       750 -5.72
+       780 -5.91
+       810 -30.78
+       870 -10.75
+       900 -11.08
+       930 -10.44
+       960 -9.84
+       990 -10.74
+      1020 -11.21
+      1050 -10.75
+      1080 -10.73
+      1110 -10.79
+      1140 -10.68
+      1170 -11.02
