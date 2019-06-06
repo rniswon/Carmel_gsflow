@@ -1,0 +1,10 @@
+# Well Pumping Time Series Data for Well Septic999 : Septic999
+# Start Date 1991
+# Transient Simulation
+# Created on 31-May-2019 10:54:13
+# Column-1: Time in days from start date
+# Column-2: Pumping Volume in cubic meters
+         0 0.0000
+         1 2.6901
+        30 2.1935
+        60 1.9713

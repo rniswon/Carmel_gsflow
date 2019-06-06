@@ -1,0 +1,32 @@
+# Well Pumping Time Series Data for Well T7 : T7
+# Start Date 1990
+# Transient Simulation
+# Created on 09-May-2017 20:26:57
+# Column-1: Time in days from start date
+# Column-2: Pumping Volume in cubic meters
+         0  0.00
+      7500 -16.09
+      7530 -8.58
+      7770 -2.15
+      7800 -5.36
+      7830 -4.29
+      7860 -5.36
+      7890 -4.29
+      7920 -4.29
+      7950 -3.22
+      7980 -3.22
+      8130 -2.15
+      8160 -5.36
+      8190 -4.29
+      8220 -4.29
+      8250 -4.29
+      8280 -3.22
+      8310 -3.22
+      8370 -3.22
+      8400 -3.22
+      8430 -3.22
+      8460 -4.29
+      8490 -2.15
+      8550 -4.29
+      8580 -4.29
+      8610 -4.29

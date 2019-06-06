@@ -1,0 +1,26 @@
+# Well Pumping Time Series Data for Well P3 : P3
+# Start Date 1990
+# Transient Simulation
+# Created on 17-Mar-2019 17:40:22
+# Column-1: Time in days from start date
+# Column-2: Pumping Volume in cubic meters
+         0  0.00
+     20010 -11.36
+     20040 -11.36
+     20070 -20.44
+     20100 -13.63
+     20130 -6.81
+     20160 -5.68
+     20190 -7.95
+     20220 -18.17
+     20250 -21.58
+     20280 -32.93
+     20340 -13.63
+     20370 -51.10
+     20400 -2.27
+     20430 -23.85
+     20460 -2.27
+     20490 -15.90
+     20490 -29.53
+     20490 -17.03
+     20490 -4.54
