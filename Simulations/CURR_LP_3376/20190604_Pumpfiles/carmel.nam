@@ -2092,4 +2092,4 @@ data 			2999	.\INPUT\modflow\TabFiles\Well_XTRA6.tab
 data 			3000	.\INPUT\modflow\TabFiles\Well_XTRA7.tab
 data 			3001	.\INPUT\modflow\TabFiles\Well_XTRA8.tab
 data 			3002	.\INPUT\modflow\TabFiles\Well_XTRA9.tab
-data 			5005	.\INPUT\modflow\TabFiles\Diversion_LP_Releases.tab
+data 			5001	.\INPUT\modflow\TabFiles\Diversion_LP_Releases.tab

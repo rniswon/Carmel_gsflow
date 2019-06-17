@@ -17,5 +17,5 @@ OPEN/CLOSE   .\INPUT\modflow\upw_support\SY_lay_2.txt             1.00   (FREE) 
 OPEN/CLOSE   .\INPUT\modflow\upw_support\Kh_lay_3.txt             1.00   (FREE)   -1      # HORIZONTAL HYDRAULIC CONDUCTIVITY FOR LAYER 3  (1.0e-3)
 CONSTANT     1.0                                                                          # Ratio of Kh/Kv = VKA VERTICAL HYDRAULIC CONDUCTIVITY FOR LAYER 3
 CONSTANT     1.0e-6                                                                       # SS - Layer 3
-CONSTANT     0.005                                                                        # SY - Layer 3
+CONSTANT     0.1                                                                          # SY - Layer 3
  
