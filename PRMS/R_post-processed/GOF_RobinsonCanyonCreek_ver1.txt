@@ -20,23 +20,23 @@
  
 *** Comparison of DAILY flows for RobinsonCanyonCreek ***
  
-ME               0.69
-MAE              2.74
-MSE            114.21
-RMSE            10.69
-NRMSE %         91.90
-PBIAS %         42.10
-RSR              0.92
-rSD              0.15
-NSE              0.16
-mNSE            -0.04
+ME               0.48
+MAE              1.94
+MSE             93.28
+RMSE             9.66
+NRMSE %         83.00
+PBIAS %         29.20
+RSR              0.83
+rSD              0.34
+NSE              0.31
+mNSE             0.26
 rNSE             -Inf
-d                0.31
-md               0.23
+d                0.56
+md               0.57
 rd               -Inf
-cp              -0.16
-r                0.61
-R2               0.37
-bR2              0.04
-KGE             -0.03
-VE              -0.68
+cp               0.05
+r                0.63
+R2               0.40
+bR2              0.09
+KGE              0.19
+VE              -0.19

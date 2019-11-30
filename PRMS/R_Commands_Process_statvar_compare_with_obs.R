@@ -3,7 +3,7 @@ library(hydroGOF)
 library(gdata)
 
 #setwd('D:/EDM_LT/github/Carmel/PRMS')
-setwd('C:/Users/rniswon/Documents/Data/Git/carmel.git/PRMS')
+setwd('C:\Users\rniswon\Documents\Data\Git\Carmel_gsflow.git\PRMS')
 
 # Add capability for appending plot version # to end of plot file names
 # Increment this value with each run of the script to preserve old output for comparing with new output

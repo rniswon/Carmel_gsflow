@@ -20,23 +20,23 @@
  
 *** Comparison of DAILY flows for TularcitosCreek ***
  
-ME              40.18
-MAE             40.56
-MSE           3277.90
-RMSE            57.25
-NRMSE %        260.00
-PBIAS %        980.90
-RSR              2.60
-rSD              2.20
-NSE             -5.76
-mNSE            -6.82
+ME               0.73
+MAE              3.50
+MSE            246.85
+RMSE            15.71
+NRMSE %         71.30
+PBIAS %         17.80
+RSR              0.71
+rSD              0.45
+NSE              0.49
+mNSE             0.33
 rNSE             -Inf
-d                0.45
-md               0.11
+d                0.73
+md               0.63
 rd               -Inf
-cp             -11.93
-r                0.55
-R2               0.30
-bR2              0.20
-KGE             -8.89
-VE              -8.90
+cp               0.03
+r                0.77
+R2               0.60
+bR2              0.22
+KGE              0.38
+VE               0.15

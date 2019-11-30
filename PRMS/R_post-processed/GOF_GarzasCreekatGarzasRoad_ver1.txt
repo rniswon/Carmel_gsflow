@@ -20,23 +20,23 @@
  
 *** Comparison of DAILY flows for GarzasCreekatGarzasRoad ***
  
-ME               0.38
-MAE              9.81
-MSE            788.40
-RMSE            28.08
-NRMSE %         83.70
-PBIAS %          4.50
-RSR              0.84
-rSD              0.24
-NSE              0.30
-mNSE             0.20
+ME               1.16
+MAE              7.07
+MSE            612.25
+RMSE            24.74
+NRMSE %         73.80
+PBIAS %         13.70
+RSR              0.74
+rSD              0.86
+NSE              0.46
+mNSE             0.42
 rNSE             -Inf
-d                0.51
-md               0.38
+d                0.82
+md               0.69
 rd               -Inf
-cp              -0.28
-r                0.74
-R2               0.55
-bR2              0.13
-KGE              0.20
-VE              -0.16
+cp               0.00
+r                0.70
+R2               0.48
+bR2              0.31
+KGE              0.64
+VE               0.16

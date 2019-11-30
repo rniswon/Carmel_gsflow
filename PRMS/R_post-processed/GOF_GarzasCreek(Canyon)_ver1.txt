@@ -20,23 +20,23 @@
  
 *** Comparison of DAILY flows for GarzasCreek(Canyon) ***
  
-ME               6.09
-MAE              8.48
-MSE            144.29
-RMSE            12.01
-NRMSE %        140.70
-PBIAS %        169.80
-RSR              1.41
-rSD              0.93
-NSE             -0.98
-mNSE            -0.87
+ME               0.90
+MAE              4.38
+MSE             96.43
+RMSE             9.82
+NRMSE %        115.10
+PBIAS %         25.10
+RSR              1.15
+rSD              0.92
+NSE             -0.32
+mNSE             0.04
 rNSE             -Inf
-d                0.40
-md               0.21
+d                0.48
+md               0.51
 rd               -Inf
-cp              -4.53
-r                0.21
-R2               0.04
+cp              -2.70
+r                0.29
+R2               0.08
 bR2              0.03
-KGE             -0.87
-VE              -1.36
+KGE              0.24
+VE              -0.22

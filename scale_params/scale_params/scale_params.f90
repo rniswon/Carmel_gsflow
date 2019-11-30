@@ -39,7 +39,7 @@
     month = 1
     open(inscale,file='scale_rain_adj.dat')
     open(in,file='carmel_main.param')
-    open(out2,file='carmel_main_scaled.param')
+    open(out2,file='carmel_scaled.param')
     open(in2,file='rain_adj.dat')
     open(out3,file='rain_adj.datsave')
     open(out,file='scale.out')

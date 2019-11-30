@@ -20,23 +20,23 @@
  
 *** Comparison of DAILY flows for PineCreek ***
  
-ME              -2.23
-MAE              6.54
-MSE            242.03
-RMSE            15.56
-NRMSE %         83.70
-PBIAS %        -28.20
-RSR              0.84
-rSD              0.28
-NSE              0.30
-mNSE             0.31
+ME               0.55
+MAE              3.32
+MSE             86.78
+RMSE             9.32
+NRMSE %         50.10
+PBIAS %          7.00
+RSR              0.50
+rSD              0.90
+NSE              0.75
+mNSE             0.65
 rNSE             -Inf
-d                0.53
-md               0.50
+d                0.93
+md               0.82
 rd               -Inf
-cp              -1.88
-r                0.70
-R2               0.49
-bR2              0.14
-KGE              0.17
-VE               0.17
+cp              -0.03
+r                0.87
+R2               0.75
+bR2              0.62
+KGE              0.82
+VE               0.58

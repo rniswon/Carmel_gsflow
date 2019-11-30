@@ -20,23 +20,23 @@
  
 *** Comparison of DAILY flows for RoblesdelRio(USGS) ***
  
-ME              66.22
-MAE             88.48
-MSE          45099.68
-RMSE           212.37
-NRMSE %         71.40
-PBIAS %         63.80
-RSR              0.71
-rSD              1.19
-NSE              0.49
-mNSE             0.31
+ME               6.80
+MAE             46.88
+MSE          19939.30
+RMSE           141.21
+NRMSE %         47.50
+PBIAS %          6.60
+RSR              0.47
+rSD              0.86
+NSE              0.77
+mNSE             0.63
 rNSE             -Inf
-d                0.89
-md               0.64
+d                0.93
+md               0.80
 rd               -Inf
-cp              -0.34
-r                0.82
-R2               0.68
-bR2              0.64
-KGE              0.31
-VE               0.15
+cp               0.41
+r                0.88
+R2               0.78
+bR2              0.61
+KGE              0.80
+VE               0.55

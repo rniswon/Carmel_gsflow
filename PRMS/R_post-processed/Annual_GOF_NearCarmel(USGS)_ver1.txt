@@ -20,23 +20,23 @@
  
 *** Comparison of ANNUAL totals for NearCarmel(USGS) ***
  
-ME                               61861.59
-MAE                              61861.59
-MSE                         4311241896.56
-RMSE                             65660.05
-NRMSE %                            103.90
-PBIAS %                             84.50
-RSR                                  1.04
-rSD                                  0.96
-NSE                                 -0.13
-mNSE                                -0.29
-rNSE                               -18.61
-d                                    0.79
-md                                   0.47
-rd                                  -2.67
-cp                                   0.48
-r                                    0.93
-R2                                   0.87
-bR2                                  0.60
-KGE                                  0.15
-VE                                   0.16
+ME                               14925.05
+MAE                              17594.39
+MSE                          486166882.27
+RMSE                             22049.19
+NRMSE %                             34.90
+PBIAS %                             20.40
+RSR                                  0.35
+rSD                                  0.87
+NSE                                  0.87
+mNSE                                 0.63
+rNSE                                -1.21
+d                                    0.96
+md                                   0.79
+rd                                   0.38
+cp                                   0.94
+r                                    0.97
+R2                                   0.94
+bR2                                  0.89
+KGE                                  0.76
+VE                                   0.76

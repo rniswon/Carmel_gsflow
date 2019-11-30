@@ -32,7 +32,7 @@
     Iostat = 1
     open(inscale,file='scale.txt')
     open(insub,file='subbasin.txt')
-    open(in,file='carmel.param')
+    open(in,file='carmel_main.param')
     open(out2,file='carmel_scaled.param')
     open(in2,file='rain_adj')
     open(iout,file='scale.out')

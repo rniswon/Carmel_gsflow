@@ -20,23 +20,23 @@
  
 *** Comparison of ANNUAL totals for BelowLosPadresReservoir ***
  
-ME                               10316.97
-MAE                              25979.91
-MSE                         1116017417.24
-RMSE                             33406.85
-NRMSE %                            125.30
-PBIAS %                             24.40
-RSR                                  1.25
-rSD                                  0.96
-NSE                                 -0.73
-mNSE                                -0.16
-rNSE                               -13.26
+ME                               14957.37
+MAE                              30791.03
+MSE                         1724383827.98
+RMSE                             41525.70
+NRMSE %                            155.70
+PBIAS %                             35.40
+RSR                                  1.56
+rSD                                  1.35
+NSE                                 -1.67
+mNSE                                -0.37
+rNSE                               -11.32
 d                                    0.42
 md                                   0.35
-rd                                  -3.75
-cp                                   0.13
+rd                                  -1.70
+cp                                  -0.34
 r                                    0.19
 R2                                   0.04
 bR2                                  0.03
-KGE                                  0.15
-VE                                   0.39
+KGE                                  0.05
+VE                                   0.27

@@ -20,23 +20,23 @@
  
 *** Comparison of ANNUAL totals for HitchcockCreek ***
  
-ME                                1013.12
-MAE                               1013.12
-MSE                            1143347.12
-RMSE                              1069.27
-NRMSE %                            134.60
-PBIAS %                            162.80
-RSR                                  1.35
-rSD                                  0.67
-NSE                                 -0.94
-mNSE                                -0.93
-rNSE                             -7737.49
-d                                    0.66
-md                                   0.34
-rd                               -1360.31
-cp                                   0.19
-r                                    0.93
-R2                                   0.87
-bR2                                  0.61
-KGE                                 -0.66
-VE                                  -0.63
+ME                                  53.33
+MAE                                189.28
+MSE                              48711.21
+RMSE                               220.71
+NRMSE %                             27.80
+PBIAS %                              8.60
+RSR                                  0.28
+rSD                                  0.77
+NSE                                  0.92
+mNSE                                 0.64
+rNSE                              -317.57
+d                                    0.97
+md                                   0.79
+rd                                -100.85
+cp                                   0.96
+r                                    0.98
+R2                                   0.97
+bR2                                  0.86
+KGE                                  0.76
+VE                                   0.70

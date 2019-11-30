@@ -20,23 +20,23 @@
  
 *** Comparison of DAILY flows for SleepyHollowWeir ***
  
-ME              22.23
-MAE             62.78
-MSE          30315.79
-RMSE           174.11
-NRMSE %         62.00
-PBIAS %         22.20
-RSR              0.62
-rSD              1.10
-NSE              0.62
-mNSE             0.49
+ME               4.21
+MAE             43.59
+MSE          17582.36
+RMSE           132.60
+NRMSE %         47.20
+PBIAS %          4.20
+RSR              0.47
+rSD              0.87
+NSE              0.78
+mNSE             0.64
 rNSE             -Inf
-d                0.91
-md               0.74
+d                0.93
+md               0.81
 rd               -Inf
-cp               0.06
-r                0.83
-R2               0.69
-bR2              0.66
-KGE              0.70
-VE               0.37
+cp               0.46
+r                0.88
+R2               0.78
+bR2              0.62
+KGE              0.82
+VE               0.56
