@@ -37,17 +37,19 @@
     allocate(scale(12),month(12))  ! one for each month
     scale = 0.0
     month = 1
-    open(inscale,file='scale_rain_adj.dat')
+    open(inscale,file='scale_param.dat')
     open(in,file='carmel_main.param')
     open(out2,file='carmel_scaled.param')
-    open(in2,file='rain_adj.dat')
-    open(out3,file='rain_adj.datsave')
+    open(in2,file='param_start.dat')
+    open(out3,file='param_save.dat')
     open(out,file='scale.out')
 ! Read user input for scaling factor and subbains ID
     read(inscale,*)subbasin_id
-    do i=1,12
+    !do i=1,12
+    !read(inscale,*)month(i),scale(i)   !rain_adj scale for each month
+    !end do
+    i=1
     read(inscale,*)month(i),scale(i)   !rain_adj scale for each month
-    end do
 ! find parameter(s) of interest for scaling
      i = 0
      DO
@@ -111,13 +113,13 @@
         LLOC=1
         CALL URWORD(LINE,LLOC,ISTART,ISTOP,1,I,R,out,IN)
         select case (LINE(ISTART:ISTOP))
-        case('RAIN_ADJ')
+        case('SLOWCOEF_SQ')
             read(in,*) line
             read(in,*) line
-            read(in,*) line
+!            read(in,*) line  ! One less line for nhru params DPRST_FRAC_HRU
             read(in,*) numvals
             read(in,*) line         !next value to read will be first parameter value         
-            write(out,*)'found RAIN_ADJ'
+            write(out,*)'found SLOWCOEF_SQ'
             exit
         case default
             if( Iostat < 0 ) then
@@ -131,7 +133,7 @@
 ! allocate array to hold parameter
         allocate (param(numvals))
 ! read past header info
-        do j=1,6
+        do j=1,5      !6 for rain adj
         read(in2,*)line
         end do     
 !
@@ -140,11 +142,11 @@
         mc=1
         do i = 1, numvals
           j = j + 1
-! increment month in rain_adj
-          if ( j>jsave ) then
-              j = 1
-              mc = mc + 1
-          end if
+! increment month in rain_adj; make inactive if nhru param
+          !if ( j>jsave ) then
+          !    j = 1
+          !    mc = mc + 1
+          !end if
           mcc = month(mc)
           read(in2, *)param(i)
           if( subbasin(j)==subbasin_id ) then
@@ -160,7 +162,7 @@
             READ(IN,'(A)') LINE
             WRITE(out2,'(A)') TRIM(adjustl(line))
         end do
-        do i = 1, 6 !write header lines
+        do i = 1, 5   !6 for rain_adj !write header lines
             READ(IN,'(A)') LINE
             WRITE(out2,'(A)') TRIM(adjustl(line))
             WRITE(out3,'(A)') TRIM(adjustl(line))

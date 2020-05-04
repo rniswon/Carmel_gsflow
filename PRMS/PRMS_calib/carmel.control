@@ -5,6 +5,11 @@ parameter_check_flag
 1
 0
 ####
+dprst_flag
+1
+1
+1
+####
 gwr_swale_flag
 1
 1
@@ -63,7 +68,7 @@ data_file
 param_file
 3
 4
-.\INPUT\prms\carmel_scaled.param
+.\INPUT\prms\carmel_main.param
 .\INPUT\prms\hrucascades.param
 .\INPUT\prms\gwrcascades.param
 ####
@@ -292,7 +297,7 @@ subinc_potet
 subinc_potet
 subinc_potet
 subinc_potet
-subinc_potet
+ssres_flow
 subinc_potet
 subinc_potet
 subinc_potet
@@ -390,11 +395,6 @@ capillary_module
 1
 4
 soilzone_prms
-####
-dprst_flag
-1
-1
-0
 ####
 gravity_module
 1
