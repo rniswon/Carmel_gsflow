@@ -45,11 +45,11 @@
     open(out,file='scale.out')
 ! Read user input for scaling factor and subbains ID
     read(inscale,*)subbasin_id
-    !do i=1,12
-    !read(inscale,*)month(i),scale(i)   !rain_adj scale for each month
-    !end do
-    i=1
+    do i=1,12
     read(inscale,*)month(i),scale(i)   !rain_adj scale for each month
+    end do
+    !i=1
+    !read(inscale,*)month(i),scale(i)   !for nru parameters
 ! find parameter(s) of interest for scaling
      i = 0
      DO
@@ -81,30 +81,6 @@
           read(in, *)subbasin(i)
         end do
     rewind(in)
-!    i=0
-!! find parameter(s) of interest for scaling
-!     DO
-!        i = i + 1  !save i for below
-!        read(in,*,IOSTAT=Iostat) line
-!        LLOC=1
-!        CALL URWORD(LINE,LLOC,ISTART,ISTOP,1,I,R,out,IN)
-!        select case (LINE(ISTART:ISTOP))
-!        case('RAIN_ADJ')
-!            read(in,*) line
-!            read(in,*) line
-!            read(in,*) line
-!            read(in,*) numvals
-!            read(in,*) line         !next value to read will be first parameter value         
-!            write(out,*)'found RAIN_ADJ'
-!            exit
-!        case default
-!            if( Iostat < 0 ) then
-!              write(out,*)'end of file reached without finding parameter to scale'
-!              exit
-!            end if
-!        end select
-!     end do
-!     isave = i - 1  !reset to before parameter name
 ! find parameter(s) of interest for scaling
      i=0
      DO
@@ -113,13 +89,13 @@
         LLOC=1
         CALL URWORD(LINE,LLOC,ISTART,ISTOP,1,I,R,out,IN)
         select case (LINE(ISTART:ISTOP))
-        case('SLOWCOEF_SQ')
+        case('RAIN_ADJ')
             read(in,*) line
             read(in,*) line
-!            read(in,*) line  ! One less line for nhru params DPRST_FRAC_HRU
+            read(in,*) line  ! One less line for nhru params DPRST_FRAC_HRU
             read(in,*) numvals
             read(in,*) line         !next value to read will be first parameter value         
-            write(out,*)'found SLOWCOEF_SQ'
+            write(out,*)'found RAIN_ADJ'
             exit
         case default
             if( Iostat < 0 ) then
@@ -133,7 +109,7 @@
 ! allocate array to hold parameter
         allocate (param(numvals))
 ! read past header info
-        do j=1,5      !6 for rain adj
+        do j=1,6      !6 for rain adj
         read(in2,*)line
         end do     
 !
@@ -143,10 +119,10 @@
         do i = 1, numvals
           j = j + 1
 ! increment month in rain_adj; make inactive if nhru param
-          !if ( j>jsave ) then
-          !    j = 1
-          !    mc = mc + 1
-          !end if
+          if ( j>jsave ) then
+              j = 1
+              mc = mc + 1
+          end if
           mcc = month(mc)
           read(in2, *)param(i)
           if( subbasin(j)==subbasin_id ) then
@@ -162,7 +138,7 @@
             READ(IN,'(A)') LINE
             WRITE(out2,'(A)') TRIM(adjustl(line))
         end do
-        do i = 1, 5   !6 for rain_adj !write header lines
+        do i = 1, 6   !6 for rain_adj !write header lines
             READ(IN,'(A)') LINE
             WRITE(out2,'(A)') TRIM(adjustl(line))
             WRITE(out3,'(A)') TRIM(adjustl(line))
